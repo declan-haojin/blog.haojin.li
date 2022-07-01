@@ -1,0 +1,276 @@
+# Version of the configuration file
+version: 4.0.0
+# Icarus theme variant, can be "default" or "cyberpunk"
+variant: default
+# Path or URL to the website's logo
+logo: /media/logo.png
+    # text: Haojin's Blog
+# Page metadata configurations
+head:
+    # URL or path to the website's icon
+    favicon: /media/favicon.png
+    # Additional HTML meta tags in an array
+    meta:
+        # Meta tag specified in <attribute>=<value> style
+        # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
+        - ''
+    # URL or path to the website's RSS atom.xml
+    rss: 
+# Page top navigation bar configurations
+navbar:
+    # Navigation menu items
+    menu:
+        Home: /
+        Archives: /archives
+        Categories: /categories
+        Tags: /tags
+        About: /about
+        Friends: /friends
+    # Links to be shown on the right of the navigation bar
+    links:
+        Home:
+            icon: fas fa-home
+            url: 'https://haojin.li'
+        Travelling:
+            icon: fas fa-subway
+            url: 'https://travellings.link'
+        
+# Page footer configurations
+footer:
+    # Links to be shown on the right of the footer section
+    links:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: 'https://creativecommons.org/'
+        Attribution 4.0 International:
+            icon: fab fa-creative-commons-by
+            url: 'https://creativecommons.org/licenses/by/4.0/'
+        Download on GitHub:
+            icon: fab fa-github
+            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+# Article related configurations
+article:
+    # Code highlight settings
+    highlight:
+        # Code highlight themes
+        # https://github.com/highlightjs/highlight.js/tree/master/src/styles
+        theme: atom-one-light
+        # Show copy code button
+        clipboard: true
+        # Default folding status of the code blocks. Can be "", "folded", "unfolded"
+        fold: unfolded
+    # Whether to show estimated article reading time
+    readtime: false
+    # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date
+    update_time: false
+    # Article licensing block
+    licenses:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: 'https://creativecommons.org/'
+        Attribution:
+            icon: fab fa-creative-commons-by
+            url: 'https://creativecommons.org/licenses/by/4.0/'
+        Noncommercial:
+            icon: fab fa-creative-commons-nc
+            url: 'https://creativecommons.org/licenses/by-nc/4.0/'
+# Search plugin configurations
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
+search:
+    type: insight
+# Comment plugin configurations
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
+comment:
+    type: valine
+    app_id: HuNpXmIPKbg14IMlvR0SXVi2-gzGzoHsz       # (required) LeanCloud application id
+    app_key: hVt2zoca8kRBW7QyNDnEUuh6      # (required) LeanCloud application key
+    notify: true       # (optional) receive email notification
+    verify: true           # (optional) show verification code
+    placeholder: Feel free to leave your email address if you want to receive a notification once replied :)  # (optional) comment box placeholder text
+
+# Sidebar configurations.
+# Please be noted that a sidebar is only visible when it has at least one widget
+sidebar:
+    # Left sidebar configurations
+    left:
+        # Whether the sidebar sticks to the top when page scrolls
+        sticky: true
+    # Right sidebar configurations
+    right:
+        # Whether the sidebar sticks to the top when page scrolls
+        sticky: false
+# Sidebar widget configurations
+# http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
+widgets:
+    # Table of contents widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: toc
+        # Whether to show the index of each heading
+        index: false
+        # Whether to collapse sub-headings when they are out-of-view
+        collapsed: true
+        # Maximum level of headings to show (1-6)
+        depth: 3
+    # Profile widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: profile
+        # Author name
+        author: Haojin
+        # Author title
+        author_title: Keep Mindful Living.
+        # Author's current location
+        location: Durham, NC
+        # URL or path to the avatar image
+        avatar: '/media/avatar.png'
+        # Whether show the rounded avatar image
+        avatar_rounded: true
+        # Email address for the Gravatar
+        gravatar: 
+        # URL or path for the follow button
+        follow_link: 'https://follow.it/haojin-s-blog?action=followPub'
+        # Links to be shown on the bottom of the profile widget
+        social_links:
+            Home:
+                icon: fas fa-home
+                url: 'https://haojin.li'
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/declan-haojin'
+            LinkedIn:
+                icon: fab fa-linkedin-in
+                url: 'https://www.linkedin.com/in/haojinli/'
+            Email:
+                icon: fas fa-envelope
+                url: 'mailto:hi@haojin.li'
+            # RSS:
+            #     icon: fas fa-signal
+            #     url: 'https://blog.haojin.li/atom.xml'
+    # Recommendation links widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: links
+        # Names and URLs of the sites
+        links:
+            Duke University: 'https://duke.edu'
+            Microsoft: 'https://microsoft.com'
+    # Recent posts widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: recent_posts
+    # Categories widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: categories
+    # Archives widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: archives
+    # Tags widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: tags
+    
+    # Follow.it email subscription widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: followit
+        # Hint text under the email input
+        description: 
+        # Subscription form action URL
+        action_url: 'https://api.follow.it/subscription-form/WThEUWJudnVma1k3bWVUNXBLeXJpckJhTGZ3RWlOYVRDUXIvQUV6dExxMEhHQk5WYzMxdHcyajVYeGpJVStndkNITDlPSmNNakJaWTkwS1VDcUNtd3A2aXR4cE04QjBhL1EwVHlaNlpKZENkcDNYZXhncXZDK3lldnFwdVIzNUx8YjJwU1cySC83SDlwRzJBVmUxamk4ZXhUYWJ3M0pQRldTQkhTcHNhQ3QrTT0=/8'
+        # Feed claiming verification code
+        verification_code: '11q4c1H6bRelaFP8Xu25'
+# Plugin configurations
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
+plugins:
+    # Enable page startup animations
+    animejs: true
+    # Show the "back to top" button
+    back_to_top: true
+    # Baidu Analytics plugin settings
+    # https://tongji.baidu.com
+    baidu_analytics:
+        # Baidu Analytics tracking ID
+        tracking_id: 
+    # Bing Webmaster Tools plugin settings
+    # https://www.bing.com/toolbox/webmaster/
+    bing_webmaster:
+        # Bing Webmaster Tools tracking ID in the <meta> tag
+        tracking_id: 
+    # BuSuanZi site/page view counter
+    # https://busuanzi.ibruce.info
+    busuanzi: false
+    # CNZZ statistics
+    # https://www.umeng.com/web
+    cnzz:
+        # CNZZ tracker id
+        id: 
+        # CNZZ website id
+        web_id: 
+    # Alerting users about the use of cookies
+    # https://www.osano.com/cookieconsent/
+    cookie_consent:
+        # The compliance type. Can be "info", "opt-in", or "opt-out"
+        type: info
+        # Theme of the popup. Can be "block", "edgeless", or "classic"
+        theme: edgeless
+        # Whether the popup should stay static regardless of the page scrolls
+        static: false
+        # Where on the screen the consent popup should display
+        position: bottom-left
+        # URL to your site's cookie policy
+        policyLink: 'https://www.cookiesandyou.com/'
+    # Enable the lightGallery and Justified Gallery plugins
+    gallery: true
+    # Google Analytics plugin settings
+    # https://analytics.google.com
+    google_analytics:
+        # Google Analytics tracking ID
+        tracking_id: G-EPZN5D7Z86
+    # Hotjar user feedback plugin
+    # https://www.hotjar.com/
+    hotjar:
+        # Hotjar site id
+        site_id: 
+    # Enable the KaTeX math typesetting support
+    # https://katex.org/
+    katex: false
+    # Enable the MathJax math typesetting support
+    # https://www.mathjax.org/
+    mathjax: false
+    # Enable the Outdated Browser plugin
+    # http://outdatedbrowser.com/
+    outdated_browser: false
+    # Show a progress bar at top of the page on page loading
+    progressbar: true
+    # Statcounter statistics
+    # https://statcounter.com/
+    statcounter:
+        # Statcounter project id
+        project: 
+        # Statcounter project security code
+        security: 
+    # Twitter conversion tracking plugin settings
+    # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
+    twitter_conversion_tracking:
+        # Twitter Pixel ID
+        pixel_id: 
+# CDN provider settings
+# https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
+providers:
+    # Name or URL template of the JavaScript and/or stylesheet CDN provider
+    cdn: jsdelivr
+    # Name or URL template of the webfont CDN provider
+    fontcdn: google
+    # Name or URL of the fontawesome icon font CDN provider
+    iconcdn: fontawesome
