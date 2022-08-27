@@ -2,10 +2,6 @@
 title: Today I become a Christian.
 date: 2022-07-14 23:33:39
 toc: false
-categories:
-- God
-tags:
-- God
 ---
 
 Today I become a Christian.
