@@ -4,7 +4,7 @@ description: 'Keep Mindful Living.'
 keywords: null
 author: Haojin Li
 language: en
-timezone: ''
+timezone: 'America/New_York'
 url: https://blog.haojin.li
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
