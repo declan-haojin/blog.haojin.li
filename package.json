@@ -27,7 +27,7 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^0.0.3",
-    "inferno": "^7.4.11",
+    "inferno": "^8.0.4",
     "inferno-create-element": "^7.4.11",
     "semver": "^7.3.2"
   }
