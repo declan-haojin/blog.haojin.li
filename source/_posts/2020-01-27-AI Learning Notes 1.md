@@ -4,9 +4,7 @@ toc: true
 tags:
   - AI
   - note
-categories:
-- Inspiring Learning
-- Machine Learning
+categories: []
 thumbnail: 'https://i.loli.net/2020/02/01/MFawLD2Cxk7RZ5P.png'
 cover: 'https://i.loli.net/2020/02/01/MFawLD2Cxk7RZ5P.png'
 password: lhj20030310

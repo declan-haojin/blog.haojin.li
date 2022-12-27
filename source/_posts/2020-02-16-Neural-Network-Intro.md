@@ -5,9 +5,7 @@ tags:
   - AI
   - neural network
   - note
-categories:
-- Inspiring Learning
-- Machine Learning
+categories: []
 thumbnail: ''
 cover: >-
 

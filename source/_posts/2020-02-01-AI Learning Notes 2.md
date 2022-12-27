@@ -4,9 +4,7 @@ toc: true
 tags:
   - note
   - AI
-categories:
-- Inspiring Learning
-- Competitive Programming
+categories: []
 thumbnail: 'https://i.loli.net/2020/02/01/qQdlXfUyp1IHVPK.jpg'
 cover: 'https://i.loli.net/2020/02/01/qQdlXfUyp1IHVPK.jpg'
 password: lhj20030310

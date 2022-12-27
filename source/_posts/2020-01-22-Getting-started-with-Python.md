@@ -4,9 +4,7 @@ toc: true
 tags:
   - python
   - note
-categories:
-  - Inspiring Learning
-  - Machine Learning
+categories: []
 thumbnail: 'https://i.loli.net/2020/01/22/XzJFwKPmbsnlj26.png'
 cover: 'https://i.loli.net/2020/01/22/XzJFwKPmbsnlj26.png'
 abbrlink: '6145'

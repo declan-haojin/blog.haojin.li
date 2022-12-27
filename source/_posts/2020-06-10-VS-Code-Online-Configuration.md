@@ -14,9 +14,7 @@ title: Blogging Online with Code-Server
 toc: true
 tags:
   - tutorial
-categories:
-  - Random Piece
-  - Technology
+categories: []
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/默认文件1591728951341.png
 cover: >-

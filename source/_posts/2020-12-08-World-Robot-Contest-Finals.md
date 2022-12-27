@@ -1,15 +1,17 @@
 ---
 title: World Robot Contest Finals
-categories:
-- Inspiring Learning
-- VEX Robotics
+categories: []
 tags:
   - competition
 abbrlink: 2ae0
 toc: true
+thumbnail: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/HaojinMacBookPro/THE
+  TRAVELLER.png
+cover: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/HaojinMacBookPro/THE
+  TRAVELLER.png
 date: 2020-12-08 23:12:21
-thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/HaojinMacBookPro/THE TRAVELLER.png
-cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/HaojinMacBookPro/THE TRAVELLER.png
 ---
 
 > This article was revised on March 5

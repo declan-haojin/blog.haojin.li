@@ -14,9 +14,7 @@ title: VRC Change Up 2020-2021 Dev Log
 toc: true
 tags:
   - log
-categories:
-  - Inspiring Learning
-  - VEX Robotics
+categories: []
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200605015514.png
 cover: >-

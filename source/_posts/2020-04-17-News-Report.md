@@ -3,10 +3,8 @@ title: News Report
 author: Declan
 toc: true
 tags:
-- newspaper
-categories:
-- Inspiring Learning
-- Schoolwork
+  - newspaper
+categories: []
 thumbnail: ''
 cover: >-
 

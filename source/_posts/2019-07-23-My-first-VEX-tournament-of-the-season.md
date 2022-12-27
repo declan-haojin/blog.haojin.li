@@ -4,9 +4,7 @@ toc: true
 tags:
   - competition
   - travel
-categories:
-- Inspiring Learning
-- VEX Robotics
+categories: []
 thumbnail: ''
 cover: >-
 

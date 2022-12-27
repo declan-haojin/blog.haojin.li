@@ -1,14 +1,12 @@
 ---
 title: ACSL CHMOD
 toc: true
-tags:
-categories:
-- Inspiring Learning
-- Competitive Programming
+categories: []
 thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g9u9hrjk1sj21mt0wy7pk.jpg'
 cover: 'http://ww1.sinaimg.cn/large/bea775ably1g9u9hrjk1sj21mt0wy7pk.jpg'
 abbrlink: d44f
 date: 2019-12-12 19:30:41
+tags:
 ---
 
 ~~~java

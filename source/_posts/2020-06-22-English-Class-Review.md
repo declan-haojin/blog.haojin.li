@@ -15,9 +15,7 @@ toc: false
 tags:
   - exam
   - note
-categories:
-- Inspiring Learning
-- Schoolwork
+categories: []
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/1592827863139.png
 cover: >-

@@ -15,9 +15,7 @@ toc: true
 tags:
   - presentation
   - Simulation
-categories:
-- Inspiring Learning
-- Machine Learning
+categories: []
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200907224118.png
 cover: >-

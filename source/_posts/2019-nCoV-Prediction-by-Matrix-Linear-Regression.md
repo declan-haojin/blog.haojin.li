@@ -4,9 +4,7 @@ toc: true
 tags:
   - algorithm
   - project
-categories:
-- Inspiring Learning
-- Machine Learning
+categories: []
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/Snipaste_2020-03-06_18-29-11.png
 cover: >-

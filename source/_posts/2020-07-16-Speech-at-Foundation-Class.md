@@ -15,9 +15,7 @@ toc: true
 tags:
   - presentation
   - TOEFL
-categories:
-  - Random Piece
-  - School Life
+categories: []
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200716010645.png
 cover: >-

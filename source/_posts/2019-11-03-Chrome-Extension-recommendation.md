@@ -4,9 +4,7 @@ toc: true
 tags:
   - Chrome
   - tutorial
-categories:
-  - Random Piece
-  - Technology
+categories: []
 thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g8lavqps6gj20xj0itacy.jpg'
 cover: 'http://ww1.sinaimg.cn/large/bea775ably1g8lavqps6gj20xj0itacy.jpg'
 abbrlink: e9fe

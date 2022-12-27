@@ -2,10 +2,8 @@
 title: Data Structure
 toc: true
 tags:
-- data structures
-categories:
-- Inspiring Learning
-- Competitive Programming
+  - data structures
+categories: []
 thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g8gnmsanfwj20p00dcaaw.jpg'
 cover: 'http://ww1.sinaimg.cn/large/bea775ably1g8gnmsanfwj20p00dcaaw.jpg'
 img: 'http://ww1.sinaimg.cn/large/bea775ably1g8gnmsanfwj20p00dcaaw.jpg'
