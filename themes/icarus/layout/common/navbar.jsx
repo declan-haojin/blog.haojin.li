@@ -54,9 +54,6 @@ class Navbar extends Component {
                         })}
                     </div> : null}
                     <div class="navbar-end">
-                        <a class="navbar-item night" id="night-nav" title="Night Mode" href="javascript:;">
-	                        <i class="fas fa-lightbulb" id="night-icon"></i>
-                        </a>
                         {Object.keys(links).length ? <Fragment>
                             {Object.keys(links).map(name => {
                                 const link = links[name];
@@ -71,6 +68,9 @@ class Navbar extends Component {
                         {showSearch ? <a class="navbar-item search" title={searchTitle} href="javascript:;">
                             <i class="fas fa-search"></i>
                         </a> : null}
+                        <a class="navbar-item night" id="night-nav" title="Night Mode" href="javascript:;">
+                            <i class="fas fa-moon" id="night-icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
