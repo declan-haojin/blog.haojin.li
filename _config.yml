@@ -66,6 +66,7 @@ sitemap:
     path: sitemap.xml
     tag: false
     category: false
+
 # Extensions
 plugins:
   hexo-generator-feed
@@ -74,3 +75,10 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+
+# Generate categories from directory-tree
+# Dependencies: https://github.com/xu-song/hexo-auto-category
+# depth: the max_depth of directory-tree you want to generate, should > 0
+auto_category:
+ enable: true
+ depth:
