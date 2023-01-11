@@ -1,5 +1,5 @@
 ---
-title: Toronto & Niagara & CANCUN!
+title: Toronto, Niagara Falls, AND Cancun!
 toc: true
 date: 2023-01-08 14:32:39
 thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202301110029216.png
