@@ -194,6 +194,7 @@ widgets:
     -
         position: right
         type: categories
+        depth: 2
     -
         position: right
         type: archives
