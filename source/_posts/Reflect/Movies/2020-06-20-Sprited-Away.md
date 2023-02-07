@@ -16,7 +16,7 @@ tags:
   - movie
 categories:
   - Reflect
-  - Movie Review
+  - Movies
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/默认文件1592661123298.png
 cover: >-

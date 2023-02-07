@@ -3,6 +3,7 @@ title: Shenandoah National Park
 toc: true
 categories:
   - Adventure
+  - National Parks
 thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20221225002604.png'
 cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20221225002604.png'
 date: 2022-11-25 16:14:07

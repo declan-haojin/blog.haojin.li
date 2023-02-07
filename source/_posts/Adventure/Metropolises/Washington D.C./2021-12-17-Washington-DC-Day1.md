@@ -6,7 +6,6 @@ cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/2021121723250
 categories:
   - Adventure
   - Metropolises
-  - Washington D.C.
 tags:
   - travel
 date: 2021-12-17 22:33:40

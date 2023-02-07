@@ -5,6 +5,7 @@ tags:
   - competition
 categories:
   - Adventure
+  - Metropolises
 abbrlink: cdb8
 toc: true
 thumbnail: >-

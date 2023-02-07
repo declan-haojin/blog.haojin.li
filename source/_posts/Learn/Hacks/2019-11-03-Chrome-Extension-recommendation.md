@@ -6,7 +6,7 @@ tags:
   - tutorial
 categories:
   - Learn
-  - Hacky Stuff
+  - Hacks
 thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g8lavqps6gj20xj0itacy.jpg'
 cover: 'http://ww1.sinaimg.cn/large/bea775ably1g8lavqps6gj20xj0itacy.jpg'
 abbrlink: e9fe

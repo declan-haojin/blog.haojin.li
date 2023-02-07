@@ -6,7 +6,6 @@ cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/2021122121064
 categories:
   - Adventure
   - Metropolises
-  - Washington D.C.
 tags:
   - travel
   - flight

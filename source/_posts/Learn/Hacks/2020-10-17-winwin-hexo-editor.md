@@ -21,7 +21,7 @@ tags:
   - tutorial
 categories:
   - Learn
-  - Hacky Stuff
+  - Hacks
 date: 2020-10-17 21:21:47
 password:
 ---

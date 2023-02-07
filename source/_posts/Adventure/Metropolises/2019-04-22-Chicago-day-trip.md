@@ -6,6 +6,7 @@ tags:
   - travel
 categories:
   - Adventure
+  - Metropolises
 thumbnail: 'http://q56w84vfa.bkt.clouddn.com/blog/20200205/5RpeD5d758eg.jpg'
 cover: 'http://q56w84vfa.bkt.clouddn.com/blog/20200205/5RpeD5d758eg.jpg'
 abbrlink: 70ae

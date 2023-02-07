@@ -5,7 +5,7 @@ tags:
   - movie
 categories:
   - Reflect
-  - Movie Review
+  - Movies
 thumbnail: ''
 cover: >-
 

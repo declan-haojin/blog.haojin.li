@@ -5,7 +5,7 @@ tags:
   - movie
 categories:
   - Reflect
-  - Movie Review
+  - Movies
 thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1ga2fno45phj20xd0iokdx.jpg'
 cover: 'http://ww1.sinaimg.cn/large/bea775ably1ga2fno45phj20xd0iokdx.jpg'
 abbrlink: ede4

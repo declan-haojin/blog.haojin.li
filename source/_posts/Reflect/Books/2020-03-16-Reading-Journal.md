@@ -3,7 +3,7 @@ title: Educated -- Reading Journal
 toc: true
 categories:
   - Reflect
-  - Reading Journal
+  - Books
 thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/1231'
 cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/1231'
 abbrlink: '2556'

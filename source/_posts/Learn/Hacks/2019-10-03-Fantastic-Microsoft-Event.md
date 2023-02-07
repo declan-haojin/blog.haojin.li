@@ -7,7 +7,7 @@ tags:
   - event
 categories:
   - Learn
-  - Hacky Stuff
+  - Hacks
 thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g7kbvewn6zj20sg0e8mze.jpg'
 cover: 'http://ww1.sinaimg.cn/large/bea775ably1g7kbvewn6zj20sg0e8mze.jpg'
 abbrlink: 7e6a

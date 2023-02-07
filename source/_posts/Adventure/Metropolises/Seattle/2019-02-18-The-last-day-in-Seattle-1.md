@@ -6,7 +6,6 @@ tags:
 categories:
   - Adventure
   - Metropolises
-  - Seattle
 thumbnail: ''
 cover: >-
 

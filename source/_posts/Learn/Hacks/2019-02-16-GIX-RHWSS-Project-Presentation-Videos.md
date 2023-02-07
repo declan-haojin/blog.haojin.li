@@ -6,7 +6,7 @@ tags:
   - presentation
 categories:
   - Learn
-  - Hacky Stuff
+  - Hacks
 abbrlink: 3b68
 date: 2019-02-16 15:58:45
 ---
