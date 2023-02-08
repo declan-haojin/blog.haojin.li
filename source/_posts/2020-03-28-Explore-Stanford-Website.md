@@ -13,9 +13,8 @@ widgets:
 title: Explore Stanford Website
 toc: true
 tags:
-- Stanford
-categories:
-- Random Piece
+  - Stanford
+categories: []
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200412192731.png
 cover: >-

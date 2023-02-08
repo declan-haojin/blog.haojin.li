@@ -3,8 +3,7 @@ title: Discover Berkeley
 toc: true
 tags:
   - Berkeley
-categories:
-- Random Piece
+categories: []
 thumbnail: ''
 cover: >-
 

@@ -106,7 +106,7 @@ navbar:
     links:
         Travelling:
             icon: fas fa-subway
-            url: https://travellings.link
+            url: https://www.travellings.cn/go.html
 footer:
     links:
         Creative Commons:
@@ -191,6 +191,7 @@ widgets:
     -
         position: right
         type: categories
+        depth: 2
     -
         position: right
         type: archives
