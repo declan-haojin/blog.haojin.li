@@ -18,33 +18,33 @@
         }
     }
 
-    // Auto night toggle based on local time
-    let hour = new Date().getHours();
-    console.log("Local hour: " + hour)
+    // // Auto night toggle based on local time
+    // let hour = new Date().getHours();
+    // console.log("Local hour: " + hour)
 
-    if (hour >= 18 || hour <= 6) {
-        applyNight('true')
-        console.log("Auto night")
-    } else {
-        applyNight('true')
-        console.log("Auto day")
+    // if (hour >= 18 || hour <= 6) {
+    //     applyNight('true')
+    //     console.log("Auto night")
+    // } else {
+    //     applyNight('true')
+    //     console.log("Auto day")
+    // }
+
+    function findNightNav() {
+        nightNav = document.getElementById('night-nav');
+        if (!nightNav) {
+            setTimeout(findNightNav, 100);
+        } else {
+            nightNav.addEventListener('click', switchNight);
+        }
     }
 
-    // function findNightNav() {
-    //     nightNav = document.getElementById('night-nav');
-    //     if (!nightNav) {
-    //         setTimeout(findNightNav, 100);
-    //     } else {
-    //         nightNav.addEventListener('click', switchNight);
-    //     }
-    // }
+    function switchNight() {
+        isNight = isNight ? isNight.toString() !== 'true' : true;
+        applyNight(isNight);
+        localStorage.setItem('night', isNight);
+    }
 
-    // function switchNight() {
-    //     isNight = isNight ? isNight.toString() !== 'true' : true;
-    //     applyNight(isNight);
-    //     localStorage.setItem('night', isNight);
-    // }
-
-    // findNightNav();
-    // isNight && applyNight(isNight);
+    findNightNav();
+    isNight && applyNight(isNight);
   }());

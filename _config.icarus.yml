@@ -104,6 +104,9 @@ navbar:
         Tags: /tags
         About: /about
     links:
+        Home:
+            icon: fas fa-home
+            url: https://haojin.li
         Travelling:
             icon: fas fa-subway
             url: https://www.travellings.cn/go.html
