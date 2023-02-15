@@ -89,6 +89,10 @@ body.night {
 .night .message.message-immersive.is-primary .message-body {
   color: #003790;
 }
+.night .button {
+  background-color: #373d48;
+  color: #c0c0c0;
+}
 .night .button.is-primary,
 .night .button.is-light,
 .night .button.is-small {
