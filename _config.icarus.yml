@@ -1,6 +1,9 @@
 version: 4.0.0
 variant: default
-logo: /media/logo.png
+logo:
+    light: /media/logo.png
+    dark: /media/night-logo.png
+
 head:
     favicon: /media/favicon.png
     # Web application manifests configuration
@@ -104,9 +107,6 @@ navbar:
         Tags: /tags
         About: /about
     links:
-        Home:
-            icon: fas fa-home
-            url: https://haojin.li
         Travelling:
             icon: fas fa-subway
             url: https://www.travellings.cn/go.html
