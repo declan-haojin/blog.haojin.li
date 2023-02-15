@@ -17,7 +17,8 @@ class Navbar extends Component {
     render() {
         const {
             logo,
-            logoUrl,
+            logoLightUrl,
+            logoDarkUrl,
             siteUrl,
             siteTitle,
             menu,
@@ -28,22 +29,24 @@ class Navbar extends Component {
             searchTitle
         } = this.props;
 
-        let navbarLogo = '';
-        if (logo) {
-            if (logo.text) {
-                navbarLogo = logo.text;
-            } else {
-                navbarLogo = <img src={logoUrl} alt={siteTitle} height="28" />;
-            }
-        } else {
-            navbarLogo = siteTitle;
-        }
+        // let navbarLogo = '';
+        // if (logo) {
+        //     if (logo.text) {
+        //         navbarLogo = logo.text;
+        //     } else {
+        //         navbarLogoLight = <img src={logoLightUrl} alt={siteTitle} height="28" />;
+        //         navbarLogoDark = <img src={logoDarkUrl} alt={siteTitle} height="28" />;
+        //     }
+        // } else {
+        //     navbarLogo = siteTitle;
+        // }
 
         return <nav class="navbar navbar-main">
             <div class="container">
                 <div class="navbar-brand justify-content-center">
                     <a class="navbar-item navbar-logo" href={siteUrl}>
-                        {navbarLogo}
+                        <img class="logo-img" src={logoLightUrl} alt={siteTitle} height="28" />
+                        <img class="logo-img-dark" src={logoDarkUrl} alt={siteTitle} height="28" />
                     </a>
                 </div>
                 <div class="navbar-menu">
@@ -83,6 +86,9 @@ module.exports = cacheComponent(Navbar, 'common.navbar', props => {
     const { url_for, _p, __ } = helper;
     const { logo, title, navbar, widgets, search } = config;
 
+    const logoLight = logo instanceof String ? logo : logo.light
+    const logoDark = logo instanceof String ? logo : logo.dark
+
     const hasTocWidget = Array.isArray(widgets) && widgets.find(widget => widget.type === 'toc');
     const showToc = (config.toc === true || page.toc) && hasTocWidget && ['page', 'post'].includes(page.layout);
 
@@ -109,7 +115,8 @@ module.exports = cacheComponent(Navbar, 'common.navbar', props => {
 
     return {
         logo,
-        logoUrl: url_for(logo),
+        logoLightUrl: url_for(logoLight),
+        logoDarkUrl: url_for(logoDark),
         siteUrl: url_for('/'),
         siteTitle: title,
         menu,
