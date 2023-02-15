@@ -3,13 +3,9 @@ title: About me
 date: 2019-10-30 16:16:57
 ---
 
-<article class="message is-success">
-  <div class="message-body">
-    <strong>
-    Hey there! This is Haojin. I am currently an undergrad studying computer science and (hopefully) political science at Duke University. This blog starts with the idea of keeping track of my competitive programming journey back in high school and now gradually becomes my secret place for everything that I would like to blog about.
-    </strong>
-  </div>
-</article>
+
+> Hey there! My name is Haojin and I am currently an undergraduate student studying Computer Science and (hopefully) Political Science at [Duke University](https://duke.edu). This blog was originally created to document my competitive programming journey back in high school, but it has since evolved into a space where I can blog about anything that interests me. My blog is structured around three main themes that encompass different aspects of my life: [learning](/categories), [adventure](/categories), and [reflection](/categories).
+
 
 
 ## 🇨🇳 Hometown
@@ -17,13 +13,13 @@ date: 2019-10-30 16:16:57
 Xi'an, China where [Terra Cotta Soldiers](https://en.wikipedia.org/wiki/Terracotta_Army) is located.
 
 ## ❤️ Hobbies
-Blogging, cooking, hiking
+Hiking, tinkering around my website and server, lis
 
 ## 🍲 Favourite food
-Any Chinese food
+Any Chinese food but open to try any exotic dishes
 
-## 🏎️ Favourite sports
-Formula One Racing which basically nobody watches in States...
+## 🏎️ Favorite sports
+Formula One Racing
 
 ## ✳️ Fun fact
 A huge fan of Microsoft.
