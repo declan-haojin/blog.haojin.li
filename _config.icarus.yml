@@ -1,6 +1,6 @@
 version: 4.0.0
 variant: default
-logo: /media/logo.png
+logo: /media/night-logo.png
 head:
     favicon: /media/favicon.png
     # Web application manifests configuration
