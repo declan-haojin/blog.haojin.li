@@ -51,7 +51,27 @@ body.night {
 .night .input,
 .night .textarea {
   background-color: #434a56;
-  border-color: #373d48;
+}
+.night .input:hover,
+.night .textarea:hover,
+.night .input.is-hovered,
+.night .textarea.is-hovered {
+  color: #fff;
+  background-color: #434a56;
+}
+.night .input:active,
+.night .textarea:active,
+.night .input.is-active,
+.night .textarea.is-active {
+  color: #fff;
+  background-color: #2c313a;
+}
+.night .input:focus,
+.night .textarea:focus,
+.night .input.is-focus,
+.night .textarea.is-focus {
+  color: #fff;
+  background-color: #434a56;
 }
 .night .message.message-immersive {
   background-color: #c2c2c2;
@@ -92,6 +112,16 @@ body.night {
 .night .button {
   background-color: #373d48;
   color: #c0c0c0;
+}
+.night .button:hover,
+.night .button.is-hovered {
+  color: #fff;
+  background-color: #434a56;
+}
+.night .button:active,
+.night .button.is-active {
+  color: #fff;
+  background-color: #2c313a;
 }
 .night .button.is-primary,
 .night .button.is-light,
