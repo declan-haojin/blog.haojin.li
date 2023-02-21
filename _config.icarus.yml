@@ -120,7 +120,7 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/declan-haojin/blog.haojin.li
 article:
     highlight:
         theme: atom-one-light
@@ -182,6 +182,10 @@ widgets:
             Email:
                 icon: fas fa-envelope
                 url: mailto:hi@haojin.li
+            rss:
+                icon: fas fa-rss
+                url: /atom.xml
+
     -
         position: left
         type: links
