@@ -1,5 +1,5 @@
 ---
-title: 'Toronto, Niagara Falls, AND Cancun!'
+title: 'Toronto, Niagara Falls, and Cancun!'
 toc: true
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202301110029216.png
