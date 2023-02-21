@@ -1,5 +1,5 @@
 ---
-title: New Semester
+title: New semester
 toc: true
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202301280017847.png
