@@ -3,4 +3,4 @@
 
 
 
-### [https://blog.haojin.li](https://blog.haojin.li) | [https://blog.lihaojin.cn](https://blog.lihaojin.cn)
+### 🌍 [https://blog.haojin.li](https://blog.haojin.li) | 🇨🇳 [https://blog.lihaojin.cn](https://blog.lihaojin.cn)
