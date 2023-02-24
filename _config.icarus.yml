@@ -192,7 +192,7 @@ widgets:
         links:
             Duke APO: https://sites.duke.edu/dukeapo/
             Duke Code+: https://codeplus.duke.edu/projects/duke-fixit-issue-reporting-app-duke
-            "[Make]new": https://makenewnc.com
+            "[make]new": https://makenewnc.com
     -
         position: right
         type: recent_posts
