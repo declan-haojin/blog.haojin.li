@@ -12094,3 +12094,6 @@ body.night {
 .night .hljs-link {
   text-decoration: underline;
 }
+.card-content .breadcrumb ul li.is-active a {
+  color: #fff;
+}
