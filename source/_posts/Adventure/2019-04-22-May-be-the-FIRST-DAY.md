@@ -5,8 +5,6 @@ tags:
   - travel
 categories:
   - Adventure
-thumbnail: 'http://q56w84vfa.bkt.clouddn.com/blog/20200205/jqVsiO23t2L3.jpg'
-cover: 'http://q56w84vfa.bkt.clouddn.com/blog/20200205/jqVsiO23t2L3.jpg'
 abbrlink: fecb
 date: 2019-04-22 00:50:42
 ---
