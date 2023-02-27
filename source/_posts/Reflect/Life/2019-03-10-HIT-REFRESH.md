@@ -5,8 +5,6 @@ tags:
 categories:
   - Reflect
   - Life
-thumbnail: 'http://q56w84vfa.bkt.clouddn.com/blog/20200205/eK0B0CbI4UFO.jpg'
-cover: 'http://q56w84vfa.bkt.clouddn.com/blog/20200205/eK0B0CbI4UFO.jpg'
 abbrlink: b5a8
 date: 2019-03-10 00:51:04
 ---

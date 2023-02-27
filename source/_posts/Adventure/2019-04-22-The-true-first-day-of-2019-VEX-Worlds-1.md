@@ -47,11 +47,6 @@ And also my duty is looking after the base, managing the batteries and being cha
 
 Tomorrow will be greater!
 
-[![The last mile](https://ws1.sinaimg.cn/large/006N1muNly1g2cir9zpx9j33402c0hdx.jpg)](https://ws1.sinaimg.cn/large/006N1muNly1g2cir9zpx9j33402c0hdx.jpg)
-
-[The last mile](https://ws1.sinaimg.cn/large/006N1muNly1g2cir9zpx9j33402c0hdx.jpg)
-
-
 
 [![Chicago O'Hare Airport](https://i.loli.net/2019/04/23/5cbea9936cd4a.jpg)](https://i.loli.net/2019/04/23/5cbea9936cd4a.jpg)
 

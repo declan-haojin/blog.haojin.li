@@ -17,9 +17,11 @@ date: 2020-02-16 16:20:25
 password:
 ---
 
+
+> The server's previous technical issues have caused the loss of images and data.
+
 # 基础的神经单元
 
-![mark](http://q56w84vfa.bkt.clouddn.com/blog/20200216/L5bW7qeTtSJD.png)
 
 | 参数   | 功能                                    |
 | ------ | --------------------------------------- |
@@ -49,11 +51,6 @@ password:
 
 ## 卷积神经网络
 
-![mark](http://q56w84vfa.bkt.clouddn.com/blog/20200216/I8hKFTyF1dVY.png)
-
-![mark](http://q56w84vfa.bkt.clouddn.com/blog/20200216/mhBgvlpzRURJ.png)
-
-![mark](http://q56w84vfa.bkt.clouddn.com/blog/20200216/4kiRPQqu2o7k.png)
 
 通常用于图像识别
 
@@ -63,7 +60,6 @@ password:
 
    能够提取照片中的特征，能够避免需要识别的物体位置的不同而导致的差异
 
-   ![mark](http://q56w84vfa.bkt.clouddn.com/blog/20200216/ybtdVgOTb1BR.png)
 
 2. 输入神经网络中学习
 
@@ -73,13 +69,11 @@ password:
 
 适用于语言处理等信息前后关联的模型
 
-![mark](http://q56w84vfa.bkt.clouddn.com/blog/20200216/HI1AUowbB3m7.png)
 
 - 时间顺序下，第一个词arrive输入后得到的输出a会作为输入和Taipei一起输入到第二个神经元当中，不断往后，相当于每一个神经元的输出都要考虑之前的输入，当然，输入的越早产生的影响就会越小
 
 ### 改进版： LSTM 长短时记忆
 
-![mark](http://q56w84vfa.bkt.clouddn.com/blog/20200216/FzMDRdYsLgID.png)
 
 输入变成了四个，输出变成了两个
 
