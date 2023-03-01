@@ -237,7 +237,7 @@ plugins:
     katex: false
     mathjax: false
     outdated_browser: false
-    progressbar: false
+    progressbar: true
     statcounter:
         project:
         security:
