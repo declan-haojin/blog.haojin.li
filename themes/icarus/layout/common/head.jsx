@@ -118,6 +118,7 @@ module.exports = class extends Component {
         }
 
         return <head>
+            <script src={url_for('/js/night.js')} defer={true}></script>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
             {noIndex ? <meta name="robots" content="noindex" /> : null}
