@@ -8,18 +8,6 @@ function applyNight(value) {
     }
 }
 
-function showTheme() {
-    let dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    console.log(`dark mode: ${dark}`);
-    applyNight(dark);
-}
-
-function showContent() {
-    document.body.style.visibility = 'visible';
-    document.body.style.opacity = 1;
-}
-
-window.addEventListener('DOMContentLoaded', function () {
-    showTheme();
-    showContent();
-});
+let dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+console.log(`dark mode: ${dark}`);
+applyNight(dark);
