@@ -60,14 +60,12 @@ include: null
 exclude: null
 ignore: null
 theme: icarus
-deploy:
-  type: ''
-sitemap:
-    path: sitemap.xml
-    tag: false
-    category: false
 
-# Extensions
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: true
+
 plugins:
   hexo-generator-feed
 #Feed Atom
@@ -80,5 +78,5 @@ feed:
 # Dependencies: https://github.com/xu-song/hexo-auto-category
 # depth: the max_depth of directory-tree you want to generate, should > 0
 auto_category:
- enable: true
- depth: 2
+  enable: true
+  depth: 2
