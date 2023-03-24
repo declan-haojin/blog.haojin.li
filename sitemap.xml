@@ -2,240 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.haojin.li/2019/04/26/Reflect-2019-04-26-A-perfect-event/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/07/11/Reflect-2019-07-11-Picking-up-exercise-again/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/06/13/Reflect-2020-06-05-Exercise-Log/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2021/12/12/Reflect-2021-12-12-F1-2021-Review/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/12/20/Learn-Competitive-Programming-2019-12-19-ACSL-Diff/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/02/16/Learn-Hacks-2019-02-16-GIX-RHWSS-Project-Presentation-Videos/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/05/25/Learn-Hacks-2019-05-25-VEX-programming-tips/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/06/18/Learn-Hacks-2019-06-18-Markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/10/03/Learn-Hacks-2019-10-03-Fantastic-Microsoft-Event/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/11/03/Learn-Hacks-2019-11-03-Chrome-Extension-recommendation/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/05/14/Learn-Hacks-2020-06-10-VS-Code-Online-Configuration/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/10/18/Learn-Hacks-2020-10-17-winwin-hexo-editor/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/02/04/Learn-Machine-Learning-2019-nCoV-Prediction-by-Matrix-Linear-Regression/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/01/23/Learn-Machine-Learning-2020-01-22-Getting-started-with-Python/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/01/27/Learn-Machine-Learning-2020-01-27-AI-Learning-Notes-1/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/02/01/Learn-Machine-Learning-2020-01-31-Getting-started-with-Python-2/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/02/01/Learn-Machine-Learning-2020-02-01-AI-Learning-Notes-2/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/02/05/Learn-Machine-Learning-2020-02-05-%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E%E9%A2%84%E6%B5%8B/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/02/16/Learn-Machine-Learning-2020-02-16-Neural-Network-Intro/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/04/29/Learn-VEX-Robotics-2019-04-29-My-article-was-published-in-the-school-newspaper/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/04/29/Learn-VEX-Robotics-2019-04-29-Summary-of-2019-VEX-Robotics-World-Championship/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/07/24/Learn-VEX-Robotics-2019-07-23-My-first-VEX-tournament-of-the-season/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/06/16/Learn-VEX-Robotics-2020-06-15-2020-05-31Change-Up-Season-VRC-Dev-Log/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/12/09/Learn-VEX-Robotics-2020-12-08-World-Robot-Contest-Finals/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/03/16/Reflect-Books-2020-03-16-Reading-Journal/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2018/12/31/Reflect-Life-2018-12-31-%E6%88%91%E7%9A%842018/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.haojin.li/2019/03/10/Reflect-Life-2019-03-10-HIT-REFRESH/</loc>
     
     <lastmod>2023-03-24</lastmod>
@@ -533,69 +299,6 @@
   </url>
   
   <url>
-    <loc>https://blog.haojin.li/2019/06/15/New-theme-for-Blog/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/03/28/Explore-Stanford-Website/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/04/13/Discover-Berkeley/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2020/04/16/%F0%9F%92%8EUpdate-Review/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/04/22/Adventure-2019-04-22-May-be-the-FIRST-DAY/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2019/04/22/Adventure-2019-04-22-The-true-first-day-of-2019-VEX-Worlds-1/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2022/04/10/Adventure-2022-04-09-March-Madness/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.haojin.li/2019/01/20/Learn-2019-01-20-%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/</loc>
     
     <lastmod>2023-03-24</lastmod>
@@ -695,7 +398,7 @@
   </url>
   
   <url>
-    <loc>https://blog.haojin.li/2019/01/23/Adventure-Metropolises-2019-01-23-%E6%B5%8E%E5%8D%97Day2-%E9%9A%8F%E8%AE%B0/</loc>
+    <loc>https://blog.haojin.li/2019/04/26/Reflect-2019-04-26-A-perfect-event/</loc>
     
     <lastmod>2023-03-24</lastmod>
     
@@ -704,7 +407,7 @@
   </url>
   
   <url>
-    <loc>https://blog.haojin.li/2019/01/28/Adventure-Metropolises-2019-01-28-%E6%B5%8E%E5%8D%97Day1-%E9%9A%8F%E8%AE%B0/</loc>
+    <loc>https://blog.haojin.li/2019/07/11/Reflect-2019-07-11-Picking-up-exercise-again/</loc>
     
     <lastmod>2023-03-24</lastmod>
     
@@ -713,7 +416,7 @@
   </url>
   
   <url>
-    <loc>https://blog.haojin.li/2019/04/22/Adventure-Metropolises-2019-04-22-Chicago-day-trip/</loc>
+    <loc>https://blog.haojin.li/2020/06/13/Reflect-2020-06-05-Exercise-Log/</loc>
     
     <lastmod>2023-03-24</lastmod>
     
@@ -722,25 +425,7 @@
   </url>
   
   <url>
-    <loc>https://blog.haojin.li/2020/11/01/Adventure-Metropolises-2020-10-31-A-short-trip-to-Beijing/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2022/12/27/Adventure-Metropolises-2022-12-27-Toronto-Montreal-Ottawa/</loc>
-    
-    <lastmod>2023-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.haojin.li/2023/01/08/Adventure-Metropolises-2023-01-08-From-Toronto-to-Cancun/</loc>
+    <loc>https://blog.haojin.li/2021/12/12/Reflect-2021-12-12-F1-2021-Review/</loc>
     
     <lastmod>2023-03-24</lastmod>
     
@@ -768,6 +453,15 @@
   
   <url>
     <loc>https://blog.haojin.li/2023/03/15/Adventure-National-Parks-2023-03-14-Bryce-National-Park/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2023/03/24/Adventure-National-Parks-2023-03-24-Capitol-Reef-National-Park/</loc>
     
     <lastmod>2023-03-24</lastmod>
     
@@ -938,7 +632,196 @@
   </url>
   
   <url>
-    <loc>https://blog.haojin.li/2021/11/26/Adventure-Metropolises-New-York-City-2021-11-25-New-York-City-Day1/</loc>
+    <loc>https://blog.haojin.li/2019/12/20/Learn-Competitive-Programming-2019-12-19-ACSL-Diff/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/02/16/Learn-Hacks-2019-02-16-GIX-RHWSS-Project-Presentation-Videos/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/05/25/Learn-Hacks-2019-05-25-VEX-programming-tips/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/06/18/Learn-Hacks-2019-06-18-Markdown-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/10/03/Learn-Hacks-2019-10-03-Fantastic-Microsoft-Event/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/11/03/Learn-Hacks-2019-11-03-Chrome-Extension-recommendation/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/05/14/Learn-Hacks-2020-06-10-VS-Code-Online-Configuration/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/10/18/Learn-Hacks-2020-10-17-winwin-hexo-editor/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/02/04/Learn-Machine-Learning-2019-nCoV-Prediction-by-Matrix-Linear-Regression/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/01/23/Learn-Machine-Learning-2020-01-22-Getting-started-with-Python/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/01/27/Learn-Machine-Learning-2020-01-27-AI-Learning-Notes-1/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/02/01/Learn-Machine-Learning-2020-01-31-Getting-started-with-Python-2/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/02/01/Learn-Machine-Learning-2020-02-01-AI-Learning-Notes-2/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/02/05/Learn-Machine-Learning-2020-02-05-%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E%E9%A2%84%E6%B5%8B/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/02/16/Learn-Machine-Learning-2020-02-16-Neural-Network-Intro/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/04/29/Learn-VEX-Robotics-2019-04-29-My-article-was-published-in-the-school-newspaper/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/04/29/Learn-VEX-Robotics-2019-04-29-Summary-of-2019-VEX-Robotics-World-Championship/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/07/24/Learn-VEX-Robotics-2019-07-23-My-first-VEX-tournament-of-the-season/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/06/16/Learn-VEX-Robotics-2020-06-15-2020-05-31Change-Up-Season-VRC-Dev-Log/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/12/09/Learn-VEX-Robotics-2020-12-08-World-Robot-Contest-Finals/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/03/16/Reflect-Books-2020-03-16-Reading-Journal/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2018/12/31/Reflect-Life-2018-12-31-%E6%88%91%E7%9A%842018/</loc>
     
     <lastmod>2023-03-24</lastmod>
     
@@ -1092,6 +975,132 @@
   
   <url>
     <loc>https://blog.haojin.li/2021/12/22/Adventure-Metropolises-Washington-D-C-2021-12-21-Washington-DC-Day5/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/06/15/New-theme-for-Blog/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/03/28/Explore-Stanford-Website/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/04/13/Discover-Berkeley/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/04/16/%F0%9F%92%8EUpdate-Review/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/04/22/Adventure-2019-04-22-May-be-the-FIRST-DAY/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/04/22/Adventure-2019-04-22-The-true-first-day-of-2019-VEX-Worlds-1/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2022/04/10/Adventure-2022-04-09-March-Madness/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/01/23/Adventure-Metropolises-2019-01-23-%E6%B5%8E%E5%8D%97Day2-%E9%9A%8F%E8%AE%B0/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/01/28/Adventure-Metropolises-2019-01-28-%E6%B5%8E%E5%8D%97Day1-%E9%9A%8F%E8%AE%B0/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2019/04/22/Adventure-Metropolises-2019-04-22-Chicago-day-trip/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2020/11/01/Adventure-Metropolises-2020-10-31-A-short-trip-to-Beijing/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2022/12/27/Adventure-Metropolises-2022-12-27-Toronto-Montreal-Ottawa/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2023/01/08/Adventure-Metropolises-2023-01-08-From-Toronto-to-Cancun/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.haojin.li/2021/11/26/Adventure-Metropolises-New-York-City-2021-11-25-New-York-City-Day1/</loc>
     
     <lastmod>2023-03-24</lastmod>
     
