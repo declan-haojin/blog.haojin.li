@@ -190,8 +190,8 @@ widgets:
         position: left
         type: links
         links:
-            Duke APO: https://sites.duke.edu/dukeapo/
-            Duke Code+: https://codeplus.duke.edu/projects/duke-fixit-issue-reporting-app-duke
+            Duke APO: https://sites.duke.edu/dukeapo
+            Duke FixIt: https://fixit.oit.duke.edu
             "[make]new": https://makenewnc.com
     -
         position: right
