@@ -2,8 +2,6 @@
 title: News Report
 author: Declan
 toc: true
-tags:
-  - newspaper
 categories:
   - Learn
 thumbnail: ''
@@ -11,6 +9,10 @@ cover: >-
 
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/默认文件1591727388966.png
 abbrlink: '6618'
+tags:
+  - online community
+  - student-based
+  - pandemic
 date: 2020-04-17 15:08:00
 password:
 ---

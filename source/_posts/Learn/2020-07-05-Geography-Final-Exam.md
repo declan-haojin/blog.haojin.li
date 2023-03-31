@@ -12,8 +12,6 @@ widgets:
     type: categories
 title: Geography Final Exam
 toc: false
-tags:
-  - exam
 categories:
   - Learn
 abbrlink: f460
@@ -21,6 +19,10 @@ thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200706112119.png
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200706112119.png
+tags:
+  - politics
+  - Trump
+  - Biden
 date: 2020-07-05 23:05:41
 password:
 ---

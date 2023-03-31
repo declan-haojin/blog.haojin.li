@@ -4,14 +4,13 @@ abbrlink: c15e
 categories:
   - Reflect
   - Life
-tags:
-  - application
 tocs: true
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/THE%20TRAVELLER.png
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/THE%20TRAVELLER.png
 date: 2021-01-10 17:09:21
+tags:
 ---
 
 Hey there, long time no see. 

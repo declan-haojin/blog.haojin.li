@@ -12,9 +12,6 @@ widgets:
     type: categories
 title: Exercise Log
 toc: true
-tags:
-  - exercise
-  - log
 categories:
   - Reflect
 thumbnail: >-
@@ -22,6 +19,10 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200605133713.png
 abbrlink: a3bc
+tags:
+  - exercise
+  - determination
+  - jogging
 date: 2020-06-13 13:38:09
 password:
 ---

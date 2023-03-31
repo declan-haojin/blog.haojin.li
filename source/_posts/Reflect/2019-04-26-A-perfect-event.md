@@ -1,13 +1,14 @@
 ---
 title: A perfect event
-tags:
-  - travel
-  - competition
 categories:
   - Reflect
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g44dxxy3w8j230820aqfd.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g44dxxy3w8j230820aqfd.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g44dxxy3w8j230820aqfd.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g44dxxy3w8j230820aqfd.jpg
 abbrlink: a459
+tags:
+  - event
+  - competition
+  - international
 date: 2019-04-26 00:51:50
 ---
 

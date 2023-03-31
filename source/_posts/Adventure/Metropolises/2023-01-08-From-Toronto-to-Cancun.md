@@ -1,5 +1,5 @@
 ---
-title: 'Toronto, Niagara Falls, and Cancun!'
+title: Toronto, Niagara Falls, and Cancun!
 toc: true
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202301110029216.png
@@ -10,8 +10,8 @@ categories:
   - Metropolises
 tags:
   - Toronto
-  - Cancun
-  - break
+  - Niagara Falls
+  - Mexico
 date: 2023-01-08 14:32:39
 ---
 

@@ -1,13 +1,15 @@
 ---
 title: New York City - Day2
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211127031324.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211127031324.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211127031324.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211127031324.png
 categories:
   - Adventure
   - Metropolises
 tags:
-  - travel
+  - museum
+  - skyline
+  - friends
 date: 2021-11-26 11:59:22
 ---
 真的太开心了，感觉不可能比今天更开心了。现在应该是喝醉了，想着喝醉了写一篇博客也很特别的，于是在凌晨两点决定也写博客。我也不知道自己会说什么胡话。

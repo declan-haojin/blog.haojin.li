@@ -12,14 +12,16 @@ widgets:
     type: categories
 title: Explore Stanford Website
 toc: true
-tags:
-  - Stanford
 categories: []
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200412192731.png
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200412192731.png
 abbrlink: ea5b
+tags:
+  - college admissions
+  - Stanford University
+  - holistic review
 date: 2020-03-28 19:18:57
 password:
 ---

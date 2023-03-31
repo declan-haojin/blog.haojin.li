@@ -12,8 +12,6 @@ widgets:
     type: categories
 title: 八佰 The Eight Hundred
 toc: true
-tags:
-  - movie
 categories:
   - Reflect
   - Movies
@@ -22,6 +20,10 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200822192737.png
 abbrlink: b9ba
+tags:
+  - movie
+  - emotions
+  - patriotism
 date: 2020-08-22 18:59:00
 password:
 ---

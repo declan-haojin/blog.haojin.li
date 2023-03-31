@@ -80,3 +80,7 @@ feed:
 auto_category:
   enable: true
   depth: 2
+
+auto_tag:
+  enable: true
+  apiKey: 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

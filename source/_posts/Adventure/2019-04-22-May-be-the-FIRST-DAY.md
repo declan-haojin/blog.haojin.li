@@ -1,11 +1,13 @@
 ---
 title: May be the FIRST DAY?
 toc: true
-tags:
-  - travel
 categories:
   - Adventure
 abbrlink: fecb
+tags:
+  - robotics
+  - programming
+  - VEX Worlds
 date: 2019-04-22 00:50:42
 ---
 

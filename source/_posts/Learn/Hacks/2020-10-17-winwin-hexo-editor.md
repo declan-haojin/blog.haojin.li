@@ -17,11 +17,13 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200905125456.jpg
 abbrlink: 81fc
-tags:
-  - tutorial
 categories:
   - Learn
   - Hacks
+tags:
+  - hexo
+  - server
+  - configuration
 date: 2020-10-17 21:21:47
 password:
 ---

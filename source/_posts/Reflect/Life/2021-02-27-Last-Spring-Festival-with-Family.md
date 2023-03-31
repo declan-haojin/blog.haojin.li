@@ -1,9 +1,6 @@
 ---
 title: Last Spring Festival with Family
 toc: true
-tags:
-  - holiday
-  - family
 categories:
   - Reflect
   - Life
@@ -13,6 +10,7 @@ cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/HaojinMacBookPro/20210309230916.jpeg
 abbrlink: cfe6
 date: 2021-02-27 23:01:08
+tags:
 ---
 
 The year of OX, the last Spring Festival I could spend time with family members together. In my childhood memory, the New Year was full of happiness, mostly sounds of firecrackers... However, as growing up I find less and less interest and meaningful this traditional festival is. It soon became a period of blank. Nothing much I could do. Yet, this year, is completely different for me.

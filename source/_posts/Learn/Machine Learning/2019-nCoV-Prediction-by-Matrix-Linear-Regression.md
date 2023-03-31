@@ -1,9 +1,6 @@
 ---
 title: 2019-nCoV Data Prediction
 toc: true
-tags:
-  - algorithm
-  - project
 categories:
   - Learn
   - Machine Learning
@@ -13,6 +10,7 @@ cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/Snipaste_2020-03-06_18-29-11.png
 abbrlink: '324'
 date: 2020-02-04 17:48:41
+tags:
 ---
 
 > 2019 Novel Coronavirus (2019-nCoV) is a virus (more specifically, a coronavirus identified as the cause of an outbreak of respiratory illness first detected in Wuhan, China. Early on, many of the patients in the outbreak in Wuhan, China reportedly had some link to a large seafood and animal market, suggesting animal-to-person spread. However, a growing number of patients reportedly have not had exposure to animal markets, indicating person-to-person spread is occurring. At this time, it’s unclear how easily or sustainably this virus is spreading between people.  The latest situation summary updates are available on CDC’s web page  [2019 Novel Coronavirus, Wuhan, China](https://www.cdc.gov/coronavirus/2019-ncov/index.html)

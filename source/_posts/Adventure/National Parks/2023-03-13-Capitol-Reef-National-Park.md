@@ -1,14 +1,15 @@
 ---
 title: Capitol Reef National Park
 toc: true
-tags:
-  - travel
 categories:
   - Adventure
   - National Parks
+thumbnail: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240254112.jpeg
+cover: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240254112.jpeg
 date: 2023-03-13 02:36:03
-thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240254112.jpeg
-cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240254112.jpeg
+tags:
 ---
 
 继续一路向北，前往Capitol Reef National Park...

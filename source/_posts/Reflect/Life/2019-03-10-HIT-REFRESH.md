@@ -1,11 +1,13 @@
 ---
 title: HIT REFRESH
-tags:
-  - Microsoft
 categories:
   - Reflect
   - Life
 abbrlink: b5a8
+tags:
+  - international class
+  - dorm life
+  - going abroad
 date: 2019-03-10 00:51:04
 ---
 

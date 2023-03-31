@@ -4,10 +4,13 @@ toc: false
 categories:
   - Reflect
   - Life
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220731013547.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220731013547.png'
-date: 2022-07-30 20:16:58
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220731013547.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220731013547.png
 tags:
+  - summer
+  - Code+
+  - growth
+date: 2022-07-30 20:16:58
 ---
 
 The flight to California is just to long to do anything. So why not wrapping up my summer so far.

@@ -12,9 +12,6 @@ widgets:
     type: categories
 title: History Final Exam
 toc: false
-tags:
-  - exam
-  - history
 categories:
   - Learn
 thumbnail: >-
@@ -22,6 +19,10 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200629232402.png
 abbrlink: 4e7b
+tags:
+  - 2020 events
+  - personal growth
+  - globalization trends
 date: 2020-06-30 02:42:23
 password:
 ---

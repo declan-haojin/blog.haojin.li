@@ -3,10 +3,13 @@ title: It has been a long long time
 categories:
   - Reflect
   - Life
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211023025705.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211023025705.png'
-date: 2021-10-23 02:29:36
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211023025705.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211023025705.png
 tags:
+  - blog
+  - study abroad
+  - Duke University
+date: 2021-10-23 02:29:36
 ---
  
 哇，确实很久没有写博客了。半年真的只是弹指一挥间。

@@ -1,14 +1,16 @@
 ---
 title: Summer vacation starts now
 toc: true
-tags:
-  - holiday
 categories:
   - Reflect
   - Life
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g4stxfgnbtj21a00hiqv5.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g4stxfgnbtj21a00hiqv5.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g4stxfgnbtj21a00hiqv5.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g4stxfgnbtj21a00hiqv5.jpg
 abbrlink: d1c5
+tags:
+  - activities
+  - graduation ceremony
+  - vacation plan
 date: 2019-07-08 00:54:34
 ---
 

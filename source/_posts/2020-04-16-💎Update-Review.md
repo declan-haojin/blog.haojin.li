@@ -12,14 +12,16 @@ widgets:
     type: categories
 title: Update Log with New Domain lihaojin.cn !
 toc: true
-tags:
-  - update
 categories: []
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200417004933.png
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200417004933.png
 abbrlink: 85eb
+tags:
+  - domain
+  - subscription
+  - navigation bar.
 date: 2020-04-16 00:10:00
 password:
 ---

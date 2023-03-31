@@ -1,13 +1,12 @@
 ---
 title: Coming back
 toc: true
-tags:
-  - update
 categories:
   - Reflect
   - Life
 abbrlink: b47e
 date: 2019-04-15 00:50:52
+tags:
 ---
 
 > How is life? ***Fantastic!\***

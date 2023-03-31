@@ -1,8 +1,6 @@
 ---
 title: Discover Berkeley
 toc: true
-tags:
-  - Berkeley
 categories: []
 thumbnail: ''
 cover: >-
@@ -10,6 +8,10 @@ cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200412204451.png
 author: Declan
 abbrlink: 8f6f
+tags:
+  - selection
+  - holistic review
+  - college admissions
 date: 2020-04-12 20:45:00
 password:
 ---

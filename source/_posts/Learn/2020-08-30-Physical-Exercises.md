@@ -12,9 +12,6 @@ widgets:
     type: categories
 title: Physical Exercises
 toc: true
-tags:
-  - exercise
-  - teamwork
 categories:
   - Learn
 thumbnail: >-
@@ -22,6 +19,10 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200831180601.png
 abbrlink: 174b
+tags:
+  - team leadership
+  - personal growth
+  - conquering fears
 date: 2020-08-30 23:50:00
 password:
 ---

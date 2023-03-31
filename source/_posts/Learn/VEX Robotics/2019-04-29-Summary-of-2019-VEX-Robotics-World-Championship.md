@@ -1,16 +1,14 @@
 ---
 title: Summary of 2019 VEX Robotics World Championship
 toc: true
-tags:
-  - competition
-  - travel
 categories:
   - Learn
   - VEX Robotics
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g49758rjs9j21hc0u0aj7.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g49758rjs9j21hc0u0aj7.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g49758rjs9j21hc0u0aj7.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g49758rjs9j21hc0u0aj7.jpg
 abbrlink: fc54
 date: 2019-04-29 00:51:39
+tags:
 ---
 
 # VEX 2019世锦赛总结

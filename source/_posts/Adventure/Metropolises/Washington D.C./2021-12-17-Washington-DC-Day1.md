@@ -1,14 +1,13 @@
 ---
 title: Washington DC - Day1
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211217232501.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211217232501.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211217232501.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211217232501.png
 categories:
   - Adventure
   - Metropolises
-tags:
-  - travel
 date: 2021-12-17 22:33:40
+tags:
 ---
 
 寒假了，大家又都各奔东西。美国的假期确实好多，让我不知如何是好。漫长的寒假还是决定出去走一走，尽管一个月前刚从纽约回来。

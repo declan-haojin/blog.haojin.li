@@ -1,16 +1,17 @@
 ---
 title: Linear Regression
 toc: true
-tags:
-  - AI
-  - note
 categories:
   - Learn
   - Machine Learning
-thumbnail: 'https://i.loli.net/2020/02/01/MFawLD2Cxk7RZ5P.png'
-cover: 'https://i.loli.net/2020/02/01/MFawLD2Cxk7RZ5P.png'
+thumbnail: https://i.loli.net/2020/02/01/MFawLD2Cxk7RZ5P.png
+cover: https://i.loli.net/2020/02/01/MFawLD2Cxk7RZ5P.png
 password: lhj20030310
 abbrlink: 134b
+tags:
+  - artificial intelligence
+  - supervised learning
+  - linear regression
 date: 2020-01-27 00:49:32
 ---
 

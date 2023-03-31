@@ -3,10 +3,12 @@ title: Halloween
 categories:
   - Reflect
   - Life
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211030025740.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211030025740.png
 tags:
+  - blogging
   - Halloween
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211030025740.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211030025740.png'
+  - student life
 date: 2021-10-30 02:58:56
 ---
 

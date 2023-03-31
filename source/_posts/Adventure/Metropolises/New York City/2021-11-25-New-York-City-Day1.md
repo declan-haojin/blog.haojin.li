@@ -1,14 +1,13 @@
 ---
 title: New York City - Day1
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211126104410.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211126104410.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211126104410.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211126104410.png
 categories:
   - Adventure
   - Metropolises
-tags:
-  - travel
 date: 2021-11-25 22:05:04
+tags:
 ---
 
 终于来到了心心念念的纽约，也算是一场说走就走的旅行了。尽管机票两周前早早地就订好了，但行李是在走的当天收拾的，也没有任何旅行计划，就想着一股脑先挤进这座世界城。

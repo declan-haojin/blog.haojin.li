@@ -1,9 +1,6 @@
 ---
 title: My first VEX tournament of the season
 toc: true
-tags:
-  - competition
-  - travel
 categories:
   - Learn
   - VEX Robotics
@@ -12,6 +9,10 @@ cover: >-
 
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200615010952.png
 abbrlink: 45cb
+tags:
+  - sleepless night
+  - nervous time
+  - hope.
 date: 2019-07-23 21:01:23
 ---
 

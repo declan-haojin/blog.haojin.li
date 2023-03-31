@@ -1,14 +1,17 @@
 ---
 title: Bryce Canyon National Park
 toc: true
-thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240204747.png
+thumbnail: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240204747.png
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240204747.png
-tags:
-  - travel
 categories:
   - Adventure
   - National Parks
+tags:
+  - Nature
+  - Bryce
+  - Snow.
 date: 2023-03-12 22:08:53
 ---
 

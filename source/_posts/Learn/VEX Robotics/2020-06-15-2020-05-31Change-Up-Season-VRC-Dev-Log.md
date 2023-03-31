@@ -12,8 +12,6 @@ widgets:
     type: categories
 title: VRC Change Up 2020-2021 Dev Log
 toc: true
-tags:
-  - log
 categories:
   - Learn
   - VEX Robotics
@@ -22,6 +20,10 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200605015514.png
 abbrlink: 2da8
+tags:
+  - robotics
+  - programming
+  - competition
 date: 2020-06-15 23:20:07
 password:
 ---

@@ -12,9 +12,6 @@ widgets:
     type: categories
 title: English Class Review
 toc: false
-tags:
-  - exam
-  - note
 categories:
   - Learn
 thumbnail: >-
@@ -22,6 +19,10 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/1592827863139.png
 abbrlink: d6de
+tags:
+  - thief
+  - drinking
+  - honesty
 date: 2020-06-22 11:06:22
 password:
 ---

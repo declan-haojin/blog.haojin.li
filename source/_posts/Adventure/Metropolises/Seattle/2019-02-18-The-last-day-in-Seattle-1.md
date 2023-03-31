@@ -1,8 +1,5 @@
 ---
 title: The last day in Seattle
-tags:
-  - Seattle
-  - Microsoft
 categories:
   - Adventure
   - Metropolises
@@ -11,6 +8,10 @@ cover: >-
 
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200615011416.png
 abbrlink: 4bcb
+tags:
+  - Seattle
+  - GIX
+  - experience
 date: 2019-02-18 00:51:14
 ---
 

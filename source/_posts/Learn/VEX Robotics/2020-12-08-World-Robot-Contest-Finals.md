@@ -3,8 +3,6 @@ title: World Robot Contest Finals
 categories:
   - Learn
   - VEX Robotics
-tags:
-  - competition
 abbrlink: 2ae0
 toc: true
 thumbnail: >-
@@ -13,6 +11,10 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/HaojinMacBookPro/THE
   TRAVELLER.png
+tags:
+  - application season
+  - VEX competition
+  - unexpected challenges
 date: 2020-12-08 23:12:21
 ---
 

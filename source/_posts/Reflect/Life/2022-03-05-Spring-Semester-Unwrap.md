@@ -1,14 +1,15 @@
 ---
 title: Spring Unwrap
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220305224508.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220305224508.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220305224508.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220305224508.png
 categories:
   - Reflect
   - Life
 tags:
-  - Chinese New Year
-  - cooking
+  - campus
+  - reflection
+  - life
 date: 2022-03-05 22:02:01
 ---
 

@@ -1,14 +1,15 @@
 ---
 title: New York City - Day5
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211130000026.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211130000026.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211130000026.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211130000026.png
 categories:
   - Adventure
   - Metropolises
 tags:
   - travel
-  - friends
+  - friendship
+  - city living
 date: 2021-11-29 21:28:46
 ---
 

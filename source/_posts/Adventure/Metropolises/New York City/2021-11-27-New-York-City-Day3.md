@@ -1,13 +1,15 @@
 ---
 title: New York City - Day3
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211128000502.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211128000502.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211128000502.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211128000502.png
 categories:
   - Adventure
   - Metropolises
 tags:
-  - travel
+  - Travel
+  - Adventure
+  - Self-care
 date: 2021-11-27 23:17:46
 ---
 出人意料，这是我第一次觉得旅游的时光过的好慢，每天都游历了无数，结识了无数，感悟了无数。今天是第三天，也是想对来说较平淡的一天，却也是有额外的小确幸。

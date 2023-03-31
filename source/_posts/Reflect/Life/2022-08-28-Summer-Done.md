@@ -4,10 +4,13 @@ toc: false
 categories:
   - Reflect
   - Life
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220828230156.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220828230156.png'
-date: 2022-08-29 22:59:58
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220828230156.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220828230156.png
 tags:
+  - summer
+  - vacation
+  - California
+date: 2022-08-29 22:59:58
 ---
 
 Wooooo summer can't be better.

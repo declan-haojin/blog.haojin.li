@@ -1,13 +1,15 @@
 ---
 title: Washington DC - Day3
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211219224856.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211219224856.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211219224856.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211219224856.png
 categories:
   - Adventure
   - Metropolises
 tags:
-  - travel
+  - georgetown
+  - waterfront park
+  - food
 date: 2021-12-19 21:56:02
 ---
 

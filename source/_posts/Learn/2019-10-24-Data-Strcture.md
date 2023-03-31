@@ -1,15 +1,17 @@
 ---
 title: Data Structure
 toc: true
-tags:
-  - data structures
 categories:
   - Learn
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g8gnmsanfwj20p00dcaaw.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g8gnmsanfwj20p00dcaaw.jpg'
-img: 'http://ww1.sinaimg.cn/large/bea775ably1g8gnmsanfwj20p00dcaaw.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g8gnmsanfwj20p00dcaaw.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g8gnmsanfwj20p00dcaaw.jpg
+img: http://ww1.sinaimg.cn/large/bea775ably1g8gnmsanfwj20p00dcaaw.jpg
 author: Declan
 abbrlink: ad11
+tags:
+  - arraylist
+  - traversal
+  - stack
 date: 2019-10-24 05:15:56
 updated: 2019-10-30 23:45:49
 ---

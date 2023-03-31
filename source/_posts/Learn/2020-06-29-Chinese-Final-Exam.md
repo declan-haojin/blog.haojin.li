@@ -12,8 +12,6 @@ widgets:
     type: categories
 title: Chinese Final Exam
 toc: false
-tags:
-  - exam
 categories:
   - Learn
 thumbnail: >-
@@ -21,6 +19,10 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200629230803.png
 abbrlink: fc90
+tags:
+  - education
+  - parenting
+  - communication
 date: 2020-06-29 18:51:38
 password:
 ---

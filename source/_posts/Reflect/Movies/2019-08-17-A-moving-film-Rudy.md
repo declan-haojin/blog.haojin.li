@@ -1,14 +1,16 @@
 ---
 title: A moving film -- Rudy
 toc: true
-tags:
-  - movie
 categories:
   - Reflect
   - Movies
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g653541mujj21f10q60uw.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g653541mujj21f10q60uw.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g653541mujj21f10q60uw.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g653541mujj21f10q60uw.jpg
 abbrlink: d762
+tags:
+  - film
+  - inspiration
+  - dream
 date: 2019-08-17 00:53:45
 ---
 

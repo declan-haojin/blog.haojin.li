@@ -1,14 +1,17 @@
 ---
 title: Zion National Park
 toc: true
-thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260441112.webp
-cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260441112.webp
-tags:
-  - travel
-  - hiking
+thumbnail: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260441112.webp
+cover: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260441112.webp
 categories:
   - Adventure
   - National Parks
+tags:
+  - travel
+  - Zion National Park
+  - Angels Landing
 date: 2023-03-11 22:08:53
 ---
 

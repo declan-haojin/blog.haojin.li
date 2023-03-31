@@ -1,15 +1,16 @@
 ---
 title: Getting started with Python 2
 toc: true
-tags:
-  - python
-  - note
 categories:
   - Learn
   - Machine Learning
-thumbnail: 'https://i.loli.net/2020/01/22/XzJFwKPmbsnlj26.png'
-cover: 'https://i.loli.net/2020/01/22/XzJFwKPmbsnlj26.png'
+thumbnail: https://i.loli.net/2020/01/22/XzJFwKPmbsnlj26.png
+cover: https://i.loli.net/2020/01/22/XzJFwKPmbsnlj26.png
 abbrlink: '6005'
+tags:
+  - for loops
+  - else statement
+  - pass keyword
 date: 2020-01-31 22:42:57
 ---
 

@@ -1723,6 +1723,13 @@ hexo-auto-category@^0.2.1:
     hexo-front-matter "^2.0.0"
     hexo-fs "^3.1.0"
 
+"hexo-auto-tag@file:../hexo-auto-tag":
+  version "1.0.0"
+  resolved "file:../hexo-auto-tag"
+  dependencies:
+    hexo-front-matter "^4.0.0"
+    hexo-fs "^4.1.1"
+
 hexo-cli@^4.3.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/hexo-cli/-/hexo-cli-4.3.0.tgz"

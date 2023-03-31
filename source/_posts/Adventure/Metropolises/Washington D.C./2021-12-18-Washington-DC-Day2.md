@@ -1,16 +1,13 @@
 ---
 title: Washington DC - Day2
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211219223718.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211219223718.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211219223718.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211219223718.png
 categories:
   - Adventure
   - Metropolises
-tags:
-  - travel
-  - museum
-  - friend
 date: 2021-12-18 23:55:53
+tags:
 ---
 
 今天混迹于各个博物馆之间，算是把美国的历史全方位各角度体验了一番，颇有收获。

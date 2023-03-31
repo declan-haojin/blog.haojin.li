@@ -1,12 +1,14 @@
 ---
 title: New theme for Blog!
 toc: false
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g49758dvw8j21hc0u0jui.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g49758dvw8j21hc0u0jui.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g49758dvw8j21hc0u0jui.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g49758dvw8j21hc0u0jui.jpg
 abbrlink: dec3
-tags:
-  - update
 categories: []
+tags:
+  - blogging
+  - website
+  - theme
 date: 2019-06-15 00:53:02
 ---
 

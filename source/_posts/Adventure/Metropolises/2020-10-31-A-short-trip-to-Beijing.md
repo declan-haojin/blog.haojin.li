@@ -1,8 +1,5 @@
 ---
 title: A short trip to Beijing
-tags:
-  - Beijing
-  - competition
 categories:
   - Adventure
   - Metropolises
@@ -13,6 +10,7 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20201101161335.png
 date: 2020-10-31 22:28:26
+tags:
 ---
 This month is really a busy month. Writing essays for application, preparing for TOEFL, learning school courses and participating in Yau Science Awards really stressed me a lot. I feel like I have never been busy as much as now. It's not only about my academic works, since I need to consider many other things that are simple but costs tons of time. All things combined,it's a challenge for me and I need to and have to admit it.
 

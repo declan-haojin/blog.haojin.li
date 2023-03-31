@@ -1,13 +1,14 @@
 ---
 title: Chicago day trip
 toc: false
-tags:
-  - Chicago
-  - travel
 categories:
   - Adventure
   - Metropolises
 abbrlink: 70ae
+tags:
+  - server
+  - technical issues
+  - data loss
 date: 2019-04-22 00:52:01
 ---
 

@@ -4,12 +4,15 @@ toc: true
 categories:
   - Adventure
   - Metropolises
-thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260414830.webp
-cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260414830.webp
-date: 2023-03-17 23:12:04
+thumbnail: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260414830.webp
+cover: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260414830.webp
 tags:
-- food
-- travel
+  - hoover dam
+  - Las Vegas
+  - travel experience
+date: 2023-03-17 23:12:04
 ---
 
 Hoover Dam很震撼，但是这辈子不会再来Las Vegas了。

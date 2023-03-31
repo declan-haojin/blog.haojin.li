@@ -1,8 +1,6 @@
 ---
 title: Only Cloud Knows
 toc: true
-tags:
-  - movie
 categories:
   - Reflect
   - Movies
@@ -12,6 +10,10 @@ cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/QQ图片20200128141303.png
 password: lhj20030310
 abbrlink: a7ae
+tags:
+  - love
+  - film
+  - hope
 date: 2020-01-28 14:01:53
 ---
 

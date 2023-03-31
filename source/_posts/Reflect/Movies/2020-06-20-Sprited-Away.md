@@ -12,8 +12,6 @@ widgets:
     type: categories
 title: Spirited Away
 toc: true
-tags:
-  - movie
 categories:
   - Reflect
   - Movies
@@ -22,6 +20,10 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/默认文件1592661123298.png
 abbrlink: a4c3
+tags:
+  - movie review
+  - personal experience
+  - diversity of opinions
 date: 2020-06-20 21:43:43
 password:
 ---

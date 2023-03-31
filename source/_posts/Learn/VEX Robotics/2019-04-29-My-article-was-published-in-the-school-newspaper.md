@@ -1,15 +1,14 @@
 ---
 title: My article was published in the school newspaper!
 toc: true
-tags:
-  - column
 categories:
   - Learn
   - VEX Robotics
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g7ucu6uyyjj23342bcgzz.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g7ucu6uyyjj23342bcgzz.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g7ucu6uyyjj23342bcgzz.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g7ucu6uyyjj23342bcgzz.jpg
 abbrlink: 175c
 date: 2019-04-29 16:43:33
+tags:
 ---
 
 # Summary of 2019 VEX Worlds Championship
