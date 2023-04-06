@@ -19,7 +19,7 @@ function getWordCount(content) {
 
 module.exports = class extends Component {
     render() {
-        const { config, helper, page, index } = this.props;
+        const { config, helper, page, index, license } = this.props;
         const { article, plugins } = config;
         const { url_for, date, date_xml, __, _p } = helper;
 
@@ -90,7 +90,7 @@ module.exports = class extends Component {
                     {/* Content/Excerpt */}
                     <div class="content" dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div>
                     {/* Licensing block */}
-                    {!index && article && article.licenses && Object.keys(article.licenses)
+                    {!index && license && article && article.licenses && Object.keys(article.licenses)
                         ? <ArticleLicensing.Cacheable page={page} config={config} helper={helper} /> : null}
                     {/* Tags */}
                     {!index && page.tags && page.tags.length ? <div class="article-tags is-size-7 mb-4">
