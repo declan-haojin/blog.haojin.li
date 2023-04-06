@@ -105,6 +105,7 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
+        Friends: /friends
         About: /about
     links:
         Travelling:
