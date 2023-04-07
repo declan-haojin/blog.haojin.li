@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<header><h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Friends</h1>
+    <script src="https://cdn.tailwindcss.com"></script></header>
+
+<article class="h-full flex justify-center">
+
+    <div class="container mx-auto py-6 px-4">
+        <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
+            <div class="flex bg-white rounded-lg shadow-lg">
+                <div class="p-6">
+                    <img src="https://blog.yunshu.site/img/avatar.png" class="w-32 h-32 rounded-lg">
+                </div>
+                <div class="p-6 self-center">
+                    <h2 class="text-lg font-bold mb-2">Yishu's Blog</h2>
+                    <p class="text-gray-600">楚虽三户，亡秦必楚！</p>
+                </div>
+            </div>
+
+
+            <div class="flex bg-white rounded-lg shadow-lg">
+                <div class="p-6">
+                    <img src="https://cdn.dbkuaizi.com/static/image/avatar.jpg" class="w-32 h-32 object-cover rounded-lg">
+                </div>
+                <div class="p-6 self-center">
+                    <h2 class="text-lg font-bold mb-2">两双筷子</h2>
+                    <p class="text-gray-600">人生没有退格键，只有保存和确认。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</article>
+
+{{ end }}
