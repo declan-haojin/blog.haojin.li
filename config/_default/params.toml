@@ -26,7 +26,7 @@ enableCodeCopy = false
   showScrollToTop = true
 
 [homepage]
-  layout = "page" # valid options: page, profile, custom
+  layout = "custom" # valid options: page, profile, custom
   showRecent = true
   recentLimit = 5
 
@@ -35,7 +35,7 @@ enableCodeCopy = false
   showDateUpdated = false
   showAuthor = true
   showBreadcrumbs = false
-  showDraftLabel = true
+  showDraftLabel = false
   showEdit = false
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true
@@ -44,14 +44,14 @@ enableCodeCopy = false
   invertPagination = false
   showReadingTime = false
   showTableOfContents = true
-  showTaxonomies = false
+  showTaxonomies = true
   showWordCount = false
   showComments = false
   # sharingLinks = ["facebook", "twitter", "mastodon", "pinterest", "reddit", "linkedin", "email"]
 
 [list]
   showBreadcrumbs = false
-  showSummary = false
+  showSummary = true
   showTableOfContents = false
   showTaxonomies = false
   groupByYear = true

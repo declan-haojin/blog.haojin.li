@@ -18,7 +18,7 @@ dateFormat = "January 2, 2006"
   name = "Haojin Li"
   image = "img/avatar.png"
   headline = "Keep mindful living."
-  bio = "CS + PoliSci = one confused undergrad who can hack the government (legally)."
+  bio = "CompSci + PoliSci undergrad - because one major alone wasn't enough to confuse me."
   links = [
     { email = "mailto:hi@haojin.li" },
     { github = "https://github.com/declan-haojin" },
