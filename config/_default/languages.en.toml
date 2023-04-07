@@ -1,0 +1,26 @@
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
+weight = 1
+rtl = false
+
+title = "Haojin's Blog"
+description = "A curious mind, a passionate learner, and a mindful living enthusiast."
+copyright = "@2018-2023 Haojin Li"
+
+dateFormat = "January 2, 2006"
+
+[params]
+  mainSections = ["posts"]
+
+[author]
+  name = "Haojin Li"
+  image = "img/avatar.png"
+  headline = "Keep mindful living."
+  bio = "CS + PoliSci = one confused undergrad who can hack the government (legally)."
+  links = [
+    { email = "mailto:hi@haojin.li" },
+    { github = "https://github.com/declan-haojin" },
+    { linkedin = "https://linkedin.com/in/haojinli" }
+  ]
