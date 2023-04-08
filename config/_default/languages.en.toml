@@ -22,5 +22,6 @@ dateFormat = "January 2, 2006"
   links = [
     { email = "mailto:hi@haojin.li" },
     { github = "https://github.com/declan-haojin" },
-    { linkedin = "https://linkedin.com/in/haojinli" }
+    { linkedin = "https://linkedin.com/in/haojinli" },
+    { flickr = "/posts/index.xml" }
   ]
