@@ -1915,14 +1915,6 @@ body:has(#menu-controller:checked) {
   margin-top: 0.1rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
 .block {
   display: block;
 }
@@ -1991,6 +1983,10 @@ body:has(#menu-controller:checked) {
   width: 3rem;
 }
 
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .w-20 {
   width: 5rem;
 }
@@ -2017,14 +2013,6 @@ body:has(#menu-controller:checked) {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
-}
-
-.w-1\/3 {
-  width: 33.333333%;
 }
 
 .min-w-0 {
@@ -2110,10 +2098,6 @@ body:has(#menu-controller:checked) {
   flex-wrap: wrap;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .items-start {
   align-items: flex-start;
 }
@@ -2128,22 +2112,6 @@ body:has(#menu-controller:checked) {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-0 {
-  gap: 0px;
 }
 
 .place-self-center {
@@ -2275,11 +2243,6 @@ body:has(#menu-controller:checked) {
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .object-scale-down {
@@ -2717,6 +2680,10 @@ body:has(#menu-controller:checked) {
 
 .hover\:decoration-primary-400:hover {
   text-decoration-color: rgba(var(--color-primary-400), 1);
+}
+
+.hover\:decoration-primary-500:hover {
+  text-decoration-color: rgba(var(--color-primary-500), 1);
 }
 
 .hover\:decoration-2:hover {
