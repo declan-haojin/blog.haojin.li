@@ -7,8 +7,10 @@
   </header>
   {{ if .Content }}
     <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
-      <div class="min-w-0 min-h-0 max-w-prose grow">
-        {{ .Content | emojify }}
+      <div class="container mx-auto py-10 px-0">
+        <div class="min-w-0 min-h-0 max-w-prose grow">
+          {{ .Content | emojify }}
+        </div>
       </div>
     </section>
   {{ end }}
