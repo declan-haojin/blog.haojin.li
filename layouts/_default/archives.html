@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<header><h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Archives</h1></header>
+
+<article class="h-full flex justify-center">
+
+    <div class="container mx-auto py-6 px-4">
+        {{ range .Site.RegularPages.GroupByDate "January 2006" }}
+        {{ if gt "January 2001" .Key}}
+            {{ continue }}
+        {{ end }}
+        <h2 class="text-2xl font-medium">{{ .Key }}</h2>
+        <ul class="list-disc pl-4 mt-2">
+            {{ range .Pages }}
+            <li class="mt-2">
+                <a class="text-blue-500 hover:text-blue-700" href="{{ .Permalink }}">{{ .Title }}</a>
+                <div class="text-gray-500 text-sm">{{ .Date.Format "Jan 2, 2006" }}</div>
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
+
+
+    <!-- <section>
+        {{ if $.Params.groupByYear | default ($.Site.Params.list.groupByYear | default true) }}
+          {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+            <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+              {{ .Key }}
+            </h2>
+            <hr class="border-dotted w-36 border-neutral-400" />
+            {{ range .Pages }}
+              {{ partial "article-link.html" . }}
+            {{ end }}
+          {{ end }}
+        {{ else }}
+          {{ range (.Paginate .Pages).Pages }}
+            {{ partial "article-link.html" . }}
+          {{ end }}
+        {{ end }}
+      </section>
+      {{ partial "pagination.html" . }} -->
+
+</article>
+
+{{ end }}
