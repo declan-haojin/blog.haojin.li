@@ -52,5 +52,7 @@
 
 [[footer]]
   name = "Subscribe"
-  url = "https://follow.it/haojin-s-blog?action=followPub/"
+  url = "https://follow.it/haojin-s-blog?leanpub"
   weight = 10
+  [footer.params]
+    target = "_blank"
