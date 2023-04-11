@@ -29,7 +29,7 @@ enableCodeCopy = true
 [homepage]
   layout = "custom" # valid options: page, profile, custom
   showRecent = true
-  recentLimit = 5
+  recentLimit = 4
 
 [article]
   showDate = true
@@ -53,10 +53,10 @@ enableCodeCopy = true
 [list]
   showBreadcrumbs = false
   showSummary = true
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
   groupByYear = true
-  paginationWidth = 1
+  paginationWidth = 2
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
