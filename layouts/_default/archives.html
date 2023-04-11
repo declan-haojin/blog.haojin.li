@@ -6,10 +6,10 @@
 
     <div class="container mx-auto py-6 px-4">
         {{ range .Site.RegularPages.GroupByDate "January 2006" }}
-        {{ if gt "January 2001" .Key}}
+        {{ if eq "January 0001" time .Key}}
             {{ continue }}
         {{ end }}
-        <h2 class="mt-5 text-xl font-bold first:mt-0">{{ .Key }}</h2>
+        <h2 class="mt-5 text-xl font-bold first:mt-0">{{ .Key }} ({{ len .Pages }})</h2>
         <hr class="border-dotted w-48 border-neutral-400" />
         <ul class="list-disc pl-4 mt-2">
             {{ range .Pages }}
