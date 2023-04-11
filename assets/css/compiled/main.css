@@ -1925,6 +1925,10 @@ body:has(#menu-controller:checked) {
   margin-top: 0.1rem;
 }
 
+.mb-1\.5 {
+  margin-bottom: 0.375rem;
+}
+
 .block {
   display: block;
 }
