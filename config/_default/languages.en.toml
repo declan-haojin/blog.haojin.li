@@ -20,8 +20,8 @@ dateFormat = "January 2, 2006"
   headline = "Keep mindful living."
   bio = "CompSci + PoliSci undergrad - because one major alone wasn't enough to confuse me."
   links = [
+    { home = "https://haojin.li"},
     { email = "mailto:hi@haojin.li" },
     { github = "https://github.com/declan-haojin" },
-    { linkedin = "https://linkedin.com/in/haojinli" },
-    { flickr = "/posts/index.xml" }
+    { linkedin = "https://linkedin.com/in/haojinli" }
   ]
