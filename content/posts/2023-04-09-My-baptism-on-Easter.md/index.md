@@ -2,7 +2,8 @@
 title: My baptism on Easter
 toc: true
 tags:
-  - presentation
+  - God
+  - festival
 categories:
   - Reflect
   - Life
