@@ -1935,6 +1935,14 @@ body:has(#menu-controller:checked) {
   margin-top: 0.1rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
 .block {
   display: block;
 }
@@ -2391,6 +2399,11 @@ body:has(#menu-controller:checked) {
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pb-4 {
@@ -3057,6 +3070,18 @@ body:has(#menu-controller:checked) {
 
   .sm\:w-40 {
     width: 10rem;
+  }
+
+  .sm\:w-1\/3 {
+    width: 33.333333%;
+  }
+
+  .sm\:w-1\/4 {
+    width: 25%;
+  }
+
+  .sm\:w-1 {
+    width: 0.25rem;
   }
 
   .sm\:max-w-\[10rem\] {
