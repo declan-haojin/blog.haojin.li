@@ -1,13 +1,16 @@
 ---
 title: The End of My Freshman Year
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220502001556.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220502001556.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220502001556.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220502001556.png
 categories:
   - Reflect
   - Life
-date: 2022-05-01 23:05:39
 tags:
+  - college
+  - school
+  - history
+date: 2022-05-01 23:05:39
 ---
 
 Standing at the myrtle beach today, I began to reflect on my Freshman journey. 

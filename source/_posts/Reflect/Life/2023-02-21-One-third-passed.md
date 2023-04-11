@@ -4,11 +4,19 @@ toc: true
 categories:
   - Reflect
   - Life
-date: 2023-02-21 00:13:41
-thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202302210023334.png
-cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202302210023334.png
+thumbnail: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202302210023334.png
+cover: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202302210023334.png
 tags:
-- school
+  - college
+  - school
+  - holiday
+  - travel
+  - exam
+  - history
+  - project
+date: 2023-02-21 00:13:41
 ---
 
 This semester has been surprisingly long, in a positive sense.

@@ -13,6 +13,10 @@ widgets:
 title: 八佰 The Eight Hundred
 toc: true
 tags:
+  - school
+  - TOEFL
+  - exam
+  - history
   - movie
 categories:
   - Reflect

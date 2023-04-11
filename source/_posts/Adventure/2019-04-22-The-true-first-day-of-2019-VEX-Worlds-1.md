@@ -3,12 +3,11 @@ title: The true first day of 2019 VEX Worlds
 toc: true
 tags:
   - travel
-  - Chicago
-  - Kentucky
+  - flight
 categories:
   - Adventure
-thumbnail: 'https://ooo.0o0.ooo/2019/04/23/5cbe9fb37373a.jpg'
-cover: 'https://ooo.0o0.ooo/2019/04/23/5cbe9fb37373a.jpg'
+thumbnail: https://ooo.0o0.ooo/2019/04/23/5cbe9fb37373a.jpg
+cover: https://ooo.0o0.ooo/2019/04/23/5cbe9fb37373a.jpg
 abbrlink: b1f1
 date: 2019-04-22 00:52:15
 ---

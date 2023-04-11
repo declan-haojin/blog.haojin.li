@@ -2,12 +2,19 @@
 title: Summer vacation starts now
 toc: true
 tags:
+  - college
+  - school
   - holiday
+  - festival
+  - travel
+  - TOEFL
+  - exam
+  - hangout
 categories:
   - Reflect
   - Life
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g4stxfgnbtj21a00hiqv5.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g4stxfgnbtj21a00hiqv5.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g4stxfgnbtj21a00hiqv5.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g4stxfgnbtj21a00hiqv5.jpg
 abbrlink: d1c5
 date: 2019-07-08 00:54:34
 ---

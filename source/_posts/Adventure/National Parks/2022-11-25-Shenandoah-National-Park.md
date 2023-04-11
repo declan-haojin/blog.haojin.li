@@ -4,10 +4,12 @@ toc: true
 categories:
   - Adventure
   - National Parks
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20221225002604.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20221225002604.png'
-date: 2022-11-25 16:14:07
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20221225002604.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20221225002604.png
 tags:
+  - hiking
+  - travel
+date: 2022-11-25 16:14:07
 ---
 
 It was my first ever self-planed hiking roadtrip which turned out to be amazing ever since the very beginning.

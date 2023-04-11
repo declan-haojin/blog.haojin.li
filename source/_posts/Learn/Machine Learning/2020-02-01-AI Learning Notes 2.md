@@ -1,14 +1,12 @@
 ---
 title: Matrix Linear Regression
 toc: true
-tags:
-  - note
-  - AI
+tags: []
 categories:
   - Learn
   - Machine Learning
-thumbnail: 'https://i.loli.net/2020/02/01/qQdlXfUyp1IHVPK.jpg'
-cover: 'https://i.loli.net/2020/02/01/qQdlXfUyp1IHVPK.jpg'
+thumbnail: https://i.loli.net/2020/02/01/qQdlXfUyp1IHVPK.jpg
+cover: https://i.loli.net/2020/02/01/qQdlXfUyp1IHVPK.jpg
 password: lhj20030310
 abbrlink: 8d5e
 date: 2020-02-01 07:49:32

@@ -1,7 +1,15 @@
 ---
 title: HIT REFRESH
 tags:
-  - Microsoft
+  - college
+  - school
+  - holiday
+  - travel
+  - city
+  - TOEFL
+  - exam
+  - food
+  - history
 categories:
   - Reflect
   - Life

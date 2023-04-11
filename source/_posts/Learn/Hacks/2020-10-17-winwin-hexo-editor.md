@@ -17,8 +17,7 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200905125456.jpg
 abbrlink: 81fc
-tags:
-  - tutorial
+tags: []
 categories:
   - Learn
   - Hacks

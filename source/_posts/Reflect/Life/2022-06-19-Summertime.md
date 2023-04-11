@@ -1,15 +1,15 @@
 ---
-title: "Summertime \U0001F3D6️"
+title: Summertime 🏖️
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220630220010.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220630220010.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220630220010.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220630220010.png
 categories:
   - Reflect
   - Life
 tags:
-  - cooking
+  - holiday
   - coding
-  - summer
+  - hangout
 date: 2022-06-19 17:05:39
 ---
 

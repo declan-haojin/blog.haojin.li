@@ -4,10 +4,18 @@ toc: true
 categories:
   - Reflect
   - Life
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/IMG_7338.jpg'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/IMG_7338.jpg'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/IMG_7338.jpg
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/IMG_7338.jpg
 tags:
-  - null
+  - college
+  - school
+  - holiday
+  - hiking
+  - travel
+  - exam
+  - hangout
+  - history
+  - project
 date: 2022-12-20 16:10:49
 ---
 

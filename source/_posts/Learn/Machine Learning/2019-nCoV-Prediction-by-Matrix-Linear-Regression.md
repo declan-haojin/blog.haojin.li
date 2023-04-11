@@ -1,9 +1,7 @@
 ---
 title: 2019-nCoV Data Prediction
 toc: true
-tags:
-  - algorithm
-  - project
+tags: []
 categories:
   - Learn
   - Machine Learning

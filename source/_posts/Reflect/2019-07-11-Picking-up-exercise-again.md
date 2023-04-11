@@ -3,11 +3,11 @@ title: Picking up exercise again
 toc: true
 tags:
   - exercise
-  - product
+  - hangout
 categories:
   - Reflect
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g4wa6kr6j3j21a00hi7wh.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g4wa6kr6j3j21a00hi7wh.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g4wa6kr6j3j21a00hi7wh.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g4wa6kr6j3j21a00hi7wh.jpg
 abbrlink: 2b86
 date: 2019-07-11 00:54:22
 ---

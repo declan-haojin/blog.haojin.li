@@ -1,14 +1,13 @@
 ---
 title: Washington DC - Day5
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211221210643.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211221210643.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211221210643.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211221210643.png
 categories:
   - Adventure
   - Metropolises
 tags:
-  - travel
-  - flight
+  - city
 date: 2021-12-21 20:39:46
 ---
 

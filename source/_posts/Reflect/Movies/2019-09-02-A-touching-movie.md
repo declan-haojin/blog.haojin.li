@@ -6,8 +6,8 @@ tags:
 categories:
   - Reflect
   - Movies
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1ga2fno45phj20xd0iokdx.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1ga2fno45phj20xd0iokdx.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1ga2fno45phj20xd0iokdx.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1ga2fno45phj20xd0iokdx.jpg
 abbrlink: ede4
 date: 2019-09-02 21:00:41
 ---

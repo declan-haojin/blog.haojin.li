@@ -2,11 +2,15 @@
 title: Our fantastic bridge -- Bridgination
 toc: true
 tags:
-  - teamwork
+  - school
+  - exam
+  - competition
+  - presentation
+  - project
 categories:
   - Learn
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g49758hv1wj21hc0u0guj.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g49758hv1wj21hc0u0guj.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g49758hv1wj21hc0u0guj.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g49758hv1wj21hc0u0guj.jpg
 abbrlink: 3cb8
 date: 2019-06-21 00:52:31
 ---

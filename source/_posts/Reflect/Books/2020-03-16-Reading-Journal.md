@@ -4,11 +4,12 @@ toc: true
 categories:
   - Reflect
   - Books
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/1231'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/1231'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/1231
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/1231
 abbrlink: '2556'
-date: 2020-03-16 16:23:09
 tags:
+  - school
+date: 2020-03-16 16:23:09
 ---
 # Why I chose this book to read
 

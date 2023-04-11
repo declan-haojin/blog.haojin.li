@@ -2,14 +2,15 @@
 title: Canyonlands National Park
 toc: true
 tags:
-  - travel
   - hiking
 categories:
   - Adventure
   - National Parks
+thumbnail: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240307333.jpeg
+cover: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240307333.jpeg
 date: 2023-03-13 22:36:03
-thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240307333.jpeg
-cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240307333.jpeg
 ---
 
 开车的时候明显能感觉到，越北上，气温反而越高，路边的积雪已几乎没了踪影。

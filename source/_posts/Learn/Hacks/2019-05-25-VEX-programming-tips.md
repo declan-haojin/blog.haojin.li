@@ -1,13 +1,12 @@
 ---
 title: VEX programming tips
 toc: true
-tags:
-  - tutorial
+tags: []
 categories:
   - Learn
   - Hacks
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g44dxykviij23h02bckg0.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g44dxykviij23h02bckg0.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g44dxykviij23h02bckg0.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g44dxykviij23h02bckg0.jpg
 abbrlink: c76a
 date: 2019-05-25 00:53:29
 ---

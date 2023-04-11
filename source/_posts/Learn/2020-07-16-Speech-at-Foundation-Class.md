@@ -13,8 +13,30 @@ widgets:
 title: Speech at Foundation Class
 toc: true
 tags:
-  - presentation
+  - AI
+  - college
+  - school
+  - holiday
+  - festival
+  - city
   - TOEFL
+  - exam
+  - coding
+  - competition
+  - exercise
+  - family
+  - flight
+  - food
+  - hangout
+  - history
+  - movie
+  - museum
+  - note
+  - presentation
+  - project
+  - java
+  - sports
+  - tutorial
 categories:
   - Learn
 thumbnail: >-

@@ -2,9 +2,7 @@
 title: Neural Network
 toc: true
 tags:
-  - AI
   - neural network
-  - note
 categories:
   - Learn
   - Machine Learning

@@ -1,14 +1,14 @@
 ---
 title: Pre-Thanksgiving
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211122015812.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211122015812.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211122015812.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211122015812.png
 categories:
   - Reflect
   - Life
 tags:
-  - Thanksgiving
-  - F1
+  - holiday
+  - festival
 date: 2021-11-22 01:58:27
 ---
 下周就是感恩节了，悸动的心却从这周就开始了。不知是不是太过激动，这一周居然失眠了。躺在床上翻来覆去，却怎么也睡不着。<!--more-->睡眠一直是我自己从不担心的，无论在哪里，我总能很快地入睡。这周却很是反常，每天都辗转反侧到凌晨两三点钟。第二天也是无精打采，甚至旷过了早上10点的计算机课，当然还是准时爬起来坐在宿舍里看直播。

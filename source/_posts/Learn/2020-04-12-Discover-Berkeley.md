@@ -2,8 +2,11 @@
 title: Discover Berkeley
 toc: true
 tags:
-  - Berkeley
-categories: []
+  - college
+  - school
+  - exam
+categories:
+  - Learn
 thumbnail: ''
 cover: >-
 

@@ -3,7 +3,8 @@ title: News Report
 author: Declan
 toc: true
 tags:
-  - newspaper
+  - college
+  - school
 categories:
   - Learn
 thumbnail: ''

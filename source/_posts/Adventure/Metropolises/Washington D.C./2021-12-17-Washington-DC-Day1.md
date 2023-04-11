@@ -1,13 +1,15 @@
 ---
 title: Washington DC - Day1
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211217232501.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211217232501.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211217232501.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211217232501.png
 categories:
   - Adventure
   - Metropolises
 tags:
   - travel
+  - city
+  - museum
 date: 2021-12-17 22:33:40
 ---
 

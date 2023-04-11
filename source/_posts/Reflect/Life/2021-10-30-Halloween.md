@@ -4,9 +4,12 @@ categories:
   - Reflect
   - Life
 tags:
-  - Halloween
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211030025740.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211030025740.png'
+  - school
+  - holiday
+  - festival
+  - hangout
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211030025740.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211030025740.png
 date: 2021-10-30 02:58:56
 ---
 

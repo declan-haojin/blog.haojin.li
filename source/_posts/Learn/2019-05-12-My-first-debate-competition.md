@@ -2,12 +2,11 @@
 title: My first debate competition
 toc: true
 tags:
-  - debate
   - competition
 categories:
   - Learn
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g44dxy2rc7j22801e0wo4.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g44dxy2rc7j22801e0wo4.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g44dxy2rc7j22801e0wo4.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g44dxy2rc7j22801e0wo4.jpg
 abbrlink: 399e
 date: 2019-05-12 00:51:24
 ---

@@ -1,8 +1,15 @@
 ---
 title: A short trip to Beijing
 tags:
-  - Beijing
+  - college
+  - school
+  - holiday
+  - travel
+  - city
+  - TOEFL
+  - exam
   - competition
+  - project
 categories:
   - Adventure
   - Metropolises

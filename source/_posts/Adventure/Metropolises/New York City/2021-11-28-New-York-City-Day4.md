@@ -1,14 +1,18 @@
 ---
 title: New York City - Day4
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211129002341.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211129002341.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211129002341.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211129002341.png
 categories:
   - Adventure
   - Metropolises
 tags:
-  - friends
+  - holiday
+  - festival
   - travel
+  - city
+  - hangout
+  - museum
 date: 2021-11-28 23:18:49
 ---
 今天算是在纽约最后完整的一天了，明晚就要坐飞机离开了。今天也是感恩节假期的最后一天，这个我从两周前就开始期待的假期，无以言说的圆满。从序幕到进行时到临近尾声，我感恩遇到的一切新朋友，老朋友，遇见的新事物，旧事物。

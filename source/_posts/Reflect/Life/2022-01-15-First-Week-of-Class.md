@@ -1,14 +1,14 @@
 ---
 title: First Week of Class
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220115232529.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220115232529.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220115232529.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220115232529.png
 categories:
   - Reflect
   - Life
 tags:
-  - cooking
-  - class
+  - college
+  - school
 date: 2022-01-15 22:41:16
 ---
 

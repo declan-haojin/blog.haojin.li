@@ -13,8 +13,21 @@ widgets:
 title: Physical Exercises
 toc: true
 tags:
+  - college
+  - school
+  - festival
+  - hiking
+  - travel
+  - exam
+  - competition
   - exercise
-  - teamwork
+  - food
+  - hangout
+  - history
+  - presentation
+  - project
+  - sports
+  - tutorial
 categories:
   - Learn
 thumbnail: >-

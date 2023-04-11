@@ -13,7 +13,12 @@ widgets:
 title: Chinese Final Exam
 toc: false
 tags:
+  - school
+  - TOEFL
   - exam
+  - competition
+  - family
+  - tutorial
 categories:
   - Learn
 thumbnail: >-

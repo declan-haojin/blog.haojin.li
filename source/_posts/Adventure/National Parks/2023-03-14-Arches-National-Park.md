@@ -4,13 +4,13 @@ toc: true
 categories:
   - Adventure
   - National Parks
-date: 2023-03-14 23:32:03
-thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260238641.jpeg
-cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260238641.jpeg
+thumbnail: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260238641.jpeg
+cover: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260238641.jpeg
 tags:
-- travel
-- hiking
-- Utah
+  - hiking
+date: 2023-03-14 23:32:03
 ---
 
 离我们的驻地Moab小镇10分钟车程，便是以各种自然拱门而闻名的Arches National Park。

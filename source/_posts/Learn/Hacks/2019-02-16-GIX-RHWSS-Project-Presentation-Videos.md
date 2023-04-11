@@ -2,8 +2,10 @@
 title: GIX RHWSS Project Presentation Videos
 toc: true
 tags:
-  - video
+  - movie
   - presentation
+  - project
+  - tutorial
 categories:
   - Learn
   - Hacks

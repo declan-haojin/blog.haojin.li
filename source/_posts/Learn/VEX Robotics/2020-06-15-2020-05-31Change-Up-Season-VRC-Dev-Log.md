@@ -12,8 +12,7 @@ widgets:
     type: categories
 title: VRC Change Up 2020-2021 Dev Log
 toc: true
-tags:
-  - log
+tags: []
 categories:
   - Learn
   - VEX Robotics

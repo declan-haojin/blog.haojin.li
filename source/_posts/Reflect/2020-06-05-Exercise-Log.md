@@ -13,8 +13,8 @@ widgets:
 title: Exercise Log
 toc: true
 tags:
+  - exam
   - exercise
-  - log
 categories:
   - Reflect
 thumbnail: >-

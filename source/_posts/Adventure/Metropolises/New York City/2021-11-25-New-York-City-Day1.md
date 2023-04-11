@@ -1,13 +1,15 @@
 ---
 title: New York City - Day1
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211126104410.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211126104410.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211126104410.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211126104410.png
 categories:
   - Adventure
   - Metropolises
 tags:
+  - holiday
   - travel
+  - city
 date: 2021-11-25 22:05:04
 ---
 

@@ -8,8 +8,10 @@ thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/20221227010259.png
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/20221227010259.png
-date: 2022-12-27 00:11:58
 tags:
+  - Canada
+  - travel
+date: 2022-12-27 00:11:58
 ---
 
 So here I am in Canada.

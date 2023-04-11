@@ -3,12 +3,11 @@ title: Getting started with Python 1
 toc: true
 tags:
   - python
-  - note
 categories:
   - Learn
   - Machine Learning
-thumbnail: 'https://i.loli.net/2020/01/22/XzJFwKPmbsnlj26.png'
-cover: 'https://i.loli.net/2020/01/22/XzJFwKPmbsnlj26.png'
+thumbnail: https://i.loli.net/2020/01/22/XzJFwKPmbsnlj26.png
+cover: https://i.loli.net/2020/01/22/XzJFwKPmbsnlj26.png
 abbrlink: '6145'
 date: 2020-01-22 22:42:57
 ---

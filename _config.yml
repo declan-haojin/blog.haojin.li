@@ -80,3 +80,48 @@ feed:
 auto_category:
   enable: true
   depth: 2
+
+auto_tag:
+  enable: false
+  apiKey: 
+  threshold: 0.23
+  tags:
+    - AI
+    - APO
+    - Utah
+    - college
+    - school
+    - Mexico
+    - Canada
+    - holiday
+    - festival
+    - hiking
+    - Microsoft
+    - Formula 1
+    - God
+    - travel
+    - city
+    - TOEFL
+    - exam
+    - algorithm
+    - coding
+    - competition
+    - exercise
+    - family
+    - flight
+    - food
+    - friend
+    - hangout
+    - history
+    - log
+    - movie
+    - museum
+    - neural network
+    - note
+    - presentation
+    - project
+    - python
+    - java
+    - sports
+    - tutorial
+

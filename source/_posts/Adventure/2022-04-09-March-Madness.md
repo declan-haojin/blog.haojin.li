@@ -1,13 +1,13 @@
 ---
 title: March Madness?
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220409231722.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220409231722.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220409231722.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220409231722.png
 categories:
   - Adventure
 tags:
-  - break
-  - birthday
+  - holiday
+  - travel
 date: 2022-04-09 22:05:39
 ---
 It's been a crazy March that has nothing to do with March Madness, but crazier than March Madness.

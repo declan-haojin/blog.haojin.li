@@ -13,7 +13,6 @@ widgets:
 title: History Final Exam
 toc: false
 tags:
-  - exam
   - history
 categories:
   - Learn

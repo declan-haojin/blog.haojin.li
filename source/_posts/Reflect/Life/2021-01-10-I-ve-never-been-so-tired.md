@@ -5,7 +5,10 @@ categories:
   - Reflect
   - Life
 tags:
-  - application
+  - college
+  - school
+  - TOEFL
+  - exam
 tocs: true
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/THE%20TRAVELLER.png

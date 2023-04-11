@@ -2,8 +2,8 @@
 title: My first VEX tournament of the season
 toc: true
 tags:
-  - competition
   - travel
+  - competition
 categories:
   - Learn
   - VEX Robotics

@@ -4,11 +4,11 @@ toc: true
 categories:
   - Learn
   - Competitive Programming
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g9u9o4dlh3j21d90r9k00.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g9u9o4dlh3j21d90r9k00.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g9u9o4dlh3j21d90r9k00.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g9u9o4dlh3j21d90r9k00.jpg
 abbrlink: f903
+tags: []
 date: 2019-12-12 21:21:45
-tags:
 ---
 
 ~~~java

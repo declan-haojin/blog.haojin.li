@@ -1,8 +1,9 @@
 ---
 title: The last day in Seattle
 tags:
-  - Seattle
-  - Microsoft
+  - festival
+  - city
+  - hangout
 categories:
   - Adventure
   - Metropolises

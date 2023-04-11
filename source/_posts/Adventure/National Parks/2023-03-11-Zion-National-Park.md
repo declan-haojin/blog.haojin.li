@@ -1,11 +1,14 @@
 ---
 title: Zion National Park
 toc: true
-thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260441112.webp
-cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260441112.webp
+thumbnail: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260441112.webp
+cover: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260441112.webp
 tags:
-  - travel
+  - Utah
   - hiking
+  - travel
 categories:
   - Adventure
   - National Parks

@@ -4,10 +4,13 @@ toc: true
 categories:
   - Adventure
   - National Parks
-date: 2023-03-15 23:13:05
-thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260328089.webp
-cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260328089.webp
+thumbnail: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260328089.webp
+cover: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260328089.webp
 tags:
+  - hiking
+date: 2023-03-15 23:13:05
 ---
 
 今天没有National Park，却也是独一无二的美景。

@@ -1,14 +1,12 @@
 ---
 title: 'Chrome Extension recommendation '
 toc: true
-tags:
-  - Chrome
-  - tutorial
+tags: []
 categories:
   - Learn
   - Hacks
-thumbnail: 'http://ww1.sinaimg.cn/large/bea775ably1g8lavqps6gj20xj0itacy.jpg'
-cover: 'http://ww1.sinaimg.cn/large/bea775ably1g8lavqps6gj20xj0itacy.jpg'
+thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g8lavqps6gj20xj0itacy.jpg
+cover: http://ww1.sinaimg.cn/large/bea775ably1g8lavqps6gj20xj0itacy.jpg
 abbrlink: e9fe
 date: 2019-11-03 11:59:39
 ---

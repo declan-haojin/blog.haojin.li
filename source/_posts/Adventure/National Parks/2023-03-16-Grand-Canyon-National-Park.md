@@ -4,13 +4,12 @@ toc: true
 categories:
   - Adventure
   - National Parks
+thumbnail: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260357555.webp
+cover: >-
+  https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260357555.webp
+tags: []
 date: 2023-03-16 23:56:07
-thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260357555.webp
-cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260357555.webp
-tags:
-- Arizona
-- Hiking
-- Travel
 ---
 
 大名鼎鼎的Grand Canyon，我终于来了。

@@ -1,12 +1,13 @@
 ---
 title: Washington DC - Day4
 toc: true
-thumbnail: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211221205442.png'
-cover: 'https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211221205442.png'
+thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211221205442.png
+cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211221205442.png
 categories:
   - Adventure
   - Metropolises
 tags:
+  - Canada
   - travel
   - food
 date: 2021-12-20 20:39:43

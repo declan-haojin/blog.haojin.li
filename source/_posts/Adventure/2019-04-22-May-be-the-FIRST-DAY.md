@@ -2,7 +2,9 @@
 title: May be the FIRST DAY?
 toc: true
 tags:
-  - travel
+  - school
+  - holiday
+  - exam
 categories:
   - Adventure
 abbrlink: fecb

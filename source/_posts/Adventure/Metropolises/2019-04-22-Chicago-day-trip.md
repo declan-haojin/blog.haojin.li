@@ -2,8 +2,9 @@
 title: Chicago day trip
 toc: false
 tags:
-  - Chicago
+  - holiday
   - travel
+  - project
 categories:
   - Adventure
   - Metropolises
