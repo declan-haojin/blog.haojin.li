@@ -56,3 +56,8 @@
   weight = 10
   [footer.params]
     target = "_blank"
+
+[[footer]]
+  name = "Archives"
+  pageRef = "archives"
+  weight = 20
