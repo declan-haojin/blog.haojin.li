@@ -2382,6 +2382,16 @@ body:has(#menu-controller:checked) {
   padding-bottom: 1px;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.px-0\.5 {
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -2595,6 +2605,16 @@ body:has(#menu-controller:checked) {
 .text-primary-700 {
   --tw-text-opacity: 1;
   color: rgba(var(--color-primary-700), var(--tw-text-opacity));
+}
+
+.text-primary-900 {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-900), var(--tw-text-opacity));
+}
+
+.text-primary-100 {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-100), var(--tw-text-opacity));
 }
 
 .\!no-underline {
@@ -2965,6 +2985,21 @@ body:has(#menu-controller:checked) {
 :is(.dark .dark\:text-primary-400) {
   --tw-text-opacity: 1;
   color: rgba(var(--color-primary-400), var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-primary-500) {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-500), var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-primary-300) {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-300), var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-primary-600) {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-600), var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:hover\:border-primary-600:hover) {

@@ -1,0 +1,24 @@
+{{/* Determine the correct context and scope */}}
+{{/* This allows for different logic depending on where the partial is called */}}
+{{ $context := . }}
+{{ $scope := default nil }}
+
+{{ if (reflect.IsMap . ) }}
+  {{ $context = .context }}
+  {{ $scope = cond (not .scope) nil .scope }}
+{{ end }}
+
+{{ with $context }}
+    &nbsp;&nbsp;
+    <div class="text-sm leading-relaxed text-neutral-500 dark:text-neutral-400 ">
+        {{ $taxonomyName := "tags" }}
+        {{ range $taxonomy, $terms := .Site.Taxonomies }}
+        {{ if eq $taxonomy $taxonomyName }}
+            {{ range $index, $term := $context.GetTerms $taxonomy }}
+                <a href="{{ $term.RelPermalink }}" class="px-0.5 text-primary-700 dark:text-primary-400">#{{ $term.LinkTitle }}</a>
+            {{ end }}
+        {{ end }}
+        {{ end }}
+    </div>
+{{ end }}
+
