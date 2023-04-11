@@ -9,12 +9,13 @@
         {{ if gt "January 2001" .Key}}
             {{ continue }}
         {{ end }}
-        <h2 class="text-2xl font-medium">{{ .Key }}</h2>
+        <h2 class="mt-5 text-xl font-bold first:mt-0">{{ .Key }}</h2>
+        <hr class="border-dotted w-48 border-neutral-400" />
         <ul class="list-disc pl-4 mt-2">
             {{ range .Pages }}
             <li class="mt-2">
-                <a class="text-blue-500 hover:text-blue-700" href="{{ .Permalink }}">{{ .Title }}</a>
-                <div class="text-gray-500 text-sm">{{ .Date.Format "Jan 2, 2006" }}</div>
+                <a class="decoration-primary-500 hover:underline hover:underline-offset-2" href="{{ .Permalink }}">{{ .Title }}</a>
+                <span class="text-gray-500 text-sm">{{ .Date.Format "Jan 2, 2006" }}</span>
             </li>
             {{ end }}
         </ul>
