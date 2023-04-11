@@ -8,28 +8,30 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="p-7 border-l-2">
                     <h2 class="text-2xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/adventure">Adventure</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Adventure")) }})</h2>
-                    <ul class="list-disc pl-6 leading-10 text-xl">
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">National Parks</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "National Parks")) }})</li>
+                    <ul class="list-disc pl-6 leading-10 text-lg">
                         <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">Metropolises</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/national-parks">National Parks</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "National Parks")) }})</li>
                     </ul>
                 </div>
 
                 <div class="p-7 border-l-2">
-                    <h2 class="text-2xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/reflect">Reflect</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Reflect")) }})</h2>
-                    <ul class="list-disc pl-6 leading-10 text-xl">
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">National Parks</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "National Parks")) }})</li>
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">Metropolises</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
+                    <h2 class="text-2xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/learn">Reflect</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Learn")) }})</h2>
+                    <ul class="list-disc pl-6 leading-10 text-lg">
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">Books</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "National Parks")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">Life</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">Movies</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
                     </ul>
                 </div>
 
                 <div class="p-7 border-l-2">
-                    <h2 class="text-2xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/learn">Learn</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Learn")) }})</h2>
-                    <ul class="list-disc pl-6 leading-10 text-xl">
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">National Parks</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "National Parks")) }})</li>
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">Metropolises</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
+                    <h2 class="text-2xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/reflect">Learn</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Reflect")) }})</h2>
+                    <ul class="list-disc pl-6 leading-10 text-lg">
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">Competitive Programming</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "National Parks")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">Hacks</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">Machine Learning</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">VEX Robotics</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
                     </ul>
                 </div>
-
             </div>
         </div>
 
