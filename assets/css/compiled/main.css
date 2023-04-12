@@ -1995,6 +1995,10 @@ body:has(#menu-controller:checked) {
   height: 100vh;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .max-h-\[10rem\] {
   max-height: 10rem;
 }
@@ -2045,6 +2049,14 @@ body:has(#menu-controller:checked) {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
 }
 
 .min-w-0 {
