@@ -41,6 +41,16 @@
   weight = 50
 
 [[main]]
+  name = "Travelling"
+  url = "https://www.travellings.cn/go.html"
+  weight = 60
+  [main.params]
+    icon = "train"
+    showName = false
+    target = "_blank"
+
+
+[[main]]
   identifier = "search"
   weight = 99
   [main.params]
