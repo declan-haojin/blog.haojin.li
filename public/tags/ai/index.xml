@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on Haojin&#39;s Blog</title>
+    <link>/tags/ai/</link>
+    <description>Recent content in AI on Haojin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>@2018-2023 Haojin Li</copyright>
+    <lastBuildDate>Thu, 16 Jul 2020 00:57:42 +0000</lastBuildDate><atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speech at Foundation Class</title>
+      <link>/posts/2020-07-16-speech-at-foundation-class.md/</link>
+      <pubDate>Thu, 16 Jul 2020 00:57:42 +0000</pubDate>
+      
+      <guid>/posts/2020-07-16-speech-at-foundation-class.md/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Network</title>
+      <link>/posts/2020-02-16-neural-network-intro.md/</link>
+      <pubDate>Sun, 16 Feb 2020 16:20:25 +0000</pubDate>
+      
+      <guid>/posts/2020-02-16-neural-network-intro.md/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The server&amp;rsquo;s previous technical issues have caused the loss of images and data.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;基础的神经单元&#34; class=&#34;relative group&#34;&gt;基础的神经单元 &lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数&lt;/th&gt;
+&lt;th&gt;功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;$x_i$&lt;/td&gt;
+&lt;td&gt;输入的n维度的向量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$w_i$&lt;/td&gt;
+&lt;td&gt;加权的系数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$b$&lt;/td&gt;
+&lt;td&gt;偏置&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$z$&lt;/td&gt;
+&lt;td&gt;$\Sigma_{i=1}^{n} w_ix_i+b$ 的值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$h(z)$&lt;/td&gt;
+&lt;td&gt;经过激活函数得到的一个范围在0-1之间的数&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;$a$&lt;/td&gt;
+&lt;td&gt;作为输入向量x传给下一个神经元&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    
+    <item>
+      <title>A perfect event</title>
+      <link>/posts/2019-04-26-a-perfect-event.md/</link>
+      <pubDate>Fri, 26 Apr 2019 00:51:50 +0000</pubDate>
+      
+      <guid>/posts/2019-04-26-a-perfect-event.md/</guid>
+      <description>A fantastic and amazing event that I will never forget I was in the front of the lobby hanging our robot with my teammate</description>
+    </item>
+    
+    <item>
+      <title>Intro to Neural Network</title>
+      <link>/posts/2019-02-07-%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E8%A1%A5%E5%85%85.md/</link>
+      <pubDate>Thu, 07 Feb 2019 10:49:45 +0000</pubDate>
+      
+      <guid>/posts/2019-02-07-%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E8%A1%A5%E5%85%85.md/</guid>
+      <description>The server&amp;rsquo;s previous technical issues have caused the loss of images and data.</description>
+    </item>
+    
+  </channel>
+</rss>

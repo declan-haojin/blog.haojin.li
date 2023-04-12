@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Competitive Programming on Haojin&#39;s Blog</title>
+    <link>/categories/competitive-programming/</link>
+    <description>Recent content in Competitive Programming on Haojin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>@2018-2023 Haojin Li</copyright>
+    <lastBuildDate>Thu, 19 Dec 2019 22:43:14 +0000</lastBuildDate><atom:link href="/categories/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ACSL Diff</title>
+      <link>/posts/2019-12-19-acsl-diff.md/</link>
+      <pubDate>Thu, 19 Dec 2019 22:43:14 +0000</pubDate>
+      
+      <guid>/posts/2019-12-19-acsl-diff.md/</guid>
+      <description>import java.</description>
+    </item>
+    
+    <item>
+      <title>Digital Reassembly</title>
+      <link>/posts/2019-12-12-digital-reassembly.md/</link>
+      <pubDate>Thu, 12 Dec 2019 21:21:45 +0000</pubDate>
+      
+      <guid>/posts/2019-12-12-digital-reassembly.md/</guid>
+      <description>import java.</description>
+    </item>
+    
+    <item>
+      <title>ACSL CHMOD</title>
+      <link>/posts/2019-12-12-acsl-chmod.md/</link>
+      <pubDate>Thu, 12 Dec 2019 19:30:41 +0000</pubDate>
+      
+      <guid>/posts/2019-12-12-acsl-chmod.md/</guid>
+      <description>import java.</description>
+    </item>
+    
+    <item>
+      <title>ACSL STRING</title>
+      <link>/posts/2019-12-01-programming-problem-acsl-string.md/</link>
+      <pubDate>Sun, 01 Dec 2019 10:17:04 +0000</pubDate>
+      
+      <guid>/posts/2019-12-01-programming-problem-acsl-string.md/</guid>
+      <description>&lt;h2 id=&#34;question&#34; class=&#34;relative group&#34;&gt;Question &lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;
+
+
+
+  &lt;figure&gt;
+    &lt;img class=&#34;mx-auto my-0 rounded-md&#34; src=&#34;https://i.loli.net/2019/12/01/sIVLhJUS9fieDNW.png&#34; alt=&#34;&#34; /&gt;
+    
+  &lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;my-thought&#34; class=&#34;relative group&#34;&gt;My thought &lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Nothing&amp;hellip; The problem is pretty easy, however it troubled me for a quite long time. Just follow the instruction of the problem and simulate the whole process by coding.&lt;/p&gt;
+&lt;h2 id=&#34;points-to-note&#34; class=&#34;relative group&#34;&gt;Points to note &lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;The conversion between &lt;code&gt;String&lt;/code&gt; and &lt;code&gt;int&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;How to handle &lt;code&gt;carry&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Pay attention to the additional &lt;code&gt;sign&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Sometimes we can use &lt;code&gt;char&lt;/code&gt; to simplify the process&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code&#34; class=&#34;relative group&#34;&gt;Code &lt;/h2&gt;
+&lt;hr&gt;</description>
+    </item>
+    
+    <item>
+      <title>Intro to Neural Network</title>
+      <link>/posts/2019-02-07-%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E8%A1%A5%E5%85%85.md/</link>
+      <pubDate>Thu, 07 Feb 2019 10:49:45 +0000</pubDate>
+      
+      <guid>/posts/2019-02-07-%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E8%A1%A5%E5%85%85.md/</guid>
+      <description>The server&amp;rsquo;s previous technical issues have caused the loss of images and data.</description>
+    </item>
+    
+    <item>
+      <title>济南Day3 坐标型动态规划及背包</title>
+      <link>/posts/2019-01-29-%E6%B5%8E%E5%8D%97day3-%E5%9D%90%E6%A0%87%E5%9E%8B%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%8F%8A%E8%83%8C%E5%8C%85.md/</link>
+      <pubDate>Tue, 29 Jan 2019 00:48:51 +0000</pubDate>
+      
+      <guid>/posts/2019-01-29-%E6%B5%8E%E5%8D%97day3-%E5%9D%90%E6%A0%87%E5%9E%8B%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%8F%8A%E8%83%8C%E5%8C%85.md/</guid>
+      <description>花店橱窗布置 思路 f[i][j]f[i][j]表示前i个花瓶前j个花束的最大美学价值 f[i][j]=max(f[i−1][k],f[i][j])f[i][j]=max(f[i−1][k],f[i][j]) 当然还有另外一种思路(*太强了！！！*)：</description>
+    </item>
+    
+    <item>
+      <title>高精度模板</title>
+      <link>/posts/2019-01-29-%E9%AB%98%E7%B2%BE%E5%BA%A6%E6%A8%A1%E6%9D%BF.md/</link>
+      <pubDate>Tue, 29 Jan 2019 00:48:40 +0000</pubDate>
+      
+      <guid>/posts/2019-01-29-%E9%AB%98%E7%B2%BE%E5%BA%A6%E6%A8%A1%E6%9D%BF.md/</guid>
+      <description>define N 1e5 struct bign { int len; int v[N]; // 赋值 bign=bign bign operator = (char* s) { len=strlen(s); memset(v,0,sizeof(v)); for(int i=0;i&amp;lt;len;i++) v[i]=s[len-i-1]-&amp;#39;0&amp;#39;; return *this; } //赋值 bign=int bign operator = (int x) { char s[N]; sprintf(s,&amp;#34;%d&amp;#34;,x); return *this=s; } // 高精加 bign operator + (const bign &amp;amp;b) const { bign c; memset(c.</description>
+    </item>
+    
+    <item>
+      <title>树形DP</title>
+      <link>/posts/2019-01-29-%E6%A0%91%E5%BD%A2dp.md/</link>
+      <pubDate>Tue, 29 Jan 2019 00:48:22 +0000</pubDate>
+      
+      <guid>/posts/2019-01-29-%E6%A0%91%E5%BD%A2dp.md/</guid>
+      <description>二叉苹果树 思路 $dp[u][j表示节点u留下j条边的最大价值，每一次决策只有三种情况：剪左子树，剪右子树，两个都不剪 剪左边：dp[u][j]=dp[rson][j−1]+v[rson]dp[u][j]=dp[rson][j−1]+v[rson]，同理，剪右边：dp[u][j]=dp[lson][j−1]+v[lson]dp[u][j]=dp[lson][j−1]+v[lson] 两边都不剪：dp[u][j]=dp[lson][j]+dp[rson][k−j−2]dp[u][j]=dp[lson][j]+dp[rson][k−j−2] 代码：记忆化搜索 int f[N][N]; bool t[N][N]; int dp(int u,int k) { if(t[u][k]) return f[u][k]; t[u][k]=1; if(!</description>
+    </item>
+    
+    <item>
+      <title>随机数基本使用方法</title>
+      <link>/posts/2019-01-15-%E9%9A%8F%E6%9C%BA%E6%95%B0%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.md/</link>
+      <pubDate>Tue, 15 Jan 2019 00:46:25 +0000</pubDate>
+      
+      <guid>/posts/2019-01-15-%E9%9A%8F%E6%9C%BA%E6%95%B0%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.md/</guid>
+      <description>基本公式： 要取得[a,b)的随机整数，使用(rand() % (b-a))+ a; 要取得[a,b]的随机整数，使用(rand() % (b-a+1))+ a; 要取得(a,b]的随机整数，使用(rand() % (b-a))+ a + 1; 通用公式:a + rand() % n；其中的a是起始值，n是整数的范围。 要取得a到b之间的随机整数，另一种表示：a + (int)b * rand() / (RAND_MAX + 1)。 要取得0～1之间的浮点数，可以使用rand() / double(RAND_MAX)。</description>
+    </item>
+    
+    <item>
+      <title>四子连棋</title>
+      <link>/posts/2019-01-11-%E5%9B%9B%E5%AD%97%E8%BF%9E%E6%A3%8B.md/</link>
+      <pubDate>Fri, 11 Jan 2019 00:45:41 +0000</pubDate>
+      
+      <guid>/posts/2019-01-11-%E5%9B%9B%E5%AD%97%E8%BF%9E%E6%A3%8B.md/</guid>
+      <description>这是我到目前为止写过最长的代码之一……</description>
+    </item>
+    
+    <item>
+      <title>STL</title>
+      <link>/posts/2019-01-11-stl.md/</link>
+      <pubDate>Fri, 11 Jan 2019 00:45:24 +0000</pubDate>
+      
+      <guid>/posts/2019-01-11-stl.md/</guid>
+      <description>STL C++ STL 之所以得到广泛的赞誉，也被很多人使用，不只是提供了像vector, string, list等方便的容器，更重要的是STL封装了许多复杂的数据结构算法和大量常用数据结构操作。vector封装数组，list封装了链表，map和set封装了二叉树等，在封装这些数据结构的时候，STL按照程序员的使用习惯，以成员函数方式提供的常用操作，如：插入、排序、删除、查找等。让用户在STL使用过程中，并不会感到陌生。</description>
+    </item>
+    
+    <item>
+      <title>三角形牧场</title>
+      <link>/posts/2019-01-05-%E4%B8%89%E8%A7%92%E5%BD%A2%E7%89%A7%E5%9C%BA.md/</link>
+      <pubDate>Sat, 05 Jan 2019 00:45:59 +0000</pubDate>
+      
+      <guid>/posts/2019-01-05-%E4%B8%89%E8%A7%92%E5%BD%A2%E7%89%A7%E5%9C%BA.md/</guid>
+      <description>P1284三角形牧场 题意 现在有n段木棍，全部使用组成三角形的三条边，使三角形的面积最大</description>
+    </item>
+    
+    <item>
+      <title>动态规划习题2</title>
+      <link>/posts/2018-12-31-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E4%B9%A0%E9%A2%982.md/</link>
+      <pubDate>Mon, 31 Dec 2018 00:45:11 +0000</pubDate>
+      
+      <guid>/posts/2018-12-31-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E4%B9%A0%E9%A2%982.md/</guid>
+      <description>P1970 花匠 分析 第一次很容易就能想到转移方程：</description>
+    </item>
+    
+    <item>
+      <title>P1429 平面最近点对（加强版）</title>
+      <link>/posts/2018-12-31-p1429-%E5%B9%B3%E9%9D%A2%E6%9C%80%E8%BF%91%E7%82%B9%E5%AF%B9%E5%8A%A0%E5%BC%BA%E7%89%88.md/</link>
+      <pubDate>Mon, 31 Dec 2018 00:44:30 +0000</pubDate>
+      
+      <guid>/posts/2018-12-31-p1429-%E5%B9%B3%E9%9D%A2%E6%9C%80%E8%BF%91%E7%82%B9%E5%AF%B9%E5%8A%A0%E5%BC%BA%E7%89%88.md/</guid>
+      <description>P1429 平面最近点对（加强版） 题目 题目描述 给定平面上n个点，找出其中的一对点的距离，使得在这n个点的所有点对中，该距离为所有点对中最小的</description>
+    </item>
+    
+    <item>
+      <title>动态规划2-背包DP</title>
+      <link>/posts/2018-12-15-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%922-%E8%83%8C%E5%8C%85dp.md/</link>
+      <pubDate>Sat, 15 Dec 2018 00:05:27 +0000</pubDate>
+      
+      <guid>/posts/2018-12-15-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%922-%E8%83%8C%E5%8C%85dp.md/</guid>
+      <description>动态规划2-背包DP 装箱问题 有一个箱子容量为V（正整数，0＜＝V＜＝20000），同时有n个物品（0＜n＜＝30），每个物品有一个体积（正整数）。 要求n个物品中，任取若干个装入箱内，使箱子的剩余空间为最小。 输入描述：一个整数v，表示箱子容量；一个整数n，表示有n个物品；接下来n个整数，分别表示这n 个物品的各自体积 输出描述：一个整数，表示箱子剩余空间。 样例输入: 24 6 ​ 8 3 12 7 9 7 样例输出：0</description>
+    </item>
+    
+    <item>
+      <title>动态规划1</title>
+      <link>/posts/2018-12-15-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%921.md/</link>
+      <pubDate>Sat, 15 Dec 2018 00:05:18 +0000</pubDate>
+      
+      <guid>/posts/2018-12-15-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%921.md/</guid>
+      <description>笔记 最优子结构：子结构最优，全局一定最优 无后效性：各个决策部分单独存在，不会相互影响</description>
+    </item>
+    
+    <item>
+      <title>2018/12/8模拟赛</title>
+      <link>/posts/2018-12-08%E6%A8%A1%E6%8B%9F%E8%B5%9B.md/</link>
+      <pubDate>Sat, 08 Dec 2018 00:04:31 +0000</pubDate>
+      
+      <guid>/posts/2018-12-08%E6%A8%A1%E6%8B%9F%E8%B5%9B.md/</guid>
+      <description>终于有一次能在考场上打出正解的模拟赛</description>
+    </item>
+    
+    <item>
+      <title>汉诺塔问题</title>
+      <link>/posts/2018-12-06-tower-of-hanoi-problem.md/</link>
+      <pubDate>Thu, 06 Dec 2018 11:08:36 +0000</pubDate>
+      
+      <guid>/posts/2018-12-06-tower-of-hanoi-problem.md/</guid>
+      <description>题面 相传在古印度圣庙中，有一种被称为汉诺塔(Hanoi)的游戏。该游戏是在一块铜板装置上，有三根杆(编号A、B、C)，在A杆自下而上、由大到小按顺序放置64个金盘(如下图)。游戏的目标：把A杆上的金盘全部移到C杆上，并仍保持原有顺序叠好。操作规则：每次只能移动一个盘子，并且在移动过程中三根杆上都始终保持大盘在下，小盘在上，操作过程中盘子可以置于A、B、C任一杆上。</description>
+    </item>
+    
+    <item>
+      <title>滑动窗口</title>
+      <link>/posts/2018-12-06-%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3.md/</link>
+      <pubDate>Thu, 06 Dec 2018 00:03:54 +0000</pubDate>
+      
+      <guid>/posts/2018-12-06-%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3.md/</guid>
+      <description>思路：单调队列 以求最小值为例 在读取每一个数 ai 的过程中，判断队尾的数是否大于ai,如果大于则证明队尾的数已经没有意义了，因为*它已经不可能成为现在及以后所有窗口内的最小值*，不妨弹出，重复以上操作，直到ai小于队尾的数，再把ai放到队尾 当现在的长度已经达到窗口的长度时，每一次都会输出最小值，因为队列是单调递减的，第一个数一定是现在窗口内最小的数，直接输出 在队尾添加的过程中，*要始终保证队列里的数都在窗口内*，当区间长度大于窗口长度时，要从队首弹出 自己遇到的坑 *队列内存储的是这个数的位置，不是这个数的大小*，大小通过数组类似映射表示</description>
+    </item>
+    
+  </channel>
+</rss>

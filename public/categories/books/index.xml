@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Haojin&#39;s Blog</title>
+    <link>/categories/books/</link>
+    <description>Recent content in Books on Haojin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>@2018-2023 Haojin Li</copyright>
+    <lastBuildDate>Mon, 16 Mar 2020 16:23:09 +0000</lastBuildDate><atom:link href="/categories/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Educated -- Reading Journal</title>
+      <link>/posts/2020-03-16-reading-journal.md/</link>
+      <pubDate>Mon, 16 Mar 2020 16:23:09 +0000</pubDate>
+      
+      <guid>/posts/2020-03-16-reading-journal.md/</guid>
+      <description>Why I chose this book to read I get an inexplicable feeling about my life recently and books help me a lot in most cases.</description>
+    </item>
+    
+  </channel>
+</rss>

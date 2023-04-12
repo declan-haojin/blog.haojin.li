@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on Haojin&#39;s Blog</title>
+    <link>/tags/java/</link>
+    <description>Recent content in java on Haojin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>@2018-2023 Haojin Li</copyright>
+    <lastBuildDate>Sat, 30 Jul 2022 20:16:58 +0000</lastBuildDate><atom:link href="/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Summer almost done</title>
+      <link>/posts/2022-07-30-summer-almost-done.md/</link>
+      <pubDate>Sat, 30 Jul 2022 20:16:58 +0000</pubDate>
+      
+      <guid>/posts/2022-07-30-summer-almost-done.md/</guid>
+      <description>&lt;p&gt;The flight to California is just to long to do anything. So why not wrapping up my summer so far.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Speech at Foundation Class</title>
+      <link>/posts/2020-07-16-speech-at-foundation-class.md/</link>
+      <pubDate>Thu, 16 Jul 2020 00:57:42 +0000</pubDate>
+      
+      <guid>/posts/2020-07-16-speech-at-foundation-class.md/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
