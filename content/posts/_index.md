@@ -3,7 +3,7 @@ title: "Posts"
 ---
 
 <h3>
-{{< icon "pencil" >}} {{< count-posts >}}&nbsp;Posts
+<span class="px-1">{{< icon "pencil" >}}</span>{{< count-posts >}}Posts
 &nbsp;
-{{< icon "calendar" >}} {{< count-days >}}&nbsp;Days
+<span class="px-1">{{< icon "calendar" >}}</span>{{< count-days >}}&nbsp;Days
 </h3>
