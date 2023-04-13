@@ -47,11 +47,10 @@
       type="text/css"
       rel="stylesheet"
       href="{{ $bundleCSS.RelPermalink }}"
-      integrity="{{ $bundleCSS.Data.Integrity }}"
     />
     {{ $jsAppearance := resources.Get "js/appearance.js" }}
     {{ $jsAppearance = $jsAppearance | resources.Minify | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $jsAppearance.RelPermalink }}" integrity="{{ $jsAppearance.Data.Integrity }}"></script>
+    <script type="text/javascript" src="{{ $jsAppearance.RelPermalink }}"></script>
     {{ if .Site.Params.enableSearch | default false }}
       {{ $jsFuse := resources.Get "lib/fuse/fuse.min.js" }}
       {{ $jsSearch := resources.Get "js/search.js" }}
@@ -67,7 +66,7 @@
     {{ end }}
     {{ if $assets.Get "js" }}
       {{ $bundleJS := $assets.Get "js" | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-      <script defer type="text/javascript" id="script-bundle" src="{{ $bundleJS.RelPermalink }}" integrity="{{ $bundleJS.Data.Integrity }}" data-copy="{{ i18n "code.copy" }}" data-copied="{{ i18n "code.copied" }}"></script>
+      <script defer type="text/javascript" id="script-bundle" src="{{ $bundleJS.RelPermalink }}" data-copy="{{ i18n "code.copy" }}" data-copied="{{ i18n "code.copied" }}"></script>
     {{ end }}
     {{/* Icons */}}
     {{ if templates.Exists "partials/favicons.html" }}
