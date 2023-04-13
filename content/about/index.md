@@ -5,7 +5,7 @@ layout: "about"
 
 A [Duke](https://duke.edu) student double-majoring in <span class="block sm:hidden"></span>[Computer Science](https://www.cs.duke.edu/) and [Political Science](https://polisci.duke.edu/)
 
-An easily excited and highly passionate <span class="block sm:hidden"></span>[developer](/projects) who is debugging all the time
+An easily excited and highly passionate <span class="block sm:hidden"></span>[developer](https://haojin.li/) who is debugging all the time
 
 An unskilled hiker who dreams of <span class="block sm:hidden"></span>thru-hiking the [Appalachian Trail](https://appalachiantrail.org/explore/hike-the-a-t/thru-hiking/)
 
