@@ -23,5 +23,6 @@ dateFormat = "January 2, 2006"
     { home = "https://haojin.li"},
     { email = "mailto:hi@haojin.li" },
     { github = "https://github.com/declan-haojin" },
-    { linkedin = "https://linkedin.com/in/haojinli" }
+    { linkedin = "https://linkedin.com/in/haojinli" },
+    { rss = "/index.xml"}
   ]
