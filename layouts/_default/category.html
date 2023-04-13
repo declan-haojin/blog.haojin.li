@@ -15,21 +15,21 @@
                 </div>
 
                 <div class="px-7 py-3">
-                    <h2 class="text-xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/reflect">Reflect</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Learn")) }})</h2>
+                    <h2 class="text-xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/reflect">Reflect</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Reflect")) }})</h2>
                     <ul class="list-disc pl-6 leading-10 text-lg">
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/books">Books</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "National Parks")) }})</li>
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/life">Life</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/movies">Movies</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/books">Books</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Books")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/life">Life</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Life")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/movies">Movies</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Movies")) }})</li>
                     </ul>
                 </div>
 
                 <div class="px-7 py-3">
-                    <h2 class="text-xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/learn">Learn</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Reflect")) }})</h2>
+                    <h2 class="text-xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/learn">Learn</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Learn")) }})</h2>
                     <ul class="list-disc pl-6 leading-10 text-lg">
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/competitive-programming">Competitive Programming</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "National Parks")) }})</li>
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/hacks">Hacks</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/machine-learning">Machine Learning</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
-                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/vex-robotics">VEX Robotics</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/competitive-programming">Competitive Programming</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Competitive Programming")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/hacks">Hacks</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Hacks")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/machine-learning">Machine Learning</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Machine Learning")) }})</li>
+                        <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/vex-robotics">VEX Robotics</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "VEX Robotics")) }})</li>
                     </ul>
                 </div>
             </div>
