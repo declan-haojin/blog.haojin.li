@@ -1939,6 +1939,14 @@ body:has(#menu-controller:checked) {
   margin-top: 0.1rem;
 }
 
+.-mb-3 {
+  margin-bottom: -0.75rem;
+}
+
+.-mb-2 {
+  margin-bottom: -0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -2387,6 +2395,11 @@ body:has(#menu-controller:checked) {
   padding-bottom: 1px;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -2439,6 +2452,26 @@ body:has(#menu-controller:checked) {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -2605,6 +2638,16 @@ body:has(#menu-controller:checked) {
 .text-primary-700 {
   --tw-text-opacity: 1;
   color: rgba(var(--color-primary-700), var(--tw-text-opacity));
+}
+
+.text-primary-50 {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-50), var(--tw-text-opacity));
+}
+
+.text-primary-900 {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-900), var(--tw-text-opacity));
 }
 
 .\!no-underline {
@@ -2796,6 +2839,16 @@ body:has(#menu-controller:checked) {
 .focus\:bg-primary-100:focus {
   --tw-bg-opacity: 1;
   background-color: rgba(var(--color-primary-100), var(--tw-bg-opacity));
+}
+
+.focus\:text-primary-600:focus {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-600), var(--tw-text-opacity));
+}
+
+.focus\:text-primary-400:focus {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-400), var(--tw-text-opacity));
 }
 
 .focus\:outline-dotted:focus {
@@ -3097,6 +3150,10 @@ body:has(#menu-controller:checked) {
     padding-top: 2.5rem;
   }
 
+  .sm\:text-right {
+    text-align: right;
+  }
+
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -3133,6 +3190,14 @@ body:has(#menu-controller:checked) {
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-right {
+    text-align: right;
   }
 }
 
@@ -3181,6 +3246,10 @@ body:has(#menu-controller:checked) {
   .lg\:ps-8 {
     -webkit-padding-start: 2rem;
             padding-inline-start: 2rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 }
 
