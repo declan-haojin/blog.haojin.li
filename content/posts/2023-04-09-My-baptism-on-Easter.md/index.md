@@ -40,4 +40,4 @@ Though I may not be the most talkative person and may not have forged deep relat
 
 I recognize that I will face struggles in the future, but I now feel loved and supported by God. Amen!
 
-![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202304130113486.webp)
+![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202304130120986.webp)
