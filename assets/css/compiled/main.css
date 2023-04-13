@@ -2533,6 +2533,11 @@ body:has(#menu-controller:checked) {
   line-height: 1rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -3157,6 +3162,15 @@ body:has(#menu-controller:checked) {
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:font-bold {
+    font-weight: 700;
   }
 
   .sm\:last\:me-0:last-child {

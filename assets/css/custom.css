@@ -1,0 +1,5 @@
+@media (max-width: 380px) {
+    .iphone-se-text-2xl {
+      font-size: 1.5rem; /* Corresponds to 2xl text size in Tailwind */
+    }
+}
