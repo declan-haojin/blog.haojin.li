@@ -43,7 +43,7 @@ So sad that today I am alone in my team. They are all busy preparing AP makeup e
 - [x] Recode and design my code format and template.
 - [x] Finish the entire base program with optimization
 
-<!--more-->
+
 
 # 06/07/20
 ---

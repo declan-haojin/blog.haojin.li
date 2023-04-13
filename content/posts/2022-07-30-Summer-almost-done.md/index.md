@@ -18,7 +18,7 @@ date: 2022-07-30 20:16:58
 
 The flight to California is just to long to do anything. So why not wrapping up my summer so far.
 
-<!--more-->
+
 
 Less than a month until the next school year. Looking back at the past three months, I have accimplished and grown so much that I would never imagine before everything started.
 

@@ -32,7 +32,7 @@ While it comes, the application seasion, full of tension, sadness and happiness.
 
 ![image-20210305234436333](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/HaojinMacBookPro/image-20210305234436333.png)
 
-<!--more-->
+
 
 # Unexpected
 

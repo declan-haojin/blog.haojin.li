@@ -45,7 +45,7 @@ def myfunc():
 	x = "declan and jessica"
 ~~~
 
-<!--more-->
+
 
 ## New data type for me
 

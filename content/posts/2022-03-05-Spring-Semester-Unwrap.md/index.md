@@ -23,7 +23,7 @@ date: 2022-03-05 22:02:01
 ---
 
 We just lost the most important home game today. 
-<!--more-->
+
 
 ![:(](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220305233543.png)
 

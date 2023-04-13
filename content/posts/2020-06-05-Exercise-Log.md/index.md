@@ -41,7 +41,7 @@ password:
 
 This is the first day I start my exercise again. Hope I can insist on.
 
-<!--more-->
+
 
 # 06/06/2020
 ---

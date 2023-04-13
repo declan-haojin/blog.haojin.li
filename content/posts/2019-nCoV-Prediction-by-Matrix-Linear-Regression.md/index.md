@@ -25,7 +25,7 @@ As everyone knows, the serious coronavirus is attacking our country especially i
 
 After learning Matrix Linear Regression, an powerful and beginner-friendly algorithm used for predicting, I got an idea: **forecasting the future trend by using a series of data including the number of people infected with virus**. So I just started to do it and it's time to share my computing results.
 
-<!--more-->
+
 
 # Function
 

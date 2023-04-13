@@ -34,7 +34,7 @@ password:
 - go away
 - come back
 
-<!--more-->
+
 
 The story opens with the narrator taking on a lodger in his apartment, an old soldier named Astafy Ivanovich. One day, a thief steals the narrator's coat, and Astafy tries to pursue him unsuccessfully. Astafy is dismayed by the theft and goes over the scenario over and over again. The narrator and Astafy share a distinct contempt for thieves, and one night Astafy tells the narrator a story of an honest thief that he had once run across.
 

@@ -14,7 +14,7 @@ date: 2022-11-25 16:14:07
 
 It was my first ever self-planed hiking roadtrip which turned out to be amazing ever since the very beginning.
 
-<!--more-->
+
 
 I've always been a huge fan of the song *Take me home, country road* by John Denver. Every friend of mine knows how much I'd love to sing this song for no reason randomly. And it would be great to discover all the places mentioned in the lyrics, which is the one and only reason I planned out this Shenandoah trip. "Blue Ridge Mountains, Shenandoah River~"
 

@@ -44,7 +44,7 @@ password:
 
 I heard this movie before. In my concept, everybody has watched this movie in their childhood except me. I have no idea about this cartoon movie at all. It was top100 in Douban and IMDB website which interested me and I want to have a look waiting untill a joyful and lesisure time.
 
-<!--more-->
+
 
 <article class="message is-success is-medium"><div class="message-body">
 <i>If You Completely Forget Your Name, You'll Never Find Your Way Home.</i>

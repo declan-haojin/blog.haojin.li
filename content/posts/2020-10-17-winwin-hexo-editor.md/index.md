@@ -50,7 +50,7 @@ git clone https://github.com/YuJianghao/winwin-hexo-editor
 
 刷新一下宝塔面板，我们就会看到下载好的`winwin-hexo-editor`文件夹
 
-<!--more-->
+
 
 ![image-20200921204021649](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200921204021.png)
 

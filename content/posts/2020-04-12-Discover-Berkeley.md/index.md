@@ -26,7 +26,7 @@ Berkeley, the college that is close to my dream in California.
 
 *Note: The following are some quotes and main point I referred from official website of Berkeley.*
 
-<!--more-->
+
 
 #  Selection
 

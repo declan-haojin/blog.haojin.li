@@ -78,7 +78,7 @@ It's an amazing, fantastic, incredible, unprecedented event about technology pro
 
 </div>
 
-<!--more-->
+
 
 
 

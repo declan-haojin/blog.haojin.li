@@ -14,7 +14,7 @@ date: 2023-03-16 23:56:07
 
 大名鼎鼎的Grand Canyon，我终于来了。
 
-<!--more-->
+
 
 我们一路沿着Dessert View Drive进入园区，在很多overlook都停车驻足。我本以为这里的风景会和Canyonlands大同小异，但真的来到这里才意识到Grand一词的真正含义。连绵不绝的山谷和藏匿其中的Colorado River，构成了一幅这个蓝色星球上最为波澜壮阔的地貌景观画作。
 

@@ -27,7 +27,7 @@ The year of OX, the last Spring Festival I could spend time with family members 
 
 My mom was the first person reminded me of the importance of this year. She planned a lot of places to go where we never had available time to visit together.
 
-<!--more-->
+
 
 # Movies
 

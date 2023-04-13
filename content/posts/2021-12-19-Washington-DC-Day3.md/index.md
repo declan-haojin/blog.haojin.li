@@ -15,7 +15,7 @@ date: 2021-12-19 21:56:02
 
 今天的行程比较松散，中午才从住处出发。主要徒步浏览了Georgetown还有Georgetown大学。当然，还有最爱的胡辣汤。
 
-<!--more-->
+
 
 ## Georgetown
 

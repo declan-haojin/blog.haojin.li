@@ -16,7 +16,7 @@ date: 2022-12-27 00:11:58
 
 So here I am in Canada.
 
-<!--more-->
+
 
 I always wanted to come back to Canada again after my miserable last visit that I lost all my checked-in luggage due to a mistake at the layover. However, it didn't stop me from experiencing and appreciating this beautiful country.
 

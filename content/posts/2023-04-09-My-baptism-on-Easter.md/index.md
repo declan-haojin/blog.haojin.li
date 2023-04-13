@@ -14,7 +14,7 @@ cover:
 
 I've always been waiting for today.
 
-<!--more-->
+
 
 It has been a remarkable journey of spiritual growth for me. I can still vividly recall last year's Easter celebration, a time of rebirth for my Christian friends. At that time, I wondered if one day I too would be baptized, but I never imagined it would happen within a year. Yet, here I am now, having experienced a year filled with revelations and growth.
 

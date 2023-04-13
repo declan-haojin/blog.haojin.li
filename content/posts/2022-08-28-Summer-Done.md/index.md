@@ -20,7 +20,7 @@ date: 2022-08-29 22:59:58
 
 Wooooo summer can't be better.
 
-<!--more-->
+
 
 Since last post, I set off to California for a 23 days vacation. I was beyond thrilled to start the journey and also beyond excited to move forward for the new semester as a sophomore.
 

@@ -15,7 +15,7 @@ date: 2022-05-01 23:05:39
 
 Standing at the myrtle beach today, I began to reflect on my Freshman journey. 
 
-<!--more-->
+
 
 I feel very blessed and fortuated enough to have what I have seen, experienced, and learned from this school year. I never thought my first year in college would be as good as it went through. I was questioning about fate and believed everything is in my control if I worked hard enough. It is just not the truth after experiencing and contemplating on all the things that happened to me. 
 

@@ -21,7 +21,7 @@ date: 2023-02-21 00:13:41
 
 This semester has been surprisingly long, in a positive sense.
 
-<!--more-->
+
 
 This might be the first time I could sit down and begin typing my blog post during a Monday night. I just finished running 10km on a treadmill and am feeling really good right now to write something down.
 

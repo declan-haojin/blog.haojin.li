@@ -29,7 +29,7 @@ Nothing... The problem is pretty easy, however it troubled me for a quite long t
 
 ## Code
 ---
-<!--more-->
+
 
 ```java
 import java.util.Scanner;

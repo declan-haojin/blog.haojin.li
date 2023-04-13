@@ -35,7 +35,7 @@ The robot that will be used in the competition hadn’t been finished two days b
 
 Luckily, we had done everything in time under the unity of our team which is the most valuable and precious thing I got from the robot club. I saw everyone mounting screw carefully, writing engineer log amazingly… There exists many good personalities and characters that I need to learn from them.
 
-<!--more-->
+
 
 ## Maybe I don’t have time to write again during the competition
 

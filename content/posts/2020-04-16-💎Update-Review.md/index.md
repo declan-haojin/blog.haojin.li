@@ -35,7 +35,7 @@ password:
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200417005009.png)
 
-<!--more-->
+
 
 
 # New Post Share Plugin

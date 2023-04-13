@@ -18,7 +18,7 @@ date: 2023-01-08 14:32:39
 
 Well yes I flew all the way from the far north to the far south...
 
-<!--more-->
+
 
 ## Toronto to be continued
 

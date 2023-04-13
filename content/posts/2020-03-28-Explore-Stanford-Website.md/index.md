@@ -36,7 +36,7 @@ I think it's time for me to begin my application. These days my mother is trying
 
 *I will mark and reorganize some points mentioned in the intro which I think is useful.*
 
-<!--more-->
+
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200412193642.png)
 

@@ -15,7 +15,7 @@ date: 2022-06-19 17:05:39
 
 It's again been a long time since I wrote the last post.
 
-<!--more-->
+
 
 I used to skip blogging because I don't have a lot things to write during that period of time. However, there are too much these days that I even could not fully experience let alone recording them in written.
 

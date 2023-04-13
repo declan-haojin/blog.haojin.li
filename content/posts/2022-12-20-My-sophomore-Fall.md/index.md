@@ -21,7 +21,7 @@ date: 2022-12-20 16:10:49
 
 It has been a bittersweet semester with so many things happening out of control in an unexpected way.
 
-<!--more-->
+
 
 Always, the frequency that I update my blog to some extent could represent my mood during a specific period of time. For example, during last year at this time, I was stressed out with tons of college applications happening on. Apparently, I got into the same situation again with hundreds of internship applications to send out, wait, and be rejected. Apart from that, the classes I took this semester has played a huge role in a huge shift of my value, political understandings and my world view, which might have already changed my life entirely.
 

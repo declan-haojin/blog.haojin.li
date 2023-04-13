@@ -42,7 +42,7 @@ Before watching, I have no knowledge about the movie. I was sitting in the secon
 
 # My Feeling
 
-<!--more-->
+
 
 ---
 

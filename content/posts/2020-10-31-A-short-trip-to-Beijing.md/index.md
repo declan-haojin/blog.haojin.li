@@ -31,7 +31,7 @@ Everything went OK the first day. Arriving by bullet train, I took 3 subway line
 
 To be honest, I don't have a good impression of Beijing based on previous visits. No exception, it's the same this time. I don't know if it's a prejudice or something else. Anyway, I don't like this city. It imposes bad feeling to me. 
 
-<!--more-->
+
 
 # The competition
 

@@ -16,7 +16,7 @@ date: 2022-04-09 23:25:35
 
 Well the true March Madness we lost. But we are the final four!
 
-<!--more-->
+
 
 I never enjoyed watching a basketball game but this time. The game was so tight and intense. Alright, I still don't like basketball at all. The March Madness is my March Madness.
 

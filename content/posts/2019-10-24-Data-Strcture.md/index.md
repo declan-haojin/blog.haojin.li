@@ -38,7 +38,7 @@ arratList.remove();
 
 ### How to traverse the ArrayList
 
-<!--more-->
+
 
 ~~~JAVA
 for(int i=0;i<arrayList.size();i++)

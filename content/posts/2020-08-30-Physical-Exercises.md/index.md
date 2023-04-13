@@ -47,7 +47,7 @@ Trying my best to be the team leader is always my style, especially participatin
 
 Besides that, I believe I did great a great job. Organizing the team, encourging everyone doing high-altitude program and cimmitting myself to everything I can. 
 
-<!--more-->
+
 
 ## Standing on the stage 
 I never ever have the confidence to stand on the stage singing a song in front of the public. This time I really broke out of my shell. At the begining, I chose to do so because we could get bonus point if there was an extra individual show in my group, but that night, after presenting our awkward group show, I felt like nothing could stop me. I wanted to go on the stage to chanllege myslef. Looked like drunk, I sang the song Something just like this with two of my friends. Standing on the stage, I jumped and cheered. I felt my flow at that very moment. There was no fears, no shyness, only overwhelmed with confidence and excitement. It was a chance now or never, I need to take it. I told myself.

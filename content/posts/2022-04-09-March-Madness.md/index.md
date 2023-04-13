@@ -12,7 +12,7 @@ date: 2022-04-09 22:05:39
 ---
 It's been a crazy March that has nothing to do with March Madness, but crazier than March Madness.
 
-<!--more-->
+
 
 I know it has been a long time since the last time I blogged. I was telling myself last semester that I could definitely keep blogging at least every week but it turned out not working at all for this semester. It is not because I am having a worse or not-worth-blogging life compared to the last semester. But on the contrary, I am having a great time, great than ever. I would love to blog everything post by post but I failed to do so. Therefore, here is all. 
 

@@ -14,7 +14,7 @@ date: 2022-01-15 22:41:16
 
 Finally, it comes to the beginning of another wonderful semester. 
 
-<!--more-->
+
 
 Unlike high school time which I genuinely didn't like switching from sweet and chilled breaks to a busy school semester, I do look forward to the college semester. Probably because it was just so boring during my winter break when I went to Washington DC and came back staying on campus for most of the break. Most importantly, I missed the people I met here including friends and strangers. I enjoyed interacting with people and striking basic conversation with "How are you?".
 

@@ -44,7 +44,7 @@ It also has a version for mobile phone including `IOS` and `Android`.
 
 4. Press `Load unpacked` and a pop-up will appear. Select your unzip extension folder and confirm.
 
-   <!--more-->
+   
 
 5. Now the `Google Helper` are successfully installed in your Chrome like this.
 

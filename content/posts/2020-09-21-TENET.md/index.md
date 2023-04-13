@@ -32,7 +32,7 @@ Tenet is an amazing movie with wonderful stories and deep meanings. I am a perso
 
 Not everyone believe in destiny. In this movie, in some way, proves the destiny of each human beings. We all have our faith and mission. Neil probably knew he would die of helping the younger protagonist, he insists to do it without hesitancy. 
 
-<!--more-->
+
 
 ## Future
 

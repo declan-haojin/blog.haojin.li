@@ -30,7 +30,7 @@ To be honest, I am dreaming about my future life every second in my mind: What k
 
 <img src="https://i.loli.net/2020/01/28/lvpAP1xo5a79UuY.jpg" style="zoom:50%;" />
 
-<!--more-->
+
 
 # The movie brings me
 
