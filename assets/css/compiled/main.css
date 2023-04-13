@@ -2688,6 +2688,10 @@ body:has(#menu-controller:checked) {
   color: rgba(var(--color-primary-900), var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .\!no-underline {
   text-decoration-line: none !important;
 }
@@ -2698,6 +2702,10 @@ body:has(#menu-controller:checked) {
 
 .decoration-primary-500 {
   text-decoration-color: rgba(var(--color-primary-500), 1);
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
 }
 
 .opacity-0 {
