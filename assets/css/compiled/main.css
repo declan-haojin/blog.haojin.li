@@ -1821,6 +1821,10 @@ body:has(#menu-controller:checked) {
   margin-bottom: -0.25rem;
 }
 
+.-mb-2 {
+  margin-bottom: -0.5rem;
+}
+
 .-ms-5 {
   -webkit-margin-start: -1.25rem;
           margin-inline-start: -1.25rem;
@@ -1939,22 +1943,6 @@ body:has(#menu-controller:checked) {
   margin-top: 0.1rem;
 }
 
-.-mb-3 {
-  margin-bottom: -0.75rem;
-}
-
-.-mb-2 {
-  margin-bottom: -0.5rem;
-}
-
-.mt-7 {
-  margin-top: 1.75rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .block {
   display: block;
 }
@@ -2005,10 +1993,6 @@ body:has(#menu-controller:checked) {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-6 {
-  height: 1.5rem;
 }
 
 .max-h-\[10rem\] {
@@ -2235,10 +2219,6 @@ body:has(#menu-controller:checked) {
   border-top-width: 1px;
 }
 
-.border-dashed {
-  border-style: dashed;
-}
-
 .border-dotted {
   border-style: dotted;
 }
@@ -2305,6 +2285,11 @@ body:has(#menu-controller:checked) {
   background-color: rgba(var(--color-primary-200), var(--tw-bg-opacity));
 }
 
+.bg-primary-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--color-primary-50), var(--tw-bg-opacity));
+}
+
 .bg-primary-600 {
   --tw-bg-opacity: 1;
   background-color: rgba(var(--color-primary-600), var(--tw-bg-opacity));
@@ -2312,11 +2297,6 @@ body:has(#menu-controller:checked) {
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-primary-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(var(--color-primary-50), var(--tw-bg-opacity));
 }
 
 .object-scale-down {
@@ -2416,11 +2396,6 @@ body:has(#menu-controller:checked) {
   padding-bottom: 1px;
 }
 
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -2471,32 +2446,12 @@ body:has(#menu-controller:checked) {
   padding-top: 1rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
-}
-
 .pt-7 {
   padding-top: 1.75rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pb-0 {
-  padding-bottom: 0px;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
-}
-
-.pt-0 {
-  padding-top: 0px;
-}
-
-.pt-2 {
-  padding-top: 0.5rem;
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {
@@ -2530,6 +2485,11 @@ body:has(#menu-controller:checked) {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -2566,11 +2526,6 @@ body:has(#menu-controller:checked) {
   line-height: 1rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -2589,6 +2544,14 @@ body:has(#menu-controller:checked) {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-extralight {
+  font-weight: 200;
 }
 
 .uppercase {
@@ -2678,20 +2641,6 @@ body:has(#menu-controller:checked) {
   color: rgba(var(--color-primary-700), var(--tw-text-opacity));
 }
 
-.text-primary-50 {
-  --tw-text-opacity: 1;
-  color: rgba(var(--color-primary-50), var(--tw-text-opacity));
-}
-
-.text-primary-900 {
-  --tw-text-opacity: 1;
-  color: rgba(var(--color-primary-900), var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
-}
-
 .\!no-underline {
   text-decoration-line: none !important;
 }
@@ -2702,10 +2651,6 @@ body:has(#menu-controller:checked) {
 
 .decoration-primary-500 {
   text-decoration-color: rgba(var(--color-primary-500), 1);
-}
-
-.underline-offset-2 {
-  text-underline-offset: 2px;
 }
 
 .opacity-0 {
@@ -2887,16 +2832,6 @@ body:has(#menu-controller:checked) {
   background-color: rgba(var(--color-primary-100), var(--tw-bg-opacity));
 }
 
-.focus\:text-primary-600:focus {
-  --tw-text-opacity: 1;
-  color: rgba(var(--color-primary-600), var(--tw-text-opacity));
-}
-
-.focus\:text-primary-400:focus {
-  --tw-text-opacity: 1;
-  color: rgba(var(--color-primary-400), var(--tw-text-opacity));
-}
-
 .focus\:outline-dotted:focus {
   outline-style: dotted;
 }
@@ -3041,26 +2976,6 @@ body:has(#menu-controller:checked) {
   background-color: rgba(var(--color-primary-900), var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:bg-neutral-400) {
-  --tw-bg-opacity: 1;
-  background-color: rgba(var(--color-neutral-400), var(--tw-bg-opacity));
-}
-
-:is(.dark .dark\:bg-primary-700) {
-  --tw-bg-opacity: 1;
-  background-color: rgba(var(--color-primary-700), var(--tw-bg-opacity));
-}
-
-:is(.dark .dark\:bg-primary-600) {
-  --tw-bg-opacity: 1;
-  background-color: rgba(var(--color-primary-600), var(--tw-bg-opacity));
-}
-
-:is(.dark .dark\:bg-primary-500) {
-  --tw-bg-opacity: 1;
-  background-color: rgba(var(--color-primary-500), var(--tw-bg-opacity));
-}
-
 :is(.dark .dark\:text-neutral) {
   --tw-text-opacity: 1;
   color: rgba(var(--color-neutral), var(--tw-text-opacity));
@@ -3069,6 +2984,11 @@ body:has(#menu-controller:checked) {
 :is(.dark .dark\:text-neutral-100) {
   --tw-text-opacity: 1;
   color: rgba(var(--color-neutral-100), var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-neutral-200) {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-neutral-200), var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:text-neutral-300) {
@@ -3094,11 +3014,6 @@ body:has(#menu-controller:checked) {
 :is(.dark .dark\:text-primary-400) {
   --tw-text-opacity: 1;
   color: rgba(var(--color-primary-400), var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-neutral-200) {
-  --tw-text-opacity: 1;
-  color: rgba(var(--color-neutral-200), var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:hover\:border-primary-600:hover) {
@@ -3221,22 +3136,9 @@ body:has(#menu-controller:checked) {
     padding-top: 2.5rem;
   }
 
-  .sm\:text-right {
-    text-align: right;
-  }
-
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .sm\:font-bold {
-    font-weight: 700;
   }
 
   .sm\:last\:me-0:last-child {
@@ -3270,14 +3172,6 @@ body:has(#menu-controller:checked) {
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
-  }
-
-  .md\:text-left {
-    text-align: left;
-  }
-
-  .md\:text-right {
-    text-align: right;
   }
 }
 
@@ -3326,10 +3220,6 @@ body:has(#menu-controller:checked) {
   .lg\:ps-8 {
     -webkit-padding-start: 2rem;
             padding-inline-start: 2rem;
-  }
-
-  .lg\:text-left {
-    text-align: left;
   }
 }
 
