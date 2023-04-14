@@ -4,9 +4,9 @@
 
 <article class="h-full flex justify-center">
 
-        <div class="container mx-auto py-6 px-0">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
-                <div class="px-7 py-3">
+        <div class="container mx-7 py-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-0 md:space-x-12">
+                <div class="py-3">
                     <h2 class="text-xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/adventure">Adventure</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Adventure")) }})</h2>
                     <ul class="list-disc pl-6 leading-10 text-lg">
                         <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/metropolises">Metropolises</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Metropolises")) }})</li>
@@ -14,7 +14,7 @@
                     </ul>
                 </div>
 
-                <div class="px-7 py-3">
+                <div class="py-3">
                     <h2 class="text-xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/reflect">Reflect</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Reflect")) }})</h2>
                     <ul class="list-disc pl-6 leading-10 text-lg">
                         <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/books">Books</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Books")) }})</li>
@@ -23,7 +23,7 @@
                     </ul>
                 </div>
 
-                <div class="px-7 py-3">
+                <div class="py-3">
                     <h2 class="text-xl font-semibold mb-4 prose dark:prose-invert"><a href="/categories/learn">Learn</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Learn")) }})</h2>
                     <ul class="list-disc pl-6 leading-10 text-lg">
                         <li><a class="decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral" href="/categories/competitive-programming">Competitive Programming</a> ({{ len (where .Site.Pages "Params.categories" "intersect" (slice "Competitive Programming")) }})</li>
