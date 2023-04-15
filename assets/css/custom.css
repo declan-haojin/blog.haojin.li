@@ -2,17 +2,12 @@
     font-family: 'HanziPen SC', 'backup', cursive;
     line-height: 1.9;
 }
-.text-2-5xl {
+.text-homepage-heading {
     font-size: 1.7rem;
 }
-@media (min-width: 380px) {
-    .text-3-5xl {
-      font-size: 1.88rem;
-    }
-}
-@media (min-width: 1024px) {
-    .text-3-5xl {
-      font-size: 2.0rem;
+@media (min-width: 390px) {
+    .text-homepage-heading {
+      font-size: 1.89rem;
     }
 }
 @font-face {
