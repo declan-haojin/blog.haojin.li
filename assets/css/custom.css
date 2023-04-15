@@ -3,11 +3,16 @@
     line-height: 1.9;
 }
 .text-2-5xl {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
-@media (min-width: 640px) {
+@media (min-width: 380px) {
     .text-3-5xl {
-      font-size: 1.9rem;
+      font-size: 1.88rem;
+    }
+}
+@media (min-width: 1024px) {
+    .text-3-5xl {
+      font-size: 2.0rem;
     }
 }
 @font-face {

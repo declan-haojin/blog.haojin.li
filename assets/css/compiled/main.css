@@ -3262,6 +3262,11 @@ body:has(#menu-controller:checked) {
     -webkit-padding-start: 2rem;
             padding-inline-start: 2rem;
   }
+
+  .lg\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
 }
 
 @media (min-width: 1280px) {
