@@ -3,11 +3,11 @@
     line-height: 1.9;
 }
 .text-homepage-heading {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 @media (min-width: 390px) {
     .text-homepage-heading {
-      font-size: 1.89rem;
+      font-size: 1.9rem;
     }
 }
 @font-face {
