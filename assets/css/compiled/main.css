@@ -1785,6 +1785,11 @@ body:has(#menu-controller:checked) {
   margin-right: 0.25rem;
 }
 
+.mx-7 {
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1803,11 +1808,6 @@ body:has(#menu-controller:checked) {
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-}
-
-.mx-7 {
-  margin-left: 1.75rem;
-  margin-right: 1.75rem;
 }
 
 .\!mb-0 {
@@ -2163,36 +2163,6 @@ body:has(#menu-controller:checked) {
   gap: 0px;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-7 {
-  gap: 1.75rem;
-}
-
-.space-x-14 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(3.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(3.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-12 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(3rem * var(--tw-space-x-reverse));
-  margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .place-self-center {
   place-self: center;
 }
@@ -2489,18 +2459,6 @@ body:has(#menu-controller:checked) {
   padding-top: 2rem;
 }
 
-.pl-7 {
-  padding-left: 1.75rem;
-}
-
-.pr-7 {
-  padding-right: 1.75rem;
-}
-
-.pl-0 {
-  padding-left: 0px;
-}
-
 .text-left {
   text-align: left;
 }
@@ -2523,10 +2481,6 @@ body:has(#menu-controller:checked) {
 
 .align-text-bottom {
   vertical-align: text-bottom;
-}
-
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-2xl {
@@ -2573,6 +2527,10 @@ body:has(#menu-controller:checked) {
   line-height: 1rem;
 }
 
+.text-\[22px\] {
+  font-size: 22px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2591,14 +2549,6 @@ body:has(#menu-controller:checked) {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-light {
-  font-weight: 300;
-}
-
-.font-extralight {
-  font-weight: 200;
 }
 
 .uppercase {
@@ -2796,11 +2746,6 @@ body:has(#menu-controller:checked) {
 
 .first\:mt-8:first-child {
   margin-top: 2rem;
-}
-
-.last\:px-7:last-child {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
 }
 
 .hover\:scale-125:hover {
@@ -3193,6 +3138,21 @@ body:has(#menu-controller:checked) {
     line-height: 1.75rem;
   }
 
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .sm\:last\:me-0:last-child {
     -webkit-margin-end: 0px;
             margin-inline-end: 0px;
@@ -3230,6 +3190,21 @@ body:has(#menu-controller:checked) {
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 

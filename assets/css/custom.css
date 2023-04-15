@@ -1,0 +1,19 @@
+.homepage-heading {
+    font-family: 'HanziPen SC', 'backup', cursive;
+    line-height: 1.9;
+}
+.text-2-5xl {
+    font-size: 1.8rem;
+}
+@media (min-width: 640px) {
+    .text-3-5xl {
+      font-size: 1.9rem;
+    }
+}
+@font-face {
+	font-family: backup;
+	font-display: swap;
+    font-weight: 100;
+    font-stretch: ultra-expanded;
+	src:url('/fonts/hanzipen-sc-regular.otf') format('woff2');
+}
