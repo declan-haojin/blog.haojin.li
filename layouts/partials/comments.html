@@ -1,11 +1,10 @@
-<div id="vcomment"></div>
-<script>
-    new Valine({
-        el: '#vcomment' ,
-        appId: 'HuNpXmIPKbg14IMlvR0SXVi2-gzGzoHsz',
-        appKey: 'hVt2zoca8kRBW7QyNDnEUuh6',
-        lang:'en',
-        placeholder: "You don't need to provide any information. Feel free to leave a comment here :) ",
-        avatar: 'mp',
-    });
+<div id="waline"></div>
+<script type="module">
+import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+init({
+    el: '#waline',
+    serverURL: 'https://your-domain.vercel.app',
+    dark: 'auto',
+});
 </script>
