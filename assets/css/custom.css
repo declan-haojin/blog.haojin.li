@@ -17,3 +17,10 @@
     font-stretch: ultra-expanded;
 	src:url('/fonts/hanzipen-sc-regular.otf') format('woff2');
 }
+@font-face {
+    font-family: 'Merriweather';
+    src: url('/fonts/Merriweather-Regular.ttf') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }

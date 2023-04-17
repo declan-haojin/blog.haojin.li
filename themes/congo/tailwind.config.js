@@ -4,6 +4,7 @@ module.exports = {
     "./content/**/*.{html,md}",
     "./themes/congo/layouts/**/*.html",
     "./themes/congo/content/**/*.{html,md}",
+    "./assets/css/**/*.css",
   ],
   darkMode: "class",
   theme: {
@@ -48,6 +49,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        'sans': ['Merriweather', 'system-ui', 'sans-serif'],
+      },
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
