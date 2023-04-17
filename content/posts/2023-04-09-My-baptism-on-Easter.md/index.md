@@ -14,8 +14,6 @@ cover:
 
 I've always been waiting for today.
 
-
-
 It has been a remarkable journey of spiritual growth for me. I can still vividly recall last year's Easter celebration, a time of rebirth for my Christian friends. At that time, I wondered if one day I too would be baptized, but I never imagined it would happen within a year. Yet, here I am now, having experienced a year filled with revelations and growth.
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202304130111241.webp)
@@ -41,3 +39,5 @@ Though I may not be the most talkative person and may not have forged deep relat
 I recognize that I will face struggles in the future, but I now feel loved and supported by God. Amen!
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202304130120986.webp)
+
+**Read my full testimony** [**here**](/pages/testimony)**.**
