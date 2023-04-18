@@ -19,11 +19,9 @@
     <h1 class="text-4xl font-extrabold">
       {{ .Site.Author.name | default .Site.Title }}
     </h1>
-    {{ with .Site.Author.headline }}
-      <h2 class="text-xl text-neutral-600 dark:text-neutral-400">
-        {{ . | markdownify | emojify }}
-      </h2>
-    {{ end }}
+    <h2 class="text-xl text-neutral-600 dark:text-neutral-400">
+      Xi'an, China {{ partial "icon.html" "plane" }} Durham, NC
+    </h2>
     <div class="mt-1 mb-1.5 text-2xl">
       {{ with .Site.Author.links }}
         <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
