@@ -36,6 +36,11 @@
   weight = 40
 
 [[main]]
+  name = "Places"
+  pageRef = "map"
+  weight = 45
+
+[[main]]
   name = "About"
   pageRef = "about"
   weight = 50

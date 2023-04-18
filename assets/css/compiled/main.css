@@ -2592,6 +2592,10 @@ body:has(#menu-controller:checked) {
   line-height: 1.625;
 }
 
+.leading-9 {
+  line-height: 2.25rem;
+}
+
 .\!text-neutral {
   --tw-text-opacity: 1 !important;
   color: rgba(var(--color-neutral), var(--tw-text-opacity)) !important;
