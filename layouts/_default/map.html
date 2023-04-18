@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section>
+<header><h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Travel Map 🇨🇳 🇺🇸 🇨🇦 🇲🇽 🇸🇬</h1></header>
+
+<article class="h-full flex justify-center">
+    <div class="container mx-auto py-6 px-0">
+        <iframe class="mx-auto my-0 rounded-md h-[70vh]" src="https://snazzymaps.com/embed/482375" width="100%" style="min-height: 30rem"></iframe>
+    </div>
+</article>
+
+<footer>
+    <div class="mt-0">
+        <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+        <div class="pt-3">
+          {{ partial "comments.html" . }}
+        </div>
+      </div>
+</footer>
+</section>
+{{ end }}

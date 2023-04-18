@@ -1810,6 +1810,16 @@ body:has(#menu-controller:checked) {
   margin-bottom: 0.75rem;
 }
 
+.-my-0 {
+  margin-top: -0px;
+  margin-bottom: -0px;
+}
+
+.-my-5 {
+  margin-top: -1.25rem;
+  margin-bottom: -1.25rem;
+}
+
 .\!mb-0 {
   margin-bottom: 0px !important;
 }
@@ -1992,12 +2002,20 @@ body:has(#menu-controller:checked) {
   height: 2rem;
 }
 
+.h-\[80vh\] {
+  height: 80vh;
+}
+
 .h-full {
   height: 100%;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[70vh\] {
+  height: 70vh;
 }
 
 .max-h-\[10rem\] {
@@ -2488,11 +2506,6 @@ body:has(#menu-controller:checked) {
   line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -2525,10 +2538,6 @@ body:has(#menu-controller:checked) {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[22px\] {
-  font-size: 22px;
 }
 
 .font-bold {
@@ -2638,10 +2647,6 @@ body:has(#menu-controller:checked) {
   color: rgba(var(--color-primary-700), var(--tw-text-opacity));
 }
 
-.underline {
-  text-decoration-line: underline;
-}
-
 .\!no-underline {
   text-decoration-line: none !important;
 }
@@ -2652,10 +2657,6 @@ body:has(#menu-controller:checked) {
 
 .decoration-primary-500 {
   text-decoration-color: rgba(var(--color-primary-500), 1);
-}
-
-.underline-offset-2 {
-  text-underline-offset: 2px;
 }
 
 .opacity-0 {
@@ -3146,21 +3147,6 @@ body:has(#menu-controller:checked) {
     line-height: 1.75rem;
   }
 
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .sm\:last\:me-0:last-child {
     -webkit-margin-end: 0px;
             margin-inline-end: 0px;
@@ -3198,26 +3184,6 @@ body:has(#menu-controller:checked) {
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 }
 
@@ -3266,11 +3232,6 @@ body:has(#menu-controller:checked) {
   .lg\:ps-8 {
     -webkit-padding-start: 2rem;
             padding-inline-start: 2rem;
-  }
-
-  .lg\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
   }
 }
 
