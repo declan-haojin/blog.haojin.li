@@ -14,4 +14,4 @@ summaryLength = 0
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-googleAnalytics = "G-EPZN5D7Z86"
+# googleAnalytics = "G-EPZN5D7Z86"
