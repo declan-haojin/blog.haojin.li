@@ -1,5 +1,0 @@
----
-title: "Music"
-layout: "simple"
----
-
