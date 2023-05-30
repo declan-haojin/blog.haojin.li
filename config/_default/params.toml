@@ -42,7 +42,7 @@ enableCodeCopy = true
   editAppendPath = true
   showHeadingAnchors = false
   showPagination = true
-  invertPagination = false
+  invertPagination = true
   showReadingTime = false
   showTableOfContents = true
   showTaxonomies = true
@@ -55,7 +55,7 @@ enableCodeCopy = true
   showSummary = true
   showTableOfContents = true
   showTaxonomies = false
-  groupByYear = false
+  groupByYear = true
   paginationWidth = 2
 
 [sitemap]
