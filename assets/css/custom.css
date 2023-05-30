@@ -5,7 +5,12 @@
 .text-homepage-heading {
     font-size: 1.5rem;
 }
-@media (min-width: 390px) {
+@media (min-width: 365px) {
+    .text-homepage-heading {
+      font-size: 1.8rem;
+    }
+}
+@media (min-width: 391px) {
     .text-homepage-heading {
       font-size: 1.9rem;
     }
