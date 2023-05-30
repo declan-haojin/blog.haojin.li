@@ -21,27 +21,6 @@
         </ul>
         {{ end }}
     </div>
-
-
-    <!-- <section>
-        {{ if $.Params.groupByYear | default ($.Site.Params.list.groupByYear | default true) }}
-          {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
-            <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-              {{ .Key }}
-            </h2>
-            <hr class="border-dotted w-36 border-neutral-400" />
-            {{ range .Pages }}
-              {{ partial "article-link.html" . }}
-            {{ end }}
-          {{ end }}
-        {{ else }}
-          {{ range (.Paginate .Pages).Pages }}
-            {{ partial "article-link.html" . }}
-          {{ end }}
-        {{ end }}
-      </section>
-      {{ partial "pagination.html" . }} -->
-
 </article>
 
 {{ end }}
