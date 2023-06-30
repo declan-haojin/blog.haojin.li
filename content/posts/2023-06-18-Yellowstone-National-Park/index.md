@@ -1,6 +1,6 @@
 ---
 title: "Yellowstone National Park"
-date: 2023-06-19T22:06:05-06:00
+date: 2023-06-18T22:06:05-06:00
 categories:
 - Adventure
 - National Parks
