@@ -1,6 +1,6 @@
 ---
 title: "Washington DC Again"
-date: 2023-06-29T18:36:48-04:00
+date: 2023-06-30T18:36:48-04:00
 categories:
 - Adventure
 - Metropolises
@@ -27,11 +27,11 @@ It was a random idea when we drove through DC. My friend saw the sign and asked 
 
 It was great to visit DC again because this time I have friends here to visit. My friend picked me up from the Amtrak train station at Alexandria. Why did I take a train? Because I wanted to try how was the US Amtrak system. And the answer is that it is pretty bad and I don't intend to take the train again unless optionless. It really surprised me when I realized the train took much longer than driving.
 
-After my friend picked me up, we drove to Great Falls which is on the border of Maryland and Virgina and is one of the favourite spot of my friend. It turned out to be a solid option even just for a 2 hour stay. The waterfall was amazing because it was unlike any of the waterfalls I saw before. Great Falls is a cluster of multiple streams of water falls. They twist and go through each other which even gave me a feeling of 壶口瀑布. 
+After my friend picked me up, we drove to Great Falls which is on the border of Maryland and Virgina and is one of the favourite spot of my friend. It turned out to be a solid option even just for a 2 hour stay. The waterfall was amazing because it was unlike any of the waterfalls I saw before. Great Falls is a cluster of multiple streams of water falls. They twist and go through each other which even gave me a feeling of 壶口瀑布.
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202307070829410.webp)
 
-In addition, we were able to climb through the rock scrambles across the river and falls. My friend took me to a top rock locating in the middle of the falls which offered us a great view of everything. I simply just lied down on the rock, thinking that I would be able to stay here for a whole day without moving, just listening to the waterfalls and feel the wind breeze. 
+In addition, we were able to climb through the rock scrambles across the river and falls. My friend took me to a top rock locating in the middle of the falls which offered us a great view of everything. I simply just lied down on the rock, thinking that I would be able to stay here for a whole day without moving, just listening to the waterfalls and feel the wind breeze.
 
 This is a spot I want to visit again. It was quiet and I feel personal with the nature lying on those rocks.
 
