@@ -66,13 +66,13 @@
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-  name = "Subscribe"
-  url = "https://follow.it/haojin-s-blog?leanpub"
-  weight = 10
-  [footer.params]
-    target = "_blank"
-
-[[footer]]
   name = "Archives"
   pageRef = "archives"
+  weight = 10
+
+[[footer]]
+  name = "Subscribe"
+  url = "https://follow.it/haojin-s-blog?leanpub"
   weight = 20
+  [footer.params]
+    target = "_blank"
