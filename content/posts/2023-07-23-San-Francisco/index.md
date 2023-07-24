@@ -9,79 +9,79 @@ tags:
 - city
 ---
 
-I thought I would never like this city anymore.
+I thought I would never like this city again.
 
-It was very random that I decided to come to San Francisco to visit one of my friends only a week before this trip actually happened. When I realized I had so many credit card points to spend and they are depreciating all the time, I just decided to spend them on flights, letting me to meet some old friends and new places with a free flight ticket.
+It was quite random that I decided to visit one of my friends in San Francisco just a week before the trip. When I realized I had many credit card points that were depreciating over time, I decided to use them on flights. This allowed me to meet some old friends and explore new places basically for free.
 
 ## Day 0: Arrival
 
-I set off Friday afternoon and after one layover in Atlanta, I arrived at SFO around 8:30pm, which was the best time of golden hours. The view on the plane was phenominal as the sky splits into multiple color layers. I even saw the distinctive geological features with mountains and lakes. The shades of the sun make every second a piece of art.
+I set off on Friday afternoon and, after one layover in Atlanta, arrived at SFO around 8:30pm, during the best time of the golden hours. The view from the plane was phenomenal as the sky split into multiple color layers. I even saw distinctive geological features like mountains and lakes. The shades of the sun made every second a piece of art.
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202307232126706.webp)
 
-Then I took the BART train to Millbrae which is only a few minutes away from the airport and is where my friends is living. It was a quite nice suburbs with so many Chinese and in general Asian restaurants and business here, all in Chinese. Everytime I came to California, I always feel surreal that I might be in China.
+Then I took the BART train to Millbrae, which is just a few minutes away from the airport and where my friend lives. It's a quite pleasant suburb, filled with numerous Chinese and generally Asian restaurants and businesses, all with signage in Chinese. Every time I visit California, I always experience a surreal feeling as if I might be in China.
 
 ## Day 1: City Walk
 
-It was a beautiful sunny day and accoridng to my friend, SF is like this all year long which actually becomes really boring if it's the same good weather every day for the whole year. But at least for me as a two day tourist, I never had a moment not prasing about the SF weather. It is the perfect temperature with enough sun light but dried and chilled ocean wind. We walked around 10 miles but I didn't even sweat at all.
+It was a beautiful sunny day and according to my friend, SF is like this all year long, which actually becomes really boring if it's the same good weather every day for the whole year. But at least for me, as a two-day tourist, I never had a moment not praising the SF weather. It is the perfect temperature with enough sunlight but dry and chilled ocean wind. We walked around 10 miles but I didn't even break a sweat.
 
 ### Financial District
 
-We first took the BART train again to the downtown SF area. Walking around the blocks, the city looked much nicer than the last time I came where is dirty and smelly everywhere. The fianancial district is quite clean, surrounding by many sky crappers. The unique pyramid shape TransAmerica building was definitely the most eye-catching one.
+We first took the BART train back to the downtown SF area. Walking around the blocks, the city looked much nicer than the last time I came when it was dirty and smelly everywhere probably just because I came across a different area this time. The financial district is quite clean, surrounded by many skyscrapers. The unique pyramid-shaped TransAmerica building was definitely the most eye-catching one.
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202307232126711.webp)
 
 ### China Town
 
-I never really had a good impression on China town because they always represented the last century old Chinese neighborhood. Things are deceiving and people are not nice. However, this one was a really lively China town, just as showed in the latest Minions movie. We happened to encountered a high schooler food selling event on the China town street, I could feel the 热闹 vibe being here which really made me feel at home. 
+I've never really had a good impression of Chinatown because it always seemed to represent an outdated, century-old Chinese neighborhood. Things can be deceiving and people are not always pleasant. However, this particular Chinatown was lively, just like the one depicted in the latest Minions movie. We happened to encounter a food-selling event organized by high school students on the Chinatown street. I could feel the vibrant 热闹 atmosphere, which made me feel at home.
 
-After wondering around a few blocks within the China town, I grabbed dinner with my friend and another friend who came all the way from Mountain View. It was nice catching up with both of them in a decent Chinese restaurant called House of Nanking where the latest The Matrix was filmed for a bit. It was funny when I tried to get 梅菜扣肉 on the menu, the chef stared at me with confusing expression on his face, and then he decided to order for us and we agreed. 
+After wandering around a few blocks within Chinatown, I had lunch with my friend and another friend who had traveled all the way from Mountain View. It was nice catching up with both of them at a decent Chinese restaurant called House of Nanking, where a scene from the latest Matrix movie was filmed. It was amusing when I tried to order 梅菜扣肉 from the menu. The chef gave me a confused look, then decided to order for us, and we agreed.
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202307232125329.webp)
 
-Very quickly, a few really nice dishes came. They were all dishes I never had back in China but looked and tasted very authentic. Although I asked my roommate from Nanjing, he said he never had any of those either, the food was still very nice. 
+Very quickly, a few really nice dishes arrived. They were all dishes I had never had back in China, but they looked and tasted very authentic. Although my roommate from Nanjing said he had never tried any of those dishes either, the food was still very nice.
 
 ### Golden Gate Park
 
-While the name of Golden Gate Park sounds deceiving because you cannot actually see the Golden Gate Bridge in the park, but it is a great vast park with plenty meadows and recreational areas. 
+While the name of Golden Gate Park may sound deceiving, as you cannot actually see the Golden Gate Bridge from the park, it is a vast park with plentiful meadows and recreational areas. 
 
-When we walked across those big green lawns, the vibe was amazing where people were all having fun. It looked exactly like a college campus and Duke Gardens on weekends.
+As we walked across the expansive green lawns, the atmosphere was amazing; people were all having fun. It resembled a college campus or Duke Gardens on weekends.
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202307232123914.webp)
 
-After that, my friend introduced me to a new sport called disc golfing, which is using frisbee disks to play golfa and it was actually really fun for me even as a first timer. I had a lot of fun just throwing the disk far far away from the actual target and eventually hit the target busket in countless rounds. I would love to do more disc golfing back in Durham.
+After that, my friend introduced me to a new sport called disc golf, which involves using frisbee discs to play a game similar to golf. It was actually really fun for me, even as a first-timer. I had a lot of fun just throwing the disc far away from the actual target and eventually hitting the target basket after countless rounds. I would love to play more disc golf when I return to Durham.
 
 ## Day 2: Bay Walk
 
 ### Broadway along the coast
 
-I always wanted to come to see the ocean while being in SF and today was the time. We took the BART to the same stop and walked a few blocks until the coast broad way. It was nice and great. I saw the Treasure Island and the Bay Bridge at the Pier. The Bay Bridge was really impressive than I thought since I only knew about Golden Gate. 
+I've always wanted to visit the ocean while in SF, and today was the day. We took the BART to the usual stop and walked a few blocks until we reached the coastal Broadway. It was beautiful and impressive. I saw Treasure Island and the Bay Bridge from the Pier. The Bay Bridge was even more impressive than I had imagined, as I was only familiar with the Golden Gate Bridge.
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202307232123327.webp)
 
 ### Exploratorium Museum
 
-This was listed as a top 5 attraction on TripAdvisor and honestly over rated. The museum is by the bay and has a lot of interesting interactive devices about human senses such as vision. I enjoyed interacting with some of the devices and got to know a few interesting psychological effects. However, it was crowded by kids. But admittedly, I think it is supposed to be a kid education museum. Anyway we had a good time walking around and checked out the small observatory deck of the bay.
+This was listed as a top 5 attraction on TripAdvisor, but honestly, it seemed overrated. The museum is situated by the bay and features many interesting interactive exhibits about human senses, such as vision. I enjoyed interacting with some of the devices and learned about a few fascinating psychological effects. However, the place was crowded with kids. Admittedly, I believe it's intended to be an educational museum for children. Anyway, we had a good time walking around and checking out the small observatory deck overlooking the bay.
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202307232123995.webp)
 
-On the way back, we walked till the end of one of the pier and it had an amazing view of the city skyline. It was so nice without any fog but only chilled breeze and great sunshine.
+On the way back, we walked to the end of one of the piers, which offered an amazing view of the city skyline. It was incredibly pleasant, with no fog, just a chilled breeze and great sunshine.
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202307232122400.webp)
 
-On the way back on the BART train, I was really amazed by the houses in the SF area, they were so compacted just like those math probelms of doing an intergral on a function graph.
+On the way back on the BART train, I was really amazed by the houses in the SF area. They were so compact, just like those math problems of performing an integral on a function graph.
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202307232122756.webp)
 
 ### Meeting another old friend
 
-It was by accident that this friend was also around the area as I did. He was sending family to the flight back to China after taking his family toruing the America while I am just randomly here going back to Durham. We haven't seen each other for a year and it was great to catch up again even though it was a short two hour with a light dinner. I guess 一见如故 could best describe my emotions at that time. 
+It was by chance that this friend was also in the same area as I was. He was seeing off his family who were taking a flight back to China after touring America, while I was just randomly here, on my way back to Durham. We hadn't seen each other for a year and it was great to catch up again, even though it was a brief two-hour meeting over a light dinner. I guess 一见如故 could best describe my emotions at that time.
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202307232122828.webp)
 
 ---
 
-I am really glad I made this random decisoin to come to SF for a weekend. It again made me realize the importance of friends and the importance of catching up. I gain a lot of happiness, energies and confidence from my friends and I could not thank enough for what my friend has done for me. I wish one day I could come back to the bay area and catch up with the lovely poeple here again.
+I am really glad I made this random decision to come to SF for a weekend. It again made me realize the importance of friends and the importance of catching up. I gain a lot of happiness and positivity from my friends and I cannot thank them enough for what they have done for me. I wish one day I could come back to the Bay Area and catch up with the lovely people here again.
 
 
 
