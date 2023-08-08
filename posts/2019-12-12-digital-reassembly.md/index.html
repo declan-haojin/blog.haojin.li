@@ -18,15 +18,15 @@
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>num</span> <span class=o>=</span> <span class=n>Integer</span><span class=o>.</span><span class=na>valueOf</span><span class=o>(</span><span class=n>s2</span><span class=o>);</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=k>while</span><span class=o>(</span><span class=n>s1</span><span class=o>.</span><span class=na>length</span><span class=o>()%</span><span class=n>num</span><span class=o>!=</span><span class=mi>0</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>while</span><span class=o>(</span><span class=n>s1</span><span class=o>.</span><span class=na>length</span><span class=o>()%</span><span class=n>num</span><span class=o>!=</span><span class=n>0</span><span class=o>)</span>
 </span></span><span class=line><span class=cl>        <span class=o>{</span>
 </span></span><span class=line><span class=cl>            <span class=n>s1</span> <span class=o>=</span> <span class=n>s1</span> <span class=o>+</span> <span class=s>&#34;0&#34;</span><span class=o>;</span>
 </span></span><span class=line><span class=cl>        <span class=o>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>ans</span> <span class=o>=</span> <span class=mi>0</span><span class=o>;</span>
+</span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>ans</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
 </span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>cnt</span> <span class=o>=</span> <span class=n>s1</span><span class=o>.</span><span class=na>length</span><span class=o>()/</span><span class=n>num</span><span class=o>;</span>
-</span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>p</span> <span class=o>=</span> <span class=mi>0</span><span class=o>;</span>
-</span></span><span class=line><span class=cl>        <span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span><span class=o>=</span><span class=mi>0</span><span class=o>;</span><span class=n>i</span><span class=o>&lt;</span><span class=n>cnt</span><span class=o>;</span><span class=n>i</span><span class=o>++)</span>
+</span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>p</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span>
+</span></span><span class=line><span class=cl>        <span class=k>for</span><span class=o>(</span><span class=kt>int</span> <span class=n>i</span><span class=o>=</span><span class=n>0</span><span class=o>;</span><span class=n>i</span><span class=o>&lt;</span><span class=n>cnt</span><span class=o>;</span><span class=n>i</span><span class=o>++)</span>
 </span></span><span class=line><span class=cl>        <span class=o>{</span>
 </span></span><span class=line><span class=cl>            <span class=n>ans</span> <span class=o>+=</span> <span class=n>Integer</span><span class=o>.</span><span class=na>valueOf</span><span class=o>(</span><span class=n>s1</span><span class=o>.</span><span class=na>substring</span><span class=o>(</span><span class=n>p</span><span class=o>,</span><span class=n>p</span><span class=o>+</span><span class=n>num</span><span class=o>));</span>
 </span></span><span class=line><span class=cl>            <span class=n>p</span> <span class=o>=</span> <span class=n>p</span><span class=o>+</span><span class=n>num</span><span class=o>;</span>
