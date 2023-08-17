@@ -54,7 +54,7 @@ enableCodeCopy = true
   showBreadcrumbs = false
   showSummary = true
   showTableOfContents = true
-  showTaxonomies = false
+  showTaxonomies = true
   groupByYear = true
   paginationWidth = 2
 
