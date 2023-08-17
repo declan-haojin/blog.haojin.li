@@ -2,7 +2,7 @@
 title: "Bratislava"
 date: 2023-08-16T19:57:17+02:00
 categories:
-- Travel
+- Adventure
 - Europe Road Trip
 tags:
 - travel
