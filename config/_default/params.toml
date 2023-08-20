@@ -55,7 +55,7 @@ enableCodeCopy = true
   showSummary = true
   showTableOfContents = true
   showTaxonomies = true
-  groupByYear = true
+  groupByYear = false
   paginationWidth = 2
 
 [sitemap]
