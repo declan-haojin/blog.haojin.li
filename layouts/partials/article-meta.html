@@ -54,8 +54,8 @@
         {{ if eq $taxonomy $taxonomyName }}
             {{ if (gt (len ($context.GetTerms $taxonomy)) 0) }}
             {{ range $index, $term := $context.GetTerms $taxonomy }}
-                {{ if gt $index 0 }}/ {{ end }}
-                <a href="{{ $term.RelPermalink }}" class="rounded-md border px-1 py-[1px] border-primary-300 text-primary-700 dark:border-primary-600 dark:text-primary-400">{{ $term.LinkTitle }}</a>
+                {{ if gt $index 0 }}/{{ end }}
+                <a href="{{ $term.RelPermalink }}" class="text-primary-600 dark:text-primary-500 underline">{{ $term.LinkTitle }}</a>
             {{ end }}
             {{ end }}
         {{ end }}

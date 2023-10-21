@@ -2641,6 +2641,15 @@ body:has(#menu-controller:checked) {
   color: rgba(var(--color-primary-700), var(--tw-text-opacity));
 }
 
+.text-neutral-300 {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-neutral-300), var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
 .\!no-underline {
   text-decoration-line: none !important;
 }
@@ -2782,6 +2791,10 @@ body:has(#menu-controller:checked) {
   background-color: rgba(var(--color-primary-600), var(--tw-bg-opacity));
 }
 
+.hover\:font-medium:hover {
+  font-weight: 500;
+}
+
 .hover\:text-neutral:hover {
   --tw-text-opacity: 1;
   color: rgba(var(--color-neutral), var(--tw-text-opacity));
@@ -2800,6 +2813,16 @@ body:has(#menu-controller:checked) {
 .hover\:text-primary-700:hover {
   --tw-text-opacity: 1;
   color: rgba(var(--color-primary-700), var(--tw-text-opacity));
+}
+
+.hover\:text-primary-400:hover {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-400), var(--tw-text-opacity));
+}
+
+.hover\:text-primary-200:hover {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-200), var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -3014,6 +3037,21 @@ body:has(#menu-controller:checked) {
 :is(.dark .dark\:text-primary-400) {
   --tw-text-opacity: 1;
   color: rgba(var(--color-primary-400), var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-primary-300) {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-300), var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-primary-500) {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-500), var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-primary-600) {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-primary-600), var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:hover\:border-primary-600:hover) {
