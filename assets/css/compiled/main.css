@@ -2670,6 +2670,10 @@ body:has(#menu-controller:checked) {
   text-decoration-color: rgba(var(--color-primary-500), 1);
 }
 
+.underline-offset-2 {
+  text-underline-offset: 2px;
+}
+
 .opacity-0 {
   opacity: 0;
 }
