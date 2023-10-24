@@ -8,7 +8,7 @@ tags:
 - hiking
 ---
 
-This marks the 15th US National Park I've been to in the past two years.
+This marks the 14th US National Park I've been to in the past two years.
 
 I've been thinking of this trip ever since I fell in love with the national parks. I was so crazy about this that I booked lodging 6 months in advance with no plan of where to go and who to go with. Nevertheless, it has proven to be a great plan. On the other hand, I knew I was going to visit here no matter what.
 
