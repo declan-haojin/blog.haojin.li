@@ -59,7 +59,7 @@ This is honestly the most amazing thing I have ever seen on Earth. It reminded m
 
 ![](https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202311291747407.png)
 
-## Mar Chiquita Beach**
+## Mar Chiquita Beach
 
 This is a fan-shaped area enclosed by jagged rocks, where the waves rise and fall in a fan shape almost simultaneously. It was very cool to see.
 
