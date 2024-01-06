@@ -7,6 +7,7 @@ categories:
 tags:
 - beach
 - museum
+- WWII
 ---
 
 I drove the car right onto the beach and got stuck in the sand.
