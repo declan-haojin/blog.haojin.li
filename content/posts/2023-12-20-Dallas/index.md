@@ -26,11 +26,15 @@ You might not be familiar with the name of this museum, but you definitely know 
 
 It's a quite interesting landmark to visit in Dallas, just a few blocks away from the museum. It is a private garden, inaccessible from the inside, but the view from the gate alone is impressive. This bizarre presence in the heart of the city, with skyscrapers encircling this "tiny" giant eyeball, is quite striking. The eyeball features a remarkably realistic depiction of blood vessels. Also, near the eye, there is a vibrant block bustling with stylish restaurants and coffee shops. I wonder about the meaning behind this sculpture. Why is there only one eye instead of two? Perhaps it represents a loved one of the billionaire who commissioned the sculpture but could never fully bring her back, hence the single eye. I imagined the eyeball belonging to a beautiful lady with blue eyes.
 
+![IMG_5008](IMG_5008.jpg)
+
 ## Thanks-giving Chapel
 
 This chapel is probably the most beautiful one I've ever seen, second only to the [most beautiful church](/posts/2023-08-16-bratislava/) I visited in Bratislava, Slovakia. Its exterior doesn't look like a typical chapel, featuring interesting spiral shapes that I affectionately call a "Croissant," surrounded by water pools. The entire area is known as Thanksgiving Square, dedicated to thanking those who have helped the world, I suppose. From the outside, it resembles a nicely designed public park, complete with the soothing sound of water.
 
 What truly amazed me was the interior. Stepping through that ordinary door into the small space of the chapel, I felt as though time had stopped and the world had become utterly quiet, with the sunlight streaming from above seemingly speaking to me. Beautiful stained glass decorates the spiral-like structures, leading all the way to the chapel's roof, symbolizing the ever-ascending human spirit. This place definitely brought peace to my mind and a sense of gratitude for all the people and experiences I've encountered this year.
+
+![IMG_5010](IMG_5010.jpg)
 
 I was particularly fond of the thank-you cards at the entrance, where everyone can write in any language and display their messages. This chapel is a small, humble space overwhelmed with love and peace.
 
@@ -38,9 +42,13 @@ I was particularly fond of the thank-you cards at the entrance, where everyone c
 
 Continuing our walk in the heart of the city, we reached the Reunion Tower, known for its observatory deck offering views of the city skyline. However, it seemed much shorter than the surrounding skyscrapers in downtown, and the cost to ascend was quite high. We opted to admire it from below, near a DART (Dallas Area Rapid Transit) station. Even from this vantage point, the view was impressive, especially with today's beautiful weather.
 
+![IMG_5015-EDIT](IMG_5015-EDIT.jpg)
+
 ## Old Red Courthouse
 
 On our way back to the parking lot, we walked by this amazing historical building. At first glance, it gave off a vibe reminiscent of Russia, specifically the Kremlin Palace, with its unique top roof structure and red color. This building, standing amidst some of the nearby skyscrapers, provided an interesting yet harmonious blend within the cityscape. It seemed to represent a clash between the history and the present of Dallas, as I see it.
+
+![IMG_5017](IMG_5017.jpg)
 
 Later, I learned that it was temporarily closed for renovation. It houses the Old Red Museum, dedicated to the cultural, economic, political, and social history of Dallas County. Had it been open, I would have definitely paid a visit.
 
@@ -50,6 +58,10 @@ Today's visit to the gun range was undoubtedly the highlight of our itinerary, a
 
 One key technique I learned was to pull the trigger as slowly as possible for better aiming accuracy. This approach really worked for me, making me appreciate the beauty of shooting. In that moment, when I started to pull the trigger slowly and steadily, the surrounding world seemed to stop – it was just me, the gun, and the target. I experienced a unique sense of peacefulness then.
 
+![IMG_4168](IMG_4168.jpg)
+
 Surprisingly, I turned out to be quite a gifted shooter, hitting the center for the majority of my shots from the very beginning. As my confidence grew, we rented a rifle, which I had only seen in movies before. It was unexpectedly easier to aim and shoot compared to the pistol, which had a louder sound and greater recoil. I personally preferred the pistol. However, shooting with a rifle was also fun because I could try hitting targets from a much farther distance, relying more on intuition than clear sight.
 
 After today, I think I'll be a frequent shooter at some point in my life when I have sufficient funds. I imagine it's a great way to calm down and reflect, hearing only my heartbeat and the gunshots. It's not just the potential for harm that comes with a gun; there's also a lot of skill involved in shooting, such as maintaining calmness. I highly recommend giving shooting a try. It's more of a mental game than a physical one, in my opinion. You might discover a new hobby or even a new aspect of yourself through this sport.
+
+![IMG_0755](IMG_0755.jpg)
