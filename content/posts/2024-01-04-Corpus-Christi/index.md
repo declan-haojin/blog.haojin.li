@@ -66,7 +66,7 @@ The view, of course, was impeccable. I had never seen such a lively seashore and
 
 However, there was a less than great moment when our car's front wheels got stuck in the soft sand while trying to drive forward and reverse. I panicked momentarily, considering asking for help from other vehicles with 4WD. Fortunately, we managed to extricate ourselves fairly quickly by digging out the sand around both front tires. It was quite a relief.
 
-
+![IMG_5091](IMG_5091.jpg)
 
 Overall, Mustang Island State Park is an incredible place to visit. We even saw people camping and having bonfires overnight right next to their cars on the beach. It must have been a fantastic experience. Just remember, a 4WD car is needed.
 
