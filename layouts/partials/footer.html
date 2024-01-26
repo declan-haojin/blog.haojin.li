@@ -78,8 +78,7 @@
             {{- with .Site.Params.copyright }}
               {{ . | emojify | markdownify }}
             {{- else }}
-              &copy;2018-
-              {{ now.Format "2006" }}
+              &copy; 2018-{{ now.Format "2006" }}
               {{ .Site.Author.name | markdownify | emojify }}
             {{- end }}
           </p>
