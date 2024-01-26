@@ -46,7 +46,7 @@ jobs:
         env:
             SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
             # ARGS: '-avz --delete'
-            SOURCE: '.'
+            SOURCE: './public'
             REMOTE_HOST: ${{ secrets.SERVER_HOST_TENCENT }}
             REMOTE_USER: ${{ secrets.USER_NAME }}
             TARGET: /www/wwwroot/blog.haojin.li
