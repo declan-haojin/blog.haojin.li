@@ -39,13 +39,13 @@ Toward the end, we saw another fissure that had opened due to an earthquake in 2
 
 ![IMG_7177](IMG_7177.jpg)
 
-As a geothermally active island, Iceland is home to many geysers, similar to those I saw in [Yellowstone National Park](/2023-06-18-yellowstone-national-park/#old-faithful-gesyer), albeit on a smaller scale. We witnessed an eruption of a major geyser called Strokkur, reminiscent of Old Faithful in Yellowstone. For a moment, I even thought I was back in Yellowstone.
+As a geothermally active island, Iceland is home to many geysers, similar to those I saw in [Yellowstone National Park](/posts/2023-06-18-yellowstone-national-park/#old-faithful-gesyer), albeit on a smaller scale. We witnessed an eruption of a major geyser called Strokkur, reminiscent of Old Faithful in Yellowstone. For a moment, I even thought I was back in Yellowstone.
 
 ![IMG_7185-EFFECTS](IMG_7185-EFFECTS.jpg)
 
 ## Gullfoss Falls
 
-It was the first major waterfall we saw in Iceland. The grand scale of this waterfall reminded me of [Niagara Falls](/2023-01-08-from-toronto-to-cancun.md/#niagara-falls) on the border of the US and Canada. You could feel the water vapor on your face even from a high-up viewing platform. Moreover, we saw many rainbows near this waterfall, a phenomenon that proved to be common at most waterfalls in Iceland. Rainbows became a casual, everyday sight in this area, something I could never have imagined before. I am pretty sure that I saw more rainbows in Iceland than in the rest of my life combined.
+It was the first major waterfall we saw in Iceland. The grand scale of this waterfall reminded me of [Niagara Falls](/posts/2023-01-08-from-toronto-to-cancun.md/#niagara-falls) on the border of the US and Canada. You could feel the water vapor on your face even from a high-up viewing platform. Moreover, we saw many rainbows near this waterfall, a phenomenon that proved to be common at most waterfalls in Iceland. Rainbows became a casual, everyday sight in this area, something I could never have imagined before. I am pretty sure that I saw more rainbows in Iceland than in the rest of my life combined.
 
 ![IMG_7190](IMG_7190.jpg)
 

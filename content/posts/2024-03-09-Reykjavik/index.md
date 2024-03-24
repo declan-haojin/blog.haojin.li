@@ -50,7 +50,7 @@ As we started heading to the volcano hike, which was supposed to be our first st
 
 This is one of the top travel destinations in Iceland and also a highlight of my Iceland trip. Driving to the Blue Lagoon, located right next to the recently erupted volcano, we saw roads partially covered by fresh lava and volcanic ash. It felt like we were driving to the end of the world until gradually, human-made structures appeared, with a lot of steam rising into the air.
 
-I knew the Blue Lagoon was blue, but I was not prepared for its crystal-clear hue. It was a breathtaking blue, a unique volcanic blue, reminiscent of another heavenly bright blue I saw in the [Jungfrau region in Switzerland](/2023-08-23-switzerland-jungfrau-region/#lungern). These are the top two blues that I believe only nature could create, far beyond human replication (not even Duke blue).
+I knew the Blue Lagoon was blue, but I was not prepared for its crystal-clear hue. It was a breathtaking blue, a unique volcanic blue, reminiscent of another heavenly bright blue I saw in the [Jungfrau region in Switzerland](/posts/2023-08-23-switzerland-jungfrau-region/#lungern). These are the top two blues that I believe only nature could create, far beyond human replication (not even Duke blue).
 
 ![IMG_5881](IMG_5881.jpg)
 
