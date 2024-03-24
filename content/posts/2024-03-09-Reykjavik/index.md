@@ -1,6 +1,6 @@
 ---
 title: "Reykjavik"
-date: 2024-03-11T22:49:15-04:00
+date: 2024-03-09T22:49:15-04:00
 categories:
 - Adventure
 - Iceland Road Trip
