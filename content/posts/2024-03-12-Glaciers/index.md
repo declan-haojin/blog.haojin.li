@@ -6,6 +6,8 @@ categories:
 - Iceland Road Trip
 tags:
 - glacier
+- cave
+- beach
 ---
 
 Today was a movie, Interstellar specifically.
