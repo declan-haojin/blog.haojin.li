@@ -23,13 +23,6 @@ modal.addEventListener("click", function (event) {
   return false;
 });
 document.addEventListener("keydown", function (event) {
-  // Forward slash to open search wrapper
-  if (event.key == "/") {
-    if (!searchVisible) {
-      event.preventDefault();
-      displaySearch();
-    }
-  }
 
   // Esc to close search wrapper
   if (event.key == "Escape") {
