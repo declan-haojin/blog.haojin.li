@@ -4,9 +4,7 @@ date: 2024-04-26T23:37:55-04:00
 categories:
 - Adventure
 tags:
-- ocean
-- town
-- kayak
+- Charleston
 ---
 
 Beautiful historic town with breathtaking natures.

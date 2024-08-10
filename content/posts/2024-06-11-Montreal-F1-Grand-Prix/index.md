@@ -5,8 +5,6 @@ categories:
 - Adventure
 - Metropolises
 tags:
-- Formula 1
-- Canada
 - Montreal
 
 ---

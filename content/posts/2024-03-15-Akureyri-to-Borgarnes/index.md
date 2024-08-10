@@ -5,8 +5,8 @@ categories:
 - Adventure
 - Iceland Road Trip
 tags:
-- beach
-- swim
+- Akureyri
+- Borgarnes
 ---
 
 It's the best day we had in Iceland.
