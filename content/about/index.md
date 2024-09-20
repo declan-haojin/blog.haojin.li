@@ -3,13 +3,14 @@ title: "About"
 layout: "about"
 ---
 
-A [Duke](https://duke.edu) student double-majoring in <span class="block sm:hidden"></span>[Computer Science](https://www.cs.duke.edu/) and [Political Science](https://polisci.duke.edu/)
+I study [Computer Science](https://www.cs.duke.edu/) and <span class="block sm:hidden"></span>[Political Science](https://polisci.duke.edu/) at [Duke University](https://duke.edu).
 
-An easily excited and highly passionate <span class="block sm:hidden"></span>[developer](https://haojin.li/) who is debugging all the time
+I visited [22 US national parks](/categories/national-parks/) in 2 years.
 
-An unskilled hiker who dreams of <span class="block sm:hidden"></span>thru-hiking the [Appalachian Trail](https://appalachiantrail.org/explore/hike-the-a-t/thru-hiking/)
+I road-tripped through <span class="block sm:hidden"></span>[11 European countries](/categories/europe-road-trip/) in 20 days.
 
-A dreadfully bad karting driver <span class="block sm:hidden"></span>obsessed with [Formula 1](https://www.formula1.com/)
+I swim in any water, <span class="block sm:hidden"></span>even a [glacier crevasses in Alaska](https://a.dropoverapp.com/cloud/download/d81fddba-8c3b-4816-bb27-83fcebb22656/e4f478c7-3ba7-4d90-8a2c-13f863283329).
 
-A non-country boy in love with <span class="block sm:hidden"></span>[Take Me Home, Country Roads](https://youtu.be/1vrEljMfXYo/)
+I drive people crazy by looping <span class="block sm:hidden"></span>[Take Me Home, Country Roads](https://youtu.be/1vrEljMfXYo/) on repeat.
 
+I never met a stranger.
