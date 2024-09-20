@@ -17,7 +17,7 @@ dateFormat = "January 2, 2006"
 [author]
   name = "Haojin Li"
   image = "img/avatar.png"
-  bio = "CompSci + PoliSci undergrad - because one major alone wasn't enough to confuse me."
+  bio = "Life is good."
   links = [
     { home = "https://haojin.li"},
     { email = "mailto:hi@haojin.li" },

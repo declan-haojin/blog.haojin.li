@@ -41,7 +41,7 @@
   weight = 45
 
 [[main]]
-  name = "Tech"
+  name = "Projects"
   url = "https://haojin.li"
   weight = 47
   [main.params]
