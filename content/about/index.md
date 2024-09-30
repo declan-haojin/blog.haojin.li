@@ -13,4 +13,4 @@ I swim in any water, <span class="block sm:hidden"></span>even a [glacier crevas
 
 I drive people crazy by looping <span class="block sm:hidden"></span>[Take Me Home, Country Roads](https://youtu.be/1vrEljMfXYo/) on repeat.
 
-I never met a stranger.
+My friends say I never met a stranger.
