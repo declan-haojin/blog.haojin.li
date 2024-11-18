@@ -3,7 +3,7 @@ title: "About"
 layout: "about"
 ---
 
-I study [Computer Science](https://www.cs.duke.edu/) and <span class="block sm:hidden"></span>[Political Science](https://polisci.duke.edu/) at [Duke University](https://duke.edu).
+I study Computer Science and <span class="block sm:hidden"></span>Political Science at [Duke University](https://duke.edu).
 
 I visited [22 US national parks](/categories/national-parks/) in 2 years.
 
