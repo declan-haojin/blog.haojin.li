@@ -32,14 +32,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
-
-      # Deploy to server
-      - name: Deploy to China server
-        uses: easingthemes/ssh-deploy@main
-        env:
-            SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-            # ARGS: '-avz --delete'
-            SOURCE: './public'
-            REMOTE_HOST: ${{ secrets.SERVER_HOST_TENCENT }}
-            REMOTE_USER: ${{ secrets.USER_NAME }}
-            TARGET: /www/wwwroot/blog.lihaojin.cn
