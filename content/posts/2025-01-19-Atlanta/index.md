@@ -1,6 +1,6 @@
 ---
 title: "Atlanta"
-date: 2025-01-20T22:37:29-05:00
+date: 2025-01-19T22:37:29-05:00
 categories:
 - Adventure
 - Metropolises
