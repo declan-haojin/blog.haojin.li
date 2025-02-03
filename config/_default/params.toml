@@ -29,7 +29,7 @@ enableCodeCopy = true
 [homepage]
   layout = "custom" # valid options: page, profile, custom
   showRecent = true
-  recentLimit = 6
+  recentLimit = 10
 
 [article]
   showDate = true
