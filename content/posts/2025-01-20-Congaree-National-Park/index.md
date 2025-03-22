@@ -2,7 +2,7 @@
 title: "Congaree National Park"
 date: 2025-01-20T23:22:56-05:00
 categories:
-- Adventures
+- Adventure
 - National Parks
 tags:
 - South Carolina

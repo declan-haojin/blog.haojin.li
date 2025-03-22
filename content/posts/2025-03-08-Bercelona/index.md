@@ -8,7 +8,7 @@ tags:
 - Barcelona
 ---
 
-Cataland,  an enchanting place I will come back to!
+Cataland,  an enchanteng place I will come back to!
 
 ## Flying to Barcelona
 
