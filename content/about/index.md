@@ -9,7 +9,7 @@ I visited [30 US national parks](/categories/national-parks/) <span class="block
 
 I road-tripped through <span class="block sm:hidden"></span>[11 countries](/categories/europe-road-trip/) in 20 days.
 
-I swim in freezing water <span class="block sm:hidden"></span>such as a [glacier crevasses in Alaska](https://storage.haojin.li/glacier-swimming.mp4).
+I swim in freezing water <span class="block sm:hidden"></span>such as a [glacier crevasse in Alaska](https://storage.haojin.li/glacier-swimming.mp4).
 
 I drive people crazy by looping <span class="block sm:hidden"></span>[Take Me Home, Country Roads](https://youtu.be/1vrEljMfXYo/) on repeat.
 
