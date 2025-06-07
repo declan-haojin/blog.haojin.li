@@ -5,7 +5,7 @@ layout: "about"
 
 I study Computer Science and <span class="block sm:hidden"></span>Political Science at [Duke University](https://duke.edu).
 
-I visited [30 US national parks](/categories/national-parks/) <span class="block sm:hidden"></span>in the past 3 years.
+I visited [34 US national parks](/categories/national-parks/) <span class="block sm:hidden"></span>in the past 3 years.
 
 I road-tripped through <span class="block sm:hidden"></span>[11 countries](/categories/europe-road-trip/) in 20 days.
 
