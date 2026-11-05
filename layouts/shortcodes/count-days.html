@@ -1,4 +1,1 @@
-{{ $today := now }}
-{{ $startDate := time "2018-12-06" }}
-{{ $daysSince := div (sub ($today.Unix) ($startDate.Unix)) 86400 }}
-{{- printf "%d" $daysSince -}}
+{{- partial "count-days.html" . -}}

@@ -1,4 +1,4 @@
-{{ $today := now }}
-{{ $startDate := time "2018-12-06" }}
-{{ $daysSince := div (sub ($today.Unix) ($startDate.Unix)) 86400 }}
-{{- printf "%d" $daysSince -}}
+{{- $today := now -}}
+{{- $startDate := time "2018-12-06" -}}
+{{- $daysSince := div (sub ($today.Unix) ($startDate.Unix)) 86400 -}}
+<span data-days-since="2018-12-06">{{- printf "%d" $daysSince -}}</span><script>(function(){var d=Math.floor((Date.now()-Date.UTC(2018,11,6))/86400000);document.querySelectorAll('[data-days-since="2018-12-06"]').forEach(function(e){e.textContent=d;});})();</script>
