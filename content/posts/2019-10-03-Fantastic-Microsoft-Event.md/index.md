@@ -2,7 +2,10 @@
 title: Tech Flow
 toc: true
 tags:
-  - Microsoft
+  - work
+  - AI
+  - coding
+  - presentation
 categories:
   - Learn
   - Hacks

@@ -5,6 +5,11 @@ categories:
 - Adventure
 - Iceland Road Trip
 tags:
+  - travel
+  - nature
+  - water
+  - holiday
+  - food
 ---
 
 My 21st birthday on this iconic Golden Circle road in Iceland.

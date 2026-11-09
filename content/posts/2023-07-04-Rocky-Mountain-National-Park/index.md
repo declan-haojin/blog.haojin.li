@@ -5,8 +5,11 @@ categories:
 - Adventure
 - National Parks
 tags:
-- hiking
-- nature
+  - travel
+  - hiking
+  - nature
+  - water
+  - friends
 ---
 
 Glasses lost in a beautiful lake, phone fallen from the Rocky Mountain high.

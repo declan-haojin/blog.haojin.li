@@ -3,6 +3,8 @@ title: A touching movie
 toc: true
 tags:
   - movie
+  - sports
+  - college
 categories:
   - Reflect
   - Movies

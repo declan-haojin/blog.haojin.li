@@ -12,7 +12,10 @@ widgets:
     type: categories
 title: Geography Final Exam
 toc: false
-tags: []
+tags:
+  - school
+  - exam
+  - history
 categories:
   - Learn
 abbrlink: f460

@@ -5,7 +5,13 @@ categories:
 - Adventure
 - Texas Road Trip
 tags:
-- caverns
+  - travel
+  - city
+  - nature
+  - history
+  - museum
+  - holiday
+  - food
 ---
 
 A slow-paced city that I stayed for Christmas and last stop before Big Bend adventure.

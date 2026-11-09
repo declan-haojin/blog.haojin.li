@@ -4,10 +4,8 @@ toc: false
 tags:
   - college
   - school
-  - holiday
   - TOEFL
   - exam
-  - competition
 categories:
   - Reflect
   - Life

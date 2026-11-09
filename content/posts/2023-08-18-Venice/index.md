@@ -2,11 +2,13 @@
 title: "Venice"
 date: 2023-08-18T23:03:06+02:00
 categories:
-- Adventrue
+- Adventure
 - Europe Road Trip
 tags:
-- travel
-- kayaking
+  - travel
+  - city
+  - water
+  - history
 ---
 
 Being in Venice feels like stepping into a new civilization.

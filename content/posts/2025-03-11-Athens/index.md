@@ -5,7 +5,15 @@ categories:
 - Adventure
 - Metropolises
 tags:
-- Athens
+  - travel
+  - city
+  - history
+  - museum
+  - hiking
+  - water
+  - food
+  - friends
+  - holiday
 ---
 
 Athena created an amazing city full of culture, history, and charm. I will forever miss the stray cats here.

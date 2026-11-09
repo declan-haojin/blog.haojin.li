@@ -8,7 +8,11 @@ thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260414830.webp
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260414830.webp
-tags: []
+tags:
+  - travel
+  - city
+  - food
+  - holiday
 date: 2023-03-17 23:12:04
 ---
 

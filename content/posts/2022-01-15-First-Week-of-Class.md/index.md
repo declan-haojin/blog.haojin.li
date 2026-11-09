@@ -9,6 +9,7 @@ categories:
 tags:
   - college
   - school
+  - friends
 date: 2022-01-15 22:41:16
 ---
 

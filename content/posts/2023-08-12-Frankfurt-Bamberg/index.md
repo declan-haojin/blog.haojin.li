@@ -5,8 +5,12 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
-- friend
+  - travel
+  - city
+  - history
+  - friends
+  - food
+  - museum
 ---
 
 Europe's de facto financial capital, brimming with historical charm.

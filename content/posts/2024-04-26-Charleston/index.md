@@ -4,7 +4,13 @@ date: 2024-04-26T23:37:55-04:00
 categories:
 - Adventure
 tags:
-- Charleston
+  - travel
+  - city
+  - water
+  - history
+  - museum
+  - friends
+  - food
 ---
 
 Beautiful historic town with breathtaking natures.

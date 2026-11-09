@@ -3,7 +3,8 @@ title: The true first day of 2019 VEX Worlds
 toc: true
 tags:
   - travel
-  - flight
+  - robotics
+  - competition
 categories:
   - Adventure
 thumbnail: https://ooo.0o0.ooo/2019/04/23/5cbe9fb37373a.jpg

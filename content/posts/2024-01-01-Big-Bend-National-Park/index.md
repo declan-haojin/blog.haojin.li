@@ -5,11 +5,11 @@ categories:
 - Adventure
 - National Parks
 tags:
-- hiking
-- Mexico
-- sunrise
-- RV
-- stargazing
+  - travel
+  - hiking
+  - nature
+  - water
+  - holiday
 ---
 
 I swam to Mexico.

@@ -7,8 +7,10 @@ categories:
   - Reflect
   - Life
 tags:
-  - holiday
-  - hangout
+  - college
+  - school
+  - project
+  - friends
 date: 2021-11-06 20:00:20
 ---
 又一周过去了。怎么说，仔细想想这周好像并没有发生什么有趣的事情，或是极其枯燥无味的事情。真的像是从指尖流过的时间，无法察觉。

@@ -1,7 +1,11 @@
 ---
 title: 2019-nCoV Data Prediction
 toc: true
-tags: []
+tags:
+  - AI
+  - coding
+  - project
+  - health
 categories:
   - Learn
   - Machine Learning

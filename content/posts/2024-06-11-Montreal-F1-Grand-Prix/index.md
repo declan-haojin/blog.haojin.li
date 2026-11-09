@@ -5,8 +5,11 @@ categories:
 - Adventure
 - Metropolises
 tags:
-- Montreal
-
+  - travel
+  - city
+  - Formula 1
+  - sports
+  - hiking
 ---
 
 Finally, I am watching an F1 race from the trackside.

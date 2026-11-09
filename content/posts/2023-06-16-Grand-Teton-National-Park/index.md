@@ -5,8 +5,9 @@ categories:
 - Adventure
 - National Parks
 tags:
-- nature
-- hiking
+  - travel
+  - hiking
+  - nature
 ---
 
 Probably the most underrating national park i've been to.

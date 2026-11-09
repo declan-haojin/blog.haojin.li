@@ -5,7 +5,12 @@ categories:
   - Adventure
   - Metropolises
 tags:
-  - San Francisco
+  - travel
+  - city
+  - work
+  - friends
+  - food
+  - holiday
 ---
 
 My first onsite interview and a blast time with friends.

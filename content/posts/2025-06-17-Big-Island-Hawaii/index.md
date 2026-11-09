@@ -5,8 +5,12 @@ categories:
 - Adventure
 - National Parks
 tags:
-- Hawaii
-
+  - travel
+  - hiking
+  - nature
+  - water
+  - food
+  - history
 ---
 
 People always ask me since you have travelled to so many places, have you been to hawaii yet? 

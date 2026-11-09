@@ -5,7 +5,10 @@ categories:
 - Adventure
 - National Parks
 tags:
-- South Carolina
+  - travel
+  - hiking
+  - nature
+  - friends
 ---
 
 It's a short visit but it marks my 30th out of 63 national parks!!!

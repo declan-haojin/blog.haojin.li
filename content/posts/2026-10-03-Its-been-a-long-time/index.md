@@ -5,7 +5,16 @@ categories:
   - Reflect
   - Life
 tags:
-  - Hawaii
+  - travel
+  - nature
+  - hiking
+  - music
+  - work
+  - God
+  - friends
+  - family
+  - health
+  - city
 ---
 
 Hey!

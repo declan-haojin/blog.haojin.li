@@ -5,7 +5,13 @@ categories:
   - Reflect
   - Life
 tags:
-  - Vancouver
+  - holiday
+  - travel
+  - nature
+  - work
+  - health
+  - friends
+  - Formula 1
 ---
 
 How does one capture a year that feels like floating in space?

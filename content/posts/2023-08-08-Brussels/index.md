@@ -5,7 +5,12 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
+  - travel
+  - city
+  - museum
+  - history
+  - food
+  - friends
 ---
 
 The administrative centre of the European Union.

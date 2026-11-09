@@ -1,7 +1,12 @@
 ---
 title: 西雅图 Day5
 toc: true
-tags: []
+tags:
+  - travel
+  - city
+  - competition
+  - project
+  - coding
 categories:
   - Adventure
   - Metropolises

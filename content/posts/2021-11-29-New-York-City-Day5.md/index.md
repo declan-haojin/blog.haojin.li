@@ -7,9 +7,9 @@ categories:
   - Adventure
   - Metropolises
 tags:
-  - Canada
   - travel
   - city
+  - holiday
   - museum
 date: 2021-11-29 21:28:46
 ---

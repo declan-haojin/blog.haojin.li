@@ -5,8 +5,10 @@ categories:
 - Reflect
 - Life
 tags:
-- wedding
-- friends
+  - friends
+  - God
+  - festival
+  - food
 ---
 
 This is the first American wedding I've ever attended.

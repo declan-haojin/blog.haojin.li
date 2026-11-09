@@ -5,7 +5,10 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
+  - travel
+  - city
+  - history
+  - museum
 ---
 
 A very historical city that reminds me of Xi'an.

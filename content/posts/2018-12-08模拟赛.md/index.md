@@ -5,7 +5,10 @@ categories:
   - Learn
   - Competitive Programming
 abbrlink: 84eb
-tags: []
+tags:
+  - algorithm
+  - coding
+  - competition
 date: 2018-12-08 00:04:31
 thumbnail:
 cover:

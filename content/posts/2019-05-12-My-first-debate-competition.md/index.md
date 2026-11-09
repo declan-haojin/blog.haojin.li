@@ -2,7 +2,9 @@
 title: My first debate competition
 toc: true
 tags:
+  - school
   - competition
+  - presentation
 categories:
   - Learn
 thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g44dxy2rc7j22801e0wo4.jpg

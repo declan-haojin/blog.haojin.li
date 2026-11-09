@@ -5,7 +5,10 @@ categories:
   - Adventure
   - National Parks
 tags:
-  - Fayetteville
+  - travel
+  - hiking
+  - nature
+  - music
 ---
 
 Country roads, take me home...

@@ -1,7 +1,9 @@
 ---
 title: 'Chrome Extension recommendation '
 toc: true
-tags: []
+tags:
+  - coding
+  - tutorial
 categories:
   - Learn
   - Hacks

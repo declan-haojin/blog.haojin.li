@@ -5,10 +5,10 @@ categories:
 - Adventure
 - National Parks
 tags:
-- Bainbridge Island
-- Port Angeles
-- Forks
-- Olympia
+  - travel
+  - hiking
+  - nature
+  - water
 draft: true
 
 ---

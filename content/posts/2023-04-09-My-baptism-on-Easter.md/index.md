@@ -4,6 +4,9 @@ toc: true
 tags:
   - God
   - festival
+  - holiday
+  - friends
+  - food
 categories:
   - Reflect
   - Life

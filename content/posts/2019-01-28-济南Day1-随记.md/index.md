@@ -7,7 +7,9 @@ categories:
 abbrlink: e44b
 tags:
   - travel
-  - flight
+  - city
+  - algorithm
+  - competition
 date: 2019-01-28 00:46:53
 thumbnail:
 cover:

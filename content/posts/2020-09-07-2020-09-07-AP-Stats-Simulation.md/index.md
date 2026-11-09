@@ -12,7 +12,11 @@ widgets:
     type: categories
 title: 'AP Stats: Simulation by Programming'
 toc: true
-tags: []
+tags:
+  - school
+  - coding
+  - project
+  - presentation
 categories:
   - Learn
 thumbnail: >-

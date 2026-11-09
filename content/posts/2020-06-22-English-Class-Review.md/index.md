@@ -12,7 +12,9 @@ widgets:
     type: categories
 title: English Class Review
 toc: false
-tags: []
+tags:
+  - school
+  - exam
 categories:
   - Learn
 thumbnail: >-

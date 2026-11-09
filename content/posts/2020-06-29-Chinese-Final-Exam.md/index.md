@@ -14,11 +14,9 @@ title: Chinese Final Exam
 toc: false
 tags:
   - school
-  - TOEFL
+  - college
   - exam
-  - competition
   - family
-  - tutorial
 categories:
   - Learn
 thumbnail: >-

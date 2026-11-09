@@ -2,7 +2,9 @@
 title: Getting started with Python 1
 toc: true
 tags:
-  - python
+  - coding
+  - AI
+  - tutorial
 categories:
   - Learn
   - Machine Learning

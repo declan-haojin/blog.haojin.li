@@ -3,7 +3,6 @@ title: Our fantastic bridge -- Bridgination
 toc: true
 tags:
   - school
-  - exam
   - competition
   - presentation
   - project

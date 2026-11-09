@@ -5,7 +5,11 @@ categories:
 - Adventure
 - Texas Road Trip
 tags:
-- giraffe
+  - travel
+  - nature
+  - hiking
+  - water
+  - holiday
 ---
 
 It's quite a long drive from Dallas to Austin, but there's also quite a lot to see on the way.

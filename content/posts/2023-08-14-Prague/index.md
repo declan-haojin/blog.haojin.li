@@ -5,7 +5,10 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
+  - travel
+  - city
+  - history
+  - museum
 ---
 
 Frankly, this is my least favourite city so far.

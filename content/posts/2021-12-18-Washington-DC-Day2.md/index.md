@@ -7,12 +7,12 @@ categories:
   - Adventure
   - Metropolises
 tags:
-  - holiday
-  - festival
   - travel
-  - hangout
-  - history
+  - city
+  - holiday
   - museum
+  - history
+  - friends
 date: 2021-12-18 23:55:53
 ---
 

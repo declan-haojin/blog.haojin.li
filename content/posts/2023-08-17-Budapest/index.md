@@ -5,7 +5,10 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- Travel
+  - travel
+  - city
+  - history
+  - food
 ---
 
 Actually, it's Buda and Pest.

@@ -5,6 +5,10 @@ categories:
 - Adventure
 - Iceland Road Trip
 tags:
+  - travel
+  - nature
+  - hiking
+  - holiday
 ---
 
 It's a world of nothingness but peacefulness.

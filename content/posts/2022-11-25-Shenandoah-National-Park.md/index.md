@@ -7,8 +7,11 @@ categories:
 thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20221225002604.png
 cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20221225002604.png
 tags:
-  - hiking
   - travel
+  - hiking
+  - nature
+  - holiday
+  - friends
 date: 2022-11-25 16:14:07
 ---
 

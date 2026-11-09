@@ -2,7 +2,11 @@
 title: 西雅图 Day7
 toc: true
 tags:
-  - Microsoft
+  - travel
+  - city
+  - work
+  - project
+  - museum
 categories:
   - Adventure
   - Metropolises

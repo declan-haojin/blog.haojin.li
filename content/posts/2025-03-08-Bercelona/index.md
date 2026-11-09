@@ -5,7 +5,14 @@ categories:
 - Adventure
 - Metropolises
 tags:
-- Barcelona
+  - travel
+  - city
+  - history
+  - museum
+  - water
+  - food
+  - friends
+  - holiday
 ---
 
 Cataland,  an enchanteng place I will come back to!

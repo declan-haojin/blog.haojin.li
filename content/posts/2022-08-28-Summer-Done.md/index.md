@@ -7,14 +7,13 @@ categories:
 thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220828230156.png
 cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220828230156.png
 tags:
-  - college
-  - school
+  - travel
   - holiday
   - hiking
-  - travel
+  - nature
   - city
+  - friends
   - food
-  - hangout
 date: 2022-08-29 22:59:58
 ---
 

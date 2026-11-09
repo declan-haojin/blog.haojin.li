@@ -5,8 +5,11 @@ categories:
 - Adventure
 - Texas Road Trip
 tags:
-- WWII
-- museum
+  - travel
+  - history
+  - museum
+  - holiday
+  - food
 ---
 
 A beautiful German town with a heroic history that has my highest respect.

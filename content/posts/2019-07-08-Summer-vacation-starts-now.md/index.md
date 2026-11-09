@@ -2,14 +2,11 @@
 title: Summer vacation starts now
 toc: true
 tags:
-  - college
   - school
   - holiday
-  - festival
-  - travel
   - TOEFL
   - exam
-  - hangout
+  - friends
 categories:
   - Reflect
   - Life

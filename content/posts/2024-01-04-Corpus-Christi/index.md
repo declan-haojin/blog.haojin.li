@@ -5,9 +5,11 @@ categories:
 - Adventure
 - Texas Road Trip
 tags:
-- beach
-- museum
-- WWII
+  - travel
+  - water
+  - museum
+  - history
+  - holiday
 ---
 
 I drove the car right onto the beach and got stuck in the sand.

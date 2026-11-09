@@ -5,9 +5,12 @@ categories:
 - Adventure
 - Iceland Road Trip
 tags:
-- museum
-- church
-- city
+  - travel
+  - city
+  - museum
+  - God
+  - history
+  - holiday
 ---
 
 My first glimpse of a Nordic country and its culture.

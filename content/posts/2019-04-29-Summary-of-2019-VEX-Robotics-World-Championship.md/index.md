@@ -2,8 +2,11 @@
 title: Summary of 2019 VEX Robotics World Championship
 toc: true
 tags:
-  - festival
+  - travel
+  - robotics
   - competition
+  - festival
+  - friends
 categories:
   - Learn
   - VEX Robotics

@@ -2,16 +2,11 @@
 title: Last Spring Festival with Family
 toc: true
 tags:
-  - school
   - holiday
   - festival
-  - hiking
-  - travel
-  - competition
   - family
   - food
-  - hangout
-  - history
+  - friends
 categories:
   - Reflect
   - Life

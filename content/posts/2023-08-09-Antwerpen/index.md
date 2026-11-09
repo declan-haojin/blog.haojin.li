@@ -5,8 +5,11 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
-- city
+  - travel
+  - city
+  - museum
+  - history
+  - food
 ---
 
 Had no idea about this city at first, I've now fallen in love with it.

@@ -9,16 +9,9 @@ categories:
 tags:
   - college
   - school
-  - holiday
-  - festival
-  - travel
-  - exam
-  - competition
-  - hangout
-  - history
-  - presentation
-  - project
   - sports
+  - friends
+  - exam
 date: 2022-03-05 22:02:01
 ---
 

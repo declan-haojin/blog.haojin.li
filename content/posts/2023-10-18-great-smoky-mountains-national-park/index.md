@@ -5,7 +5,10 @@ categories:
 - Adventure
 - National Parks
 tags:
-- hiking
+  - travel
+  - hiking
+  - nature
+  - friends
 ---
 
 This marks the 14th US National Park I've been to in the past two years.

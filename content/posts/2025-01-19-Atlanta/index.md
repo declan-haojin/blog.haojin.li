@@ -5,7 +5,13 @@ categories:
 - Adventure
 - Metropolises
 tags:
-- Atlanta
+  - travel
+  - city
+  - museum
+  - hiking
+  - friends
+  - food
+  - work
 ---
 
 It turns out Atlanta has way more to offer than Coca-Cola World.

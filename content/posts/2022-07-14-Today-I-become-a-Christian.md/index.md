@@ -6,6 +6,8 @@ categories:
   - Life
 tags:
   - God
+  - college
+  - friends
 date: 2022-07-14 23:33:39
 ---
 

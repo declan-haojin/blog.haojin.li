@@ -2,7 +2,10 @@
 title: Canyonlands National Park
 toc: true
 tags:
+  - travel
   - hiking
+  - nature
+  - holiday
 categories:
   - Adventure
   - National Parks

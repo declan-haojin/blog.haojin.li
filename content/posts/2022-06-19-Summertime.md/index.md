@@ -7,9 +7,11 @@ categories:
   - Reflect
   - Life
 tags:
+  - college
   - holiday
   - coding
-  - hangout
+  - friends
+  - water
 date: 2022-06-19 17:05:39
 ---
 

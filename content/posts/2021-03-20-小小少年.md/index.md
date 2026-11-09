@@ -2,10 +2,10 @@
 title: 小小少年
 toc: false
 tags:
-  - college
-  - school
+  - movie
+  - robotics
   - competition
-  - history
+  - school
 categories:
   - Reflect
   - Movies

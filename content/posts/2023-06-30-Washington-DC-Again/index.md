@@ -5,8 +5,11 @@ categories:
 - Adventure
 - Metropolises
 tags:
-- city
-- hiking
+  - travel
+  - city
+  - hiking
+  - friends
+  - food
 ---
 
 It was great to visit DC again which is definitely one of my favourite cities in the US.

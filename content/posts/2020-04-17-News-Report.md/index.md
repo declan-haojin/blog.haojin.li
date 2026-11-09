@@ -3,8 +3,9 @@ title: News Report
 author: Declan
 toc: true
 tags:
-  - college
   - school
+  - project
+  - health
 categories:
   - Learn
 thumbnail: ''

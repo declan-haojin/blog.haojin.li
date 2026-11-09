@@ -16,9 +16,8 @@
     }
 }
 @font-face {
-	font-family: backup;
-	font-display: swap;
-    font-weight: 100;
-    font-stretch: ultra-expanded;
-	src:url('/fonts/hanzipen-sc-regular.otf') format('woff2');
+    font-family: 'backup';
+    font-display: swap;
+    src: url('/fonts/hanzipen-sc-subset.woff2') format('woff2'),
+         url('/fonts/hanzipen-sc-regular.otf') format('opentype');
 }

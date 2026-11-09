@@ -5,7 +5,10 @@ categories:
   - Learn
   - Competitive Programming
 abbrlink: f136
-tags: []
+tags:
+  - algorithm
+  - coding
+  - tutorial
 date: 2019-01-29 00:48:40
 thumbnail:
 cover:

@@ -5,8 +5,12 @@ categories:
 - Adventure
 - Metropolises
 tags:
-- city
-- island
+  - travel
+  - city
+  - water
+  - nature
+  - God
+  - history
 ---
 
 A pretty cool city.

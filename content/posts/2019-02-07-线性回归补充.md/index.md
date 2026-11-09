@@ -3,6 +3,8 @@ title: Intro to Neural Network
 toc: true
 tags:
   - AI
+  - algorithm
+  - coding
 categories:
   - Learn
   - Competitive Programming

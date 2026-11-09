@@ -5,7 +5,10 @@ categories:
   - Learn
   - Competitive Programming
 abbrlink: c09
-tags: []
+tags:
+  - algorithm
+  - coding
+  - travel
 date: 2019-01-29 00:48:51
 thumbnail:
 cover:

@@ -5,8 +5,12 @@ categories:
 - Adventure
 - Iceland Road Trip
 tags:
-- Akureyri
-- Borgarnes
+  - travel
+  - nature
+  - city
+  - water
+  - museum
+  - holiday
 ---
 
 It's the best day we had in Iceland.

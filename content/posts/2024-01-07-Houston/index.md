@@ -5,8 +5,13 @@ categories:
 - Adventure
 - Texas Road Trip
 tags:
-- NASA
-- beach
+  - travel
+  - city
+  - museum
+  - water
+  - friends
+  - food
+  - holiday
 ---
 
 Another amazing Texan city that I almost went to college here.

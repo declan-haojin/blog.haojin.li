@@ -5,8 +5,9 @@ categories:
 - Adventure
 - National Parks
 tags:
-- hiking
-- nature
+  - travel
+  - hiking
+  - nature
 ---
 
 A distinctive national park with so many unique natural wonders offered.

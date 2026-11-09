@@ -5,7 +5,9 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
+  - travel
+  - city
+  - history
 ---
 
 Spending an hour in Slovakia's capital will captivate your heart.

@@ -5,8 +5,10 @@ categories:
 - Reflect
 - Life
 tags:
-- exam
-- college
+  - college
+  - school
+  - exam
+  - work
 ---
 
 明天就是大二最后一场期末考试了，既然没有心情复习就来写写博客吧。

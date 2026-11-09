@@ -7,7 +7,10 @@ categories:
 thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g9hlos321pj220414ggn8.jpg
 cover: http://ww1.sinaimg.cn/large/bea775ably1g9hlos321pj220414ggn8.jpg
 abbrlink: e1e7
-tags: []
+tags:
+  - algorithm
+  - coding
+  - competition
 date: 2019-12-01 10:17:04
 ---
 

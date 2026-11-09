@@ -5,7 +5,11 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
+  - travel
+  - city
+  - museum
+  - history
+  - nature
 ---
 
 This charming city truly evokes a Venetian ambiance.

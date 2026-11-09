@@ -1,7 +1,10 @@
 ---
 title: Linear Regression
 toc: true
-tags: []
+tags:
+  - AI
+  - coding
+  - tutorial
 categories:
   - Learn
   - Machine Learning

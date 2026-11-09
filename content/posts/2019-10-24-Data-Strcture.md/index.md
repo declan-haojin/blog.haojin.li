@@ -1,7 +1,10 @@
 ---
 title: Data Structure
 toc: true
-tags: []
+tags:
+  - algorithm
+  - coding
+  - tutorial
 categories:
   - Learn
 thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g8gnmsanfwj20p00dcaaw.jpg

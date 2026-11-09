@@ -1,7 +1,11 @@
 ---
 title: 西雅图 Day2
 toc: true
-tags: []
+tags:
+  - travel
+  - city
+  - project
+  - presentation
 categories:
   - Adventure
   - Metropolises

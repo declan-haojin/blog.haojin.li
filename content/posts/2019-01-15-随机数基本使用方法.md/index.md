@@ -1,7 +1,10 @@
 ---
 title: 随机数基本使用方法
 toc: true
-tags: []
+tags:
+  - algorithm
+  - coding
+  - tutorial
 categories:
   - Learn
   - Competitive Programming

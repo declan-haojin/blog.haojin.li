@@ -1,7 +1,11 @@
 ---
 title: 西雅图 Day6
 tags:
+  - travel
+  - city
+  - competition
   - project
+  - coding
 categories:
   - Adventure
   - Metropolises

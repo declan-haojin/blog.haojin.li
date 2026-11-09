@@ -6,7 +6,10 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303240204747.png
 tags:
+  - travel
   - hiking
+  - nature
+  - holiday
 categories:
   - Adventure
   - National Parks

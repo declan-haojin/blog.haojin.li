@@ -5,7 +5,12 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
+  - travel
+  - city
+  - water
+  - hiking
+  - nature
+  - food
 ---
 
 Decent beach destination and renowned metropolitan city.

@@ -9,7 +9,10 @@ categories:
 tags:
   - college
   - school
-  - history
+  - holiday
+  - travel
+  - water
+  - friends
 date: 2022-05-01 23:05:39
 ---
 

@@ -4,9 +4,13 @@ date: 2023-11-29T16:31:27-05:00
 categories:
 - Adventure
 tags:
-- travel
-- island
-- ocean
+  - travel
+  - water
+  - hiking
+  - nature
+  - holiday
+  - history
+  - food
 ---
 
 A lovely island with its own unique culture and vibe, Puerto Rico was my destination this Thanksgiving break.

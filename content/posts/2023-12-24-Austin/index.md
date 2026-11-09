@@ -5,8 +5,13 @@ categories:
 - Adventure
 - Texas Road Trip
 tags:
-- kayak
-- bbq
+  - travel
+  - city
+  - water
+  - food
+  - museum
+  - Formula 1
+  - holiday
 ---
 
 I find myself falling more in love with Texas each time I discover a new city.

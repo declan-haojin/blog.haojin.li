@@ -13,8 +13,9 @@ widgets:
 title: Exercise Log
 toc: true
 tags:
+  - sports
+  - health
   - exam
-  - exercise
 categories:
   - Reflect
 thumbnail: >-

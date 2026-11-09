@@ -9,6 +9,8 @@ cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/1231
 abbrlink: '2556'
 tags:
   - school
+  - family
+  - history
 date: 2020-03-16 16:23:09
 ---
 # Why I chose this book to read

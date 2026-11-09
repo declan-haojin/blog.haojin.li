@@ -2,11 +2,15 @@
 title: "Fort Worth"
 date: 2023-12-21T22:09:06-06:00
 categories:
-- Adenture
+- Adventure
 - Texas Road Trip
 tags:
-- ice carving
-
+  - travel
+  - city
+  - festival
+  - museum
+  - holiday
+  - food
 ---
 
 Worth visiting city near Dallas with a lot of niche attractions.

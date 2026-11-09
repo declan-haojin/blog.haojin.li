@@ -5,7 +5,10 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
+  - travel
+  - city
+  - history
+  - food
 ---
 
 The moment I stepped out of Cologne Central Station, I was astonished by the sight that greeted me...

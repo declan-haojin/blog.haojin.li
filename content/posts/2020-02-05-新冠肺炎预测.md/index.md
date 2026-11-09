@@ -1,7 +1,11 @@
 ---
 title: 基于线性回归的传染趋势预测
 toc: true
-tags: []
+tags:
+  - AI
+  - coding
+  - project
+  - health
 categories:
   - Learn
   - Machine Learning

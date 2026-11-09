@@ -4,15 +4,11 @@ categories:
   - Learn
   - VEX Robotics
 tags:
-  - college
-  - school
-  - holiday
-  - festival
   - travel
-  - exam
+  - robotics
   - competition
   - project
-  - sports
+  - school
 abbrlink: 2ae0
 toc: true
 thumbnail: >-

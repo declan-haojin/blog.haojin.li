@@ -7,9 +7,11 @@ categories:
   - Adventure
   - Metropolises
 tags:
-  - Canada
   - travel
+  - city
+  - holiday
   - food
+  - nature
 date: 2021-12-20 20:39:43
 ---
 

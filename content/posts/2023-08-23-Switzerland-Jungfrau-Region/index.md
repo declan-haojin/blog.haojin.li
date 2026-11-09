@@ -5,7 +5,10 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
+  - travel
+  - hiking
+  - nature
+  - water
 ---
 
 This is heavenly heaven.

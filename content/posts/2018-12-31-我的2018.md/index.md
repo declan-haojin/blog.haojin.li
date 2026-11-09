@@ -5,7 +5,11 @@ categories:
   - Reflect
   - Life
 abbrlink: f04a
-tags: []
+tags:
+  - school
+  - holiday
+  - coding
+  - competition
 date: 2018-12-31 00:44:51
 thumbnail:
 cover:

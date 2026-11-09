@@ -5,7 +5,11 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
+  - travel
+  - city
+  - museum
+  - history
+  - food
 ---
 
 It's finally time for my LE EPIC Europe road trip.

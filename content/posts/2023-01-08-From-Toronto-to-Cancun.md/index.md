@@ -9,10 +9,12 @@ categories:
   - Adventure
   - Metropolises
 tags:
-  - Mexico
-  - Canada
-  - holiday
   - travel
+  - city
+  - water
+  - nature
+  - holiday
+  - friends
 date: 2023-01-08 14:32:39
 ---
 

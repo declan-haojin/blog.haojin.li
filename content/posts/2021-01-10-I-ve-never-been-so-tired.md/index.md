@@ -9,6 +9,7 @@ tags:
   - school
   - TOEFL
   - exam
+  - health
 tocs: true
 thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/THE%20TRAVELLER.png

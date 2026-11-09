@@ -3,6 +3,8 @@ title: Neural Network
 toc: true
 tags:
   - AI
+  - coding
+  - tutorial
 categories:
   - Learn
   - Machine Learning

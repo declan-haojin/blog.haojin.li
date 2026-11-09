@@ -5,10 +5,10 @@ categories:
 - Adventure
 - Iceland Road Trip
 tags:
-- snowstorm
-- port
-- swim
-
+  - travel
+  - nature
+  - water
+  - holiday
 ---
 
 Best views are on the road.

@@ -5,8 +5,12 @@ categories:
 - Adventure
 - Metropolises
 tags:
-- travel
-- city
+  - travel
+  - city
+  - friends
+  - food
+  - museum
+  - water
 ---
 
 I thought I would never like this city again.

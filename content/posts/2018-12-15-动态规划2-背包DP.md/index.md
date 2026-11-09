@@ -5,7 +5,9 @@ categories:
   - Learn
   - Competitive Programming
 abbrlink: 37dc
-tags: []
+tags:
+  - algorithm
+  - coding
 date: 2018-12-15 00:05:27
 thumbnail:
 cover:

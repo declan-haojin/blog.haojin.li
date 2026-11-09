@@ -5,8 +5,10 @@ categories:
 - Reflect
 - Movies
 tags:
-- movie
-- Formula 1
+  - movie
+  - Formula 1
+  - sports
+  - history
 ---
 
 The best movie about Formula 1 so far that introduces me to a hero.

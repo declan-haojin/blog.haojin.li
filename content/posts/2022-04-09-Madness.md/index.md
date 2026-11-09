@@ -7,10 +7,11 @@ categories:
   - Reflect
   - Life
 tags:
-  - Formula 1
-  - competition
-  - food
+  - college
   - sports
+  - Formula 1
+  - food
+  - friends
 date: 2022-04-09 23:25:35
 ---
 

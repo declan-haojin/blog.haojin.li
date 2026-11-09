@@ -5,7 +5,12 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- travel
+  - travel
+  - city
+  - history
+  - music
+  - hiking
+  - food
 ---
 
 Well deserves the title of the world's most livable city.

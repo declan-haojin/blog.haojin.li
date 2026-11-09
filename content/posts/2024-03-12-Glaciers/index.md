@@ -5,9 +5,11 @@ categories:
 - Adventure
 - Iceland Road Trip
 tags:
-- glacier
-- cave
-- beach
+  - travel
+  - nature
+  - hiking
+  - water
+  - holiday
 ---
 
 Today was a movie, Interstellar specifically.

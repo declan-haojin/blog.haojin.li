@@ -12,7 +12,10 @@ widgets:
     type: categories
 title: Blogging Online with Code-Server
 toc: true
-tags: []
+tags:
+  - coding
+  - tutorial
+  - project
 categories:
   - Learn
   - Hacks

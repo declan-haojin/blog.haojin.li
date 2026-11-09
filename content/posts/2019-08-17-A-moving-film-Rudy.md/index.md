@@ -3,6 +3,8 @@ title: A moving film -- Rudy
 toc: true
 tags:
   - movie
+  - sports
+  - college
 categories:
   - Reflect
   - Movies

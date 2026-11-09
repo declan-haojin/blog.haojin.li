@@ -5,7 +5,9 @@ categories:
   - Learn
   - Competitive Programming
 abbrlink: ecef
-tags: []
+tags:
+  - algorithm
+  - coding
 date: 2018-12-06 00:03:54
 thumbnail:
 cover:

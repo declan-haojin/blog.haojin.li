@@ -7,6 +7,7 @@ categories:
 abbrlink: '3235'
 tags:
   - algorithm
+  - coding
 date: 2018-12-31 00:45:11
 thumbnail:
 cover:

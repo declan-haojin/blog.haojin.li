@@ -5,7 +5,9 @@ categories:
   - Learn
   - Competitive Programming
 abbrlink: 90cd
-tags: []
+tags:
+  - algorithm
+  - coding
 date: 2019-01-05 00:45:59
 thumbnail:
 cover:

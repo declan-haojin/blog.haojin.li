@@ -1,15 +1,9 @@
 ---
 title: HIT REFRESH
 tags:
-  - college
   - school
-  - holiday
-  - travel
-  - city
   - TOEFL
   - exam
-  - food
-  - history
 categories:
   - Reflect
   - Life

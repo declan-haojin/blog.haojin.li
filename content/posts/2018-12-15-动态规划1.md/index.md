@@ -5,7 +5,9 @@ categories:
   - Learn
   - Competitive Programming
 abbrlink: d696
-tags: []
+tags:
+  - algorithm
+  - coding
 date: 2018-12-15 00:05:18
 thumbnail:
 cover:

@@ -1,7 +1,11 @@
 ---
 title: Capitol Reef National Park
 toc: true
-tags: []
+tags:
+  - travel
+  - hiking
+  - nature
+  - holiday
 categories:
   - Adventure
   - National Parks

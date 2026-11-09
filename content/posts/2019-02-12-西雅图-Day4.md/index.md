@@ -2,8 +2,11 @@
 title: 西雅图 Day4
 toc: true
 tags:
+  - travel
+  - city
   - presentation
   - tutorial
+  - project
 categories:
   - Adventure
   - Metropolises

@@ -4,8 +4,10 @@ date: 2023-05-21T23:01:39-04:00
 categories:
 - Adventure
 tags:
-- hiking
-- travel
+  - travel
+  - hiking
+  - nature
+  - friends
 ---
 
 A short but wonderful weekend road trip to Hanging Rock State Park and Carowinds amusement park.

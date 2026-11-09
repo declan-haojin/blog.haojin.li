@@ -5,7 +5,10 @@ categories:
 - Adventure
 - Europe Road Trip
 tags:
-- Travel
+  - travel
+  - city
+  - friends
+  - food
 ---
 
 I fell in love with this place after just two hours.

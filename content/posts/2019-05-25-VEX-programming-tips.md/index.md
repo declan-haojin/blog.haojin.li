@@ -1,7 +1,10 @@
 ---
 title: VEX programming tips
 toc: true
-tags: []
+tags:
+  - robotics
+  - coding
+  - tutorial
 categories:
   - Learn
   - Hacks

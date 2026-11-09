@@ -1,9 +1,10 @@
 ---
 title: The last day in Seattle
 tags:
-  - festival
+  - travel
   - city
-  - hangout
+  - friends
+  - music
 categories:
   - Adventure
   - Metropolises

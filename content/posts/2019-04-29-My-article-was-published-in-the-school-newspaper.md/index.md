@@ -3,12 +3,9 @@ title: My article was published in the school newspaper!
 toc: true
 tags:
   - school
-  - festival
+  - robotics
   - competition
-  - history
   - presentation
-  - project
-  - sports
 categories:
   - Learn
   - VEX Robotics

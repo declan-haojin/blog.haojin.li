@@ -7,9 +7,10 @@ categories:
   - Reflect
   - Life
 tags:
+  - college
   - school
-  - holiday
   - exam
+  - holiday
 date: 2021-12-07 15:29:05
 ---
 从纽约回来之后，立马就进入了期末考试周。周二回来，周五就进行了第一场期末考试，时间过的真快。但确实是不太适应Thanksgiving和Winter break间隔如此之近。

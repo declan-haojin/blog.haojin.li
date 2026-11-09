@@ -5,7 +5,9 @@ categories:
   - Learn
   - Competitive Programming
 abbrlink: 57d6
-tags: []
+tags:
+  - algorithm
+  - coding
 date: 2018-12-31 00:44:30
 thumbnail:
 cover:

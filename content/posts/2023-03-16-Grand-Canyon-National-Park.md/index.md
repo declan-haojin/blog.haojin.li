@@ -8,7 +8,11 @@ thumbnail: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260357555.webp
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260357555.webp
-tags: []
+tags:
+  - travel
+  - hiking
+  - nature
+  - holiday
 date: 2023-03-16 23:56:07
 ---
 

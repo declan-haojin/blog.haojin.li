@@ -1,7 +1,11 @@
 ---
 title: 西雅图 Day1
 toc: true
-tags: []
+tags:
+  - travel
+  - city
+  - project
+  - school
 categories:
   - Adventure
   - Metropolises

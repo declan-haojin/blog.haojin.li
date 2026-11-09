@@ -1,18 +1,11 @@
 ---
 title: A perfect event
 tags:
-  - AI
-  - holiday
-  - festival
-  - Formula 1
   - travel
-  - city
-  - exam
+  - robotics
   - competition
-  - hangout
-  - presentation
-  - project
-  - sports
+  - festival
+  - friends
 categories:
   - Reflect
 thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g44dxxy3w8j230820aqfd.jpg

@@ -5,6 +5,11 @@ categories:
 - Adventure
 - Iceland Road Trip
 tags:
+  - travel
+  - nature
+  - hiking
+  - water
+  - holiday
 ---
 
 Rainbow and waterfalls becomes the least rare thing on this land.

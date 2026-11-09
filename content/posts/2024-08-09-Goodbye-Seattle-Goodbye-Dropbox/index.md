@@ -4,8 +4,11 @@ date: 2024-08-09T19:34:54-07:00
 categories:
 - Reflect
 tags:
-- Dropbox
-- Seattle
+  - work
+  - city
+  - friends
+  - music
+  - college
 ---
 
 Today marks the last day of my internship at Dropbox.

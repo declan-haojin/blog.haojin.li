@@ -1,7 +1,11 @@
 ---
 title: 雨有感
 toc: false
-tags: []
+tags:
+  - school
+  - friends
+  - food
+  - movie
 categories:
   - Reflect
   - Life

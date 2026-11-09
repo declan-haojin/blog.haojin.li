@@ -9,7 +9,10 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260238641.jpeg
 tags:
+  - travel
   - hiking
+  - nature
+  - holiday
 date: 2023-03-14 23:32:03
 ---
 

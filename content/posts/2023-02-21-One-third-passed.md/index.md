@@ -11,10 +11,8 @@ cover: >-
 tags:
   - college
   - school
-  - holiday
-  - travel
   - exam
-  - history
+  - sports
   - project
 date: 2023-02-21 00:13:41
 ---

@@ -2,8 +2,9 @@
 title: Picking up exercise again
 toc: true
 tags:
-  - exercise
-  - hangout
+  - sports
+  - health
+  - friends
 categories:
   - Reflect
 thumbnail: http://ww1.sinaimg.cn/large/bea775ably1g4wa6kr6j3j21a00hi7wh.jpg

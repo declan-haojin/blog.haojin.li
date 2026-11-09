@@ -5,7 +5,10 @@ categories:
   - Learn
   - Competitive Programming
 abbrlink: 24cf
-tags: []
+tags:
+  - algorithm
+  - coding
+  - tutorial
 date: 2019-01-11 00:45:24
 thumbnail:
 cover:

@@ -6,9 +6,11 @@ categories:
 thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211023025705.png
 cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20211023025705.png
 tags:
-  - holiday
+  - college
+  - school
   - travel
-  - history
+  - holiday
+  - friends
 date: 2021-10-23 02:29:36
 ---
  

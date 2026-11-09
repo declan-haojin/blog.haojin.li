@@ -5,7 +5,11 @@ categories:
   - Adventure
   - Metropolises
 abbrlink: f10b
-tags: []
+tags:
+  - travel
+  - city
+  - algorithm
+  - competition
 date: 2019-01-23 00:46:12
 thumbnail:
 cover:

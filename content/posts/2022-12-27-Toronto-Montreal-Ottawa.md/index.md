@@ -9,8 +9,12 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/20221227010259.png
 tags:
-  - Canada
   - travel
+  - city
+  - holiday
+  - friends
+  - food
+  - history
 date: 2022-12-27 00:11:58
 ---
 

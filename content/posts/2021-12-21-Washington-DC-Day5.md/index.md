@@ -7,7 +7,11 @@ categories:
   - Adventure
   - Metropolises
 tags:
+  - travel
   - city
+  - holiday
+  - food
+  - history
 date: 2021-12-21 20:39:46
 ---
 

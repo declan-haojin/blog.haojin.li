@@ -6,7 +6,11 @@ categories:
 - Life
 
 tags:
-- fever
+  - health
+  - college
+  - God
+  - work
+  - family
 ---
 
 

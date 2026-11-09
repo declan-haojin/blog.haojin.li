@@ -7,7 +7,10 @@ categories:
 thumbnail: http://ww1.sinaimg.cn/large/bea775ably1ga2f6fqrkxj20xd0iswfd.jpg
 cover: http://ww1.sinaimg.cn/large/bea775ably1ga2f6fqrkxj20xd0iswfd.jpg
 abbrlink: defb
-tags: []
+tags:
+  - algorithm
+  - coding
+  - competition
 date: 2019-12-19 22:43:14
 ---
 

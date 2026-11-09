@@ -5,7 +5,13 @@ categories:
 - Adventure
 - Texas Road Trip
 tags:
-- shooting
+  - travel
+  - city
+  - sports
+  - museum
+  - history
+  - food
+  - holiday
 ---
 
 Grand Texas road trip thus begins...

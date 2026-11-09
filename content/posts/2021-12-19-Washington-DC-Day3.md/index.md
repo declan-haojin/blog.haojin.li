@@ -7,9 +7,11 @@ categories:
   - Adventure
   - Metropolises
 tags:
-  - school
   - travel
   - city
+  - holiday
+  - college
+  - food
 date: 2021-12-19 21:56:02
 ---
 

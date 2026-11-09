@@ -2,6 +2,8 @@
 title: 西雅图 Day3
 toc: true
 tags:
+  - travel
+  - city
   - competition
   - project
 categories:

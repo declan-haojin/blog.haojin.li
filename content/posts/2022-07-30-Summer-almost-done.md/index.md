@@ -8,11 +8,10 @@ thumbnail: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/2022073101
 cover: https://cdn.jsdelivr.net/gh/declan-haojin/blog-image//duke/20220731013547.png
 tags:
   - college
-  - school
   - holiday
   - coding
   - project
-  - java
+  - God
 date: 2022-07-30 20:16:58
 ---
 

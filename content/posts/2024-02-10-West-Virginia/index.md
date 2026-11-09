@@ -4,8 +4,10 @@ date: 2024-02-10T23:03:07-05:00
 categories:
 - Adventure
 tags:
-- skiing
-
+  - travel
+  - sports
+  - nature
+  - friends
 ---
 
 Almost Heaven, West Virginia~

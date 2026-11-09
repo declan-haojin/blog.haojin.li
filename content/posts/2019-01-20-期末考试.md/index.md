@@ -2,6 +2,7 @@
 title: 期末考试......
 toc: true
 tags:
+  - school
   - exam
 categories:
   - Learn

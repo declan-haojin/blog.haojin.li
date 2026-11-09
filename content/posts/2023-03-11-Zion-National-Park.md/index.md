@@ -6,9 +6,11 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/2023/202303260441112.webp
 tags:
-  - Utah
-  - hiking
   - travel
+  - hiking
+  - nature
+  - holiday
+  - friends
 categories:
   - Adventure
   - National Parks

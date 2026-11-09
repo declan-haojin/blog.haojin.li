@@ -1,7 +1,9 @@
 ---
 title: Markdown 入门指南
 toc: true
-tags: []
+tags:
+  - coding
+  - tutorial
 categories:
   - Learn
   - Hacks
