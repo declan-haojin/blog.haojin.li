@@ -1,15 +1,136 @@
 {{ define "main" }}
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""
+/>
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""
+></script>
+
+<style>
+  #travel-map {
+    background: rgb(var(--color-neutral-100));
+  }
+  html.dark #travel-map {
+    background: rgb(var(--color-neutral-800));
+  }
+  .leaflet-container {
+    font-family: inherit;
+  }
+  .leaflet-tooltip.minimal-pin-tooltip {
+    background: rgba(28, 25, 23, 0.88);
+    color: #fafaf9;
+    border: none;
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  }
+  .leaflet-tooltip.minimal-pin-tooltip::before {
+    display: none;
+  }
+  .leaflet-control-attribution {
+    font-size: 10px !important;
+    opacity: 0.6;
+  }
+</style>
+
 <section>
-<header>
+  <header>
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Travel Map</h1>
-    <h2 class="mt-0 py-6 text-4xl font-extrabold text-neutral-900 dark:text-neutral">🇨🇳 🇺🇸 🇸🇬 🇨🇦 🇲🇽 🇫🇷 🇧🇪 🇳🇱 🇩🇪 🇨🇿 🇦🇹 🇸🇰 🇭🇺 🇸🇮 🇮🇹🇨🇭🇵🇷 🇮🇸 🇪🇸 🇬🇷</h2>
-</header>
+    <h2 class="mt-0 py-6 text-4xl font-extrabold text-neutral-900 dark:text-neutral">🇨🇳 🇺🇸 🇸🇬 🇨🇦 🇲🇽 🇫🇷 🇧🇪 🇳🇱 🇩🇪 🇨🇿 🇦🇹 🇸🇰 🇭🇺 🇸🇮 🇮🇹 🇨🇭 🇵🇷 🇮🇸 🇪🇸 🇬🇷</h2>
+  </header>
 
-<article class="h-full flex justify-center">
+  <article class="h-full flex justify-center">
     <div class="container mx-auto px-0">
-        <iframe class="mx-auto my-0 rounded-md h-[70vh]" src="https://snazzymaps.com/embed/482375" width="100%" style="min-height: 30rem"></iframe>
+      <div
+        id="travel-map"
+        class="mx-auto my-0 rounded-xl h-[70vh] w-full border border-neutral-200 dark:border-neutral-700 shadow-sm overflow-hidden"
+        style="min-height: 30rem; z-index: 1;"
+      ></div>
     </div>
-</article>
-
+  </article>
 </section>
+
+<script>
+  (function () {
+    {{- $places := .Site.Data.places | default (readFile "data/places.yaml" | transform.Unmarshal) -}}
+    const places = {{ $places | jsonify | safeJS }};
+
+    const lightBase = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}";
+    const lightLabels = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}";
+    const darkBase = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}";
+    const darkLabels = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}";
+    const isDark = () => document.documentElement.classList.contains("dark");
+
+    const map = L.map("travel-map", {
+      center: [32, -25],
+      zoom: 2,
+      minZoom: 2,
+      maxZoom: 16,
+      worldCopyJump: true,
+      zoomControl: true,
+    });
+
+    const baseLayer = L.tileLayer(isDark() ? darkBase : lightBase, {
+      maxZoom: 16,
+      attribution: "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ",
+    }).addTo(map);
+
+    const labelLayer = L.tileLayer(isDark() ? darkLabels : lightLabels, {
+      maxZoom: 16,
+      pane: "tilePane",
+      opacity: 0.75,
+    }).addTo(map);
+
+    const allMarkers = [];
+    const homeMarkers = [];
+
+    places.forEach((p) => {
+      if (typeof p.lat !== "number" || typeof p.lng !== "number") return;
+
+      const isHome = Boolean(p.home);
+      const marker = L.circleMarker([p.lat, p.lng], {
+        radius: isHome ? 6.5 : 4.5,
+        fillColor: isHome ? "#f59e0b" : "#65a30d",
+        color: isDark() ? "#1c1917" : "#ffffff",
+        weight: 1.5,
+        opacity: 1,
+        fillOpacity: isHome ? 0.95 : 0.85,
+      }).addTo(map);
+
+      if (p.name) {
+        marker.bindTooltip(p.name, {
+          direction: "top",
+          offset: [0, -6],
+          className: "minimal-pin-tooltip",
+        });
+      }
+
+      allMarkers.push(marker);
+      if (isHome) {
+        homeMarkers.push(marker);
+      }
+    });
+
+    homeMarkers.forEach((m) => m.bringToFront());
+
+    const observer = new MutationObserver(() => {
+      const dark = isDark();
+      baseLayer.setUrl(dark ? darkBase : lightBase);
+      labelLayer.setUrl(dark ? darkLabels : lightLabels);
+      allMarkers.forEach((m) => m.setStyle({ color: dark ? "#1c1917" : "#ffffff" }));
+    });
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+  })();
+</script>
 {{ end }}
+

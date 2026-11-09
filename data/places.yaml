@@ -1,0 +1,717 @@
+# Visited places pinned on /map
+# Set `home: true` for home/lived cities (highlighted in gold)
+
+- name: "Township of Wilmington, North Carolina, USA"
+  lat: 34.210389
+  lng: -77.886812
+- name: "Durham, North Carolina, USA"
+  lat: 35.994033
+  lng: -78.898619
+  home: true
+- name: "Raleigh, North Carolina, USA"
+  lat: 35.77959
+  lng: -78.638179
+- name: "Greensboro, North Carolina, USA"
+  lat: 36.072635
+  lng: -79.791975
+- name: "Myrtle Beach, South Carolina, USA"
+  lat: 33.68906
+  lng: -78.886694
+- name: "Winston-Salem, North Carolina, USA"
+  lat: 36.09986
+  lng: -80.244216
+- name: "Asheville, North Carolina, USA"
+  lat: 35.595058
+  lng: -82.551487
+- name: "Richmond, Virginia, USA"
+  lat: 37.540725
+  lng: -77.436048
+- name: "Washington, District of Columbia, USA"
+  lat: 38.907192
+  lng: -77.036871
+- name: "Wolftown, Virginia, USA"
+  lat: 38.475471
+  lng: -78.453457
+- name: "New York City, New York, USA"
+  lat: 40.712775
+  lng: -74.005973
+- name: "Boston, Massachusetts, USA"
+  lat: 42.360082
+  lng: -71.05888
+- name: "Cancun, Mexico"
+  lat: 21.161908
+  lng: -86.851528
+- name: "Solidaridad, Mexico"
+  lat: 20.629559
+  lng: -87.073885
+- name: "Montreal, Quebec, Canada"
+  lat: 45.501887
+  lng: -73.567392
+- name: "Ottawa, Ontario, Canada"
+  lat: 45.42153
+  lng: -75.697193
+- name: "Toronto, Ontario, Canada"
+  lat: 43.653226
+  lng: -79.383184
+- name: "Louisville, Kentucky, USA"
+  lat: 38.252665
+  lng: -85.758456
+- name: "Chicago, Illinois, USA"
+  lat: 41.878114
+  lng: -87.629798
+- name: "New Haven, Connecticut, USA"
+  lat: 41.308274
+  lng: -72.927883
+- name: "Niagara Falls, Ontario, Canada"
+  lat: 43.089558
+  lng: -79.084944
+- name: "Anaheim-Santa Ana-Garden Grove, California, USA"
+  lat: 33.684567
+  lng: -117.826505
+- name: "San Diego, California, USA"
+  lat: 32.715738
+  lng: -117.161084
+- name: "Los Angeles, California, USA"
+  lat: 34.052234
+  lng: -118.243685
+- name: "Springville-Johnsondale, California, USA"
+  lat: 36.486367
+  lng: -118.565752
+- name: "Sierra, California, USA"
+  lat: 36.887855
+  lng: -118.555148
+- name: "Yosemite Valley, California, USA"
+  lat: 37.865101
+  lng: -119.538329
+- name: "San Francisco, California, USA"
+  lat: 37.774929
+  lng: -122.419415
+- name: "San Jose, California, USA"
+  lat: 37.322998
+  lng: -122.032182
+- name: "Half Moon Bay, California, USA"
+  lat: 37.463552
+  lng: -122.428586
+- name: "Santa Cruz, California, USA"
+  lat: 36.974117
+  lng: -122.030796
+- name: "Salinas, California, USA"
+  lat: 36.677737
+  lng: -121.655501
+- name: "Seaside-Monterey, California, USA"
+  lat: 36.600238
+  lng: -121.894676
+- name: "Carmel-by-the-Sea, California, USA"
+  lat: 36.555239
+  lng: -121.923288
+- name: "Big Sur, California, USA"
+  lat: 36.270423
+  lng: -121.808056
+- name: "North Coast, California, USA"
+  lat: 35.644014
+  lng: -121.189321
+- name: "Santa Barbara, California, USA"
+  lat: 34.420831
+  lng: -119.69819
+- name: "Ventura, California, USA"
+  lat: 34.280492
+  lng: -119.29452
+- name: "Solvang-Santa Ynez, California, USA"
+  lat: 34.59582
+  lng: -120.137648
+- name: "Seattle, Washington, USA"
+  lat: 47.606209
+  lng: -122.332071
+- name: "Las Vegas, Nevada, USA"
+  lat: 36.171563
+  lng: -115.139101
+- name: "Hurricane, Utah, USA"
+  lat: 37.298202
+  lng: -113.026301
+- name: "Tropic, Utah, USA"
+  lat: 37.593038
+  lng: -112.187089
+- name: "East Garfield, Utah, USA"
+  lat: 38.087731
+  lng: -111.135498
+- name: "Monticello, Utah, USA"
+  lat: 38.213573
+  lng: -109.902535
+- name: "Thompson Springs, Utah, USA"
+  lat: 38.733081
+  lng: -109.592514
+- name: "Kayenta, Arizona, USA"
+  lat: 36.991371
+  lng: -110.193867
+- name: "Tuba City, Arizona, USA"
+  lat: 36.914722
+  lng: -111.455833
+- name: "Tuba City, Arizona, USA"
+  lat: 36.879061
+  lng: -111.510363
+- name: "Tuba City, Arizona, USA"
+  lat: 36.861751
+  lng: -111.374292
+- name: "Kingman, Arizona, USA"
+  lat: 35.189443
+  lng: -114.053006
+- name: "Las Vegas, Nevada, USA"
+  lat: 36.016066
+  lng: -114.737733
+- name: "Kaibab Plateau, Arizona, USA"
+  lat: 36.267885
+  lng: -112.353525
+- name: "Riverside, California, USA"
+  lat: 33.980601
+  lng: -117.375494
+- name: "Singapore"
+  lat: 1.352083
+  lng: 103.819836
+- name: "Sanya, Hainan Sheng, China"
+  lat: 18.25248
+  lng: 109.51209
+- name: "Hong Kong"
+  lat: 22.319304
+  lng: 114.169361
+- name: "Taipei, Taiwan"
+  lat: 25.032964
+  lng: 121.565427
+- name: "Hsinchu, Taiwan"
+  lat: 24.813829
+  lng: 120.96748
+- name: "Yilan, Taiwan"
+  lat: 24.759115
+  lng: 121.75374
+- name: "Hualien City, Taiwan"
+  lat: 23.983059
+  lng: 121.599784
+- name: "Taitung, Taiwan"
+  lat: 22.761321
+  lng: 121.143815
+- name: "Kaohsiung, Taiwan"
+  lat: 22.627278
+  lng: 120.301435
+- name: "Xiulin, Taiwan"
+  lat: 24.193925
+  lng: 121.490667
+- name: "Hengchun, Taiwan"
+  lat: 21.946567
+  lng: 120.798713
+- name: "Tainan, Taiwan"
+  lat: 22.9999
+  lng: 120.226876
+- name: "Chiayi, Taiwan"
+  lat: 23.480075
+  lng: 120.449111
+- name: "Xihu, Taiwan"
+  lat: 23.958326
+  lng: 120.493362
+- name: "Alishan, Taiwan"
+  lat: 23.510954
+  lng: 120.803499
+- name: "Taipei, Taiwan"
+  lat: 24.994806
+  lng: 121.461876
+- name: "Xiamen, Fujian Sheng, China"
+  lat: 24.47951
+  lng: 118.08948
+- name: "Fuzhou, Fujian Sheng, China"
+  lat: 26.07421
+  lng: 119.29647
+- name: "Shenzhen, Guangdong Sheng, China"
+  lat: 22.54286
+  lng: 114.05956
+- name: "Foshan, Guangdong Sheng, China"
+  lat: 23.02185
+  lng: 113.12192
+- name: "Shaoguan, Guangdong Sheng, China"
+  lat: 24.81039
+  lng: 113.59723
+- name: "Kunming, Yunnan Sheng, China"
+  lat: 24.87966
+  lng: 102.83322
+- name: "Xishuangbanna Daizu Zizhizhou, Yunnan Sheng, China"
+  lat: 22.00749
+  lng: 100.79739
+- name: "Shaoxing, Zhejiang Sheng, China"
+  lat: 29.995762
+  lng: 120.586109
+- name: "Hangzhou, Zhejiang Sheng, China"
+  lat: 30.27415
+  lng: 120.15515
+- name: "Suzhou, Jiangsu Sheng, China"
+  lat: 31.29834
+  lng: 120.58319
+- name: "Shanghai, Shanghai Shi, China"
+  lat: 31.23037
+  lng: 121.4737
+- name: "Jinan, Shandong Sheng, China"
+  lat: 36.65184
+  lng: 117.12009
+- name: "Luoyang, Henan Sheng, China"
+  lat: 34.61813
+  lng: 112.45402
+- name: "Beijing, Beijing Shi, China"
+  lat: 39.904211
+  lng: 116.407395
+- name: "Baoding, Hebei Sheng, China"
+  lat: 38.87396
+  lng: 115.46459
+- name: "Xian, Shaanxi Sheng, China"
+  lat: 34.265814
+  lng: 108.954094
+  home: true
+- name: "Weinan, Shaanxi Sheng, China"
+  lat: 35.476713
+  lng: 110.442856
+- name: "Shangluo, Shaanxi Sheng, China"
+  lat: 33.586412
+  lng: 109.17286
+- name: "Baotou, Nei Mongol Zizhiqu, China"
+  lat: 40.65781
+  lng: 109.84021
+- name: "Xilin Gol Meng, Nei Mongol Zizhiqu, China"
+  lat: 43.64305
+  lng: 111.95238
+- name: "Shenyang, Liaoning Sheng, China"
+  lat: 41.804778
+  lng: 123.432968
+- name: "Changchun, Jilin Sheng, China"
+  lat: 43.81602
+  lng: 125.32357
+- name: "Samjiyon-up, Korea"
+  lat: 41.993015
+  lng: 128.077476
+- name: "Weinan, Shaanxi Sheng, China"
+  lat: 34.477861
+  lng: 110.084789
+- name: "Guilin, Guangxi Zhuangzu Zizhiqu, China"
+  lat: 25.27361
+  lng: 110.29002
+- name: "Charlotte, North Carolina, USA"
+  lat: 35.227087
+  lng: -80.843127
+- name: "Yellowstone National Park, Wyoming, USA"
+  lat: 44.427963
+  lng: -110.588455
+- name: "Salt Lake City, Utah, USA"
+  lat: 40.760779
+  lng: -111.891047
+- name: "Jackson, Wyoming, USA"
+  lat: 43.790428
+  lng: -110.681763
+- name: "Denver, Colorado, USA"
+  lat: 39.739236
+  lng: -104.990251
+- name: "Estes Park, Colorado, USA"
+  lat: 40.342793
+  lng: -105.683639
+- name: "Paris, France"
+  lat: 48.856614
+  lng: 2.352222
+- name: "Brussels, Belgium"
+  lat: 50.847642
+  lng: 4.35717
+- name: "Arrondissement Antwerpen, Belgium"
+  lat: 51.22134
+  lng: 4.405149
+- name: "Gemeente Amsterdam, Netherlands"
+  lat: 52.367573
+  lng: 4.904139
+- name: "Koln, Germany"
+  lat: 50.937531
+  lng: 6.960279
+- name: "Frankfurt am Main, Germany"
+  lat: 50.110922
+  lng: 8.682127
+- name: "Nuremberg, Germany"
+  lat: 49.452102
+  lng: 11.076665
+- name: "Bamberg, Germany"
+  lat: 49.898814
+  lng: 10.902764
+- name: "Prague, Czechia"
+  lat: 50.075538
+  lng: 14.4378
+- name: "Vienna, Austria"
+  lat: 48.208174
+  lng: 16.373819
+- name: "Bratislava, Slovakia"
+  lat: 48.148596
+  lng: 17.107748
+- name: "Budapest, Hungary"
+  lat: 47.497912
+  lng: 19.040235
+- name: "Maribor, Slovenia"
+  lat: 46.55465
+  lng: 15.645881
+- name: "Venice, Italy"
+  lat: 45.440847
+  lng: 12.315515
+- name: "Florence, Italy"
+  lat: 43.76956
+  lng: 11.255814
+- name: "Pisa, Italy"
+  lat: 43.722839
+  lng: 10.401689
+- name: "Vernazza, Italy"
+  lat: 44.128109
+  lng: 9.712391
+- name: "Milan, Italy"
+  lat: 45.464204
+  lng: 9.189982
+- name: "Monza, Italy"
+  lat: 45.5845
+  lng: 9.274449
+- name: "Iseltwald, Switzerland"
+  lat: 46.711586
+  lng: 7.9643
+- name: "Sigriswil, Switzerland"
+  lat: 46.716854
+  lng: 7.713283
+- name: "Interlaken, Switzerland"
+  lat: 46.686348
+  lng: 7.863205
+- name: "Grindelwald, Switzerland"
+  lat: 46.624164
+  lng: 8.041396
+- name: "Grindelwald, Switzerland"
+  lat: 46.660556
+  lng: 8.053611
+- name: "Lauterbrunnen, Switzerland"
+  lat: 46.593506
+  lng: 7.909098
+- name: "Lausanne, Switzerland"
+  lat: 46.519653
+  lng: 6.632273
+- name: "Geneva, Switzerland"
+  lat: 46.204391
+  lng: 6.143158
+- name: "District 11, Tennessee, USA"
+  lat: 35.61305
+  lng: -83.553154
+- name: "San Juan, Puerto Rico"
+  lat: 18.467059
+  lng: -66.118459
+- name: "Rio Grande, Puerto Rico"
+  lat: 18.295135
+  lng: -65.800033
+- name: "Fajardo, Puerto Rico"
+  lat: 18.325215
+  lng: -65.653936
+- name: "Manati, Puerto Rico"
+  lat: 18.477684
+  lng: -66.498579
+- name: "Isabela, Puerto Rico"
+  lat: 18.50078
+  lng: -67.02263
+- name: "Puerto Rico"
+  lat: 18.307544
+  lng: -67.260952
+- name: "Dallas, Texas, USA"
+  lat: 32.776664
+  lng: -96.796988
+- name: "Fort Worth, Texas, USA"
+  lat: 32.755488
+  lng: -97.330766
+- name: "Glen Rose, Texas, USA"
+  lat: 32.234672
+  lng: -97.755499
+- name: "Austin, Texas, USA"
+  lat: 30.267153
+  lng: -97.743061
+- name: "Burnet, Texas, USA"
+  lat: 30.737397
+  lng: -98.369026
+- name: "San Marcos, Texas, USA"
+  lat: 29.883275
+  lng: -97.941394
+- name: "San Antonio, Texas, USA"
+  lat: 29.42519
+  lng: -98.494592
+- name: "Fredericksburg, Texas, USA"
+  lat: 30.275201
+  lng: -98.871984
+- name: "Marathon, Texas, USA"
+  lat: 30.205169
+  lng: -103.24462
+- name: "Alpine, Texas, USA"
+  lat: 29.249902
+  lng: -103.250164
+- name: "Del Rio, Texas, USA"
+  lat: 29.370886
+  lng: -100.895867
+- name: "Corpus Christi, Texas, USA"
+  lat: 27.800583
+  lng: -97.396381
+- name: "Houston, Texas, USA"
+  lat: 29.760427
+  lng: -95.369803
+- name: "Galveston, Texas, USA"
+  lat: 29.301348
+  lng: -94.797696
+- name: "District 1, West Virginia, USA"
+  lat: 37.595649
+  lng: -81.119761
+- name: "Reykjavik, Iceland"
+  lat: 64.146987
+  lng: -21.940755
+- name: "Grindavik, Iceland"
+  lat: 63.880718
+  lng: -22.447296
+- name: "Blaskogabyggð, Iceland"
+  lat: 64.282173
+  lng: -21.076449
+- name: "Blaskogabyggð, Iceland"
+  lat: 64.310372
+  lng: -20.30236
+- name: "Blaskogabyggð, Iceland"
+  lat: 64.327072
+  lng: -20.119948
+- name: "Grimsnes- og Grafningshreppur, Iceland"
+  lat: 64.041278
+  lng: -20.885147
+- name: "Selfoss, Iceland"
+  lat: 63.931832
+  lng: -20.999692
+- name: "Hvolsvollur, Iceland"
+  lat: 63.615623
+  lng: -19.988569
+- name: "Hvolsvollur, Iceland"
+  lat: 63.532052
+  lng: -19.511371
+- name: "Myrdalshreppur, Iceland"
+  lat: 63.556944
+  lng: -19.302778
+- name: "Myrdalshreppur, Iceland"
+  lat: 63.401458
+  lng: -19.128442
+- name: "Myrdalshreppur, Iceland"
+  lat: 63.405285
+  lng: -19.063446
+- name: "Myrdalshreppur, Iceland"
+  lat: 63.41765
+  lng: -18.997439
+- name: "Hofn, Iceland"
+  lat: 64.070414
+  lng: -16.975175
+- name: "Hofn, Iceland"
+  lat: 64.018611
+  lng: -16.385
+- name: "Hofn, Iceland"
+  lat: 64.044334
+  lng: -16.177662
+- name: "Hofn, Iceland"
+  lat: 64.255149
+  lng: -15.208796
+- name: "Hofn, Iceland"
+  lat: 64.246408
+  lng: -14.969859
+- name: "Hofn, Iceland"
+  lat: 64.341272
+  lng: -14.944287
+- name: "Mulaþing, Iceland"
+  lat: 64.656753
+  lng: -14.284831
+- name: "Mulaþing, Iceland"
+  lat: 65.260923
+  lng: -14.399439
+- name: "Victoria, British Columbia, Canada"
+  lat: 48.428421
+  lng: -123.365644
+- name: "Metro Vancouver Regional District, British Columbia, Canada"
+  lat: 49.282729
+  lng: -123.120738
+- name: "San Francisco, California, USA"
+  lat: 37.598547
+  lng: -122.387194
+- name: "Crescent Lake, Oregon, USA"
+  lat: 42.929476
+  lng: -122.127939
+- name: "Medford, Oregon, USA"
+  lat: 42.326515
+  lng: -122.875595
+- name: "Anchorage, Alaska, USA"
+  lat: 61.217576
+  lng: -149.899678
+- name: "Seward, Alaska, USA"
+  lat: 60.104774
+  lng: -149.442104
+- name: "Seward, Alaska, USA"
+  lat: 60.116285
+  lng: -149.439824
+- name: "Palmer, Alaska, USA"
+  lat: 62.320905
+  lng: -150.106622
+- name: "Denali Borough, Alaska, USA"
+  lat: 63.282761
+  lng: -150.789398
+- name: "Fairbanks, Alaska, USA"
+  lat: 64.840051
+  lng: -147.719976
+- name: "Copper River Census Area, Alaska, USA"
+  lat: 60.923429
+  lng: -142.733911
+- name: "Copper River Census Area, Alaska, USA"
+  lat: 61.953872
+  lng: -145.304892
+- name: "Copper River Census Area, Alaska, USA"
+  lat: 61.433069
+  lng: -142.922925
+- name: "Chugach Census Area, Alaska, USA"
+  lat: 61.130881
+  lng: -146.349861
+- name: "Southeast Fairbanks Census Area, Alaska, USA"
+  lat: 63.422301
+  lng: -145.608502
+- name: "Fairbanks, Alaska, USA"
+  lat: 65.052961
+  lng: -146.059098
+- name: "Ansted, West Virginia, USA"
+  lat: 37.870708
+  lng: -81.053102
+- name: "Ansted, West Virginia, USA"
+  lat: 38.052888
+  lng: -81.103991
+- name: "Albuquerque, New Mexico, USA"
+  lat: 35.084386
+  lng: -106.650422
+- name: "Santa Fe, New Mexico, USA"
+  lat: 35.686975
+  lng: -105.937799
+- name: "Los Alamos, New Mexico, USA"
+  lat: 35.880036
+  lng: -106.303114
+- name: "Alamogordo, New Mexico, USA"
+  lat: 32.78724
+  lng: -106.325682
+- name: "El Paso, Texas, USA"
+  lat: 31.761878
+  lng: -106.485022
+- name: "Van Horn, Texas, USA"
+  lat: 31.92333
+  lng: -104.866311
+- name: "Carlsbad, New Mexico, USA"
+  lat: 32.384289
+  lng: -104.223759
+- name: "Roswell, New Mexico, USA"
+  lat: 33.394253
+  lng: -104.522696
+- name: "Chuckwalla Valley, California, USA"
+  lat: 33.873415
+  lng: -115.900992
+- name: "Newberry Springs-Baker, California, USA"
+  lat: 35.123445
+  lng: -115.520445
+- name: "Death Valley, California, USA"
+  lat: 36.532265
+  lng: -116.932541
+- name: "Mammoth Lakes, California, USA"
+  lat: 37.648546
+  lng: -118.972079
+- name: "Lake Tahoe, California, USA"
+  lat: 39.096849
+  lng: -120.032351
+- name: "Reno, Nevada, USA"
+  lat: 39.529919
+  lng: -119.814269
+- name: "Sacramento, California, USA"
+  lat: 38.578134
+  lng: -121.494421
+- name: "Redding, California, USA"
+  lat: 40.58654
+  lng: -122.391675
+- name: "North Coastal, California, USA"
+  lat: 41.401716
+  lng: -124.041711
+- name: "Newport, Oregon, USA"
+  lat: 44.636784
+  lng: -124.05345
+- name: "Portland, Oregon, USA"
+  lat: 45.515232
+  lng: -122.678385
+- name: "Olympia, Washington, USA"
+  lat: 47.037874
+  lng: -122.900695
+- name: "Nanaimo, British Columbia, Canada"
+  lat: 49.165884
+  lng: -123.940065
+- name: "Whistler, British Columbia, Canada"
+  lat: 50.116169
+  lng: -122.953512
+- name: "Forks, Washington, USA"
+  lat: 47.950355
+  lng: -124.385487
+- name: "West End, Washington, USA"
+  lat: 47.802107
+  lng: -123.604352
+- name: "Sedro-Woolley, Washington, USA"
+  lat: 48.510854
+  lng: -122.227595
+- name: "Leavenworth, Washington, USA"
+  lat: 47.596233
+  lng: -120.661477
+- name: "Mount Rainier, Washington, USA"
+  lat: 46.867148
+  lng: -121.699856
+- name: "East Whatcom, Washington, USA"
+  lat: 48.71216
+  lng: -121.113308
+- name: "Atlanta, Georgia, USA"
+  lat: 33.750127
+  lng: -84.388521
+- name: "Hopkins, South Carolina, USA"
+  lat: 33.791872
+  lng: -80.749049
+- name: "Barcelona, Spain"
+  lat: 41.387397
+  lng: 2.168568
+- name: "Athens, Greece"
+  lat: 37.98381
+  lng: 23.727539
+- name: "Dimos Lavreotiki, Greece"
+  lat: 37.657809
+  lng: 24.015219
+- name: "Dimos Santorini, Greece"
+  lat: 36.416649
+  lng: 25.432447
+- name: "Dimos Santorini, Greece"
+  lat: 36.46182
+  lng: 25.37531
+- name: "Dimos Santorini, Greece"
+  lat: 36.358278
+  lng: 25.397217
+- name: "Charleston, South Carolina, USA"
+  lat: 32.783316
+  lng: -79.931966
+- name: "Miami, Florida, USA"
+  lat: 25.76168
+  lng: -80.19179
+- name: "Homestead, Florida, USA"
+  lat: 25.500316
+  lng: -80.182829
+- name: "Everglades, Florida, USA"
+  lat: 25.745929
+  lng: -80.554956
+- name: "Cape Sable, Florida, USA"
+  lat: 25.141791
+  lng: -80.925349
+- name: "Upper Keys, Florida, USA"
+  lat: 24.924294
+  lng: -80.627836
+- name: "Key West, Florida, USA"
+  lat: 24.555059
+  lng: -81.779987
+- name: "Key West, Florida, USA"
+  lat: 24.628477
+  lng: -82.873187
+- name: "Miami, Florida, USA"
+  lat: 25.44789
+  lng: -80.479224
+- name: "San Francisco, California, USA"
+  lat: 37.520215
+  lng: -122.275801
+  home: true
+- name: "San Benito-Bitterwater, California, USA"
+  lat: 36.490566
+  lng: -121.182492
