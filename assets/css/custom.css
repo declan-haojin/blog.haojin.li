@@ -18,6 +18,5 @@
 @font-face {
     font-family: 'backup';
     font-display: swap;
-    src: url('/fonts/hanzipen-sc-subset.woff2') format('woff2'),
-         url('/fonts/hanzipen-sc-regular.otf') format('opentype');
+    src: url('/fonts/hanzipen-sc-subset.woff2') format('woff2');
 }
