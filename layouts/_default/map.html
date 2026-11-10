@@ -25,7 +25,7 @@
 <style>
     .travel-flags { display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; }
     #travel-map { height: min(70vh, 80vw); min-height: 20rem; border-radius: 0.5rem; overflow: hidden; background: #aee2e0; }
-    .dark #travel-map { background: rgb(var(--color-neutral-900)); }
+    .dark #travel-map { background: #1e3435; }
     #travel-map .maplibregl-ctrl-attrib { font-size: 10px; }
     #travel-map .maplibregl-popup-content { padding: 0.25rem 0.5rem; border-radius: 0.375rem; font-size: 0.75rem; line-height: 1rem; background: rgb(var(--color-neutral-900)); color: rgb(var(--color-neutral)); box-shadow: 0 2px 8px rgb(0 0 0 / 0.2); }
     #travel-map .maplibregl-popup, #travel-map .maplibregl-popup-content { pointer-events: none; }
@@ -52,7 +52,7 @@
         dark: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
     };
     const HOME_COLOR = "#ffc100";
-    const PLACE_COLOR_LIGHT = "#ea4335";
+    const PLACE_COLOR = "#ea4335";
     // Colours from the blog's original Snazzy Maps style (snazzymaps.com/style/482375), applied to Positron.
     const SNAZZY = {
         land: "#abce83",
@@ -70,6 +70,19 @@
         label: "#495421",
         roadLabel: "#5b5b3f",
         waterLabel: "#3f7f86",
+    };
+    // Dark Matter with a hint of the Snazzy greens and teals.
+    const DARK_LAND = "#121811";
+    const DARK_TWEAKS = {
+        background: { "background-color": DARK_LAND },
+        landcover: { "fill-color": DARK_LAND },
+        landuse: { "fill-color": DARK_LAND },
+        park_national_park: { "fill-color": "#18241a" },
+        park_nature_reserve: { "fill-color": "#18241a" },
+        water: { "fill-color": "#1e3435" },
+        waterway: { "line-color": "#2b5254" },
+        boundary_state: { "line-color": "#5a6c55" },
+        boundary_country_inner: { "line-color": "#6f8068" },
     };
     const DEFAULT_BOUNDS = [[-131, 19], [-60, 54]];
     // Basemap labels and state borders appear this many zoom levels earlier than CARTO's defaults.
@@ -116,7 +129,7 @@
     const parkFill = themeColor("--color-secondary-700");
     const [parkIconLight, parkIconDark] = await Promise.all([
         loadImage(parkIconSVG(parkFill, "#fff")),
-        loadImage(parkIconSVG(parkFill, themeColor("--color-neutral-800"))),
+        loadImage(parkIconSVG(parkFill, DARK_LAND)),
     ]);
     document.getElementById("travel-park-icon").innerHTML = parkIconSVG(parkFill, "transparent");
 
@@ -176,11 +189,11 @@
         // CARTO only switches from macro-regions to state lines at zoom 6.
         if (map.getLayer("boundary_state")) map.setFilter("boundary_state", ["==", ["get", "kind_detail"], 4]);
 
-        if (!dark) {
-            for (const layer of map.getStyle().layers) {
-                for (const [prop, value] of Object.entries(snazzyPaint(layer))) map.setPaintProperty(layer.id, prop, value);
-            }
-        } else {
+        for (const layer of map.getStyle().layers) {
+            const paint = dark ? DARK_TWEAKS[layer.id] ?? {} : snazzyPaint(layer);
+            for (const [prop, value] of Object.entries(paint)) map.setPaintProperty(layer.id, prop, value);
+        }
+        if (dark) {
             map.addSource("visited", { type: "geojson", data: visitedGeoJSON });
             // Drawn beneath the basemap's water so the coarse 110m coastlines don't spill into the sea.
             map.addLayer({
@@ -201,9 +214,9 @@
             source: "places",
             layout: { "circle-sort-key": ["case", ["get", "home"], 1, 0] },
             paint: {
-                "circle-color": ["case", ["get", "home"], HOME_COLOR, dark ? themeColor("--color-primary-400") : PLACE_COLOR_LIGHT],
+                "circle-color": ["case", ["get", "home"], HOME_COLOR, PLACE_COLOR],
                 "circle-radius": ["interpolate", ["linear"], ["zoom"], 1, ["case", ["get", "home"], 4, 2.5], 8, ["case", ["get", "home"], 7, 5]],
-                "circle-stroke-color": dark ? themeColor("--color-neutral-800") : "#fff",
+                "circle-stroke-color": dark ? DARK_LAND : "#fff",
                 "circle-stroke-width": 1,
             },
         });
