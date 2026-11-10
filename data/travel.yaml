@@ -1,25 +1,24 @@
-# `id` is the ISO 3166-1 numeric code used by world-atlas to shade the country.
 countries:
-  - { name: China, flag: "🇨🇳", id: "156" }
-  - { name: United States, flag: "🇺🇸", id: "840" }
-  - { name: Singapore, flag: "🇸🇬", id: "702" }
-  - { name: Canada, flag: "🇨🇦", id: "124" }
-  - { name: Mexico, flag: "🇲🇽", id: "484" }
-  - { name: France, flag: "🇫🇷", id: "250" }
-  - { name: Belgium, flag: "🇧🇪", id: "056" }
-  - { name: Netherlands, flag: "🇳🇱", id: "528" }
-  - { name: Germany, flag: "🇩🇪", id: "276" }
-  - { name: Czechia, flag: "🇨🇿", id: "203" }
-  - { name: Austria, flag: "🇦🇹", id: "040" }
-  - { name: Slovakia, flag: "🇸🇰", id: "703" }
-  - { name: Hungary, flag: "🇭🇺", id: "348" }
-  - { name: Slovenia, flag: "🇸🇮", id: "705" }
-  - { name: Italy, flag: "🇮🇹", id: "380" }
-  - { name: Switzerland, flag: "🇨🇭", id: "756" }
-  - { name: Puerto Rico, flag: "🇵🇷", id: "630" }
-  - { name: Iceland, flag: "🇮🇸", id: "352" }
-  - { name: Spain, flag: "🇪🇸", id: "724" }
-  - { name: Greece, flag: "🇬🇷", id: "300" }
+  - { name: China, flag: "🇨🇳" }
+  - { name: United States, flag: "🇺🇸" }
+  - { name: Singapore, flag: "🇸🇬" }
+  - { name: Canada, flag: "🇨🇦" }
+  - { name: Mexico, flag: "🇲🇽" }
+  - { name: France, flag: "🇫🇷" }
+  - { name: Belgium, flag: "🇧🇪" }
+  - { name: Netherlands, flag: "🇳🇱" }
+  - { name: Germany, flag: "🇩🇪" }
+  - { name: Czechia, flag: "🇨🇿" }
+  - { name: Austria, flag: "🇦🇹" }
+  - { name: Slovakia, flag: "🇸🇰" }
+  - { name: Hungary, flag: "🇭🇺" }
+  - { name: Slovenia, flag: "🇸🇮" }
+  - { name: Italy, flag: "🇮🇹" }
+  - { name: Switzerland, flag: "🇨🇭" }
+  - { name: Puerto Rico, flag: "🇵🇷" }
+  - { name: Iceland, flag: "🇮🇸" }
+  - { name: Spain, flag: "🇪🇸" }
+  - { name: Greece, flag: "🇬🇷" }
 
 
 # `home: true` marks places I've lived; `park: true` marks US national parks.
