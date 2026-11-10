@@ -24,7 +24,7 @@
 
 <style>
     .travel-flags { display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; }
-    #travel-map { height: min(70vh, 80vw); min-height: 20rem; border-radius: 0.5rem; overflow: hidden; background: rgb(var(--color-neutral-100)); }
+    #travel-map { height: min(70vh, 80vw); min-height: 20rem; border-radius: 0.5rem; overflow: hidden; background: #aee2e0; }
     .dark #travel-map { background: rgb(var(--color-neutral-900)); }
     #travel-map .maplibregl-ctrl-attrib { font-size: 10px; }
     #travel-map .maplibregl-popup-content { padding: 0.25rem 0.5rem; border-radius: 0.375rem; font-size: 0.75rem; line-height: 1rem; background: rgb(var(--color-neutral-900)); color: rgb(var(--color-neutral)); box-shadow: 0 2px 8px rgb(0 0 0 / 0.2); }
@@ -39,7 +39,7 @@
     .dark #travel-map .maplibregl-ctrl-attrib-button { filter: invert(1); }
     .travel-legend { display: inline-flex; align-items: center; gap: 0.25rem; margin-right: 0.75rem; }
     #travel-park-icon svg { width: 0.875rem; height: 0.875rem; }
-    .travel-home-dot { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 9999px; background: #eab308; }
+    .travel-home-dot { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 9999px; background: #ffc100; }
 </style>
 
 <script id="travel-data" type="application/json">{{ $travel | jsonify | safeJS }}</script>
@@ -51,7 +51,26 @@
         light: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
         dark: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
     };
-    const HOME_COLOR = "#eab308";
+    const HOME_COLOR = "#ffc100";
+    const PLACE_COLOR_LIGHT = "#ea4335";
+    // Colours from the blog's original Snazzy Maps style (snazzymaps.com/style/482375), applied to Positron.
+    const SNAZZY = {
+        land: "#abce83",
+        landcover: "#a4c67d",
+        park: "#8dab68",
+        building: "#a0c178",
+        water: "#aee2e0",
+        border: "#7aa36b",
+        countryBorder: "#6d9660",
+        highway: "#ebf4a4",
+        arterial: "#9bbf72",
+        local: "#a4c67d",
+        casing: "#93b86a",
+        rail: "#8fae6f",
+        label: "#495421",
+        roadLabel: "#5b5b3f",
+        waterLabel: "#3f7f86",
+    };
     const DEFAULT_BOUNDS = [[-131, 19], [-60, 54]];
     // Basemap labels and state borders appear this many zoom levels earlier than CARTO's defaults.
     const LABEL_ZOOM_SHIFT = 1.5;
@@ -101,6 +120,33 @@
     ]);
     document.getElementById("travel-park-icon").innerHTML = parkIconSVG(parkFill, "transparent");
 
+    const snazzyPaint = (layer) => {
+        const { id, type } = layer;
+        if (type === "background") return { "background-color": SNAZZY.land };
+        if (type === "fill") {
+            if (id === "water") return { "fill-color": SNAZZY.water };
+            if (id.startsWith("park_")) return { "fill-color": SNAZZY.park, "fill-opacity": 0.35 };
+            if (id.startsWith("building")) return { "fill-color": SNAZZY.building };
+            if (/^(landcover|landuse)/.test(id)) return { "fill-color": SNAZZY.landcover, "fill-opacity": 0.3 };
+        }
+        if (type === "line") {
+            if (id === "waterway") return { "line-color": SNAZZY.water };
+            if (id.startsWith("boundary_country")) return { "line-color": SNAZZY.countryBorder, "line-opacity": 1 };
+            if (id.startsWith("boundary_")) return { "line-color": SNAZZY.border };
+            if (id.includes("rail")) return { "line-color": id.endsWith("_dash") ? SNAZZY.landcover : SNAZZY.rail };
+            if (id.includes("_case")) return { "line-color": SNAZZY.casing };
+            if (/_(mot|trunk)_fill/.test(id)) return { "line-color": SNAZZY.highway };
+            if (/_(pri|sec)_fill|aeroway/.test(id)) return { "line-color": SNAZZY.arterial };
+            if (/minor|service|path/.test(id)) return { "line-color": SNAZZY.local };
+        }
+        if (type === "symbol") {
+            if (/^(watername|waterway_label)/.test(id)) return { "text-color": SNAZZY.waterLabel, "text-halo-color": "rgba(255,255,255,0.6)" };
+            if (/^(roadname|housenumber|poi)/.test(id)) return { "text-color": SNAZZY.roadLabel, "text-halo-color": SNAZZY.land };
+            return { "text-color": SNAZZY.label, "text-halo-color": "#fff", "text-halo-width": 1.5 };
+        }
+        return {};
+    };
+
     let currentStyle = isDark() ? STYLES.dark : STYLES.light;
     const map = new maplibregl.Map({
         container: "travel-map",
@@ -130,17 +176,23 @@
         // CARTO only switches from macro-regions to state lines at zoom 6.
         if (map.getLayer("boundary_state")) map.setFilter("boundary_state", ["==", ["get", "kind_detail"], 4]);
 
-        map.addSource("visited", { type: "geojson", data: visitedGeoJSON });
-        // Drawn beneath the basemap's water so the coarse 110m coastlines don't spill into the sea.
-        map.addLayer({
-            id: "visited",
-            type: "fill",
-            source: "visited",
-            paint: {
-                "fill-color": themeColor(dark ? "--color-primary-700" : "--color-primary-300"),
-                "fill-opacity": ["interpolate", ["linear"], ["zoom"], 3, dark ? 0.35 : 0.45, 6, 0],
-            },
-        }, map.getLayer("water") ? "water" : undefined);
+        if (!dark) {
+            for (const layer of map.getStyle().layers) {
+                for (const [prop, value] of Object.entries(snazzyPaint(layer))) map.setPaintProperty(layer.id, prop, value);
+            }
+        } else {
+            map.addSource("visited", { type: "geojson", data: visitedGeoJSON });
+            // Drawn beneath the basemap's water so the coarse 110m coastlines don't spill into the sea.
+            map.addLayer({
+                id: "visited",
+                type: "fill",
+                source: "visited",
+                paint: {
+                    "fill-color": themeColor("--color-primary-700"),
+                    "fill-opacity": ["interpolate", ["linear"], ["zoom"], 3, 0.35, 6, 0],
+                },
+            }, map.getLayer("water") ? "water" : undefined);
+        }
 
         map.addSource("places", { type: "geojson", data: placesGeoJSON });
         map.addLayer({
@@ -149,7 +201,7 @@
             source: "places",
             layout: { "circle-sort-key": ["case", ["get", "home"], 1, 0] },
             paint: {
-                "circle-color": ["case", ["get", "home"], HOME_COLOR, themeColor(dark ? "--color-primary-400" : "--color-primary-700")],
+                "circle-color": ["case", ["get", "home"], HOME_COLOR, dark ? themeColor("--color-primary-400") : PLACE_COLOR_LIGHT],
                 "circle-radius": ["interpolate", ["linear"], ["zoom"], 1, ["case", ["get", "home"], 4, 2.5], 8, ["case", ["get", "home"], 7, 5]],
                 "circle-stroke-color": dark ? themeColor("--color-neutral-800") : "#fff",
                 "circle-stroke-width": 1,
