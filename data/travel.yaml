@@ -21,6 +21,54 @@ countries:
   - { name: Spain, flag: "🇪🇸", id: "724" }
   - { name: Greece, flag: "🇬🇷", id: "300" }
 
+# US national parks I've visited, pinned where I was inside the park.
+parks:
+  - { name: "Arches", lat: 38.7331, lng: -109.5925 }
+  - { name: "Badlands", lat: 43.7563, lng: -101.9327 }
+  - { name: "Big Bend", lat: 29.2499, lng: -103.2502 }
+  - { name: "Biscayne", lat: 25.5003, lng: -80.1828 }
+  - { name: "Black Canyon of the Gunnison", lat: 38.5536, lng: -107.6993 }
+  - { name: "Bryce Canyon", lat: 37.593, lng: -112.1871 }
+  - { name: "Canyonlands", lat: 38.2136, lng: -109.9025 }
+  - { name: "Capitol Reef", lat: 38.0877, lng: -111.1355 }
+  - { name: "Channel Islands", lat: 34.0373, lng: -119.5862 }
+  - { name: "Congaree", lat: 33.7919, lng: -80.749 }
+  - { name: "Crater Lake", lat: 42.9295, lng: -122.1279 }
+  - { name: "Death Valley", lat: 36.5323, lng: -116.9325 }
+  - { name: "Denali", lat: 63.2828, lng: -150.7894 }
+  - { name: "Dry Tortugas", lat: 24.6285, lng: -82.8732 }
+  - { name: "Everglades", lat: 25.7459, lng: -80.555 }
+  - { name: "Glacier", lat: 48.6967, lng: -113.7183 }
+  - { name: "Grand Canyon", lat: 36.0544, lng: -112.1401 }
+  - { name: "Grand Teton", lat: 43.7904, lng: -110.6818 }
+  - { name: "Great Sand Dunes", lat: 37.7443, lng: -105.5089 }
+  - { name: "Great Smoky Mountains", lat: 35.6131, lng: -83.5532 }
+  - { name: "Guadalupe Mountains", lat: 31.9233, lng: -104.8663 }
+  - { name: "Haleakala", lat: 20.7097, lng: -156.2533 }
+  - { name: "Hawai'i Volcanoes", lat: 19.4151, lng: -155.2475 }
+  - { name: "Joshua Tree", lat: 33.8734, lng: -115.901 }
+  - { name: "Kenai Fjords", lat: 59.8474, lng: -149.8384 }
+  - { name: "Kings Canyon", lat: 36.8879, lng: -118.5551 }
+  - { name: "Lassen Volcanic", lat: 40.453, lng: -121.5343 }
+  - { name: "Mesa Verde", lat: 37.1838, lng: -108.4887 }
+  - { name: "Mount Rainier", lat: 46.8671, lng: -121.6999 }
+  - { name: "New River Gorge", lat: 37.8707, lng: -81.0531 }
+  - { name: "North Cascades", lat: 48.7122, lng: -121.1133 }
+  - { name: "Olympic", lat: 47.8021, lng: -123.6044 }
+  - { name: "Petrified Forest", lat: 34.9323, lng: -109.763 }
+  - { name: "Pinnacles", lat: 36.4906, lng: -121.1825 }
+  - { name: "Redwood", lat: 41.4017, lng: -124.0417 }
+  - { name: "Rocky Mountain", lat: 40.3428, lng: -105.6836 }
+  - { name: "Saguaro", lat: 32.2837, lng: -111.2013 }
+  - { name: "Sequoia", lat: 36.4864, lng: -118.5658 }
+  - { name: "Shenandoah", lat: 38.4755, lng: -78.4535 }
+  - { name: "Theodore Roosevelt", lat: 47.6135, lng: -103.3738 }
+  - { name: "White Sands", lat: 32.7872, lng: -106.3257 }
+  - { name: "Wrangell-St. Elias", lat: 60.9234, lng: -142.7339 }
+  - { name: "Yellowstone", lat: 44.428, lng: -110.5885 }
+  - { name: "Yosemite", lat: 37.8651, lng: -119.5383 }
+  - { name: "Zion", lat: 37.2982, lng: -113.0263 }
+
 # `home: true` marks places I've lived.
 places:
   - { name: "Wilmington, North Carolina, USA", lat: 34.2104, lng: -77.8868 }
