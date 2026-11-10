@@ -52,9 +52,10 @@
         dark: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
     };
     const HOME_COLOR = "#eab308";
-    const CONTIGUOUS_US = [[-124.8, 24.4], [-66.9, 49.4]];
+    const DEFAULT_BOUNDS = [[-131, 19], [-60, 54]];
     // Basemap labels and state borders appear this many zoom levels earlier than CARTO's defaults.
     const LABEL_ZOOM_SHIFT = 1.5;
+    const STATE_LABEL_ZOOM_SHIFT = 0.5;
 
     const { countries, places } = JSON.parse(document.getElementById("travel-data").textContent);
     const visited = new Set(countries.map((c) => c.id));
@@ -104,7 +105,7 @@
     const map = new maplibregl.Map({
         container: "travel-map",
         style: currentStyle,
-        bounds: CONTIGUOUS_US,
+        bounds: DEFAULT_BOUNDS,
         fitBoundsOptions: { padding: 16 },
         cooperativeGestures: true,
         attributionControl: { compact: true },
@@ -121,8 +122,9 @@
 
         for (const layer of map.getStyle().layers) {
             if (!/^(place_(state|city|town|villages|suburbs|hamlet|capital)|boundary_state)/.test(layer.id)) continue;
-            const min = Math.max(0, (layer.minzoom ?? 0) - LABEL_ZOOM_SHIFT);
-            const max = layer.maxzoom && layer.maxzoom < 24 ? layer.maxzoom - LABEL_ZOOM_SHIFT : 24;
+            const shift = layer.id === "place_state" ? STATE_LABEL_ZOOM_SHIFT : LABEL_ZOOM_SHIFT;
+            const min = Math.max(0, (layer.minzoom ?? 0) - shift);
+            const max = layer.maxzoom && layer.maxzoom < 24 ? layer.maxzoom - shift : 24;
             map.setLayerZoomRange(layer.id, min, max);
         }
         // CARTO only switches from macro-regions to state lines at zoom 6.
