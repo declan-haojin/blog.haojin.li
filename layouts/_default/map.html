@@ -1,15 +1,84 @@
 {{ define "main" }}
+{{ $travel := .Site.Data.travel }}
 <section>
 <header>
-    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Travel Map</h1>
-    <h2 class="mt-0 py-6 text-4xl font-extrabold text-neutral-900 dark:text-neutral">🇨🇳 🇺🇸 🇸🇬 🇨🇦 🇲🇽 🇫🇷 🇧🇪 🇳🇱 🇩🇪 🇨🇿 🇦🇹 🇸🇰 🇭🇺 🇸🇮 🇮🇹🇨🇭🇵🇷 🇮🇸 🇪🇸 🇬🇷</h2>
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    <p class="mt-2 text-base text-neutral-500 dark:text-neutral-400">
+        {{ len $travel.countries }} countries &middot; {{ len $travel.places }} places
+    </p>
+    <p class="travel-flags mt-3 text-xl">
+        {{- range $travel.countries }}<span title="{{ .name }}">{{ .flag }}</span>{{ end -}}
+    </p>
 </header>
 
-<article class="h-full flex justify-center">
-    <div class="container mx-auto px-0">
-        <iframe class="mx-auto my-0 rounded-md h-[70vh]" src="https://snazzymaps.com/embed/482375" width="100%" style="min-height: 30rem"></iframe>
-    </div>
-</article>
-
+<figure class="travel-map mt-8">
+    <svg role="img" aria-label="World map of places visited"></svg>
+    <figcaption class="mt-2 text-xs text-neutral-400 dark:text-neutral-500">Pinch or double-click to zoom</figcaption>
+</figure>
 </section>
+
+<style>
+    .travel-flags { display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; }
+    .travel-map svg { display: block; width: 100%; height: auto; cursor: grab; touch-action: pan-y; }
+    .travel-map svg:active { cursor: grabbing; }
+    .travel-map .country { fill: rgb(var(--color-neutral-200)); stroke: rgb(var(--color-neutral)); stroke-width: 0.5px; vector-effect: non-scaling-stroke; }
+    .travel-map .country.visited { fill: rgb(var(--color-primary-200)); }
+    .travel-map .place { fill: rgb(var(--color-primary-700)); stroke: rgb(var(--color-neutral)); vector-effect: non-scaling-stroke; stroke-width: 0.75px; }
+    .dark .travel-map .country { fill: rgb(var(--color-neutral-700)); stroke: rgb(var(--color-neutral-800)); }
+    .dark .travel-map .country.visited { fill: rgb(var(--color-primary-900)); }
+    .dark .travel-map .place { fill: rgb(var(--color-primary-400)); stroke: rgb(var(--color-neutral-800)); }
+</style>
+
+<script id="travel-data" type="application/json">{{ $travel | jsonify | safeJS }}</script>
+<script type="module">
+    import { geoNaturalEarth1, geoPath } from "https://cdn.jsdelivr.net/npm/d3-geo@3/+esm";
+    import { select } from "https://cdn.jsdelivr.net/npm/d3-selection@3/+esm";
+    import { zoom } from "https://cdn.jsdelivr.net/npm/d3-zoom@3/+esm";
+    import { feature } from "https://cdn.jsdelivr.net/npm/topojson-client@3/+esm";
+
+    const ANTARCTICA = "010";
+    const WIDTH = 960;
+    const DOT_RADIUS = 2.5;
+
+    const { countries, places } = JSON.parse(document.getElementById("travel-data").textContent);
+    const visited = new Set(countries.map((c) => c.id));
+
+    const world = await fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json").then((r) => r.json());
+    const land = feature(world, world.objects.countries);
+    land.features = land.features.filter((f) => f.id !== ANTARCTICA);
+
+    const projection = geoNaturalEarth1().fitWidth(WIDTH, land);
+    const path = geoPath(projection);
+    const height = Math.ceil(path.bounds(land)[1][1]);
+
+    const svg = select(".travel-map svg").attr("viewBox", `0 0 ${WIDTH} ${height}`);
+    const g = svg.append("g");
+
+    g.selectAll("path")
+        .data(land.features)
+        .join("path")
+        .attr("class", (d) => (visited.has(d.id) ? "country visited" : "country"))
+        .attr("d", path)
+        .append("title")
+        .text((d) => d.properties.name);
+
+    const dots = g.selectAll("circle")
+        .data(places)
+        .join("circle")
+        .attr("class", "place")
+        .attr("r", DOT_RADIUS)
+        .attr("transform", ([lat, lng]) => `translate(${projection([lng, lat])})`);
+
+    svg.call(
+        zoom()
+            .scaleExtent([1, 16])
+            .translateExtent([[0, 0], [WIDTH, height]])
+            // Plain wheel scrolls the page; trackpad pinch arrives as ctrl + wheel.
+            .filter((e) => (e.type === "wheel" ? e.ctrlKey || e.metaKey : !e.button))
+            .on("zoom", ({ transform }) => {
+                g.attr("transform", transform);
+                dots.attr("r", DOT_RADIUS / Math.sqrt(transform.k));
+            })
+    );
+</script>
 {{ end }}
