@@ -6,7 +6,7 @@
 <header>
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
     <p class="mt-2 text-base text-neutral-500 dark:text-neutral-400">
-        {{ len $travel.countries }} countries &middot; {{ len $travel.parks }} US national parks &middot; {{ len $travel.places }} places
+        {{ len $travel.countries }} countries &middot; {{ len (where $travel.places "park" true) }} US national parks &middot; {{ len $travel.places }} places
     </p>
     <p class="travel-flags mt-3 text-xl">
         {{- range $travel.countries }}<span title="{{ .name }}">{{ .flag }}</span>{{ end -}}
@@ -52,26 +52,19 @@
     };
     const HOME_COLOR = "#eab308";
 
-    const { countries, parks, places } = JSON.parse(document.getElementById("travel-data").textContent);
+    const { countries, places } = JSON.parse(document.getElementById("travel-data").textContent);
     const visited = new Set(countries.map((c) => c.id));
 
-    const placesGeoJSON = {
+    const toGeoJSON = (list) => ({
         type: "FeatureCollection",
-        features: places.map((p) => ({
+        features: list.map((p) => ({
             type: "Feature",
             properties: { name: p.name, home: Boolean(p.home) },
             geometry: { type: "Point", coordinates: [p.lng, p.lat] },
         })),
-    };
-
-    const parksGeoJSON = {
-        type: "FeatureCollection",
-        features: parks.map((p) => ({
-            type: "Feature",
-            properties: { name: `${p.name} National Park` },
-            geometry: { type: "Point", coordinates: [p.lng, p.lat] },
-        })),
-    };
+    });
+    const placesGeoJSON = toGeoJSON(places.filter((p) => !p.park));
+    const parksGeoJSON = toGeoJSON(places.filter((p) => p.park));
 
     const world = await fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then((r) => r.json());
     const visitedGeoJSON = feature(world, world.objects.countries);
