@@ -715,3 +715,612 @@
 - name: "San Benito-Bitterwater, California, USA"
   lat: 36.490566
   lng: -121.182492
+- name: "Hamilton, Ontario, Canada"
+  lat: 43.307012
+  lng: -79.805124
+- name: "Pickering, Ontario, Canada"
+  lat: 43.821405
+  lng: -79.103812
+- name: "Grand Canyon Village, Arizona, USA"
+  lat: 36.054445
+  lng: -112.140111
+- name: "Moab, Utah, USA"
+  lat: 38.573315
+  lng: -109.549839
+- name: "Evanston, Wyoming, USA"
+  lat: 41.268329
+  lng: -110.963237
+- name: "Afton, Wyoming, USA"
+  lat: 42.724926
+  lng: -110.931842
+- name: "West Yellowstone, Montana, USA"
+  lat: 44.662135
+  lng: -111.104108
+- name: "Mammoth Hot Springs, Wyoming, USA"
+  lat: 44.976618
+  lng: -110.703214
+- name: "Big Sky, Montana, USA"
+  lat: 45.283312
+  lng: -111.368329
+- name: "Versailles, France"
+  lat: 48.804865
+  lng: 2.120355
+- name: "Postojna, Slovenia"
+  lat: 45.902814
+  lng: 14.257018
+- name: "Serravalle Scrivia, Italy"
+  lat: 44.723912
+  lng: 8.859423
+- name: "Lugano, Switzerland"
+  lat: 45.848319
+  lng: 8.997214
+- name: "Chapel Hill, North Carolina, USA"
+  lat: 35.9132
+  lng: -79.055845
+- name: "Cary, North Carolina, USA"
+  lat: 35.79154
+  lng: -78.781118
+- name: "Pittsboro, North Carolina, USA"
+  lat: 35.711412
+  lng: -79.120015
+- name: "Lexington, North Carolina, USA"
+  lat: 35.824026
+  lng: -80.253384
+- name: "Cherokee, North Carolina, USA"
+  lat: 35.474266
+  lng: -83.315014
+- name: "Chimney Rock, North Carolina, USA"
+  lat: 35.433312
+  lng: -82.242618
+- name: "Boone, North Carolina, USA"
+  lat: 36.216795
+  lng: -81.674552
+- name: "Linville, North Carolina, USA"
+  lat: 36.092014
+  lng: -81.835621
+- name: "Greenville, South Carolina, USA"
+  lat: 34.852618
+  lng: -82.394012
+- name: "Columbia, South Carolina, USA"
+  lat: 33.978815
+  lng: -81.235319
+- name: "Florence, South Carolina, USA"
+  lat: 34.195433
+  lng: -79.762563
+- name: "Summerville, South Carolina, USA"
+  lat: 33.018504
+  lng: -80.175648
+- name: "Petersburg, Virginia, USA"
+  lat: 37.227928
+  lng: -77.401927
+- name: "Quantico, Virginia, USA"
+  lat: 38.522914
+  lng: -77.290318
+- name: "Chantilly, Virginia, USA"
+  lat: 38.894012
+  lng: -77.431108
+- name: "Front Royal, Virginia, USA"
+  lat: 38.918166
+  lng: -78.194445
+- name: "Luray, Virginia, USA"
+  lat: 38.659118
+  lng: -78.320412
+- name: "Waynesboro, Virginia, USA"
+  lat: 38.068469
+  lng: -78.889469
+- name: "Plano, Texas, USA"
+  lat: 33.019843
+  lng: -96.698886
+- name: "Grapevine, Texas, USA"
+  lat: 32.934292
+  lng: -97.078065
+- name: "Terlingua, Texas, USA"
+  lat: 29.321614
+  lng: -103.616022
+- name: "Big Bend National Park, Texas, USA"
+  lat: 29.198712
+  lng: -102.925018
+- name: "Padre Island, Texas, USA"
+  lat: 27.665715
+  lng: -97.179312
+- name: "Webster, Texas, USA"
+  lat: 29.543412
+  lng: -95.104918
+- name: "Dettifoss, Iceland"
+  lat: 65.814669
+  lng: -16.384576
+- name: "Myvatn, Iceland"
+  lat: 65.641389
+  lng: -16.9125
+- name: "Goðafoss, Iceland"
+  lat: 65.682778
+  lng: -17.550194
+- name: "Akureyri, Iceland"
+  lat: 65.68853
+  lng: -18.126169
+- name: "Blonduos, Iceland"
+  lat: 65.660114
+  lng: -20.278012
+- name: "Borgarnes, Iceland"
+  lat: 64.538333
+  lng: -21.920556
+- name: "Grundarfjorður, Iceland"
+  lat: 64.924412
+  lng: -23.253718
+- name: "Snæfellsbær, Iceland"
+  lat: 64.767315
+  lng: -23.627112
+- name: "Keflavik, Iceland"
+  lat: 63.995412
+  lng: -22.622918
+- name: "Xianyang, Shaanxi Sheng, China"
+  lat: 34.437812
+  lng: 108.754418
+- name: "Lintong, Shaanxi Sheng, China"
+  lat: 34.388815
+  lng: 109.273812
+- name: "Auburn, Washington, USA"
+  lat: 47.324215
+  lng: -122.151612
+- name: "Wenatchee, Washington, USA"
+  lat: 47.42346
+  lng: -120.310349
+- name: "Chelan, Washington, USA"
+  lat: 47.840691
+  lng: -120.016739
+- name: "Winthrop, Washington, USA"
+  lat: 48.477923
+  lng: -120.186196
+- name: "Port Angeles, Washington, USA"
+  lat: 48.118146
+  lng: -123.430741
+- name: "Lake Crescent, Washington, USA"
+  lat: 48.056214
+  lng: -123.788012
+- name: "La Push, Washington, USA"
+  lat: 47.908215
+  lng: -124.636612
+- name: "Ruby Beach, Washington, USA"
+  lat: 47.711312
+  lng: -124.414418
+- name: "Quinault, Washington, USA"
+  lat: 47.460715
+  lng: -123.858612
+- name: "White Rock, British Columbia, Canada"
+  lat: 49.025308
+  lng: -122.802962
+- name: "Parksville, British Columbia, Canada"
+  lat: 49.319916
+  lng: -124.315727
+- name: "Squamish, British Columbia, Canada"
+  lat: 49.701634
+  lng: -123.155812
+- name: "Chiloquin, Oregon, USA"
+  lat: 42.542712
+  lng: -121.928015
+- name: "Port Orford, Oregon, USA"
+  lat: 42.747412
+  lng: -124.493218
+- name: "Crescent City, California, USA"
+  lat: 41.75575
+  lng: -124.202591
+- name: "Eureka, California, USA"
+  lat: 40.802071
+  lng: -124.163673
+- name: "Girdwood, Alaska, USA"
+  lat: 60.956012
+  lng: -149.135418
+- name: "Kenai Fjords National Park, Alaska, USA"
+  lat: 59.847412
+  lng: -149.838415
+- name: "Healy, Alaska, USA"
+  lat: 63.737112
+  lng: -149.256718
+- name: "Columbia Glacier, Alaska, USA"
+  lat: 61.101315
+  lng: -147.089012
+- name: "Socorro, New Mexico, USA"
+  lat: 34.058399
+  lng: -106.891416
+- name: "Bosque del Apache, New Mexico, USA"
+  lat: 33.780012
+  lng: -106.892418
+- name: "Salt Flat, Texas, USA"
+  lat: 31.751112
+  lng: -105.018515
+- name: "Joshua Tree National Park, California, USA"
+  lat: 33.994612
+  lng: -116.135918
+- name: "Twentynine Palms, California, USA"
+  lat: 34.139315
+  lng: -116.316112
+- name: "Kelso, California, USA"
+  lat: 34.895012
+  lng: -115.689618
+- name: "Pahrump, Nevada, USA"
+  lat: 36.209015
+  lng: -115.985412
+- name: "Carson City, Nevada, USA"
+  lat: 39.163798
+  lng: -119.767403
+- name: "Hollywood, Florida, USA"
+  lat: 26.011201
+  lng: -80.14949
+- name: "Key Largo, Florida, USA"
+  lat: 25.086515
+  lng: -80.447281
+- name: "Marathon, Florida, USA"
+  lat: 24.713612
+  lng: -81.090318
+- name: "Minneapolis, Minnesota, USA"
+  lat: 44.883312
+  lng: -93.211418
+- name: "Kailua-Kona, Hawaii, USA"
+  lat: 19.639994
+  lng: -155.996926
+- name: "Waimea, Hawaii, USA"
+  lat: 20.023412
+  lng: -155.672815
+- name: "Honokaa, Hawaii, USA"
+  lat: 20.078612
+  lng: -155.468218
+- name: "Hilo, Hawaii, USA"
+  lat: 19.717215
+  lng: -155.081912
+- name: "Pahoa, Hawaii, USA"
+  lat: 19.555312
+  lng: -154.889518
+- name: "Hawaii Volcanoes National Park, Hawaii, USA"
+  lat: 19.415112
+  lng: -155.247518
+- name: "Mauna Kea, Hawaii, USA"
+  lat: 19.768315
+  lng: -155.455212
+- name: "Naalehu, Hawaii, USA"
+  lat: 19.064212
+  lng: -155.585818
+- name: "Captain Cook, Hawaii, USA"
+  lat: 19.468415
+  lng: -155.912912
+- name: "Lihue, Hawaii, USA"
+  lat: 21.981112
+  lng: -159.371118
+- name: "Kapaa, Hawaii, USA"
+  lat: 22.075015
+  lng: -159.319012
+- name: "Princeville, Hawaii, USA"
+  lat: 22.217512
+  lng: -159.479018
+- name: "Hanalei, Hawaii, USA"
+  lat: 22.203315
+  lng: -159.497712
+- name: "Poipu, Hawaii, USA"
+  lat: 21.876012
+  lng: -159.453918
+- name: "Waimea Canyon, Hawaii, USA"
+  lat: 22.057315
+  lng: -159.662512
+- name: "Kahului, Hawaii, USA"
+  lat: 20.889335
+  lng: -156.472947
+- name: "Kihei, Hawaii, USA"
+  lat: 20.764428
+  lng: -156.445007
+- name: "Wailea, Hawaii, USA"
+  lat: 20.689912
+  lng: -156.442218
+- name: "Lahaina, Hawaii, USA"
+  lat: 20.878333
+  lng: -156.6825
+- name: "Kapalua, Hawaii, USA"
+  lat: 20.999712
+  lng: -156.666918
+- name: "Haleakala National Park, Hawaii, USA"
+  lat: 20.709722
+  lng: -156.253333
+- name: "Paia, Hawaii, USA"
+  lat: 20.915012
+  lng: -156.376418
+- name: "Hana, Hawaii, USA"
+  lat: 20.757515
+  lng: -155.988312
+- name: "Honolulu, Hawaii, USA"
+  lat: 21.306944
+  lng: -157.858333
+- name: "Waikiki, Hawaii, USA"
+  lat: 21.279312
+  lng: -157.829218
+- name: "Kailua, Hawaii, USA"
+  lat: 21.402222
+  lng: -157.739444
+- name: "Kaneohe, Hawaii, USA"
+  lat: 21.418056
+  lng: -157.803611
+- name: "Laie, Hawaii, USA"
+  lat: 21.648611
+  lng: -157.923333
+- name: "Haleiwa, Hawaii, USA"
+  lat: 21.592778
+  lng: -158.103333
+- name: "Pearl Harbor, Hawaii, USA"
+  lat: 21.364912
+  lng: -157.950718
+- name: "Colorado Springs, Colorado, USA"
+  lat: 38.833882
+  lng: -104.821363
+- name: "Pikes Peak, Colorado, USA"
+  lat: 38.840871
+  lng: -105.04226
+- name: "Castle Rock, Colorado, USA"
+  lat: 39.372212
+  lng: -104.85609
+- name: "Longmont, Colorado, USA"
+  lat: 40.167207
+  lng: -105.101927
+- name: "Loveland, Colorado, USA"
+  lat: 40.397761
+  lng: -105.07498
+- name: "Fort Collins, Colorado, USA"
+  lat: 40.58526
+  lng: -105.084423
+- name: "Grand Lake, Colorado, USA"
+  lat: 40.252212
+  lng: -105.823118
+- name: "Winter Park, Colorado, USA"
+  lat: 39.796715
+  lng: -105.781812
+- name: "Great Sand Dunes National Park, Colorado, USA"
+  lat: 37.744312
+  lng: -105.508918
+- name: "Alamosa, Colorado, USA"
+  lat: 37.469449
+  lng: -105.870021
+- name: "Salida, Colorado, USA"
+  lat: 38.534719
+  lng: -105.998902
+- name: "Gunnison, Colorado, USA"
+  lat: 38.545825
+  lng: -106.925321
+- name: "Montrose, Colorado, USA"
+  lat: 38.47832
+  lng: -107.876174
+- name: "Black Canyon of the Gunnison National Park, Colorado, USA"
+  lat: 38.553612
+  lng: -107.699318
+- name: "Ridgway, Colorado, USA"
+  lat: 38.152768
+  lng: -107.761728
+- name: "Ouray, Colorado, USA"
+  lat: 38.022771
+  lng: -107.671449
+- name: "Silverton, Colorado, USA"
+  lat: 37.811941
+  lng: -107.664506
+- name: "Durango, Colorado, USA"
+  lat: 37.27528
+  lng: -107.880067
+- name: "Mesa Verde National Park, Colorado, USA"
+  lat: 37.183782
+  lng: -108.488686
+- name: "Cortez, Colorado, USA"
+  lat: 37.348883
+  lng: -108.585926
+- name: "Four Corners Monument, Arizona, USA"
+  lat: 36.998979
+  lng: -109.045183
+- name: "Pagosa Springs, Colorado, USA"
+  lat: 37.26945
+  lng: -107.009762
+- name: "Lassen Volcanic National Park, California, USA"
+  lat: 40.453012
+  lng: -121.534318
+- name: "Burney, California, USA"
+  lat: 41.012015
+  lng: -121.644412
+- name: "Mount Shasta, California, USA"
+  lat: 41.309875
+  lng: -122.310567
+- name: "Williams, California, USA"
+  lat: 39.154614
+  lng: -122.149419
+- name: "Davis, California, USA"
+  lat: 38.544907
+  lng: -121.740517
+- name: "Point Reyes National Seashore, California, USA"
+  lat: 37.998312
+  lng: -123.002618
+- name: "Bodega Bay, California, USA"
+  lat: 38.33325
+  lng: -123.048058
+- name: "Jenner, California, USA"
+  lat: 38.449912
+  lng: -123.115618
+- name: "Mill Valley, California, USA"
+  lat: 37.896515
+  lng: -122.569412
+- name: "Pollock Pines, California, USA"
+  lat: 38.735912
+  lng: -120.604418
+- name: "Pleasanton, California, USA"
+  lat: 37.662431
+  lng: -121.874679
+- name: "Livermore, California, USA"
+  lat: 37.681874
+  lng: -121.768009
+- name: "Walnut Creek, California, USA"
+  lat: 37.910078
+  lng: -122.065182
+- name: "Mount Diablo, California, USA"
+  lat: 37.881612
+  lng: -121.914218
+- name: "Gilroy, California, USA"
+  lat: 37.005782
+  lng: -121.568275
+- name: "Petaluma, California, USA"
+  lat: 38.232417
+  lng: -122.636652
+- name: "Santa Rosa, California, USA"
+  lat: 38.440429
+  lng: -122.714055
+- name: "Ukiah, California, USA"
+  lat: 39.150172
+  lng: -123.207786
+- name: "Hopland, California, USA"
+  lat: 39.006712
+  lng: -123.212218
+- name: "Mendocino, California, USA"
+  lat: 39.307674
+  lng: -123.799459
+- name: "Fort Bragg, California, USA"
+  lat: 39.445723
+  lng: -123.805293
+- name: "Point Arena, California, USA"
+  lat: 38.911215
+  lng: -123.695312
+- name: "Rapid City, South Dakota, USA"
+  lat: 44.080543
+  lng: -103.231015
+- name: "Medora, North Dakota, USA"
+  lat: 46.91418
+  lng: -103.524354
+- name: "Dickinson, North Dakota, USA"
+  lat: 46.879176
+  lng: -102.789624
+- name: "Watford City, North Dakota, USA"
+  lat: 47.613512
+  lng: -103.373818
+- name: "Bowman, North Dakota, USA"
+  lat: 46.183058
+  lng: -103.394964
+- name: "Devils Tower, Wyoming, USA"
+  lat: 44.59021
+  lng: -104.714617
+- name: "Newcastle, Wyoming, USA"
+  lat: 43.854419
+  lng: -104.205008
+- name: "Keystone, South Dakota, USA"
+  lat: 43.889145
+  lng: -103.418248
+- name: "Custer, South Dakota, USA"
+  lat: 43.766651
+  lng: -103.598806
+- name: "Hot Springs, South Dakota, USA"
+  lat: 43.431647
+  lng: -103.474362
+- name: "Wall, South Dakota, USA"
+  lat: 43.992488
+  lng: -102.241547
+- name: "Badlands National Park, South Dakota, USA"
+  lat: 43.756312
+  lng: -101.932718
+- name: "Newark, New Jersey, USA"
+  lat: 40.735657
+  lng: -74.172367
+- name: "Montclair, New Jersey, USA"
+  lat: 40.817599
+  lng: -74.209036
+- name: "Albany, New York, USA"
+  lat: 42.65258
+  lng: -73.756232
+- name: "Saratoga Springs, New York, USA"
+  lat: 43.08313
+  lng: -73.784565
+- name: "Lake George, New York, USA"
+  lat: 43.426181
+  lng: -73.712341
+- name: "Channel Islands National Park, California, USA"
+  lat: 34.037312
+  lng: -119.586218
+- name: "San Luis Obispo, California, USA"
+  lat: 35.282752
+  lng: -120.659616
+- name: "Morro Bay, California, USA"
+  lat: 35.365808
+  lng: -120.8499
+- name: "Pismo Beach, California, USA"
+  lat: 35.142753
+  lng: -120.641283
+- name: "Paso Robles, California, USA"
+  lat: 35.626636
+  lng: -120.691003
+- name: "Santa Maria, California, USA"
+  lat: 34.953034
+  lng: -120.435719
+- name: "Oceanside, California, USA"
+  lat: 33.19587
+  lng: -117.379483
+- name: "La Jolla, California, USA"
+  lat: 32.832811
+  lng: -117.271272
+- name: "Bakersfield, California, USA"
+  lat: 35.373292
+  lng: -119.018712
+- name: "Mariposa, California, USA"
+  lat: 37.484938
+  lng: -119.966284
+- name: "Oakhurst, California, USA"
+  lat: 37.328
+  lng: -119.649315
+- name: "Oakdale, California, USA"
+  lat: 37.766595
+  lng: -120.847154
+- name: "Phoenix, Arizona, USA"
+  lat: 33.448377
+  lng: -112.074037
+- name: "Tempe, Arizona, USA"
+  lat: 33.42551
+  lng: -111.940005
+- name: "Sedona, Arizona, USA"
+  lat: 34.86974
+  lng: -111.76099
+- name: "Flagstaff, Arizona, USA"
+  lat: 35.198284
+  lng: -111.651302
+- name: "Winslow, Arizona, USA"
+  lat: 35.024187
+  lng: -110.697357
+- name: "Petrified Forest National Park, Arizona, USA"
+  lat: 34.932312
+  lng: -109.763018
+- name: "Tucson, Arizona, USA"
+  lat: 32.222607
+  lng: -110.974711
+- name: "Saguaro National Park, Arizona, USA"
+  lat: 32.283712
+  lng: -111.201318
+- name: "Blythe, California, USA"
+  lat: 33.617672
+  lng: -114.588175
+- name: "Cannon Beach, Oregon, USA"
+  lat: 45.891774
+  lng: -123.961527
+- name: "Mount St. Helens, Washington, USA"
+  lat: 46.276412
+  lng: -122.240618
+- name: "Mount Hood, Oregon, USA"
+  lat: 45.298715
+  lng: -121.795712
+- name: "Hood River, Oregon, USA"
+  lat: 45.705397
+  lng: -121.521462
+- name: "Multnomah Falls, Oregon, USA"
+  lat: 45.57616
+  lng: -122.115776
+- name: "Kalispell, Montana, USA"
+  lat: 48.191989
+  lng: -114.316813
+- name: "Whitefish, Montana, USA"
+  lat: 48.410637
+  lng: -114.337539
+- name: "Columbia Falls, Montana, USA"
+  lat: 48.372536
+  lng: -114.181813
+- name: "West Glacier, Montana, USA"
+  lat: 48.495212
+  lng: -113.981118
+- name: "Glacier National Park, Montana, USA"
+  lat: 48.696715
+  lng: -113.718312
+- name: "Many Glacier, Montana, USA"
+  lat: 48.796612
+  lng: -113.657718

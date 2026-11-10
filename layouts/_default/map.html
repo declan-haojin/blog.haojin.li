@@ -13,16 +13,42 @@
 
 <style>
   #travel-map {
-    background: rgb(var(--color-neutral-100));
+    background: #d4dadc;
   }
   html.dark #travel-map {
-    background: rgb(var(--color-neutral-800));
+    background: #262626;
   }
   .leaflet-container {
     font-family: inherit;
   }
+  .leaflet-bar {
+    border: 1px solid rgba(120, 113, 108, 0.2) !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06) !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+  }
+  .leaflet-bar a {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    color: #44403c !important;
+    border-bottom: 1px solid rgba(120, 113, 108, 0.15) !important;
+    backdrop-filter: blur(6px);
+  }
+  .leaflet-bar a:hover {
+    background-color: #ffffff !important;
+  }
+  html.dark .leaflet-bar {
+    border-color: rgba(255, 255, 255, 0.12) !important;
+  }
+  html.dark .leaflet-bar a {
+    background-color: rgba(28, 25, 23, 0.88) !important;
+    color: #e7e5e4 !important;
+    border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  html.dark .leaflet-bar a:hover {
+    background-color: rgba(41, 37, 36, 0.95) !important;
+  }
   .leaflet-tooltip.minimal-pin-tooltip {
-    background: rgba(28, 25, 23, 0.88);
+    background: rgba(28, 25, 23, 0.9);
     color: #fafaf9;
     border: none;
     border-radius: 6px;
@@ -36,7 +62,12 @@
   }
   .leaflet-control-attribution {
     font-size: 10px !important;
-    opacity: 0.6;
+    opacity: 0.55;
+    background: transparent !important;
+  }
+  html.dark .leaflet-control-attribution,
+  html.dark .leaflet-control-attribution a {
+    color: #a8a29e !important;
   }
 </style>
 
@@ -62,30 +93,23 @@
     {{- $places := .Site.Data.places | default (readFile "data/places.yaml" | transform.Unmarshal) -}}
     const places = {{ $places | jsonify | safeJS }};
 
-    const lightBase = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}";
-    const lightLabels = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}";
-    const darkBase = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}";
-    const darkLabels = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}";
+    const lightTiles = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+    const darkTiles = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
     const isDark = () => document.documentElement.classList.contains("dark");
 
     const map = L.map("travel-map", {
       center: [32, -25],
       zoom: 2,
       minZoom: 2,
-      maxZoom: 16,
+      maxZoom: 19,
       worldCopyJump: true,
       zoomControl: true,
     });
 
-    const baseLayer = L.tileLayer(isDark() ? darkBase : lightBase, {
-      maxZoom: 16,
-      attribution: "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ",
-    }).addTo(map);
-
-    const labelLayer = L.tileLayer(isDark() ? darkLabels : lightLabels, {
-      maxZoom: 16,
-      pane: "tilePane",
-      opacity: 0.75,
+    const baseLayer = L.tileLayer(isDark() ? darkTiles : lightTiles, {
+      subdomains: "abcd",
+      maxZoom: 20,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
     }).addTo(map);
 
     const allMarkers = [];
@@ -96,11 +120,11 @@
 
       const isHome = Boolean(p.home);
       const marker = L.circleMarker([p.lat, p.lng], {
-        radius: isHome ? 6.5 : 4.5,
+        radius: isHome ? 6.5 : 4.2,
         fillColor: isHome ? "#f59e0b" : "#65a30d",
         color: isDark() ? "#1c1917" : "#ffffff",
-        weight: 1.5,
-        opacity: 1,
+        weight: 1.25,
+        opacity: 0.95,
         fillOpacity: isHome ? 0.95 : 0.85,
       }).addTo(map);
 
@@ -122,8 +146,7 @@
 
     const observer = new MutationObserver(() => {
       const dark = isDark();
-      baseLayer.setUrl(dark ? darkBase : lightBase);
-      labelLayer.setUrl(dark ? darkLabels : lightLabels);
+      baseLayer.setUrl(dark ? darkTiles : lightTiles);
       allMarkers.forEach((m) => m.setStyle({ color: dark ? "#1c1917" : "#ffffff" }));
     });
     observer.observe(document.documentElement, {
