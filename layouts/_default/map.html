@@ -15,9 +15,9 @@
 
 <figure class="mt-8">
     <div id="travel-map" role="region" aria-label="Map of places visited"></div>
-    <figcaption class="mt-2 text-xs text-neutral-400 dark:text-neutral-500">
-        <span class="travel-legend"><span class="travel-home-dot"></span> Home</span>
-        <span class="travel-legend"><span id="travel-park-icon"></span> National park</span>
+    <figcaption class="travel-legend mt-2 text-xs text-neutral-400 dark:text-neutral-500">
+        <span><span id="travel-home-icon"></span>Home</span>
+        <span><span id="travel-park-icon"></span>National park</span>
     </figcaption>
 </figure>
 </section>
@@ -37,9 +37,9 @@
     .dark #travel-map .maplibregl-ctrl-attrib { background: rgb(var(--color-neutral-800)); color: rgb(var(--color-neutral-400)); }
     .dark #travel-map .maplibregl-ctrl-attrib a { color: rgb(var(--color-neutral-300)); }
     .dark #travel-map .maplibregl-ctrl-attrib-button { filter: invert(1); }
-    .travel-legend { display: inline-flex; align-items: center; gap: 0.25rem; margin-right: 0.75rem; }
-    #travel-park-icon svg { width: 0.875rem; height: 0.875rem; }
-    .travel-home-dot { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 9999px; background: #ffc100; }
+    .travel-legend { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+    .travel-legend > span { display: inline-flex; align-items: center; gap: 0.25rem; }
+    .travel-legend svg { display: block; width: 0.875rem; height: 0.875rem; }
 </style>
 
 <script id="travel-data" type="application/json">{{ $travel | jsonify | safeJS }}</script>
@@ -51,7 +51,7 @@
         light: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
         dark: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
     };
-    const HOME_COLOR = "#ffc100";
+    const HOME_COLOR = "#f0a500";
     const PLACE_COLOR = "#ea4335";
     // Colours from the blog's original Snazzy Maps style (snazzymaps.com/style/482375), applied to Positron.
     const SNAZZY = {
@@ -116,22 +116,28 @@
     const isDark = () => document.documentElement.classList.contains("dark");
     const themeColor = (name) => `rgb(${getComputedStyle(document.documentElement).getPropertyValue(name).trim()})`;
 
-    const parkIconSVG = (fill, stroke) => `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+    const GLYPHS = {
+        park: `<path d="M12 4.5l4.5 6h-2.25l3.25 4.5H6.5l3.25-4.5H7.5z"/><rect x="11" y="15" width="2" height="3.5"/>`,
+        home: `<path d="M12 5l7 6h-2v7h-3.5v-4.5h-3V18H7v-7H5z"/>`,
+    };
+    const badgeSVG = (glyph, fill, stroke) => `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
         <circle cx="12" cy="12" r="11" fill="${fill}" stroke="${stroke}" stroke-width="1.5"/>
-        <path d="M12 4.5l4.5 6h-2.25l3.25 4.5H6.5l3.25-4.5H7.5z" fill="#fff"/>
-        <rect x="11" y="15" width="2" height="3.5" fill="#fff"/>
+        <g fill="#fff">${GLYPHS[glyph]}</g>
     </svg>`;
     const loadImage = (svg) => {
         const img = new Image();
         img.src = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
         return img.decode().then(() => img);
     };
-    const parkFill = themeColor("--color-secondary-700");
-    const [parkIconLight, parkIconDark] = await Promise.all([
-        loadImage(parkIconSVG(parkFill, "#fff")),
-        loadImage(parkIconSVG(parkFill, DARK_LAND)),
-    ]);
-    document.getElementById("travel-park-icon").innerHTML = parkIconSVG(parkFill, "transparent");
+    const BADGE_FILL = { park: themeColor("--color-secondary-700"), home: HOME_COLOR };
+    const badges = {};
+    for (const glyph of ["park", "home"]) {
+        badges[glyph] = {
+            light: await loadImage(badgeSVG(glyph, BADGE_FILL[glyph], "#fff")),
+            dark: await loadImage(badgeSVG(glyph, BADGE_FILL[glyph], DARK_LAND)),
+        };
+        document.getElementById(`travel-${glyph}-icon`).innerHTML = badgeSVG(glyph, BADGE_FILL[glyph], "transparent");
+    }
 
     const snazzyPaint = (layer) => {
         const { id, type } = layer;
@@ -212,36 +218,41 @@
             id: "places",
             type: "circle",
             source: "places",
-            layout: { "circle-sort-key": ["case", ["get", "home"], 1, 0] },
+            filter: ["!", ["get", "home"]],
             paint: {
-                "circle-color": ["case", ["get", "home"], HOME_COLOR, PLACE_COLOR],
-                "circle-radius": ["interpolate", ["linear"], ["zoom"], 1, ["case", ["get", "home"], 4, 2.5], 8, ["case", ["get", "home"], 7, 5]],
+                "circle-color": PLACE_COLOR,
+                "circle-radius": ["interpolate", ["linear"], ["zoom"], 1, 2.5, 8, 5],
                 "circle-stroke-color": dark ? DARK_LAND : "#fff",
                 "circle-stroke-width": 1,
             },
         });
 
-        if (map.hasImage("park")) map.removeImage("park");
-        map.addImage("park", dark ? parkIconDark : parkIconLight, { pixelRatio: 2 });
+        const addBadgeLayer = (id, source, glyph, filter) => {
+            if (map.hasImage(glyph)) map.removeImage(glyph);
+            map.addImage(glyph, badges[glyph][dark ? "dark" : "light"], { pixelRatio: 2 });
+            map.addLayer({
+                id,
+                type: "symbol",
+                source,
+                ...(filter && { filter }),
+                layout: {
+                    "icon-image": glyph,
+                    "icon-size": ["interpolate", ["linear"], ["zoom"], 1, 0.45, 6, 1],
+                    "icon-allow-overlap": true,
+                    "icon-ignore-placement": true,
+                },
+            });
+        };
         map.addSource("parks", { type: "geojson", data: parksGeoJSON });
-        map.addLayer({
-            id: "parks",
-            type: "symbol",
-            source: "parks",
-            layout: {
-                "icon-image": "park",
-                "icon-size": ["interpolate", ["linear"], ["zoom"], 1, 0.45, 6, 1],
-                "icon-allow-overlap": true,
-                "icon-ignore-placement": true,
-            },
-        });
+        addBadgeLayer("parks", "parks", "park");
+        addBadgeLayer("homes", "places", "home", ["get", "home"]);
     });
 
     const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 8 });
     const showName = (f) => {
         popup.setLngLat(f.geometry.coordinates).setText(f.properties.name).addTo(map);
     };
-    const pointLayers = ["parks", "places"];
+    const pointLayers = ["homes", "parks", "places"];
     map.on("mousemove", (e) => {
         const [f] = map.queryRenderedFeatures(e.point, { layers: pointLayers });
         map.getCanvas().style.cursor = f ? "pointer" : "";
