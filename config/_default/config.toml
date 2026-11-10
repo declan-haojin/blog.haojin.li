@@ -10,6 +10,8 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
+# Pages with many photos can take longer than the 30s default when images aren't in resources/_gen yet.
+timeout = "300s"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

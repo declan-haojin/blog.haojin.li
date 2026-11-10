@@ -1,0 +1,12 @@
+{{- /* Link-preview image as a resized copy, so the full-size original never gets published. */ -}}
+{{- $images := .Resources.ByType "image" -}}
+{{- $image := $images.GetMatch "*feature*" | default ($images.GetMatch "{*cover*,*thumbnail*}") -}}
+{{- $url := "" -}}
+{{- with $image -}}
+  {{- if eq .MediaType.SubType "svg" -}}
+    {{- $url = .Permalink -}}
+  {{- else -}}
+    {{- $url = (.Resize "1200x jpg q80").Permalink -}}
+  {{- end -}}
+{{- end -}}
+{{- return $url -}}
