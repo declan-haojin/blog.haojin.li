@@ -91,8 +91,8 @@
       <meta name="yandex-verification" content="{{ . }}" />
     {{ end }}
     {{/* Social */}}
-    {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
+    {{ partial "opengraph.html" . }}
+    {{ partial "twitter_cards.html" . }}
     {{/* Schema */}}
     {{ partial "schema.html" . }}
     {{/* Me */}}
