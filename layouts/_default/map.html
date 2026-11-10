@@ -1,5 +1,7 @@
 {{ define "main" }}
 {{ $travel := .Site.Data.travel }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.css" />
+
 <section>
 <header>
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
@@ -11,85 +13,133 @@
     </p>
 </header>
 
-<figure class="travel-map mt-8">
-    <svg role="img" aria-label="World map of places visited"></svg>
+<figure class="mt-8">
+    <div id="travel-map" role="region" aria-label="Map of places visited"></div>
     <figcaption class="mt-2 text-xs text-neutral-400 dark:text-neutral-500">
-        <svg class="inline align-baseline" style="margin-right: 0.25rem" width="8" height="8" viewBox="0 0 8 8" aria-hidden="true"><circle class="place home" cx="4" cy="4" r="3.5" /></svg>
-        Home &middot; Pinch or double-click to zoom
+        <span class="travel-home-dot"></span> Home
     </figcaption>
 </figure>
 </section>
 
 <style>
     .travel-flags { display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; }
-    .travel-map > svg { display: block; width: 100%; height: auto; cursor: grab; touch-action: pan-y; }
-    .travel-map > svg:active { cursor: grabbing; }
-    .travel-map .country { fill: rgb(var(--color-neutral-200)); stroke: rgb(var(--color-neutral)); stroke-width: 0.5px; vector-effect: non-scaling-stroke; }
-    .travel-map .country.visited { fill: rgb(var(--color-primary-200)); }
-    .travel-map .place { fill: rgb(var(--color-primary-700)); stroke: rgb(var(--color-neutral)); vector-effect: non-scaling-stroke; stroke-width: 0.75px; }
-    .travel-map .place:hover { fill: rgb(var(--color-primary-900)); }
-    .travel-map .place.home { fill: #eab308; }
-    .dark .travel-map .country { fill: rgb(var(--color-neutral-700)); stroke: rgb(var(--color-neutral-800)); }
-    .dark .travel-map .country.visited { fill: rgb(var(--color-primary-900)); }
-    .dark .travel-map .place { fill: rgb(var(--color-primary-400)); stroke: rgb(var(--color-neutral-800)); }
-    .dark .travel-map .place:hover { fill: rgb(var(--color-primary-200)); }
-    .dark .travel-map .place.home { fill: #facc15; }
+    #travel-map { height: min(70vh, 80vw); min-height: 20rem; border-radius: 0.5rem; overflow: hidden; background: rgb(var(--color-neutral-100)); }
+    .dark #travel-map { background: rgb(var(--color-neutral-900)); }
+    #travel-map .maplibregl-ctrl-attrib { font-size: 10px; }
+    #travel-map .maplibregl-popup-content { padding: 0.25rem 0.5rem; border-radius: 0.375rem; font-size: 0.75rem; line-height: 1rem; background: rgb(var(--color-neutral-900)); color: rgb(var(--color-neutral)); box-shadow: 0 2px 8px rgb(0 0 0 / 0.2); }
+    #travel-map .maplibregl-popup-tip { display: none; }
+    .dark #travel-map .maplibregl-popup-content { background: rgb(var(--color-neutral-100)); color: rgb(var(--color-neutral-900)); }
+    .dark #travel-map .maplibregl-ctrl-group { background: rgb(var(--color-neutral-800)); }
+    .dark #travel-map .maplibregl-ctrl-group button + button { border-top-color: rgb(var(--color-neutral-700)); }
+    .dark #travel-map .maplibregl-ctrl-icon { filter: invert(1); }
+    .dark #travel-map .maplibregl-ctrl-attrib { background: rgb(var(--color-neutral-800)); color: rgb(var(--color-neutral-400)); }
+    .dark #travel-map .maplibregl-ctrl-attrib a { color: rgb(var(--color-neutral-300)); }
+    .dark #travel-map .maplibregl-ctrl-attrib-button { filter: invert(1); }
+    .travel-home-dot { display: inline-block; width: 0.5rem; height: 0.5rem; margin-right: 0.125rem; border-radius: 9999px; background: #eab308; }
 </style>
 
 <script id="travel-data" type="application/json">{{ $travel | jsonify | safeJS }}</script>
 <script type="module">
-    import { geoNaturalEarth1, geoPath } from "https://cdn.jsdelivr.net/npm/d3-geo@3/+esm";
-    import { select } from "https://cdn.jsdelivr.net/npm/d3-selection@3/+esm";
-    import { zoom } from "https://cdn.jsdelivr.net/npm/d3-zoom@3/+esm";
+    import "https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.js";
     import { feature } from "https://cdn.jsdelivr.net/npm/topojson-client@3/+esm";
 
-    const ANTARCTICA = "010";
-    const WIDTH = 960;
-    const DOT_RADIUS = 2.5;
-    const HOME_RADIUS = 4;
+    const STYLES = {
+        light: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
+        dark: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+    };
+    const HOME_COLOR = "#eab308";
 
     const { countries, places } = JSON.parse(document.getElementById("travel-data").textContent);
-    places.sort((a, b) => Boolean(a.home) - Boolean(b.home));
     const visited = new Set(countries.map((c) => c.id));
 
-    const world = await fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json").then((r) => r.json());
-    const land = feature(world, world.objects.countries);
-    land.features = land.features.filter((f) => f.id !== ANTARCTICA);
+    const placesGeoJSON = {
+        type: "FeatureCollection",
+        features: places.map((p) => ({
+            type: "Feature",
+            properties: { name: p.name, home: Boolean(p.home) },
+            geometry: { type: "Point", coordinates: [p.lng, p.lat] },
+        })),
+    };
 
-    const projection = geoNaturalEarth1().fitWidth(WIDTH, land);
-    const path = geoPath(projection);
-    const height = Math.ceil(path.bounds(land)[1][1]);
+    const world = await fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then((r) => r.json());
+    const visitedGeoJSON = feature(world, world.objects.countries);
+    visitedGeoJSON.features = visitedGeoJSON.features.filter((f) => visited.has(f.id));
 
-    const svg = select(".travel-map svg").attr("viewBox", `0 0 ${WIDTH} ${height}`);
-    const g = svg.append("g");
+    const isDark = () => document.documentElement.classList.contains("dark");
+    const themeColor = (name) => `rgb(${getComputedStyle(document.documentElement).getPropertyValue(name).trim()})`;
 
-    g.selectAll("path")
-        .data(land.features)
-        .join("path")
-        .attr("class", (d) => (visited.has(d.id) ? "country visited" : "country"))
-        .attr("d", path)
-        .append("title")
-        .text((d) => d.properties.name);
+    let currentStyle = isDark() ? STYLES.dark : STYLES.light;
+    const lngs = places.map((p) => p.lng);
+    const lats = places.map((p) => p.lat);
+    const map = new maplibregl.Map({
+        container: "travel-map",
+        style: currentStyle,
+        bounds: [[Math.min(...lngs), Math.min(...lats)], [Math.max(...lngs), Math.max(...lats)]],
+        fitBoundsOptions: { padding: 32 },
+        cooperativeGestures: true,
+        attributionControl: { compact: true },
+        dragRotate: false,
+        pitchWithRotate: false,
+        touchPitch: false,
+    });
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    map.touchZoomRotate.disableRotation();
 
-    const radius = (d) => (d.home ? HOME_RADIUS : DOT_RADIUS);
-    const dots = g.selectAll("circle")
-        .data(places)
-        .join("circle")
-        .attr("class", (d) => (d.home ? "place home" : "place"))
-        .attr("r", radius)
-        .attr("transform", (d) => `translate(${projection([d.lng, d.lat])})`);
-    dots.append("title").text((d) => d.name);
+    // Re-run on every style load, since switching light/dark replaces the whole style.
+    map.on("style.load", () => {
+        const dark = isDark();
 
-    svg.call(
-        zoom()
-            .scaleExtent([1, 16])
-            .translateExtent([[0, 0], [WIDTH, height]])
-            // Plain wheel scrolls the page; trackpad pinch arrives as ctrl + wheel.
-            .filter((e) => (e.type === "wheel" ? e.ctrlKey || e.metaKey : !e.button))
-            .on("zoom", ({ transform }) => {
-                g.attr("transform", transform);
-                dots.attr("r", (d) => radius(d) / Math.sqrt(transform.k));
-            })
-    );
+        map.addSource("visited", { type: "geojson", data: visitedGeoJSON });
+        // Drawn beneath the basemap's water so the coarse 110m coastlines don't spill into the sea.
+        map.addLayer({
+            id: "visited",
+            type: "fill",
+            source: "visited",
+            paint: {
+                "fill-color": themeColor(dark ? "--color-primary-700" : "--color-primary-300"),
+                "fill-opacity": ["interpolate", ["linear"], ["zoom"], 3, dark ? 0.35 : 0.45, 6, 0],
+            },
+        }, map.getLayer("water") ? "water" : undefined);
+
+        map.addSource("places", { type: "geojson", data: placesGeoJSON });
+        map.addLayer({
+            id: "places",
+            type: "circle",
+            source: "places",
+            layout: { "circle-sort-key": ["case", ["get", "home"], 1, 0] },
+            paint: {
+                "circle-color": ["case", ["get", "home"], HOME_COLOR, themeColor(dark ? "--color-primary-400" : "--color-primary-700")],
+                "circle-radius": ["interpolate", ["linear"], ["zoom"], 1, ["case", ["get", "home"], 4, 2.5], 8, ["case", ["get", "home"], 7, 5]],
+                "circle-stroke-color": dark ? themeColor("--color-neutral-800") : "#fff",
+                "circle-stroke-width": 1,
+            },
+        });
+    });
+
+    const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 8 });
+    const showName = (e) => {
+        const f = e.features[0];
+        popup.setLngLat(f.geometry.coordinates).setText(f.properties.name).addTo(map);
+    };
+    map.on("mouseenter", "places", (e) => {
+        map.getCanvas().style.cursor = "pointer";
+        showName(e);
+    });
+    map.on("mouseleave", "places", () => {
+        map.getCanvas().style.cursor = "";
+        popup.remove();
+    });
+    map.on("click", "places", showName);
+    map.on("click", (e) => {
+        if (!map.queryRenderedFeatures(e.point, { layers: ["places"] }).length) popup.remove();
+    });
+
+    new MutationObserver(() => {
+        const next = isDark() ? STYLES.dark : STYLES.light;
+        if (next !== currentStyle) {
+            currentStyle = next;
+            map.setStyle(next);
+        }
+    }).observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
 </script>
 {{ end }}
