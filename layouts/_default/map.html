@@ -8,7 +8,7 @@
     <p class="mt-2 text-base text-neutral-500 dark:text-neutral-400">
         {{ len $travel.countries }} countries &middot; {{ len (where $travel.places "park" true) }} US national parks &middot; {{ len $travel.places }} places
     </p>
-    <p class="travel-flags mt-3 text-xl">
+    <p class="travel-flags mt-4 text-4xl">
         {{- range $travel.countries }}<span title="{{ .name }}">{{ .flag }}</span>{{ end -}}
     </p>
 </header>
@@ -23,7 +23,7 @@
 </section>
 
 <style>
-    .travel-flags { display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; }
+    .travel-flags { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; }
     #travel-map { height: min(70vh, 80vw); min-height: 20rem; border-radius: 0.5rem; overflow: hidden; background: #aee2e0; }
     .dark #travel-map { background: #1e3435; }
     #travel-map .maplibregl-ctrl-attrib { font-size: 10px; }
@@ -220,7 +220,7 @@
             source: "places",
             filter: ["!", ["get", "home"]],
             paint: {
-                "circle-color": PLACE_COLOR,
+                "circle-color": dark ? themeColor("--color-primary-400") : PLACE_COLOR,
                 "circle-radius": ["interpolate", ["linear"], ["zoom"], 1, 2.5, 8, 5],
                 "circle-stroke-color": dark ? DARK_LAND : "#fff",
                 "circle-stroke-width": 1,
