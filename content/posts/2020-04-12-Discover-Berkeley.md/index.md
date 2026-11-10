@@ -14,7 +14,6 @@ cover: >-
 author: Declan
 abbrlink: 8f6f
 date: 2020-04-12 20:45:00
-password:
 ---
 # Lead
 

@@ -25,7 +25,6 @@ cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200629230803.png
 abbrlink: fc90
 date: 2020-06-29 18:51:38
-password:
 ---
 
 局促的咨询室里，有升学指导老师、母亲和他，还有从始至终都没有动过的三杯水。

@@ -22,7 +22,6 @@ cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200417004933.png
 abbrlink: 85eb
 date: 2020-04-16 00:10:00
-password:
 ---
 # New main domain
 [https://lihaojin.cn](https://lihaojin.cn)

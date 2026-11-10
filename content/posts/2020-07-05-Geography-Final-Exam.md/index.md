@@ -24,7 +24,6 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200706112119.png
 date: 2020-07-05 23:05:41
-password:
 ---
 > Do you think Donald Trump will win the presidential election with Biden (Democratic candidate) in November 2020? Why?
 

@@ -23,7 +23,6 @@ cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/1592827863139.png
 abbrlink: d6de
 date: 2020-06-22 11:06:22
-password:
 ---
 # The Honest Theif
 

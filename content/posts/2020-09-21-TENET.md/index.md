@@ -23,7 +23,6 @@ thumbnail: >-
 cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200921191600.png
 date: 2020-09-21 17:01:15
-password:
 ---
 
 Tenet is an amazing movie with wonderful stories and deep meanings. I am a person never watching a single movie twice, but I did watch Tenet twice. Each time it brought me surprises. It's hard to understand, and I haven't fully understood yet. However, when watching Tenet, it feels like listening to a piece of music with English lyrics. I may not be able to get the meaning of the lyrics the singer sings, but it doesn't affect my mood and enjoyment. The same goes for this movie. I can't figure out how time flows, but I do feel excitement and nervousness following the step of the characters.

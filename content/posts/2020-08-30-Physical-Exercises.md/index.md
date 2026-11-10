@@ -25,7 +25,6 @@ cover: >-
   https://cdn.jsdelivr.net/gh/declan-haojin/blog-image@master/img/20200831180601.png
 abbrlink: 174b
 date: 2020-08-30 23:50:00
-password:
 ---
 On August 28th, I went to a military training base in rural area of my city with my fellow students. Originally, I thought it would be a tough time based on all my past formidable experience with such training. However, I didn't take it anymore during my time in both middle and high school. I took a trip and had computer science classes instead. A fun fact is that I became the whitest among my class after they coming back from training. 
 
