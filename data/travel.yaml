@@ -21,242 +21,242 @@ countries:
   - { name: Spain, flag: "🇪🇸", id: "724" }
   - { name: Greece, flag: "🇬🇷", id: "300" }
 
-# [latitude, longitude]
+# `home: true` marks places I've lived.
 places:
-  - [34.2104, -77.8868]
-  - [35.994, -78.8986]
-  - [35.7796, -78.6382]
-  - [36.0726, -79.792]
-  - [33.6891, -78.8867]
-  - [36.0999, -80.2442]
-  - [35.5951, -82.5515]
-  - [37.5407, -77.436]
-  - [38.9072, -77.0369]
-  - [38.4755, -78.4535]
-  - [40.7128, -74.006]
-  - [42.3601, -71.0589]
-  - [21.1619, -86.8515]
-  - [20.6296, -87.0739]
-  - [45.5019, -73.5674]
-  - [45.4215, -75.6972]
-  - [43.6532, -79.3832]
-  - [38.2527, -85.7585]
-  - [41.8781, -87.6298]
-  - [41.3083, -72.9279]
-  - [43.0896, -79.0849]
-  - [33.6846, -117.8265]
-  - [32.7157, -117.1611]
-  - [34.0522, -118.2437]
-  - [36.4864, -118.5658]
-  - [36.8879, -118.5551]
-  - [37.8651, -119.5383]
-  - [37.7749, -122.4194]
-  - [37.323, -122.0322]
-  - [37.4636, -122.4286]
-  - [36.9741, -122.0308]
-  - [36.6777, -121.6555]
-  - [36.6002, -121.8947]
-  - [36.5552, -121.9233]
-  - [36.2704, -121.8081]
-  - [35.644, -121.1893]
-  - [34.4208, -119.6982]
-  - [34.2805, -119.2945]
-  - [34.5958, -120.1376]
-  - [47.6062, -122.3321]
-  - [36.1716, -115.1391]
-  - [37.2982, -113.0263]
-  - [37.593, -112.1871]
-  - [38.0877, -111.1355]
-  - [38.2136, -109.9025]
-  - [38.7331, -109.5925]
-  - [36.9914, -110.1939]
-  - [36.9147, -111.4558]
-  - [36.8791, -111.5104]
-  - [36.8618, -111.3743]
-  - [35.1894, -114.053]
-  - [36.0161, -114.7377]
-  - [36.2679, -112.3535]
-  - [33.9806, -117.3755]
-  - [1.3521, 103.8198]
-  - [18.2525, 109.5121]
-  - [22.3193, 114.1694]
-  - [25.033, 121.5654]
-  - [24.8138, 120.9675]
-  - [24.7591, 121.7537]
-  - [23.9831, 121.5998]
-  - [22.7613, 121.1438]
-  - [22.6273, 120.3014]
-  - [24.1939, 121.4907]
-  - [21.9466, 120.7987]
-  - [22.9999, 120.2269]
-  - [23.4801, 120.4491]
-  - [23.9583, 120.4934]
-  - [23.511, 120.8035]
-  - [24.9948, 121.4619]
-  - [24.4795, 118.0895]
-  - [26.0742, 119.2965]
-  - [22.5429, 114.0596]
-  - [23.0219, 113.1219]
-  - [24.8104, 113.5972]
-  - [24.8797, 102.8332]
-  - [22.0075, 100.7974]
-  - [29.9958, 120.5861]
-  - [30.2741, 120.1552]
-  - [31.2983, 120.5832]
-  - [31.2304, 121.4737]
-  - [36.6518, 117.1201]
-  - [34.6181, 112.454]
-  - [39.9042, 116.4074]
-  - [38.874, 115.4646]
-  - [34.2658, 108.9541]
-  - [35.4767, 110.4429]
-  - [33.5864, 109.1729]
-  - [40.6578, 109.8402]
-  - [43.6431, 111.9524]
-  - [41.8048, 123.433]
-  - [43.816, 125.3236]
-  - [41.993, 128.0775]
-  - [34.4779, 110.0848]
-  - [25.2736, 110.29]
-  - [35.2271, -80.8431]
-  - [44.428, -110.5885]
-  - [40.7608, -111.891]
-  - [43.7904, -110.6818]
-  - [39.7392, -104.9903]
-  - [40.3428, -105.6836]
-  - [48.8566, 2.3522]
-  - [50.8476, 4.3572]
-  - [51.2213, 4.4051]
-  - [52.3676, 4.9041]
-  - [50.9375, 6.9603]
-  - [50.1109, 8.6821]
-  - [49.4521, 11.0767]
-  - [49.8988, 10.9028]
-  - [50.0755, 14.4378]
-  - [48.2082, 16.3738]
-  - [48.1486, 17.1077]
-  - [47.4979, 19.0402]
-  - [46.5547, 15.6459]
-  - [45.4408, 12.3155]
-  - [43.7696, 11.2558]
-  - [43.7228, 10.4017]
-  - [44.1281, 9.7124]
-  - [45.4642, 9.19]
-  - [45.5845, 9.2744]
-  - [46.7116, 7.9643]
-  - [46.7169, 7.7133]
-  - [46.6863, 7.8632]
-  - [46.6242, 8.0414]
-  - [46.6606, 8.0536]
-  - [46.5935, 7.9091]
-  - [46.5197, 6.6323]
-  - [46.2044, 6.1432]
-  - [35.6131, -83.5532]
-  - [18.4671, -66.1185]
-  - [18.2951, -65.8]
-  - [18.3252, -65.6539]
-  - [18.4777, -66.4986]
-  - [18.5008, -67.0226]
-  - [18.3075, -67.261]
-  - [32.7767, -96.797]
-  - [32.7555, -97.3308]
-  - [32.2347, -97.7555]
-  - [30.2672, -97.7431]
-  - [30.7374, -98.369]
-  - [29.8833, -97.9414]
-  - [29.4252, -98.4946]
-  - [30.2752, -98.872]
-  - [30.2052, -103.2446]
-  - [29.2499, -103.2502]
-  - [29.3709, -100.8959]
-  - [27.8006, -97.3964]
-  - [29.7604, -95.3698]
-  - [29.3013, -94.7977]
-  - [37.5956, -81.1198]
-  - [64.147, -21.9408]
-  - [63.8807, -22.4473]
-  - [64.2822, -21.0764]
-  - [64.3104, -20.3024]
-  - [64.3271, -20.1199]
-  - [64.0413, -20.8851]
-  - [63.9318, -20.9997]
-  - [63.6156, -19.9886]
-  - [63.5321, -19.5114]
-  - [63.5569, -19.3028]
-  - [63.4015, -19.1284]
-  - [63.4053, -19.0634]
-  - [63.4177, -18.9974]
-  - [64.0704, -16.9752]
-  - [64.0186, -16.385]
-  - [64.0443, -16.1777]
-  - [64.2551, -15.2088]
-  - [64.2464, -14.9699]
-  - [64.3413, -14.9443]
-  - [64.6568, -14.2848]
-  - [65.2609, -14.3994]
-  - [48.4284, -123.3656]
-  - [49.2827, -123.1207]
-  - [37.5985, -122.3872]
-  - [42.9295, -122.1279]
-  - [42.3265, -122.8756]
-  - [61.2176, -149.8997]
-  - [60.1048, -149.4421]
-  - [60.1163, -149.4398]
-  - [62.3209, -150.1066]
-  - [63.2828, -150.7894]
-  - [64.8401, -147.72]
-  - [60.9234, -142.7339]
-  - [61.9539, -145.3049]
-  - [61.4331, -142.9229]
-  - [61.1309, -146.3499]
-  - [63.4223, -145.6085]
-  - [65.053, -146.0591]
-  - [37.8707, -81.0531]
-  - [38.0529, -81.104]
-  - [35.0844, -106.6504]
-  - [35.687, -105.9378]
-  - [35.88, -106.3031]
-  - [32.7872, -106.3257]
-  - [31.7619, -106.485]
-  - [31.9233, -104.8663]
-  - [32.3843, -104.2238]
-  - [33.3943, -104.5227]
-  - [33.8734, -115.901]
-  - [35.1234, -115.5204]
-  - [36.5323, -116.9325]
-  - [37.6485, -118.9721]
-  - [39.0968, -120.0324]
-  - [39.5299, -119.8143]
-  - [38.5781, -121.4944]
-  - [40.5865, -122.3917]
-  - [41.4017, -124.0417]
-  - [44.6368, -124.0534]
-  - [45.5152, -122.6784]
-  - [47.0379, -122.9007]
-  - [49.1659, -123.9401]
-  - [50.1162, -122.9535]
-  - [47.9504, -124.3855]
-  - [47.8021, -123.6044]
-  - [48.5109, -122.2276]
-  - [47.5962, -120.6615]
-  - [46.8671, -121.6999]
-  - [48.7122, -121.1133]
-  - [33.7501, -84.3885]
-  - [33.7919, -80.749]
-  - [41.3874, 2.1686]
-  - [37.9838, 23.7275]
-  - [37.6578, 24.0152]
-  - [36.4166, 25.4324]
-  - [36.4618, 25.3753]
-  - [36.3583, 25.3972]
-  - [32.7833, -79.932]
-  - [25.7617, -80.1918]
-  - [25.5003, -80.1828]
-  - [25.7459, -80.555]
-  - [25.1418, -80.9253]
-  - [24.9243, -80.6278]
-  - [24.5551, -81.78]
-  - [24.6285, -82.8732]
-  - [25.4479, -80.4792]
-  - [37.5202, -122.2758]
-  - [36.4906, -121.1825]
+  - { name: "Wilmington, North Carolina, USA", lat: 34.2104, lng: -77.8868 }
+  - { name: "Durham, North Carolina, USA", lat: 35.994, lng: -78.8986, home: true }
+  - { name: "Raleigh, North Carolina, USA", lat: 35.7796, lng: -78.6382 }
+  - { name: "Greensboro, North Carolina, USA", lat: 36.0726, lng: -79.792 }
+  - { name: "Myrtle Beach, South Carolina, USA", lat: 33.6891, lng: -78.8867 }
+  - { name: "Winston-Salem, North Carolina, USA", lat: 36.0999, lng: -80.2442 }
+  - { name: "Asheville, North Carolina, USA", lat: 35.5951, lng: -82.5515 }
+  - { name: "Richmond, Virginia, USA", lat: 37.5407, lng: -77.436 }
+  - { name: "Washington, District of Columbia, USA", lat: 38.9072, lng: -77.0369 }
+  - { name: "Wolftown, Virginia, USA", lat: 38.4755, lng: -78.4535 }
+  - { name: "New York City, New York, USA", lat: 40.7128, lng: -74.006 }
+  - { name: "Boston, Massachusetts, USA", lat: 42.3601, lng: -71.0589 }
+  - { name: "Cancún, Mexico", lat: 21.1619, lng: -86.8515 }
+  - { name: "Solidaridad, Mexico", lat: 20.6296, lng: -87.0739 }
+  - { name: "Montréal, Quebec, Canada", lat: 45.5019, lng: -73.5674 }
+  - { name: "Ottawa, Ontario, Canada", lat: 45.4215, lng: -75.6972 }
+  - { name: "Toronto, Ontario, Canada", lat: 43.6532, lng: -79.3832 }
+  - { name: "Louisville, Kentucky, USA", lat: 38.2527, lng: -85.7585 }
+  - { name: "Chicago, Illinois, USA", lat: 41.8781, lng: -87.6298 }
+  - { name: "New Haven, Connecticut, USA", lat: 41.3083, lng: -72.9279 }
+  - { name: "Niagara Falls, Ontario, Canada", lat: 43.0896, lng: -79.0849 }
+  - { name: "Anaheim, California, USA", lat: 33.6846, lng: -117.8265 }
+  - { name: "San Diego, California, USA", lat: 32.7157, lng: -117.1611 }
+  - { name: "Los Angeles, California, USA", lat: 34.0522, lng: -118.2437 }
+  - { name: "Springville-Johnsondale, California, USA", lat: 36.4864, lng: -118.5658 }
+  - { name: "Sierra, California, USA", lat: 36.8879, lng: -118.5551 }
+  - { name: "Yosemite Valley, California, USA", lat: 37.8651, lng: -119.5383 }
+  - { name: "San Francisco, California, USA", lat: 37.7749, lng: -122.4194 }
+  - { name: "San Jose, California, USA", lat: 37.323, lng: -122.0322 }
+  - { name: "Half Moon Bay, California, USA", lat: 37.4636, lng: -122.4286 }
+  - { name: "Santa Cruz, California, USA", lat: 36.9741, lng: -122.0308 }
+  - { name: "Salinas, California, USA", lat: 36.6777, lng: -121.6555 }
+  - { name: "Monterey, California, USA", lat: 36.6002, lng: -121.8947 }
+  - { name: "Carmel-by-the-Sea, California, USA", lat: 36.5552, lng: -121.9233 }
+  - { name: "Big Sur, California, USA", lat: 36.2704, lng: -121.8081 }
+  - { name: "North Coast, California, USA", lat: 35.644, lng: -121.1893 }
+  - { name: "Santa Barbara, California, USA", lat: 34.4208, lng: -119.6982 }
+  - { name: "Ventura, California, USA", lat: 34.2805, lng: -119.2945 }
+  - { name: "Solvang, California, USA", lat: 34.5958, lng: -120.1376 }
+  - { name: "Seattle, Washington, USA", lat: 47.6062, lng: -122.3321 }
+  - { name: "Las Vegas, Nevada, USA", lat: 36.1716, lng: -115.1391 }
+  - { name: "Hurricane, Utah, USA", lat: 37.2982, lng: -113.0263 }
+  - { name: "Tropic, Utah, USA", lat: 37.593, lng: -112.1871 }
+  - { name: "East Garfield, Utah, USA", lat: 38.0877, lng: -111.1355 }
+  - { name: "Monticello, Utah, USA", lat: 38.2136, lng: -109.9025 }
+  - { name: "Thompson Springs, Utah, USA", lat: 38.7331, lng: -109.5925 }
+  - { name: "Kayenta, Arizona, USA", lat: 36.9914, lng: -110.1939 }
+  - { name: "Tuba City, Arizona, USA", lat: 36.9147, lng: -111.4558 }
+  - { name: "Tuba City, Arizona, USA", lat: 36.8791, lng: -111.5104 }
+  - { name: "Tuba City, Arizona, USA", lat: 36.8618, lng: -111.3743 }
+  - { name: "Kingman, Arizona, USA", lat: 35.1894, lng: -114.053 }
+  - { name: "Las Vegas, Nevada, USA", lat: 36.0161, lng: -114.7377 }
+  - { name: "Kaibab Plateau, Arizona, USA", lat: 36.2679, lng: -112.3535 }
+  - { name: "Riverside, California, USA", lat: 33.9806, lng: -117.3755 }
+  - { name: "Singapore", lat: 1.3521, lng: 103.8198 }
+  - { name: "Sanya, Hainan, China", lat: 18.2525, lng: 109.5121 }
+  - { name: "Hong Kong", lat: 22.3193, lng: 114.1694 }
+  - { name: "Taipei, Taiwan", lat: 25.033, lng: 121.5654 }
+  - { name: "Hsinchu, Taiwan", lat: 24.8138, lng: 120.9675 }
+  - { name: "Yilan, Taiwan", lat: 24.7591, lng: 121.7537 }
+  - { name: "Hualien City, Taiwan", lat: 23.9831, lng: 121.5998 }
+  - { name: "Taitung, Taiwan", lat: 22.7613, lng: 121.1438 }
+  - { name: "Kaohsiung, Taiwan", lat: 22.6273, lng: 120.3014 }
+  - { name: "Xiulin, Taiwan", lat: 24.1939, lng: 121.4907 }
+  - { name: "Hengchun, Taiwan", lat: 21.9466, lng: 120.7987 }
+  - { name: "Tainan, Taiwan", lat: 22.9999, lng: 120.2269 }
+  - { name: "Chiayi, Taiwan", lat: 23.4801, lng: 120.4491 }
+  - { name: "Xihu, Taiwan", lat: 23.9583, lng: 120.4934 }
+  - { name: "Alishan, Taiwan", lat: 23.511, lng: 120.8035 }
+  - { name: "Taipei, Taiwan", lat: 24.9948, lng: 121.4619 }
+  - { name: "Xiamen, Fujian, China", lat: 24.4795, lng: 118.0895 }
+  - { name: "Fuzhou, Fujian, China", lat: 26.0742, lng: 119.2965 }
+  - { name: "Shenzhen, Guangdong, China", lat: 22.5429, lng: 114.0596 }
+  - { name: "Foshan, Guangdong, China", lat: 23.0219, lng: 113.1219 }
+  - { name: "Shaoguan, Guangdong, China", lat: 24.8104, lng: 113.5972 }
+  - { name: "Kunming, Yunnan, China", lat: 24.8797, lng: 102.8332 }
+  - { name: "Xishuangbanna, Yunnan, China", lat: 22.0075, lng: 100.7974 }
+  - { name: "Shaoxing, Zhejiang, China", lat: 29.9958, lng: 120.5861 }
+  - { name: "Hangzhou, Zhejiang, China", lat: 30.2741, lng: 120.1552 }
+  - { name: "Suzhou, Jiangsu, China", lat: 31.2983, lng: 120.5832 }
+  - { name: "Shanghai, China", lat: 31.2304, lng: 121.4737 }
+  - { name: "Jinan, Shandong, China", lat: 36.6518, lng: 117.1201 }
+  - { name: "Luoyang, Henan, China", lat: 34.6181, lng: 112.454 }
+  - { name: "Beijing, China", lat: 39.9042, lng: 116.4074 }
+  - { name: "Baoding, Hebei, China", lat: 38.874, lng: 115.4646 }
+  - { name: "Xi'an, Shaanxi, China", lat: 34.2658, lng: 108.9541, home: true }
+  - { name: "Weinan, Shaanxi, China", lat: 35.4767, lng: 110.4429 }
+  - { name: "Shangluo, Shaanxi, China", lat: 33.5864, lng: 109.1729 }
+  - { name: "Baotou, Inner Mongolia, China", lat: 40.6578, lng: 109.8402 }
+  - { name: "Xilingol, Inner Mongolia, China", lat: 43.6431, lng: 111.9524 }
+  - { name: "Shenyang, Liaoning, China", lat: 41.8048, lng: 123.433 }
+  - { name: "Changchun, Jilin, China", lat: 43.816, lng: 125.3236 }
+  - { name: "Changbai Mountain, Jilin, China", lat: 41.993, lng: 128.0775 }
+  - { name: "Weinan, Shaanxi, China", lat: 34.4779, lng: 110.0848 }
+  - { name: "Guilin, Guangxi, China", lat: 25.2736, lng: 110.29 }
+  - { name: "Charlotte, North Carolina, USA", lat: 35.2271, lng: -80.8431 }
+  - { name: "Yellowstone National Park, Wyoming, USA", lat: 44.428, lng: -110.5885 }
+  - { name: "Salt Lake City, Utah, USA", lat: 40.7608, lng: -111.891 }
+  - { name: "Jackson, Wyoming, USA", lat: 43.7904, lng: -110.6818 }
+  - { name: "Denver, Colorado, USA", lat: 39.7392, lng: -104.9903 }
+  - { name: "Estes Park, Colorado, USA", lat: 40.3428, lng: -105.6836 }
+  - { name: "Paris, France", lat: 48.8566, lng: 2.3522 }
+  - { name: "Brussels, Belgium", lat: 50.8476, lng: 4.3572 }
+  - { name: "Antwerp, Belgium", lat: 51.2213, lng: 4.4051 }
+  - { name: "Amsterdam, Netherlands", lat: 52.3676, lng: 4.9041 }
+  - { name: "Cologne, Germany", lat: 50.9375, lng: 6.9603 }
+  - { name: "Frankfurt am Main, Germany", lat: 50.1109, lng: 8.6821 }
+  - { name: "Nuremberg, Germany", lat: 49.4521, lng: 11.0767 }
+  - { name: "Bamberg, Germany", lat: 49.8988, lng: 10.9028 }
+  - { name: "Prague, Czechia", lat: 50.0755, lng: 14.4378 }
+  - { name: "Vienna, Austria", lat: 48.2082, lng: 16.3738 }
+  - { name: "Bratislava, Slovakia", lat: 48.1486, lng: 17.1077 }
+  - { name: "Budapest, Hungary", lat: 47.4979, lng: 19.0402 }
+  - { name: "Maribor, Slovenia", lat: 46.5547, lng: 15.6459 }
+  - { name: "Venice, Italy", lat: 45.4408, lng: 12.3155 }
+  - { name: "Florence, Italy", lat: 43.7696, lng: 11.2558 }
+  - { name: "Pisa, Italy", lat: 43.7228, lng: 10.4017 }
+  - { name: "Vernazza, Italy", lat: 44.1281, lng: 9.7124 }
+  - { name: "Milan, Italy", lat: 45.4642, lng: 9.19 }
+  - { name: "Monza, Italy", lat: 45.5845, lng: 9.2744 }
+  - { name: "Iseltwald, Switzerland", lat: 46.7116, lng: 7.9643 }
+  - { name: "Sigriswil, Switzerland", lat: 46.7169, lng: 7.7133 }
+  - { name: "Interlaken, Switzerland", lat: 46.6863, lng: 7.8632 }
+  - { name: "Grindelwald, Switzerland", lat: 46.6242, lng: 8.0414 }
+  - { name: "Grindelwald, Switzerland", lat: 46.6606, lng: 8.0536 }
+  - { name: "Lauterbrunnen, Switzerland", lat: 46.5935, lng: 7.9091 }
+  - { name: "Lausanne, Switzerland", lat: 46.5197, lng: 6.6323 }
+  - { name: "Geneva, Switzerland", lat: 46.2044, lng: 6.1432 }
+  - { name: "District 11, Tennessee, USA", lat: 35.6131, lng: -83.5532 }
+  - { name: "San Juan, Puerto Rico", lat: 18.4671, lng: -66.1185 }
+  - { name: "Rio Grande, Puerto Rico", lat: 18.2951, lng: -65.8 }
+  - { name: "Fajardo, Puerto Rico", lat: 18.3252, lng: -65.6539 }
+  - { name: "Manati, Puerto Rico", lat: 18.4777, lng: -66.4986 }
+  - { name: "Isabela, Puerto Rico", lat: 18.5008, lng: -67.0226 }
+  - { name: "Puerto Rico", lat: 18.3075, lng: -67.261 }
+  - { name: "Dallas, Texas, USA", lat: 32.7767, lng: -96.797 }
+  - { name: "Fort Worth, Texas, USA", lat: 32.7555, lng: -97.3308 }
+  - { name: "Glen Rose, Texas, USA", lat: 32.2347, lng: -97.7555 }
+  - { name: "Austin, Texas, USA", lat: 30.2672, lng: -97.7431 }
+  - { name: "Burnet, Texas, USA", lat: 30.7374, lng: -98.369 }
+  - { name: "San Marcos, Texas, USA", lat: 29.8833, lng: -97.9414 }
+  - { name: "San Antonio, Texas, USA", lat: 29.4252, lng: -98.4946 }
+  - { name: "Fredericksburg, Texas, USA", lat: 30.2752, lng: -98.872 }
+  - { name: "Marathon, Texas, USA", lat: 30.2052, lng: -103.2446 }
+  - { name: "Alpine, Texas, USA", lat: 29.2499, lng: -103.2502 }
+  - { name: "Del Rio, Texas, USA", lat: 29.3709, lng: -100.8959 }
+  - { name: "Corpus Christi, Texas, USA", lat: 27.8006, lng: -97.3964 }
+  - { name: "Houston, Texas, USA", lat: 29.7604, lng: -95.3698 }
+  - { name: "Galveston, Texas, USA", lat: 29.3013, lng: -94.7977 }
+  - { name: "District 1, West Virginia, USA", lat: 37.5956, lng: -81.1198 }
+  - { name: "Reykjavík, Iceland", lat: 64.147, lng: -21.9408 }
+  - { name: "Grindavik, Iceland", lat: 63.8807, lng: -22.4473 }
+  - { name: "Blaskogabyggð, Iceland", lat: 64.2822, lng: -21.0764 }
+  - { name: "Blaskogabyggð, Iceland", lat: 64.3104, lng: -20.3024 }
+  - { name: "Blaskogabyggð, Iceland", lat: 64.3271, lng: -20.1199 }
+  - { name: "Grimsnes- og Grafningshreppur, Iceland", lat: 64.0413, lng: -20.8851 }
+  - { name: "Selfoss, Iceland", lat: 63.9318, lng: -20.9997 }
+  - { name: "Hvolsvollur, Iceland", lat: 63.6156, lng: -19.9886 }
+  - { name: "Hvolsvollur, Iceland", lat: 63.5321, lng: -19.5114 }
+  - { name: "Myrdalshreppur, Iceland", lat: 63.5569, lng: -19.3028 }
+  - { name: "Myrdalshreppur, Iceland", lat: 63.4015, lng: -19.1284 }
+  - { name: "Myrdalshreppur, Iceland", lat: 63.4053, lng: -19.0634 }
+  - { name: "Myrdalshreppur, Iceland", lat: 63.4177, lng: -18.9974 }
+  - { name: "Hofn, Iceland", lat: 64.0704, lng: -16.9752 }
+  - { name: "Hofn, Iceland", lat: 64.0186, lng: -16.385 }
+  - { name: "Hofn, Iceland", lat: 64.0443, lng: -16.1777 }
+  - { name: "Hofn, Iceland", lat: 64.2551, lng: -15.2088 }
+  - { name: "Hofn, Iceland", lat: 64.2464, lng: -14.9699 }
+  - { name: "Hofn, Iceland", lat: 64.3413, lng: -14.9443 }
+  - { name: "Mulaþing, Iceland", lat: 64.6568, lng: -14.2848 }
+  - { name: "Mulaþing, Iceland", lat: 65.2609, lng: -14.3994 }
+  - { name: "Victoria, British Columbia, Canada", lat: 48.4284, lng: -123.3656 }
+  - { name: "Vancouver, British Columbia, Canada", lat: 49.2827, lng: -123.1207 }
+  - { name: "San Francisco, California, USA", lat: 37.5985, lng: -122.3872 }
+  - { name: "Crescent Lake, Oregon, USA", lat: 42.9295, lng: -122.1279 }
+  - { name: "Medford, Oregon, USA", lat: 42.3265, lng: -122.8756 }
+  - { name: "Anchorage, Alaska, USA", lat: 61.2176, lng: -149.8997 }
+  - { name: "Seward, Alaska, USA", lat: 60.1048, lng: -149.4421 }
+  - { name: "Seward, Alaska, USA", lat: 60.1163, lng: -149.4398 }
+  - { name: "Palmer, Alaska, USA", lat: 62.3209, lng: -150.1066 }
+  - { name: "Denali Borough, Alaska, USA", lat: 63.2828, lng: -150.7894 }
+  - { name: "Fairbanks, Alaska, USA", lat: 64.8401, lng: -147.72 }
+  - { name: "Copper River Census Area, Alaska, USA", lat: 60.9234, lng: -142.7339 }
+  - { name: "Copper River Census Area, Alaska, USA", lat: 61.9539, lng: -145.3049 }
+  - { name: "Copper River Census Area, Alaska, USA", lat: 61.4331, lng: -142.9229 }
+  - { name: "Chugach Census Area, Alaska, USA", lat: 61.1309, lng: -146.3499 }
+  - { name: "Southeast Fairbanks Census Area, Alaska, USA", lat: 63.4223, lng: -145.6085 }
+  - { name: "Fairbanks, Alaska, USA", lat: 65.053, lng: -146.0591 }
+  - { name: "Ansted, West Virginia, USA", lat: 37.8707, lng: -81.0531 }
+  - { name: "Ansted, West Virginia, USA", lat: 38.0529, lng: -81.104 }
+  - { name: "Albuquerque, New Mexico, USA", lat: 35.0844, lng: -106.6504 }
+  - { name: "Santa Fe, New Mexico, USA", lat: 35.687, lng: -105.9378 }
+  - { name: "Los Alamos, New Mexico, USA", lat: 35.88, lng: -106.3031 }
+  - { name: "Alamogordo, New Mexico, USA", lat: 32.7872, lng: -106.3257 }
+  - { name: "El Paso, Texas, USA", lat: 31.7619, lng: -106.485 }
+  - { name: "Van Horn, Texas, USA", lat: 31.9233, lng: -104.8663 }
+  - { name: "Carlsbad, New Mexico, USA", lat: 32.3843, lng: -104.2238 }
+  - { name: "Roswell, New Mexico, USA", lat: 33.3943, lng: -104.5227 }
+  - { name: "Chuckwalla Valley, California, USA", lat: 33.8734, lng: -115.901 }
+  - { name: "Newberry Springs-Baker, California, USA", lat: 35.1234, lng: -115.5204 }
+  - { name: "Death Valley, California, USA", lat: 36.5323, lng: -116.9325 }
+  - { name: "Mammoth Lakes, California, USA", lat: 37.6485, lng: -118.9721 }
+  - { name: "Lake Tahoe, California, USA", lat: 39.0968, lng: -120.0324 }
+  - { name: "Reno, Nevada, USA", lat: 39.5299, lng: -119.8143 }
+  - { name: "Sacramento, California, USA", lat: 38.5781, lng: -121.4944 }
+  - { name: "Redding, California, USA", lat: 40.5865, lng: -122.3917 }
+  - { name: "North Coastal, California, USA", lat: 41.4017, lng: -124.0417 }
+  - { name: "Newport, Oregon, USA", lat: 44.6368, lng: -124.0534 }
+  - { name: "Portland, Oregon, USA", lat: 45.5152, lng: -122.6784 }
+  - { name: "Olympia, Washington, USA", lat: 47.0379, lng: -122.9007 }
+  - { name: "Nanaimo, British Columbia, Canada", lat: 49.1659, lng: -123.9401 }
+  - { name: "Whistler, British Columbia, Canada", lat: 50.1162, lng: -122.9535 }
+  - { name: "Forks, Washington, USA", lat: 47.9504, lng: -124.3855 }
+  - { name: "West End, Washington, USA", lat: 47.8021, lng: -123.6044 }
+  - { name: "Sedro-Woolley, Washington, USA", lat: 48.5109, lng: -122.2276 }
+  - { name: "Leavenworth, Washington, USA", lat: 47.5962, lng: -120.6615 }
+  - { name: "Mount Rainier, Washington, USA", lat: 46.8671, lng: -121.6999 }
+  - { name: "East Whatcom, Washington, USA", lat: 48.7122, lng: -121.1133 }
+  - { name: "Atlanta, Georgia, USA", lat: 33.7501, lng: -84.3885 }
+  - { name: "Hopkins, South Carolina, USA", lat: 33.7919, lng: -80.749 }
+  - { name: "Barcelona, Spain", lat: 41.3874, lng: 2.1686 }
+  - { name: "Athens, Greece", lat: 37.9838, lng: 23.7275 }
+  - { name: "Lavreotiki, Greece", lat: 37.6578, lng: 24.0152 }
+  - { name: "Santorini, Greece", lat: 36.4166, lng: 25.4324 }
+  - { name: "Santorini, Greece", lat: 36.4618, lng: 25.3753 }
+  - { name: "Santorini, Greece", lat: 36.3583, lng: 25.3972 }
+  - { name: "Charleston, South Carolina, USA", lat: 32.7833, lng: -79.932 }
+  - { name: "Miami, Florida, USA", lat: 25.7617, lng: -80.1918 }
+  - { name: "Homestead, Florida, USA", lat: 25.5003, lng: -80.1828 }
+  - { name: "Everglades, Florida, USA", lat: 25.7459, lng: -80.555 }
+  - { name: "Cape Sable, Florida, USA", lat: 25.1418, lng: -80.9253 }
+  - { name: "Upper Keys, Florida, USA", lat: 24.9243, lng: -80.6278 }
+  - { name: "Key West, Florida, USA", lat: 24.5551, lng: -81.78 }
+  - { name: "Key West, Florida, USA", lat: 24.6285, lng: -82.8732 }
+  - { name: "Miami, Florida, USA", lat: 25.4479, lng: -80.4792 }
+  - { name: "San Francisco, California, USA", lat: 37.5202, lng: -122.2758, home: true }
+  - { name: "San Benito-Bitterwater, California, USA", lat: 36.4906, lng: -121.1825 }

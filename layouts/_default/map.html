@@ -13,20 +13,27 @@
 
 <figure class="travel-map mt-8">
     <svg role="img" aria-label="World map of places visited"></svg>
-    <figcaption class="mt-2 text-xs text-neutral-400 dark:text-neutral-500">Pinch or double-click to zoom</figcaption>
+    <figcaption class="mt-2 text-xs text-neutral-400 dark:text-neutral-500">
+        <svg class="inline align-baseline" style="margin-right: 0.25rem" width="8" height="8" viewBox="0 0 8 8" aria-hidden="true"><circle class="place home" cx="4" cy="4" r="3.5" /></svg>
+        Home &middot; Pinch or double-click to zoom
+    </figcaption>
 </figure>
 </section>
 
 <style>
     .travel-flags { display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; }
-    .travel-map svg { display: block; width: 100%; height: auto; cursor: grab; touch-action: pan-y; }
-    .travel-map svg:active { cursor: grabbing; }
+    .travel-map > svg { display: block; width: 100%; height: auto; cursor: grab; touch-action: pan-y; }
+    .travel-map > svg:active { cursor: grabbing; }
     .travel-map .country { fill: rgb(var(--color-neutral-200)); stroke: rgb(var(--color-neutral)); stroke-width: 0.5px; vector-effect: non-scaling-stroke; }
     .travel-map .country.visited { fill: rgb(var(--color-primary-200)); }
     .travel-map .place { fill: rgb(var(--color-primary-700)); stroke: rgb(var(--color-neutral)); vector-effect: non-scaling-stroke; stroke-width: 0.75px; }
+    .travel-map .place:hover { fill: rgb(var(--color-primary-900)); }
+    .travel-map .place.home { fill: #eab308; }
     .dark .travel-map .country { fill: rgb(var(--color-neutral-700)); stroke: rgb(var(--color-neutral-800)); }
     .dark .travel-map .country.visited { fill: rgb(var(--color-primary-900)); }
     .dark .travel-map .place { fill: rgb(var(--color-primary-400)); stroke: rgb(var(--color-neutral-800)); }
+    .dark .travel-map .place:hover { fill: rgb(var(--color-primary-200)); }
+    .dark .travel-map .place.home { fill: #facc15; }
 </style>
 
 <script id="travel-data" type="application/json">{{ $travel | jsonify | safeJS }}</script>
@@ -39,8 +46,10 @@
     const ANTARCTICA = "010";
     const WIDTH = 960;
     const DOT_RADIUS = 2.5;
+    const HOME_RADIUS = 4;
 
     const { countries, places } = JSON.parse(document.getElementById("travel-data").textContent);
+    places.sort((a, b) => Boolean(a.home) - Boolean(b.home));
     const visited = new Set(countries.map((c) => c.id));
 
     const world = await fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json").then((r) => r.json());
@@ -62,12 +71,14 @@
         .append("title")
         .text((d) => d.properties.name);
 
+    const radius = (d) => (d.home ? HOME_RADIUS : DOT_RADIUS);
     const dots = g.selectAll("circle")
         .data(places)
         .join("circle")
-        .attr("class", "place")
-        .attr("r", DOT_RADIUS)
-        .attr("transform", ([lat, lng]) => `translate(${projection([lng, lat])})`);
+        .attr("class", (d) => (d.home ? "place home" : "place"))
+        .attr("r", radius)
+        .attr("transform", (d) => `translate(${projection([d.lng, d.lat])})`);
+    dots.append("title").text((d) => d.name);
 
     svg.call(
         zoom()
@@ -77,7 +88,7 @@
             .filter((e) => (e.type === "wheel" ? e.ctrlKey || e.metaKey : !e.button))
             .on("zoom", ({ transform }) => {
                 g.attr("transform", transform);
-                dots.attr("r", DOT_RADIUS / Math.sqrt(transform.k));
+                dots.attr("r", (d) => radius(d) / Math.sqrt(transform.k));
             })
     );
 </script>
