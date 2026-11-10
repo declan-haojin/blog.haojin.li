@@ -28,6 +28,7 @@
     .dark #travel-map { background: rgb(var(--color-neutral-900)); }
     #travel-map .maplibregl-ctrl-attrib { font-size: 10px; }
     #travel-map .maplibregl-popup-content { padding: 0.25rem 0.5rem; border-radius: 0.375rem; font-size: 0.75rem; line-height: 1rem; background: rgb(var(--color-neutral-900)); color: rgb(var(--color-neutral)); box-shadow: 0 2px 8px rgb(0 0 0 / 0.2); }
+    #travel-map .maplibregl-popup, #travel-map .maplibregl-popup-content { pointer-events: none; }
     #travel-map .maplibregl-popup-tip { display: none; }
     .dark #travel-map .maplibregl-popup-content { background: rgb(var(--color-neutral-100)); color: rgb(var(--color-neutral-900)); }
     .dark #travel-map .maplibregl-ctrl-group { background: rgb(var(--color-neutral-800)); }
@@ -51,6 +52,9 @@
         dark: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
     };
     const HOME_COLOR = "#eab308";
+    const CONTIGUOUS_US = [[-124.8, 24.4], [-66.9, 49.4]];
+    // Basemap labels and state borders appear this many zoom levels earlier than CARTO's defaults.
+    const LABEL_ZOOM_SHIFT = 1.5;
 
     const { countries, places } = JSON.parse(document.getElementById("travel-data").textContent);
     const visited = new Set(countries.map((c) => c.id));
@@ -69,6 +73,12 @@
     const world = await fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then((r) => r.json());
     const visitedGeoJSON = feature(world, world.objects.countries);
     visitedGeoJSON.features = visitedGeoJSON.features.filter((f) => visited.has(f.id));
+    // world-atlas draws France with French Guiana; keep only its European polygons.
+    for (const f of visitedGeoJSON.features) {
+        if (f.id === "250" && f.geometry.type === "MultiPolygon") {
+            f.geometry.coordinates = f.geometry.coordinates.filter((poly) => poly[0][0][0] > -20);
+        }
+    }
 
     const isDark = () => document.documentElement.classList.contains("dark");
     const themeColor = (name) => `rgb(${getComputedStyle(document.documentElement).getPropertyValue(name).trim()})`;
@@ -91,13 +101,11 @@
     document.getElementById("travel-park-icon").innerHTML = parkIconSVG(parkFill, "transparent");
 
     let currentStyle = isDark() ? STYLES.dark : STYLES.light;
-    const lngs = places.map((p) => p.lng);
-    const lats = places.map((p) => p.lat);
     const map = new maplibregl.Map({
         container: "travel-map",
         style: currentStyle,
-        bounds: [[Math.min(...lngs), Math.min(...lats)], [Math.max(...lngs), Math.max(...lats)]],
-        fitBoundsOptions: { padding: 32 },
+        bounds: CONTIGUOUS_US,
+        fitBoundsOptions: { padding: 16 },
         cooperativeGestures: true,
         attributionControl: { compact: true },
         dragRotate: false,
@@ -110,6 +118,15 @@
     // Re-run on every style load, since switching light/dark replaces the whole style.
     map.on("style.load", () => {
         const dark = isDark();
+
+        for (const layer of map.getStyle().layers) {
+            if (!/^(place_(state|city|town|villages|suburbs|hamlet|capital)|boundary_state)/.test(layer.id)) continue;
+            const min = Math.max(0, (layer.minzoom ?? 0) - LABEL_ZOOM_SHIFT);
+            const max = layer.maxzoom && layer.maxzoom < 24 ? layer.maxzoom - LABEL_ZOOM_SHIFT : 24;
+            map.setLayerZoomRange(layer.id, min, max);
+        }
+        // CARTO only switches from macro-regions to state lines at zoom 6.
+        if (map.getLayer("boundary_state")) map.setFilter("boundary_state", ["==", ["get", "kind_detail"], 4]);
 
         map.addSource("visited", { type: "geojson", data: visitedGeoJSON });
         // Drawn beneath the basemap's water so the coarse 110m coastlines don't spill into the sea.
