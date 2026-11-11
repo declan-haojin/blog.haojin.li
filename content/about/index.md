@@ -1,6 +1,7 @@
 ---
 title: "About"
 layout: "about"
+showScrollToTop: false
 ---
 
 I double-majored in Political Science and <span class="block sm:hidden"></span> Computer Science at [Duke University](https://duke.edu).

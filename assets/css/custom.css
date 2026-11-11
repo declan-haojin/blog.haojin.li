@@ -15,6 +15,17 @@
       font-size: 1.9rem;
     }
 }
+/* `clip` (not `hidden`) keeps the track from lengthening short pages without breaking the sticky button. */
+.scroll-to-top-clip {
+    position: absolute;
+    inset: 0;
+    overflow: clip;
+    pointer-events: none;
+}
+/* The button stays hidden until this offset scrolls past, so pages shorter than it never show one. */
+.scroll-to-top-track {
+    top: 150vh;
+}
 @font-face {
     font-family: 'backup';
     font-display: swap;
