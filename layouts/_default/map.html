@@ -2,7 +2,7 @@
 {{ $travel := .Site.Data.travel }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.css" />
 
-<section>
+<section class="travel-section">
 <header>
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
     <p class="mt-2 text-base text-neutral-500 dark:text-neutral-400">
@@ -13,7 +13,7 @@
     </p>
 </header>
 
-<figure class="mt-6">
+<figure class="travel-figure mt-6">
     <div id="travel-map" role="region" aria-label="Map of places visited"></div>
     <figcaption class="travel-legend mt-2 text-xs text-neutral-400 dark:text-neutral-500">
         <span><span id="travel-home-icon"></span>Home</span>
@@ -27,8 +27,10 @@
 </section>
 
 <style>
+    body { height: 100dvh; }
+    #main-content, .travel-section, .travel-figure { display: flex; flex-direction: column; flex: 1; }
     .travel-flags { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; }
-    #travel-map { height: min(70vh, 80vw); min-height: 20rem; border-radius: 0.5rem; overflow: hidden; background: #aee2e0; }
+    #travel-map { flex: 1; min-height: 12rem; border-radius: 0.5rem; overflow: hidden; background: #aee2e0; }
     .dark #travel-map { background: #1e3435; }
     #travel-map .maplibregl-ctrl-attrib { font-size: 10px; }
     #travel-map .maplibregl-popup-content { padding: 0.25rem 0.5rem; border-radius: 0.375rem; font-size: 0.75rem; line-height: 1rem; background: rgb(var(--color-neutral-900)); color: rgb(var(--color-neutral)); box-shadow: 0 2px 8px rgb(0 0 0 / 0.2); }
@@ -52,23 +54,9 @@
 <script id="travel-data" type="application/json">{{ $travel | jsonify | safeJS }}</script>
 <script type="module">
     import "https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.js";
-
-    // Stretch the map down to the bottom of the window, leaving room for the legend.
-    const mapEl = document.getElementById("travel-map");
-    let fittedWidth = 0;
-    const fitMapToWindow = () => {
-        const width = document.documentElement.clientWidth;
-        // Mobile browsers resize the viewport as the URL bar shows and hides; only refit on width changes.
-        if (width === fittedWidth) return;
-        fittedWidth = width;
-        const caption = mapEl.nextElementSibling;
-        const captionSpace = caption.offsetHeight + parseFloat(getComputedStyle(caption).marginTop) + 12;
-        const top = mapEl.getBoundingClientRect().top + window.scrollY;
-        mapEl.style.height = `${Math.max(320, window.innerHeight - top - captionSpace)}px`;
-    };
-    fitMapToWindow();
-    window.addEventListener("resize", fitMapToWindow);
     import { feature } from "https://cdn.jsdelivr.net/npm/topojson-client@3/+esm";
+
+    const mapEl = document.getElementById("travel-map");
 
     const STYLES = {
         light: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
