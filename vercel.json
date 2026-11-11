@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "hugo",
+  "buildCommand": "if [ \"$VERCEL_ENV\" = \"production\" ]; then hugo --minify; else hugo --minify -b \"https://$VERCEL_URL/\"; fi",
+  "outputDirectory": "public",
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.119.0"
+    }
+  }
+}

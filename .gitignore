@@ -1,3 +1,6 @@
 .DS_Store
 public/
 .idea/
+.vercel
+
+.env*.local
