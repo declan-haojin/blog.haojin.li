@@ -14,7 +14,7 @@
         <ul class="list-disc pl-4 mt-2">
             {{ range .Pages }}
             <li class="mt-2">
-                <a class="decoration-primary-500 hover:underline hover:underline-offset-2" href="{{ .Permalink }}">{{ .Title }}</a>
+                <a class="decoration-primary-500 hover:underline hover:underline-offset-2" href="{{ .RelPermalink }}">{{ .Title }}</a>
                 <span class="text-neutral-500 text-sm">{{ .Date.Format "Jan 2, 2006" }}</span>
             </li>
             {{ end }}
